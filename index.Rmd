@@ -156,7 +156,7 @@ ___
   </tr>
   <tr>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
-    <td style="width:3%; text-align:left; vertical-align:top;">03</td>
+    <td style="width:3%; text-align:left; vertical-align:top;">02</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 09</td>
     <td style="width:35%; text-align:left; vertical-align:top;">[Morphology I](https://merlinudinov.github.io/fall2026ling201)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Sections 4.0, 4.1 and 4.2 of Chapter 4: Morphology from <i>Language Files</i></td>
@@ -310,7 +310,7 @@ ___
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 21</td>
     <td style="width:35%; text-align:left; vertical-align:top;">[Semantics II](https://merlinudinov.github.io/fall2026ling201)</td>
-    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework IV: Semantics (1)</u></b> due on <b>Oct 28</b><br>[[pdf](./homework/hw4.pdf)]&nbsp; [[docx](./homework/hw4.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw4key.pdf)]</td>
+    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework IV: Semantics (1)</u></b> due on <b>Oct 30</b><br>[[pdf](./homework/hw4.pdf)]&nbsp; [[docx](./homework/hw4.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw4key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
   <tr>
@@ -358,7 +358,7 @@ ___
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 04</td>
     <td style="width:35%; text-align:left; vertical-align:top;">[Pragmatics II](https://merlinudinov.github.io/fall2026ling201)</td>
-    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework VI: Pragmatics</u></b> due on <b>Nov 06</b><br>[[pdf](./homework/hw6.pdf)]&nbsp; [[docx](./homework/hw6.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw6key.pdf)]</td>
+    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework VI: Pragmatics</u></b> due on <b>Nov 13</b><br>[[pdf](./homework/hw6.pdf)]&nbsp; [[docx](./homework/hw6.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw6key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
 </table>
@@ -382,7 +382,7 @@ ___
     <td style="width:3%; text-align:left; vertical-align:top;">11</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 09</td>
     <td style="width:35%; text-align:left; vertical-align:top;">[Phonetics I](https://merlinudinov.github.io/fall2026ling201)</td>
-    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Michael Dobrovolsky's chapter Phonetics from <i>O'Grady et al.'s Contemporary Linguistics: An Introduction</i><br>[[clickable IPA chart](https://www.ipachart.com)]<br>[[International Phonetic Alphabet, 2020](./20260406/IPA.pdf)]</td>
+    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Michael Dobrovolsky's chapter Phonetics from <i>O'Grady et al.'s Contemporary Linguistics: An Introduction</i><br>[[clickable IPA chart](https://www.ipachart.com)]<br>[[International Phonetic Alphabet, 2020](IPA.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
   <tr>
@@ -422,7 +422,7 @@ ___
     <td style="width:3%; text-align:left; vertical-align:top;">12</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 18</td>
     <td style="width:35%; text-align:left; vertical-align:top;">[Phonology I](https://merlinudinov.github.io/fall2026ling201)</td>
-    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Michael Dobrovolsky's chapter Phonology from <i>O'Grady et al.'s Contemporary Linguistics: An Introduction</i><br>[[clickable IPA chart](https://www.ipachart.com)]<br>[[International Phonetic Alphabet, 2020](./20260413/IPA.pdf)]</td>
+    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Michael Dobrovolsky's chapter Phonology from <i>O'Grady et al.'s Contemporary Linguistics: An Introduction</i><br>[[clickable IPA chart](https://www.ipachart.com)]<br>[[International Phonetic Alphabet, 2020](IPA.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
   <tr>
@@ -500,9 +500,9 @@ ___
   <tr>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">17</td>
-    <td style="width:10%; text-align:center; vertical-align:top;">Dec 22</td>
+    <td style="width:10%; text-align:center; vertical-align:top;">Dec 22, 2026</td>
     <td style="width:35%; text-align:left; vertical-align:top;"><b>Final Exam [[timer](https://mathsstarters.net/examtimer)]</b></td>
-    <td style="width:48%; text-align:left; vertical-align:top;"><b>Date</b>: May 11<br><b>Time</b>: 12:00 pm - 03:00 pm<br><b>Venue</b>: [SC-216](https://webapps.rutgers.edu/dcs/classrooms/SC-216)</td>
+    <td style="width:48%; text-align:left; vertical-align:top;"><b>Date</b>: Dec 22<br><b>Time</b>: 12:00 pm - 03:00 pm<br><b>Venue</b>: [SC-216](https://webapps.rutgers.edu/dcs/classrooms/SC-216)</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
 </table>
