@@ -454,7 +454,7 @@ ___
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Dec 02</td>
     <td style="width:35%; text-align:left; vertical-align:top;">[Phonology IV](https://merlinudinov.github.io/fall2026ling201)</td>
-    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework VIII: Phonology</u></b> due on Dec 04<br>[[pdf](./homework/hw8.pdf)]&nbsp; [[docx](./homework/hw8.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw8key.pdf)]</td>
+    <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework VIII: Phonology</u></b> due on <b>Dec 04</b><br>[[pdf](./homework/hw8.pdf)]&nbsp; [[docx](./homework/hw8.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw8key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   <tr>
