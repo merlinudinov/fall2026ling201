@@ -2,7 +2,7 @@
 title: "**Ice Breaking**"
 author: "Merlin Balkhash"
 institute: "Department of Linguistics, Rutgers University"
-date: "2026/01/22 (updated: `r Sys.Date()`)"
+date: "2026/09/02 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: ["rutgers", "rutgers-fonts"]
@@ -22,49 +22,69 @@ output:
 ### Merlin Balkhash [bɑɬ.qʰɑʃ]
 (named after the greatest sorcerer ever)
 <br><br>
+### 4th Year PhD student
+(so there is no need to call me Prof.)
 ### Phonology
-### Computational Linguistics
+### Mathematical Linguistics
 <br>
 ### musical
 ### <span style="color:green">INFJ</span>
 ]
 .pull-right[
-![width=80%](../pic/0122/lakeb.jpg)
+<br>
+![width=80%](../pic/0902/lakeb.jpg)
 <br><br>
 *Lake Balkhash, space view*
 ]
 ---
 ## You Are All Sherlock Holmes Now
 <br>
+based on what I am going to **read**, and what you already got from **my accent**, guess <u>where I am from</u><br>
+when you make a guess, you can ask me to re-read a sentence if you need<br>
+please only focus on the **sound**<br><br>
 .pull-left[
-<img src="../pic/0122/holmes.png" width="70%">
+<br><br>
+<img src="../pic/0902/holmes1.png" width="49%">
+<img src="../pic/0902/holmes2.png" width="49%">
+
 ]
 
 .pull-right[
-Based on what I am going to read, and what you get from my accent, guess where I am from. When you make a guess, you can ask me to re-read a sentence if you need.
-<br><br>
-Good morning, everyone. My name is Merlin, and I’m delighted to welcome you to our course. In this class we shall explore how language works, from the smallest sounds to the most fascinating structures. You may notice that I pronounce certain words rather differently from what you usually hear. 
-<br><br>
-For instance, I say bath with a long vowel, not short, and schedule with a ‘sh’ sound rather than a ‘sk’. You’ll also hear me articulate the ‘r’ at the ends of words far less.
+<i>
+<span style="color:blue">Good morning, everyone. My name is Merlin, and I’m delighted to welcome you to our course. </span><br>
+<span style="color:#cc0033">In this class we shall explore how language works, from the smallest sounds to the most fascinating structures.</span><br>
+<span style="color:green">You may notice that I pronounce certain words rather differently from what you usually hear.</span><br>
+<span style="color:purple">For instance, I say bath with a long vowel, not short, and schedule with a ‘sh’ sound rather than a ‘sk’.
+</span><br>
+<span style="color:brown">You’ll also hear me articulate the ‘r’ at the ends of words far less.</span>
+</i>
 ]
+<br><br>
+
+--
+<div style="text-align:center">
+You are able to mimic an accent if you know the <b><span style="color:#cc0033">phonology</span></b>, which is the pattern of sounds<br>
+sometimes, <b><span style="color:#cc0033">social factors</span></b> also matter, sadly, we will not cover it in this class
+</div>
+
 ---
 class: center, middle
 # <span style="color:blue">MERLIN</span>
 <br><br>
-# <span style="color:orange">MUHHHHHH.LIN</span>
+# <span style="color:orange">muhhhhhh.lin</span>
 
 ---
 ## **Now Its Your Turn**
 <br>
-1. Form a group of 5-6 people <br><br>
-2. Write your **First Name**.**Last Name** (**Preferred Name**) and (**Preferred Pronouns**) on the name tag <br><br>
-3. One by one, introduce yourself to the group, tell others: <br><br>
-  - Your name and your preferred name
-  - Your major<br><br>
-4. When introducing, write down the way you pronounce your name though **it might be spelt in another way** <br><br>
-5. One representative from each group write down name pronunciation of everyone in the group on the board<br><br><br><br>
+1. talk to your neighbours and form a group naturally <br><br>
+2. write your **First Name**.**Last Name** (**Preferred Name**) and (**Preferred Pronouns**) on the name tag <br><br>
+3. one by one, introduce yourself to the group, tell others: <br><br>
+  - your name and your preferred name
+  - your major<br><br>
+4. when introducing, write down the way you pronounce your name though **it might be spelt in another way** <br><br>
+5. **one representative** from each group write down name pronunciation of everyone in the group on the board<br><br><br><br>
 
-**NOTE**: REMEMBER TO **REMEMBER** OTHERS NAMES AND MAJORS, I WILL ASK! & BE **CREATIVE**!
+**NOTE**: BE **CREATIVE**!
 
 
 

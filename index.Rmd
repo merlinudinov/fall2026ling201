@@ -127,7 +127,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">01</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 02</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Introduction](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Introduction](https://merlinudinov.github.io/fall2026ling201/20260902)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -135,7 +135,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">02</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 08</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Linguistics as a Science](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Linguistics as a Science](https://merlinudinov.github.io/fall2026ling201/20260908)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: <i>Thinking like a Linguist</i></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
 </table>
