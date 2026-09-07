@@ -158,7 +158,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">02</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 09</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology I](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology I](https://merlinudinov.github.io/fall2026ling201/20260909)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Sections 4.0, 4.1 and 4.2 of Chapter 4: Morphology from <i>Language Files</i></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -166,7 +166,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">03</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 14</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology II](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology II](https://merlinudinov.github.io/fall2026ling201/20260914)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -174,7 +174,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 16</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology III](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology III](https://merlinudinov.github.io/fall2026ling201/20260916)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Sections 4.3, 4.4 and 4.5 of Chapter 4: Morphology from <i>Language Files</i></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -182,7 +182,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">04</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 21</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology IV](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Morphology IV](https://merlinudinov.github.io/fall2026ling201/20260921)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework I: Morphology</u></b> due on <b>Sept 25</b><br>[[pdf](./homework/hw1.pdf)]&nbsp; [[docx](./homework/hw1.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw1key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
@@ -207,14 +207,14 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">04</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 23</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax I](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax I](https://merlinudinov.github.io/fall2026ling201/20260923)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Chapter 2: Parts of Speech from <i>Andrew Carnie's Syntax textbook</i></td>
   </tr>
   <tr>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">05</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 28</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax II](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax II](https://merlinudinov.github.io/fall2026ling201/20260928)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -222,7 +222,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Sept 30</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax III](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax III](https://merlinudinov.github.io/fall2026ling201/20260930)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Chapter 3: Constituency, Trees, and Rules from <i>Andrew Carnie's Syntax textbook</i><br><b><u>Homework II: Syntax (1)</u></b> due on <b>Oct 02</b><br>[[pdf](./homework/hw2.pdf)]&nbsp; [[docx](./homework/hw2.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw2key.pdf)] or<br>[[pdf_alt](./homework/hw2a.pdf)] [[docx_alt](./homework/hw2a.docx)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -230,7 +230,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">06</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 05</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax IV](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax IV](https://merlinudinov.github.io/fall2026ling201/20261005)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -238,7 +238,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 07</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax V](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Syntax V](https://merlinudinov.github.io/fall2026ling201/20261007)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework III: Syntax (2)</u></b> due on <b>Oct 09</b><br>[[pdf](./homework/hw3.pdf)]&nbsp; [[docx](./homework/hw3.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw3key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -262,7 +262,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">07</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 12</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Midterm Review](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Midterm Review](https://merlinudinov.github.io/fall2026ling201/20261012)</td>
     <td style="width:48%; text-align:left; vertical-align:top;">[[Midterm Information](./midterm/info.png)]<br>
     [[Midterm Review List](./midterm/reviewlist.docx)]<br>
     [[Midterm Review](./midterm/review.pdf)]&nbsp;[[Midterm Review Key](./midterm/reviewkey.pdf)]<br>
@@ -301,7 +301,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">08</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 19</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics I](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics I](https://merlinudinov.github.io/fall2026ling201/20261019)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: chapter Semantics I: Compositionality from <i>Victoria Fromkin et al.'s An Introduction to Language</i></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -309,7 +309,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 21</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics II](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics II](https://merlinudinov.github.io/fall2026ling201/20261021)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework IV: Semantics (1)</u></b> due on <b>Oct 30</b><br>[[pdf](./homework/hw4.pdf)]&nbsp; [[docx](./homework/hw4.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw4key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -317,7 +317,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">09</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 26</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics III](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics III](https://merlinudinov.github.io/fall2026ling201/20261026)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -325,7 +325,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Oct 28</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics IV](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Semantics IV](https://merlinudinov.github.io/fall2026ling201/20261028)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework V: Semantics (2)</u></b> due on <b>Nov 06</b><br>[[pdf](./homework/hw5.pdf)]&nbsp; [[docx](./homework/hw5.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw5key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -349,7 +349,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">10</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 02</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Pragmatics I](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Pragmatics I](https://merlinudinov.github.io/fall2026ling201/20261102)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Chapter 8: Pragmatics of Griffiths & Cummins' (2017) <i>An Introduction to English Semantics and Pragmatics</i></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -357,7 +357,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 04</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Pragmatics II](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Pragmatics II](https://merlinudinov.github.io/fall2026ling201/20261104)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework VI: Pragmatics</u></b> due on <b>Nov 13</b><br>[[pdf](./homework/hw6.pdf)]&nbsp; [[docx](./homework/hw6.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw6key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -381,7 +381,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">11</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 09</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Phonetics I](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Phonetics I](https://merlinudinov.github.io/fall2026ling201/20261109)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Michael Dobrovolsky's chapter Phonetics from <i>O'Grady et al.'s Contemporary Linguistics: An Introduction</i><br>[[clickable IPA chart](https://www.ipachart.com)]<br>[[International Phonetic Alphabet, 2020](IPA.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -389,7 +389,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 11</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Phonetics II](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Phonetics II](https://merlinudinov.github.io/fall2026ling201/20261111)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -397,7 +397,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">12</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 16</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Phonetics III](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Phonetics III](https://merlinudinov.github.io/fall2026ling201/20261116)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework VII: Phonetics</u></b> due on <b>Nov 20</b><br>[[pdf](./homework/hw7.pdf)]&nbsp; [[docx](./homework/hw7.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw7key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -421,7 +421,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">12</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 18</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology I](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology I](https://merlinudinov.github.io/fall2026ling201/20261118)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Reading</u></b>: Michael Dobrovolsky's chapter Phonology from <i>O'Grady et al.'s Contemporary Linguistics: An Introduction</i><br>[[clickable IPA chart](https://www.ipachart.com)]<br>[[International Phonetic Alphabet, 2020](IPA.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -429,7 +429,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">13</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 23</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology II](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology II](https://merlinudinov.github.io/fall2026ling201/20261123)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -445,7 +445,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">14</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Nov 30</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology III](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology III](https://merlinudinov.github.io/fall2026ling201/20261130)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
   </tr>
@@ -453,7 +453,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;"></td>
     <td style="width:10%; text-align:center; vertical-align:top;">Dec 02</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology IV](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Phonology IV](https://merlinudinov.github.io/fall2026ling201/20261202)</td>
     <td style="width:48%; text-align:left; vertical-align:top;"><b><u>Homework VIII: Phonology</u></b> due on <b>Dec 04</b><br>[[pdf](./homework/hw8.pdf)]&nbsp; [[docx](./homework/hw8.docx)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[key](./homework/hw8key.pdf)]</td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
@@ -479,7 +479,7 @@ ___
     <td style="width:2%; text-align:center; vertical-align:top;"></td>
     <td style="width:3%; text-align:left; vertical-align:top;">15</td>
     <td style="width:10%; text-align:center; vertical-align:top;">Dec 07</td>
-    <td style="width:35%; text-align:left; vertical-align:top;">[Wrap-up](https://merlinudinov.github.io/fall2026ling201)</td>
+    <td style="width:35%; text-align:left; vertical-align:top;">[Wrap-up](https://merlinudinov.github.io/fall2026ling201/20261207)</td>
     <td style="width:48%; text-align:left; vertical-align:top;">[[Final Information](./final/info.png)]<br>
     [[Final Review List](./final/reviewlist.docx)]<br>
     [[Final Review](./final/review.pdf)]&nbsp;[[Final Review Key](./final/reviewkey.pdf)]<br>
