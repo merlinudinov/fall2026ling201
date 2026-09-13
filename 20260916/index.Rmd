@@ -1,0 +1,943 @@
+---
+title: "**Morphology III**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/09/16 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+
+---
+## **Homophones and Allomorphs**
+<br>
+<table style="width:100%; border-collapse:collapse">
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center; border:3px solid orange; background-color:#FFF176"><h3><span style="color:black;"><b>homophones</b></span></h3></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:left; border:3px solid orange">
+    <ul>
+      <li>
+        sound the same, but mean different things<br><br>
+        <ul>
+          <li>
+            <i>small-er → <span style="color:orange">-er</span></i> = <span style="color:orange">'more'</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <i>help-er → <span style="color:orange">-er</span></i> = <span style="color:orange">'agent'</span>
+          </li>
+          <li>
+            <i>paper-s → <span style="color:orange">-s</span></i> = <span style="color:orange">PLURAL</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <i>see-s → <span style="color:orange">-s</span></i> = <span style="color:orange">3SG PRESENT</span>
+          </li>
+        </ul>
+      </li><br>
+      <li>
+        these are <span style="color:orange"><b>different morphemes</b></span> that happen to sound the same
+      </li><br>
+      <li>
+        <span style="color:orange"><b>homophonous</b></span> not <span style="color:orange"><b>homophobous</b></span>
+      </li>
+    </ul>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:center;"><span style="color:white">-</span></td>
+  </tr>
+  
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center; border:3px solid blue; background-color:#A4C2F4"><h3><span style="color:black"><b>allomorphs</b></span></h3></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:left; border:3px solid blue">
+    <ul>
+      <li>
+      mean the same thing, but are pronounced differently<br><br>
+        <ul class="two-col-grid">
+          <li>
+            <i>wug<span style="color:blue">-s</span></i>,
+            <i>peff<span style="color:blue">-s</span></i>,
+            <i>gutch<span style="color:blue">-es</span></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <i>talk<span style="color:blue">-ed</span></i>,
+            <i>buzz<span style="color:blue">-ed</span></i>,
+            <i>land<span style="color:blue">-ed</span></i>
+          </li>
+          <li>
+            <i><span style="color:blue">magic</span>-al</i>,
+            <i><span style="color:blue">magic</span>-ian</i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <i><span style="color:blue">clear</span>-ing</i>,
+            <i><span style="color:blue">clar</span>-ify</i>
+          </li>
+        </ul>
+      </li><br>
+      <li>
+        each of these is a <span style="color:blue"><b>separate morpheme</b></span> with multiple pronunciations and each pronunciation is called an <span style="color:blue"><b>allomorph</b></span> of that morpheme
+      </li>
+    </ul>
+    </td>
+  </tr>
+</table>
+
+---
+## **Types of Morphemes I: Free vs. Bound**
+<br>
+compare two **lexical entries** we have seen:
+<br><br>
+.pull-left[
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="width:15%; text-align:center; border:1px solid black;">label</td>
+    <td style="width:15%; text-align:center; border:1px solid black;"><span style="color:#CC0033">'dog'</span></td>
+    <td style="width:15%; text-align:center; border:1px solid black;"><span style="color:#CC0033">'teach'</span></td>
+  </tr>
+  
+  <tr>
+    <td style="width:15%; text-align:center; border:1px solid black;"><b>phonological representation</b></td>
+    <td style="width:15%; text-align:center; border:1px solid black;">/dɑg/</td>
+    <td style="width:15%; text-align:center; border:1px solid black;">/tiːtʃ/</td>
+  </tr>
+  
+  <tr>
+    <td style="width:15%; text-align:center; border:1px solid black;"><b>semantic representation</b></td>
+    <td style="width:15%; text-align:center; border:1px solid black;">{x: x is a <i><b><span style="color:green">dog</span></b></i>}</td>
+    <td style="width:15%; text-align:center; border:1px solid black;">{&lt;x, y&gt;: x <i><b><span style="color:green">teaches</span></b></i> y}</td>
+  </tr>
+</table>
+]
+
+.pull-right[
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="width:15%; text-align:center; border:1px solid black;">label</td>
+    <td style="width:15%; text-align:center; border:1px solid black;"><span style="color:#CC0033">'-er'</span></td>
+    <td style="width:15%; text-align:center; border:1px solid black;"><span style="color:#CC0033">'-able'</span></td>
+  </tr>
+  
+  <tr>
+    <td style="width:15%; text-align:center; border:1px solid black;"><b>phonological representation</b></td>
+    <td style="width:15%; text-align:center; border:1px solid black;">/ər/</td>
+    <td style="width:15%; text-align:center; border:1px solid black;">/əbəl/</td>
+  </tr>
+  
+  <tr>
+    <td style="width:15%; text-align:center; border:1px solid black;"><b>semantic representation</b></td>
+    <td style="width:15%; text-align:center; border:1px solid black;">one who does <i><b><span style="color:orange">X</span></b></i> action</td>
+    <td style="width:15%; text-align:center; border:1px solid black;">able to be<br><i><b><span style="color:orange">X</span></b></i>-ed</td>
+  </tr>
+</table>
+]
+<br>
+
+.pull-left[
+<div style="text-align:center">
+  <h2><b>
+    <span style="color:#CC0033">free morpheme</span>
+  </b></h2>
+  can stand alone as a word<br>
+  e.g. <i>dog</i>, <i>cat</i>, <i>house</i>,
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+  <h2><b>
+    <span style="color:green">bound morpheme</span>
+  </b></h2>
+  cannot stand alone<br>
+  e.g. <i>-er</i>, <i>-s</i>, <i>cran-</i>
+</div>
+]
+
+<div style="text-align:center">
+  <h3><b>
+    <span style="color:orange">-infix-</span>
+  </b></h3>
+</div>
+<table style="width:100%; border-collapse:collapse">
+  <tr>
+    <td style="width:15%; text-align:center;"><h3><span style="color:#FF1778">prefix-</span></h3></td>
+    <td style="width:15%; text-align:center; border:3px solid blue"><h3><span style="color:#C7CCD4">root(s)</span></h3></td>
+    <td style="width:15%; text-align:center;"><h3><span style="color:#00DBB2">-suffix</span></h3></td>
+  </tr>
+  
+  <tr>
+    <td style="width:15%; text-align:center;"><h3><span style="color:brown">circum-</span></h3></td>
+    <td style="width:15%; text-align:center;"></td>
+    <td style="width:15%; text-align:center;"><h3><span style="color:brown">-fix</span></h3></td>
+  </tr>
+</table>
+
+
+---
+## **Types of Morpheme II: Root vs. Affixes**
+<br>
+<table style="width:100%; border-collapse:collapse">
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center; border:3px solid #CC0033; background-color:#FF8686"><h3><span style="color:black;"><b>root</b></span></h3></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:left; border:3px solid #CC0033">
+    <ul>
+      <li><span style="color:#CC0033"><b>"base"</b></span> morpheme to which other morphemes are attached</li><br>
+      <li>contributes the <span style="color:#CC0033"><b>core meaning</b></span> of the word</li><br>
+      <li>if a word has a single morpheme, that morpheme is a root</li><br>
+      <li>examples: <i><span style="color:#CC0033">danc</span>-ing</i>, <i>dis-<span style="color:#CC0033">appear</span></i>, <i><span style="color:#CC0033">help</span>-less-ness</i>, <i><span style="color:#CC0033">elephant</span></i></li><br>
+    </ul>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:center;"><span style="color:white">-</span></td>
+  </tr>
+  
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center; border:3px solid green; background-color:#62D095"><h3><span style="color:black"><b>affix</b></span></h3></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:left; border:3px solid green">
+    <ul>
+      <li>morpheme that is <span style="color:green"><b>attached to the root</b></span></li><br>
+      <li><span style="color:green"><b>prefixes</b></span> go before root, <span style="color:green"><b>suffixes</b></span> go after root – both are affixest</li><br>
+      <li>a word can have multiple prefixes or suffixes</li><br>
+      <li>Examples: <i><span style="color:green">in-</span>complete</i>, <i>act<span style="color:green">-ive</span></i>, <i><span style="color:green">un-</span>trust<span style="color:green">-worthy</span></i>, <i><span style="color:green">will</span>-ing-ly</i></li><br>
+    </ul>
+    </td>
+  </tr>
+</table>
+
+---
+## **Types of Morphemes III**
+### **Inflectional vs. Derivational**
+<br>
+<table style="width:100%; border-collapse:collapse">
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center; border:3px solid green; background-color:#62D095"><h3><span style="color:black"><b>inflextional</b></span></h3></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:left; border:3px solid green">
+    <ul>
+      <li><span style="color:green"><b>inflectional morphemes</b></span> are used to <b>inflect</b> words</li><br>
+      <li>they add grammatical nuance but do not change the core meaning</li><br>
+      <li>in English, they’re mostly used to conjugate verbs (<i>jump</i> → <i>jump<span style="color:green">-ed</span></i>), pluralize nouns (<i>cat</i> → <i>cat<span style="color:green">-s</span></i>), and form the comparative and superlative
+of adjectives (<i>bright</i> → <i>bright<span style="color:green">-er</span></i> → <i>bright<span style="color:green">-est</span></i>)</li>
+    </ul>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:center;"><span style="color:white">-</span></td>
+  </tr>
+
+  <tr>
+    <td style="width:1%; text-align:center;"></td>
+    <td style="width:10%; text-align:center; border:3px solid #CC0033; background-color:#FF8686"><h3><span style="color:black;"><b>derivational</b></span></h3></td>
+    <td style="width:1%; text-align:center;"><span style="color:white">-</span></td>
+    <td style="width:40%; text-align:left; border:3px solid #CC0033">
+    <ul>
+      <li><span style="color:#CC0033"><b>derivational morphemes</b></span> are used to derive <span style="color:#CC0033">new words</b></span></li><br>
+      <li>they change the core meaning of the word in some way</li><br>
+      <li>they can, but do not always, change a word's part of speech<br><br>
+        <ul>
+          <li>
+            <i>simple</i> → <i>simpl<span style="color:#CC0033">-ify</span></i>,
+            <i>exist</i> → <i>exist<span style="color:#CC0033">-ence</span></i>,
+            <i>pack</i> → <i><span style="color:#CC0033">un-</span>pack</i>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </td>
+  </tr>
+</table>
+
+---
+## **Exercise I: Morphemes Types**
+<br>
+.pull-left[
+<b>for each word:</b><br><br>
+- indicate whether it is **mono-** or **poly**morphemic
+- indicate whether it is <span style="color:blue"><b>simple</b></span> or <span style="color:blue"><b>compound</b></span>
+- divide it into morphemes (use **hyphens**)
+<br><br>
+for each morpheme:
+- indicate whether it is a <span style="color:blue"><b>root</b></span>, <span style="color:blue"><b>prefix</b></span>, or, <span style="color:blue"><b>suffix</b></span>
+- indicate whether it is a **free** or **bound** morpheme
+- if it is an affix, indicate whether it is <span style="color:blue"><b>inflectional</b></span> or <span style="color:blue"><b>derivational</b></span>
+]
+
+.pull-right[
+1. unpacks <br><br>
+2. railroad <br><br>
+3. chameleon <br><br>
+4. backpacker <br><br>
+5. greater <br><br>
+6. finger <br><br>
+7. expectant <br><br>
+8. unbelievably <br><br>
+9. uncouth <br><br>
+10. meaningful
+]
+
+
+---
+## **Exercise I: Morphemes Types**
+<br>
+.pull-left[
+<b>for each word:</b><br><br>
+- indicate whether it is **mono-** or **poly**morphemic
+- indicate whether it is <span style="color:blue"><b>simple</b></span> or <span style="color:blue"><b>compound</b></span>
+- divide it into morphemes (use **hyphens**)
+<br><br>
+for each morpheme:
+- indicate whether it is a <span style="color:blue"><b>root</b></span>, <span style="color:blue"><b>prefix</b></span>, or, <span style="color:blue"><b>suffix</b></span>
+- indicate whether it is a **free** or **bound** morpheme
+- if it is an affix, indicate whether it is <span style="color:blue"><b>inflectional</b></span> or <span style="color:blue"><b>derivational</b></span>
+]
+
+.pull-right[
+.pull-left[
+1. unpacks <br><br>
+2. railroad <br><br>
+3. chameleon <br><br>
+4. backpacker <br><br>
+5. greater <br><br>
+6. finger <br><br>
+7. expectant <br><br>
+8. unbelievably <br><br>
+9. uncouth <br><br>
+10. meaningful
+]
+.pull-right[
+**un-pack-s** <br><br>
+<span style="color:blue"><b>rail-road</b></span> <br><br>
+**chameleon** <br><br>
+<span style="color:blue"><b>back-pack-er</b></span> <br><br>
+**great-er** <br><br>
+<span style="color:blue"><b>finger</b></span> <br><br>
+**expect-ant** <br><br>
+<span style="color:blue"><b>un-believ-ab-ly</b></span> <br><br>
+**un-couth** <br><br>
+<span style="color:blue"><b>mean-ing-ful</b></span>
+]
+]
+
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Structures in Words
+</div>
+
+---
+## **Why Order Matters**
+<br>
+.pull-left[
+consider words below **morphemes** make them up
+  - unusable
+  - unlockable
+]
+
+--
+
+.pull-right[
+<br>
+  - **un-**<b>us(e)<span style="color:green">-able</span></b>
+  - **un-**<b>lock<span style="color:green">-able</span></b>
+]<br><br>
+
+--
+<h3><span style="color:#CC0033"><b>what are possible meanings of these two adjectives?</b></span></h3>
+
+<br>
+.pull-left[
+- **un-**<b>us<span style="color:green">-able</span></b> has <b>only one meaning</b>
+  - not able to be used
+- **un-**<b>lock<span style="color:green">-able</span></b> is on the other hand, <b>ambiguous</b>
+  - not able to be locked
+  - able to be unlocked
+]
+
+.pull-right[
+### Semantic Gap
+]
+<br>
+
+--
+
+### **why are they different though both are formed by attaching the same morphemes to the root?**
+
+---
+## **Affixes are 'Picky'**
+<br>
+.pull-left[<br><img src="../pic/0916/headache.jpg" width="85%">]
+.pull-right[
+affixes have **selectional requirements**, meaning that they can only attach to
+stems of **a particular category**:<br><br>
+- **inflectional** affix:<br><br>
+  - comparative ***–er*** attaches only to adjectives<br>
+  *tall-<b>er</b>*, \* *cat-<b>er*</b><br>
+  - plural ***–s*** attaches only to nouns<br>
+  *cat-<b>s</b>*, \* *tall-<b>s</b>*<br><br>
+- **derivational** affix:<br><br>
+  - ***re-*** attaches only to verbs<br>
+  *<b>re</b>-do*, *<b>re</b>-visit*, \* *<b>re</b>-red*, \* *<b>re</b>-pencil*
+]
+
+---
+## **Affixes are 'Picky'**
+<br>
+.pull-left[<br><img src="../pic/0916/headache.jpg" width="85%">]
+.pull-right[
+- in addition to being picky about their base, **derivational** affixes also **determine**
+the category of the resulting word:<br><br>
+  - derivational ***-ness*** attaches to adjectives to create nouns<br>
+  *loneli-<b>ness</b>*, *happi-<b>ness</b>*, *concrete-<b>ness</b>*<br><br>
+  - derivational ***-able*** attaches to verbs to create adjectives<br>
+  *search-<b>able</b>*, *plan-<b>able</b>*, *do-<b>able</b>*<br><br>
+- affixes can be even pickier, only attaching to certain types of nouns<br><br>
+  - the derivational affix ***-ion*** attaches to verbs of only **Latin** origin to
+create nouns<br>
+  - *convers-<b>ion</b>*
+]
+
+---
+## **Exercise IV: Adapted from <i>Language Files</i>**
+<br>
+from the examples given for each of the following **suffixes**, determine:<br><br>
+  1. the lexical category (i.e. parts of speech) of the **root**
+  2. the lexical category (i.e. parts of speech) of the word resulting from the addition of the **suffix**
+<br><br><br><br>
+
+.pull-left[
+a. -ive: <u>*repressive*, *active*, *disruptive*, *explosive*</u><br><br>
+b. -ion: <u>*invention*, *narration*, *expression*, *pollution*</u><br><br>
+c. re-: <u>*reelect*, *resubmit*, *restart*, *recap*, *reactivate*</u>
+]
+.pull-right[
+**-ive** takes <u><span style="color:white">verb</span></u>, yields <u><span style="color:white">noun</span></u><br><br>
+**-ion** takes <u><span style="color:white">verb</span></u>, yields <u><span style="color:white">noun</span></u><br><br>
+**re-** takes <u><span style="color:white">verb</span></u>, yields <u><span style="color:white">noun</span></u><br><br>
+]
+
+---
+## **Exercise IV: Adapted from <i>Language Files</i>**
+<br>
+from the examples given for each of the following **suffixes**, determine:<br><br>
+  1. the lexical category (i.e. parts of speech) of the **root**
+  2. the lexical category (i.e. parts of speech) of the word resulting from the addition of the **suffix**
+<br><br><br><br>
+
+.pull-left[
+a. -ive: <u>*repressive*, *active*, *disruptive*, *explosive*</u><br><br>
+b. -ion: <u>*invention*, *narration*, *expression*, *pollution*</u><br><br>
+c. re-: <u>*reelect*, *resubmit*, *restart*, *recap*, *reactivate*</u>
+]
+.pull-right[
+**-ive** takes <u><span style="color:blue">verb</span></u>, yields <u><span style="color:blue">adjective</span></u><br><br>
+**-ion** takes <u><span style="color:blue">verb</span></u>, yields <u><span style="color:blue">noun</span></u><br><br>
+**re-** takes <u><span style="color:blue">verb</span></u>, yields <u><span style="color:blue">verb</span></u><br><br>
+]
+
+---
+## **Back to Order of Affixation**
+<br>
+.pull-left[
+the **selectional restrictions** of affixes often help us **determine** the order in which
+they were attached<br><br>
+- consider the following polymorphemic word<br><br>
+  - <i>**re**-<b>play-<span style="color:green">able</span></b></i><br><br>
+- which affix was attached **first** to the root *<b>play</b>*?
+]
+.pull-right[<img src="../pic/0916/morphosyn.jpg" width="65%">]<br><br><br><br>
+
+--
+
+- ***re-*** has to be attached first, since it cannot attach to adjectives <br><br>
+  - *<b>play</b>* → <i>**re**-<b>play</b></i> → <i>**re**-<b>play-<span style="color:green">able</span></b></i>
+
+
+
+---
+## **Morphological Structure**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>happy</b></span> + <span style="color:green"><b>-ly</b></span> = <span style="color:blue"><b>happily</b></span><br>
+<span style="color:#CC0033"><b>crazy</b></span> + <span style="color:green"><b>-ly</b></span> = <span style="color:blue"><b>crazily</b></span><br>
+<span style="color:#CC0033"><b>bright</b></span> + <span style="color:green"><b>-ly</b></span> = <span style="color:blue"><b>brightly</b></span>
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:green"><b>un-</b></span> + <span style="color:#CC0033"><b>do</b></span> = <span style="color:blue"><b>undo</b></span><br>
+<span style="color:green"><b>un-</b></span> + <span style="color:#CC0033"><b>real</b></span> = <span style="color:blue"><b>unreal</b></span><br>
+<span style="color:white"><b>un- +</b></span><span style="color:white"><b> real =</b></span> <span style="color:white"><b>= undo</b></span>
+</h3>
+</div>
+]
+<br><br>
+
+--
+
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<br>
+<span style="color:black; background:orange">adjective</span> + <span style="color:green"><b>-ly</b></span> = <span style="color:black; background:orange">adverb</span> 
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">verb</span> = <span style="color:black; background:orange">verb</span><br><br>
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">adjective</span> = <span style="color:black; background:orange">adjective</span> 
+</h3>
+</div>
+]
+<br><br><br>
+
+--
+
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0916/unknowingly1.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0916/unknowingly2.png" width="90%">
+</div>
+]
+
+---
+## **Morphological Structure**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<br>
+<span style="color:black; background:orange">adjective</span> + <span style="color:green"><b>-ly</b></span> = <span style="color:black; background:orange">adverb</span> 
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">verb</span> = <span style="color:black; background:orange">verb</span><br><br>
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">adjective</span> = <span style="color:black; background:orange">adjective</span> 
+</h3>
+</div>
+]
+<br><br>
+
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>unknowing</b></span> = ?<br><br>
+<span style="color:#CC0033"><b>unknowingly</b></span> = ?<br><br>
+<span style="color:white"><b>YES</b></span>
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>knowingly</b></span> = ?<br><br>
+<span style="color:#CC0033"><b>unknowingly</b></span> = ?<br><br>
+<span style="color:white"><b>NO, wrong transformation</b></span>
+</h3>
+</div>
+]
+<br>
+
+
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0916/unknowingly1.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0916/unknowingly2.png" width="90%">
+</div>
+]
+
+---
+## **Morphological Structure**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<br>
+<span style="color:black; background:orange">adjective</span> + <span style="color:green"><b>-ly</b></span> = <span style="color:black; background:orange">adverb</span> 
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">verb</span> = <span style="color:black; background:orange">verb</span><br><br>
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">adjective</span> = <span style="color:black; background:orange">adjective</span> 
+</h3>
+</div>
+]
+<br><br>
+
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>unknowing</b></span> = <span style="background:orange">adjective</span><br><br>
+<span style="color:#CC0033"><b>unknowingly</b></span> = <span style="background:orange">adverb</span><br><br>
+<span style="color:blue"><b>YES</b></span>
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>knowingly</b></span> = <span style="background:orange">adverb</span><br><br>
+<span style="color:#CC0033"><b>unknowingly</b></span> = <span style="background:orange">adjective</span><br><br>
+<span style="color:blue"><b>NO, wrong transformation</b></span>
+</h3>
+</div>
+]
+<br>
+
+
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0916/unknowingly1.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0916/unknowingly2.png" width="90%">
+</div>
+]
+
+---
+## **Morphological Structure**
+<br>
+### **decomposing** *unknowingly*
+<br><br>
+<div style="text-align:center">
+<img src="../pic/0916/unknowinglytree.png" width="45%">
+</div>
+
+---
+## **Morphological Structure**
+<br>
+.pull-left[<br><br><img src="../pic/0916/puppet.jpg" width="90%">]
+.pull-right[
+- as we said, **order of affixation** affects the **meaning** of a word<br><br>
+- the fact that we can't add affixes in any order suggests that words have a **hierarchical structure**<br><br>
+- we can visualize this structure with a **tree diagram** as above<br><br>
+- or an alternative is **labeled bracketing**, which is more compact but perhaps less intuitive:
+<br><br>
+<span style="color:red">[<sub>Adj</sub> un- </span><span style="color:green">[<sub>Adj</sub></span> <span style="color:blue">[<sub>V</sub> lock ]</span><span style="color:green"> -able ]</span> <span style="color:red">]</span>
+<br><br>
+<span style="color:red">[<sub>Adj</sub></span> <span style="color:green">[<sub>V</sub> un-</span><span style="color:blue"> [<sub>V</sub> lock ]</span> <span style="color:green">]</span><span style="color:red"> -able ]</span>
+
+]
+---
+## **Morphological Tree Drawing**
+### **de-humid-ify-er**
+<br>
+1. identify the word's morphemes and write them out separately in one row
+2. identify the root (or roots) and label its **part of speech**
+3. look at the morphemes immediately before and after the root<br>
+  check **which one is added first**, draw lines upward connecting them, <br>
+  and **label** the new words's part of speech
+4. this new word becomes the base you'll keep building off of<br>
+  **repeat step 3** using this new base<br><br>
+
+--
+<img src="../pic/0916/how1.png" width="23%">
+
+--
+<img src="../pic/0916/how2.png" width="23%">
+
+--
+<img src="../pic/0916/how3.png" width="23%">
+
+--
+<img src="../pic/0916/how4.png" width="23%">
+---
+## **Exercise II: Morphological Structure**
+<br>
+.pull-left[
+draw a **tree** or give **bracket labeling** for the following words: <br><br>
+1. disappearance <br><br>
+2. silliness <br><br>
+3. unthinkable <br><br>
+4. overgeneralisation <br><br>
+5. internationalism
+]
+
+.pull-right[
+**HINTS**<br><br>
+- find the root and move outward/upward <br><br>
+- mark the part of speech at **every** step <br><br>
+- if adding an affix makes a **non-word**, take one step back and try another affix instead <br><br>
+- if adding an affix makes it seemingly **unrelated to the overall word's meaning**, take one step back and try another affix instead
+]
+
+<img src="../pic/0916/cat1.png" width="24%">
+<img src="../pic/0916/cat2.png" width="24%">
+<img src="../pic/0916/cat3.png" width="24%">
+<img src="../pic/0916/cat4.png" width="23%">
+
+---
+## **Morphological Structure: Ambiguity**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<br>
+<span style="color:black; background:orange">verb</span> + <span style="color:green"><b>-able</b></span> = <span style="color:black; background:orange">adjective</span> 
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">verb</span> = <span style="color:black; background:orange">verb</span><br><br>
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">adjective</span> = <span style="color:black; background:orange">adjective</span> 
+</h3>
+</div>
+]
+<br><br>
+
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>unlock</b></span> = ?<br><br>
+<span style="color:#CC0033"><b>unlockable</b></span> = ?<br><br>
+<span style="color:white"><b>YES</b></span>
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>lockable</b></span> = ?<br><br>
+<span style="color:#CC0033"><b>unlockable</b></span> = ?<br><br>
+<span style="color:white"><b>YES</b></span>
+</h3>
+</div>
+]
+<br>
+
+
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0916/unlockable1.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0916/unlockable2.png" width="90%">
+</div>
+]
+
+---
+## **Morphological Structure: Ambiguity**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<br>
+<span style="color:black; background:orange">verb</span> + <span style="color:green"><b>-able</b></span> = <span style="color:black; background:orange">adjective</span> 
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">verb</span> = <span style="color:black; background:orange">verb</span><br><br>
+<span style="color:green"><b>un-</b></span> + <span style="color:black; background:orange">adjective</span> = <span style="color:black; background:orange">adjective</span> 
+</h3>
+</div>
+]
+<br><br>
+
+.pull-left[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>unlock</b></span> = <span style="color:black; background:orange">verb</span><br><br>
+<span style="color:#CC0033"><b>unlockable</b></span> = <span style="color:black; background:orange">adjective</span><br><br>
+<span style="color:blue"><b>YES</b></span>
+</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3> 
+<span style="color:#CC0033"><b>lockable</b></span> = <span style="color:black; background:orange">verb</span><br><br>
+<span style="color:#CC0033"><b>unlockable</b></span> = <span style="color:black; background:orange">adjective</span><br><br>
+<span style="color:blue"><b>YES</b></span>
+</h3>
+</div>
+]
+<br>
+
+
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0916/unlockable1.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0916/unlockable2.png" width="90%">
+</div>
+]
+
+---
+## **Morphological Structure: Ambiguity**
+<br><br>
+tree representations can capture **different** hierarchical structures<br><br>
+
+.pull-left[
+<img src="../pic/0916/unlockabletree1.png" width="90%">
+]
+.pull-right[
+<img src="../pic/0916/unlockabletree2.png" width="90%">
+]
+<br>
+
+
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0916/unlockable1.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0916/unlockable2.png" width="90%">
+</div>
+]
+
+---
+## **Morphological Structure: Ambiguity**
+<br><br>
+.pull-left[
+<br><br><br>
+.pull-left[
+*un* + *able*<br><br>
+<img src="../pic/0916/undo3.png" width="90%">
+]
+.pull-right[
+*undo* + *able*<br><br>
+<img src="../pic/0916/undo4.png" width="90%">
+]
+]
+.pull-right[
+- the case of **unlockable** is an example of a word with an **ambiguous structure**<br><br>
+- depending on the structure you assign it, it has a **different meaning**<br><br>
+- both meanings are acceptable <br><br>
+- which means the **meaning** of words is directly affected by their morphological structure<br><br>
+- that's why **structure** is important, without knowing the structure, we would not be able to be **compositional** properly
+]
+
+---
+## **Exercise III: Structural Ambiguity**
+<br>
+.pull-left[
+are following words ambiguous?
+- if yes, provide **labeled bracketings** and **meanings** for both readings
+- if no, explain why not<br><br>
+
+1. <span style="color:green"><b>im</b></span>measur<span style="color:blue"><b>able</b></span> <br><br>
+2. <span style="color:green"><b>un</b></span>wrapp<span style="color:blue"><b>able</b></span> <br><br>
+3. <span style="color:green"><b>un</b></span>bear<span style="color:blue"><b>able</b></span> 
+]
+.pull-right[
+<img src="../pic/0916/ambi2.jpg" width="60%">
+]
+
+---
+## **Note 1: Linear Order ≠ Hierarchical Order**
+<br><br>
+.pull-left[
+<div style="text-align:center">
+<u><h3><span style="color:orange"><b>re-category-ise</b></span></h3></u>
+<br><br>
+<img src="../pic/0916/recat.png" width="100%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<u><h3><span style="color:green"><b>hope-ful-ness</b></span></h3></u>
+<br><br>
+<img src="../pic/0916/hope.png" width="100%">
+</div>
+]
+
+---
+## **Note 2: Ungrammaticality**
+<br><br>
+### <b>sometimes neither order works: \* *enjoyful*</b>
+<br>
+- **-ful**: N → Adj
+- **en-**: N → V
+<br><br><br>
+<div style="text-align:center">
+<h3><b><span style="color:blue">en</span><span style="color:green">joy</span> + ful</b> ❌</h3><br>
+<h3><b>en +<span style="color:green">joy</span><span style="color:orange">ful</span></b> ❌<h3>
+</div>
+
+---
+## **Note 3: Comparing Analysis**
+<br><br>
+### <b>sometimes both orders seem working — but not really</b>
+<br>
+- **-able**: V → Adj: <span style="color:orange">wash-able</span>, <span style="color:orange">do-able</span>
+- **re-**: V → V, but NOT V → Adj: \* <span style="color:orange">re-big</span>, \* <span style="color:orange">re-sad</span>
+<br><br>
+<div style="text-align:center">
+<h3><b><span style="color:blue">re-</span><span style="color:green">wash</span><span style="color:orange">-able</span></b>
+</div>
+.pull-left[<img src="../pic/0916/rewashable1.png" width="80%">]
+.pull-right[<img src="../pic/0916/rewashable2.png" width="80%">]
+
+---
+class: center, middle
+**Homework I** will be published this today, and it is due next Friday (**Sept 25**)<br><br>
+<span style="color:green"><b> continue reading</b></span> Sections 4.3, 4.4 and 4.5 of Chapter 4: Morphology from <i>Language Files</i><br><br>
+<img src="../pic/0916/fine.jpeg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
