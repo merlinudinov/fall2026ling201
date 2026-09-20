@@ -1,0 +1,1082 @@
+---
+title: "**Syntax I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/09/23 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+
+---
+## **Extra Credit**
+<br>
+- up to **2%** of extra credit can be earned by participating in **research studies** conducted by members of the Linguistics Department<br><br>
+
+- these studies usually consist of experiments that take 25–45 minutes<br><br>
+
+- experiments are offered through the Linguistics department experiment management system (SONA)<br><br>
+
+**SONA MUST KNOWS**
+- your SONA account will be created for you **automatically** and you **should not** have to create or request your own account
+- your login information will be sent to the email address listed on the roster from the registrar
+- you are responsible for ensuring the accuracy of your course assignments in SONA
+- you are able to fix your own course assignments in the [SONA system](http://rutgerslinguistics.sona-systems.com/)
+- you are responsible for making sure your credit assignments are allocated to the right courses
+- you can check out the SONA **tutorial** at this link, under “Labs”, click on “Experiment System Tutorial”
+  - [https://ling.rutgers.edu/research-mainmenu/research-labs-mainmenu-145](https://ling.rutgers.edu/research-mainmenu/research-labs-mainmenu-145)
+
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Introduction to Syntax
+</div>
+
+---
+class: center, middle
+
+<img src="../pic/0923/morphosyn.jpg" width="450px" style="float:right; margin-left:20px;">
+### What is the **basic** unit in Morphology? <br><br>
+
+--
+### <span style="color:green"><b>MORPHEME</b><span><br><br>
+
+--
+### What happens if **larger** units were built?<br><br>
+
+--
+### <span style="color:blue"><b>SYNTAX</b><span><br><br>
+
+--
+**Morphology** cares about word <u><b>structure</b></u><br><br>
+**Syntax** cares about sentence <u><b>structure</b></u>
+
+---
+## **Moving onto More Ambiguous Cases**
+<br><br><br>
+### **un**-lockable vs. unlock-**able**
+<br><br><br>
+### <span style="color:green"><b>green tea cup</b></span>
+
+---
+## **Moving onto More Ambiguous Cases**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3><span style="color:green"><b>green tea</b></span> <span style="color:#CC0033"><b>cup</b></span></h3>
+<br>
+<img src="../pic/0923/green1.png" width="40%">
+<br><br>
+<img src="../pic/0923/green3.png" width="70%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><span style="color:green"><b>green</b></span> <span style="color:#CC0033"><b>tea cup</b></span></h3>
+<br>
+<img src="../pic/0923/green2.png" width="40%">
+<br><br>
+<img src="../pic/0923/green4.png" width="45%">
+</div>
+]
+
+---
+## **Exercise I: Structural Ambiguity**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3><span style="color:green"><b>German history</b></span> <span style="color:#CC0033"><b>professor</b></span></h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><span style="color:green"><b>German</b></span> <span style="color:#CC0033"><b>history professor</b></span></h3>
+</div>
+]
+
+--
+
+<br><br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0923/german2.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0923/german1.png" width="90%">
+</div>
+]
+
+---
+## **Exercise I: Structural Ambiguity**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3><span style="color:green"><b>robot repair</b></span> <span style="color:#CC0033"><b>technician</b></span></h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><span style="color:green"><b>robot</b></span> <span style="color:#CC0033"><b>repair technician</b></span></h3>
+</div>
+]
+
+--
+
+<br><br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0923/robot2.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0923/robot1.png" width="90%">
+</div>
+]
+
+---
+## **Lexical Ambiguity**
+<br>
+.pull-left[
+<img src="../pic/0923/ambiguity.png"width="80%">
+]
+.pull-right[
+<img src="../pic/0923/ambiguity2.jpeg"width="80%">
+]
+
+---
+## **Structural Ambiguity**
+<br>
+words (or phrases and sentences) are structured **hierarchically**, not linearly<br><br>
+- within a word, the same **morpheme order** can sometimes have **different** word meanings
+  - <i>**un**-lockable</i> vs. <i>unlock-**able**</i><br><br>
+- within a phrase or a sentence, the same **word order** can sometimes have different meanings depending on the different structures
+
+.pull-left[
+<div style="text-align:center">
+<i>[<span style="color:#CC0033">green</span> [<span style="color:blue">tea cup</span>]]</i><br><br>
+<img src="../pic/0923/green2.png"width="50%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<i>[[<span style="color:#CC0033">green tea</span>] <span style="color:blue">cup<span>]</i><br><br>
+<img src="../pic/0923/green1.png"width="50%">
+</div>
+]
+
+---
+## **Structural Ambiguity for Sentences**
+<br>
+sentences sometimes can be **ambiguous** depending on different hierarchical structures even when each word in the sentence has exactly **the same meaning** and they are put in **the same order**
+<br><br>
+<div style="text-align:center">
+<img src="../pic/0923/telescope.png"width="80%">
+</div>
+
+---
+## **Structural Ambiguity for Sentences**
+<br>
+sentences sometimes can be **ambiguous** depending on different hierarchical structures even when each word in the sentence has exactly **the same meaning** and they are put in **the same order**
+<br><br><br>
+
+--
+
+<div style="text-align:center">
+<h3>(1) <i>Arthur read the book on the desk.</i></h3>
+</div><br>
+
+--
+
+.pull-left[
+<div style="text-align:center">
+<i>Arthur <span style="color:green">read the book</span> <span style="color:blue">on the desk</span></i>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<i>Arthur <span style="color:green">read</span> <span style="color:blue">the book on the desk</span></i>
+</div>
+]
+
+<br><br>
+
+--
+
+
+<div style="text-align:center">
+<h3>(2) <i>They helped the student with homework.</i></h3>
+</div><br>
+
+--
+
+.pull-left[
+<div style="text-align:center">
+<i>They <span style="color:#CC0033">helped the student</span> <span style="color:orange">with homework</span></i>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<i>They <span style="color:#CC0033">helped</span> <span style="color:orange">the student with homework</span></i>
+</div>
+]
+
+---
+## **Structural Ambiguity for Sentences**
+<br>
+<div style="text-align:center">
+<h3> <i>Arthur read the book on the desk.</i></h3>
+</div><br>
+
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0923/arthur1.png"width="75%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0923/arthur2.png"width="75%">
+</div>
+]
+<br><br>
+do not worry about the **trees** for now, just check what ***on the desk*** is attaching to
+<br><br>
+**Syntax** is the aspect of our competence that deals with **phrase and sentence structure**.
+
+---
+## **Word Order: Variation**
+<br>
+<h3><span style="color:black"><b>English</b></span>: <span style="color:#CC0033"><b>SVO</b></span></h3><br>
+.pull-left[
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td><span style="color:#CC0033"><b>Mary</b></span></td>
+    <td><span style="color:green"><b>loves</b></span></td>
+    <td><span style="color:blue"><b>the cat</b></span></td>
+  </tr>
+  <tr>
+    <td><span style="color:#CC0033"><b>S</b></span></td>
+    <td><span style="color:green"><b>V</b></span></td>
+    <td><span style="color:blue"><b>O</b></span></td>
+  </tr>
+</table>
+]
+
+.pull-right[
+`*` *loves Mary the cat.*
+]
+<br>
+
+--
+
+<h3><span style="color:black"><b>Irish</b></span>: <span style="color:#CC0033"><b>VSO</b></span></h3><br>
+.pull-left[
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td><span style="color:green"><b>bhuail</b></span></td>
+    <td><span style="color:#CC0033"><b>sé</b></span></td>
+    <td><span style="color:blue"><b>mé</b></span></td>
+  </tr>
+  <tr>
+    <td><span style="color:black">hit</span></td>
+    <td><span style="color:black">he</span></td>
+    <td><span style="color:black">me</span></td>
+  </tr>
+  <tr>
+    <td><span style="color:green"><b>V</b></span></td>
+    <td><span style="color:#CC0033"><b>S</b></span></td>
+    <td><span style="color:blue"><b>O</b></span></td>
+  </tr>
+</table>
+]
+.pull-right['He hit me.']<br>
+
+--
+
+<h3><span style="color:black"><b>Hindi</b></span>: <span style="color:#CC0033"><b>SOV</b></span></h3>
+<br>
+.pull-left[
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td><span style="color:#CC0033"><b>mujhe  </b></span></td>
+    <td><span style="color:blue"><b>ek seb</b></span></td>
+    <td><span style="color:green"><b>chaahiye</b></span></td>
+  </tr>
+  <tr>
+    <td><span style="color:black">I</span></td>
+    <td><span style="color:black">an apple</span></td>
+    <td><span style="color:black">want</span></td>
+  </tr>
+  <tr>
+    <td><span style="color:#CC0033"><b>S</b></span></td>
+    <td><span style="color:blue"><b>O</b></span></td>
+    <td><span style="color:green"><b>V</b></span></td>
+  </tr>
+</table>
+]
+.pull-right['I want an apple.']
+
+---
+## **Structure**
+<br>
+.pull-left[
+<br><br>
+- **word order** is one relevant aspect of how sentences are put together<br><br>
+- but that’s **NOT** enough:<br><br>
+  - <i>Arthur <span style="color:green">read</span> <span style="color:blue">the book on the table</span>.</i>
+  - <i>Arthur <span style="color:green">read the book</span> <span style="color:blue">on the table</span>.</i><br><br>
+- the same string of words has two different meanings<br><br>
+- **hierarchical structure** is also relevant for putting words together
+]
+.pull-right[
+<img src="../pic/0923/doctor.jpg "width="90%">
+]
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Part of Speech
+</div>
+
+---
+class:middle, center
+## **From the Ground Up**
+<br><br><br><br>
+### <b>large phrases and sentences</b>
+### ⬆️
+### <b>phrases</b>
+### ⬆️
+### <b>words</b>
+### ⬆️
+### <b>morphemes</b>
+
+---
+## **From the Ground Up**
+<br>
+<h3><b>large phrases and sentences</b></h3>
+.pull-left[
+<div style="text-align:center">
+<h3>⬆️<br><br>
+<b>phrases</b><br><br>
+⬆️<br><br>
+<span style="color:orange"><b>words</b></span><br><br>
+⬆️<br><br>
+<b>morphemes</b></h3>
+</div>
+]
+.pull-right[
+- like morphology, we’ll build our theory of syntax **ground-up**<br><br>
+- instead of starting with morphemes, we will start with **words**<br><br>
+- <u><b>first task</b></u>: figure out what **part of speech** (a.k.a syntactic category, word class) a word has<br><br>
+- once we have got that down, we’ll see how they **combine** to form phrases<br><br>
+- notice the parallels with Morphology, we start from each **morpheme**, then we **combine**
+]
+
+---
+## **Parts of Speech**
+<br>
+- parts of speech (aka lexical classes) are categories we use to **classify words**:<br><br>
+  - nouns, verbs, adjectives, adverbs...<br><br>
+- they're important for **Morphology**:<br><br>
+  - <span style="color:green"><b>derivation</b></span> can change a word's part of speech<br>
+  *courage* (**N**) → *en-courage* (**V**) → *en-courage-ment* (**N**)<br><br>
+  - <span style="color:blue"><b>inflection</b></span> is specific to a part of speech: nouns, verbs, and adjectives all inflect differently<br>
+  *walk* → *walk-ed* (-ed for **V** only) <br><br>
+- they'll also be important for **Syntax**:<br><br>
+  - sentences are made of words, and a word's part of speech determines its **role** in the sentence:
+  - for instance, the subject of a sentence is always a noun<br>
+  <span style="color:white">for instance,</span> every sentence needs a main verb...
+
+---
+## **Parts of Speech**
+<br> 
+- for following words, it is easy to define what they are in terms of **part of speech**
+<br><br>
+.pull-left[
+**noun**<br>
+<span style="color:green"><b>verb</b></span><br>
+<span style="color:blue"><b>adjective</b></span>
+]
+.pull-right[
+denotes a person, place, thing<br>
+denotes actions<br>
+adds a description to a noun
+]
+<br><br>
+
+--
+
+- so we can provide definitions of these categories, because we know the **meaning** of the word
+  - table is a noun because we know it names a thing<br><br>
+- can we figure out a word's part of speech without knowing what it means – just by seeing how it's used in a sentence?
+  - the answer is **YES**
+  - but the part of speech of a word, is determined by its **distribution**, NOT by its meaning<br><br>
+- **syntactic distribution**: different categories of words appears in different positions in a sentence
+- **morphological distribution**: different categories of words takes different affixes
+
+
+---
+.pull-left[
+## **Jabberwocky**
+<br>
+- the words are nonsense, but the **syntax** is recognizably English<br>
+- **meaning** does not tell us anything now, we have to rely on how they're being used<br><br>
+- **step 1**: on the form, take your best guess at the part of speech of each **coloured** word (noun, verb, adj)<br><br>
+- **step 2**: compare your answers with that of a neighbor
+  - did you get the same answers?
+  - what made you choose the answer you did?
+]
+.pull-right[
+<br><br>
+<div style="text-align:center">
+Twas brillig, and the <span style="color:green"><b>slithy</b></span> <span style="color:green"><b>toves</b></span> <br><br>
+Did <span style="color:green"><b>gyre</b></span> and gimble in the <span style="color:green"><b>wabe</b></span>; <br><br>
+All mimsy were the <span style="color:green"><b>borogroves</b></span>, <br><br>
+And the mome <span style="color:green"><b>raths</b></span> <span style="color:green"><b>outgrabe</b></span> <br><br>
+<div style="font-size:0.85em">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Carroll, <i>Jabberwocky</i> (1871)
+<br><br>
+<img src="../pic/0923/jabberwocky.jpg" width="80%">
+</div>
+</div>
+]
+
+---
+.pull-left[
+## **Morphological Distribution**
+<br>
+for **morphological distribution**, we check:<br><br>
+  - what morphemes does it have? 
+  - are they associated with a specific part of speech?<br><br>
+
+- consider the word <span style="color:green"><b>borogroves</b></span>:<br><br>
+  - it seems to end in the plural suffix **-s**
+  - what other words use plural -s?<br><br>
+
+- we conclude <span style="color:green"><b>borogroves</b></span> is a noun (**N**)
+  - because it fits the **morphological distribution** of nouns
+  - it uses morphemes associated with nouns
+]
+.pull-right[
+<br><br>
+<div style="text-align:center">
+Twas brillig, and the <span style="color:green"><b>slithy</b></span> <span style="color:green"><b>toves</b></span> <br><br>
+Did <span style="color:green"><b>gyre</b></span> and gimble in the <span style="color:green"><b>wabe</b></span>; <br><br>
+All mimsy were the <span style="color:green"><b>borogroves</b></span>, <br><br>
+And the mome <span style="color:green"><b>raths</b></span> <span style="color:green"><b>outgrabe</b></span> <br><br>
+<div style="font-size:0.85em">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Carroll, <i>Jabberwocky</i> (1871)
+<br><br>
+<img src="../pic/0923/jabberwocky.jpg" width="80%">
+</div>
+</div>
+]
+
+---
+.pull-left[
+## **Syntactic Distribution**
+<br>
+for **syntactic distribution**, we check:<br><br>
+  - where does the word appear in the sentence?
+  - what other words appear around it?<br><br>
+  
+- consider the word <span style="color:green"><b>borogroves</b></span> once more:<br><br>
+  - it comes after ***the*** → *the borogoves*
+  - what other words can follow ***the***?<br><br>
+  
+- we still conclude that <span style="color:green"><b>borogroves</b></span> is a noun (**N**)<br><br>
+  - because it fits the **syntactic distribution** of nouns
+  - it goes where nouns go in the sentence
+]
+.pull-right[
+<br><br>
+<div style="text-align:center">
+Twas brillig, and the <span style="color:green"><b>slithy</b></span> <span style="color:green"><b>toves</b></span> <br><br>
+Did <span style="color:green"><b>gyre</b></span> and gimble in the <span style="color:green"><b>wabe</b></span>; <br><br>
+All mimsy were the <span style="color:green"><b>borogroves</b></span>, <br><br>
+And the mome <span style="color:green"><b>raths</b></span> <span style="color:green"><b>outgrabe</b></span> <br><br>
+<div style="font-size:0.85em">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Carroll, <i>Jabberwocky</i> (1871)
+<br><br>
+<img src="../pic/0923/jabberwocky.jpg" width="80%">
+</div>
+</div>
+]
+
+---
+## **Part of Speech**
+<br>
+.pull-left[
+**parts of speech** aren't just random categories you have to memorize in English class<br><br>
+- words of a particular part of speech tend to behave in **similar** ways:<br><br>
+  - they have a similar **morphological distribution** (similar morphemes)
+  - and a similar **syntactic distribution** (similar role in sentences)
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0923/pos.jpg" width="50%">
+</div>
+]
+<br>
+___
+
+- that is, they follow a <span style="color:green"><b>pattern</b></span>
+  - a <span style="color:green"><b>pattern</b></span> that forms part of our **mental grammar**
+  - we pick up these <span style="color:green"><b>patterns</b></span> when acquiring our native language
+  - a small child might not know what a <span style="color:blue"><b>noun</b></span> is, but they might know<br>
+  *take ball*, *take toy*... but not `*` *take eat*
+  - we make use of such categories like <span style="color:blue"><b>noun</b></span> and <span style="color:blue"><b>verb</b></span> before we actually know what they are
+  
+---
+## **Parts of Speech: Replacement Test**
+<br>
+since these categories are part of our **mental grammar**, they give us intuitions about how a word **can** or **cannot** be used in a sentence<br><br>
+- we can use these intuitions in a **replacement test** to figure out a word's part of speech:<br><br>
+- let's say for the following sentence, we do not know the part of speech of **delicious**:<br><br>
+  - <i>John ate a **delicious** sandwich</i>.<br><br>
+- but we know the part of speech of **eat** (V) and **good** (Adj)
+- we replace **delicious** with either *eat* or *good*<br><br>
+   - `*` <i>John ate a(n) **eat** sandwich</i>.
+   - <i>John ate a **good** sandwich</i>.<br><br>
+- if the sentence after replacing is still **well-formed**, *delicious* probably has the same part of speech with the replaced word
+
+---
+## **Parts of Speech: Replacement Test**
+<br>
+.pull-left[
+note here it might NOT **always** work!<br><br>
+let's say we know the part of speech of the word **friendly** (Adj) and **good** (Adj)<br><br>
+  - (a) ? <i>John ate a **friendly** sandwich</i>.
+  - (b) `*` <i>John ate a(n) **eat** sandwich</i>.
+  - (c) <i>John ate a **good** sandwich</i>.<br><br>
+
+comparing the first two sentences, we know that<br><br>
+  - **(a)** is syntactically well-formed, but not meaningwise proper (**semantic anomaly**)
+  - but **(b)** is syntactically ill-formed (**syntactic ungrammaticality**)<br><br>
+  
+a famous example on the **right**
+]
+.pull-right[
+<img src="../pic/0923/colour.jpg" width="90%">
+<br><br>
+<i>Colorless green ideas sleep furiously.</i>
+]
+
+---
+class: middle, center
+## we will introduce following parts of speech and their **morphological** and **syntactic distributions**
+<br><br>
+**noun** (N): *dog*, *cat*, *teacher*<br>
+**verb** (V): *eat*, *do*, *think*<br>
+**adjective** (Adj): *easy*, *happy*, *wonderful*<br>
+**adverb** (adv): *easily*, *happily*, *wonderfully*<br>
+**determiner** (D): *the*, *my*, *a*<br>
+**preposition** (P): *in*, *with*, ***to<sub>1</sub>***<br>
+**conjunction** (Conj): *and*, *or*, *because*<br>
+**complementiser** (C): *that*, *whether*<br>
+**tense** (T): *be*, *will*, **to<sub>2</sub>**<br>
+
+---
+## **Nouns**
+<br>
+### **nouns** denote someone or something
+<br><br>
+.pull-left[
+- **nouns** denote a person, place, or thing...<br><br>
+-  also abstract entities, concepts, even actions
+]
+.pull-right[
+*student*, *school*, *desk*<br><br>
+*hope*, *idea*, *year*, *math fishing*
+]
+<br><br><br>
+
+<span style="color:#CC0033"><b>nouns</b></span> can be further divided into<br><br>
+
+.pull-left[
+- **common nouns**<br><br>
+- **proper nouns** (names)
+]
+.pull-right[
+*girl*, *river*, *college*<br><br>
+*Mary*, *Raritan*, *Rutgers*
+]
+
+---
+## **Nouns**
+<br>
+**morphological distribution**: what affixes can a **noun** have in English?<br><br>
+
+.pull-left[
+- nouns can take plural <span style="color:green"><b>-s</b></span> or possessive <span style="color:blue"><b>'s</b></span><br><br>
+- derivational morphemes that form nouns: <span style="color:orange"><b>-tion/sion</b></span>, <span style="color:orange"><b>-ness</b></span>, <span style="color:orange"><b>-ity</b></span>...
+]
+.pull-right[
+cat<span style="color:green"><b>s</b></span>, dog<span style="color:green"><b>s</b></span>, Merlin<span style="color:blue"><b>'s</b></span>, students<span style="color:blue"><b>'</b></span><br><br>
+happi<span style="color:orange"><b>ness</b></span>, read<span style="color:orange"><b>ing</b></span>, encourage<span style="color:orange"><b>ment</b></span>
+]<br><br>
+
+--
+
+<span style="color:#CC0033"><b>syntactic distribution</b></span>: where do <span style="color:#CC0033"><b>nouns</b></span> appear in sentences in English?<br><br>
+
+.pull-left[
+- nouns can follow <span style="color:#FF1493"><b>determiners</b></span> like *a*, *the*, *my*<br><br>
+- nouns can follow <span style="color:#FF1493"><b>adjectives</b></span><br><br>
+- nouns can follow <span style="color:#FF1493"><b>prepositions</b></span><br><br>
+- nouns can be <span style="color:#FF1493"><b>subjects</b></span> of sentences<br><br>
+- nouns can be <span style="color:#FF1493"><b>objects</b></span> of sentences<br><br>
+]
+.pull-right[
+<span style="color:#FF1493"><b>a</b></span> dog, <span style="color:#FF1493"><b>the</b></span> cat, <span style="color:#FF1493"><b>my</b></span> friend<br><br>
+<span style="color:#FF1493"><b>friendly</b></span> dog, <span style="color:#FF1493"><b>angry</b></span> cat, <span style="color:#FF1493"><b>best</b></span> friend<br><br>
+<span style="color:#FF1493"><b>at</b></span> school, <span style="color:#FF1493"><b>in</b></span> line, <span style="color:#FF1493"><b>on</b></span> demand<br><br>
+<span style="color:#FF1493"><b>Dogs</b></span> are humans' best friend.<br><br>
+I saw <span style="color:#FF1493"><b>dogs</b></span>.
+]
+
+---
+## **Pronouns**
+<br>
+.pull-left[
+- **pronoun** takes the place of a noun
+]
+.pull-right[
+`*` Mary had a little lamb = <span style="color:green"><b>She</b></span> had it.
+]
+<br><br>
+
+- some linguists consider pronouns a **subcategory** of nouns, because they behave like nouns in many ways:<br>
+
+.pull-left[
+<div style="text-align:center">
+they can be <span style="color:blue"><b>subjects</b></span>: <br><br>
+they can be <span style="color:blue"><b>objects</b></span>:
+</div>
+]
+.pull-right[
+Merlin sings = <span style="color:blue"><b>He</b></span> sings.<br><br>
+Did you help your mom? = Did you help <span style="color:blue"><b>her</b></span>?
+]
+<br><br>
+
+- some linguists consider pronouns a **separate** part of speech, because in some ways they behave differently:<br><br>
+
+.pull-left[
+<div style="text-align:center">
+they (usually) aren't modified by<br>
+<span style="color:orange"><b>the</b></span> or an <span style="color:orange"><b>adjective</b></span> 
+<br><br>
+although: lucky <span style="color:orange"><b>you</b></span>! (idiomatic use)
+</div>
+]
+.pull-right[
+the happy student<br><br>
+`*` the <span style="color:orange"><b>them</b></span><br>
+
+`*` happy <span style="color:orange"><b>them</b></span><br><br>
+]
+<br>
+- in this class, we'll consider them a **subcategory** of nouns, but also acknowledge their differences
+
+---
+## **Verbs**
+<br>
+### **verbs** can denote
+<br>
+.pull-left[
+.pull-left[
+- <span style="color:orange"><b>actions</b></span> <br><br>
+- <span style="color:blue"><b>states</b></span><br><br>
+- or <span style="color:green"><b>processes</b></span><br><br>
+]
+.pull-right[
+sit, jump, fly<br><br>
+be, have, know, want<br><br>
+dream, feel, rest<br><br>
+]
+]
+.pull-right[
+<img src="../pic/0923/zero.jpg" width="80%">
+]
+---
+## **Verbs**
+<br>
+**morphological distribution**: what kind of morphemes can <span style="color:green"><b>English</b></span> **verbs** have?<br><br>
+.pull-left[
+- verbs can be conjugated for <span style="color:blue"><b>tense</b></span> & <span style="color:green"><b>subject</b></span><br><br>
+- derivational morphemes can make verbs<br>
+<span style="color:orange"><b>-ise</b></span>, <span style="color:orange"><b>-ify</b></span>, <span style="color:orange"><b>-ate</b></span>, <span style="color:orange"><b>-en</b></span>...
+]
+.pull-right[
+I break, she break<span style="color:green"><b>s</b></span>, we <span style="color:blue"><b>broke</b></span>, we have brok<span style="color:blue"><b>en</b></span><br><br>
+modern<span style="color:orange"><b>ise</b></span>, elect<span style="color:orange"><b>ify</b></span>, valid<span style="color:orange"><b>ate</b></span>, length<span style="color:orange"><b>en</b></span>
+]<br><br>
+
+--
+
+<span style="color:#CC0033"><b>syntactic distribution</b></span>: where do <span style="color:#CC0033"><b>verbs</b></span> go in <span style="color:green"><b>English</b></span> sentences?<br><br>
+
+.pull-left[
+- verbs go <span style="color:deeppink"><b>after</b></span> the subject and <span style="color:deeppink"><b>before</b></span> object(s)<br><br>
+- all sentences have at least <span style="color:deeppink"><b>one verb</b></span><br><br>
+- some sentences have <span style="color:deeppink"><b>auxiliary</b></span> verbs in addition to the <span style="color:deeppink"><b>main</b></span> verb<br><br>
+- <span style="color:deeppink"><b>modal</b></span> verbs are a type of auxiliary verb that express obligation, possibility, etc. 
+]
+.pull-right[
+She <span style="color:deeppink"><b>knows</b></span> me, I <span style="color:deeppink"><b>did</b></span> it.<br><br>
+I <span style="color:deeppink"><b>like</b></span> pizza. `*` I an ice cream.<br><br>
+I <span style="color:deeppink"><b>am</b></span> singing. I <span style="color:deeppink"><b>have</b></span> finished.<br><br><br>
+can, could, may, might, shall, should, would, must, outght to
+]
+
+---
+## **Adjectives and Adverbs**
+<br>
+### **adjectives** and **adverbs** modify other words<br>
+### providing additional description
+<br>
+.pull-left[
+- **adjectives** modify <span style="color:deeppink"><b>nouns</b></span><br><br>
+- **adverbs** modify <span style="color:green"><b>verbs</b></span><br>
+  <span style="color:blue"><b>adjectives</b></span> and<br>
+  other <span style="color:orange"><b>adverbs</b></span>
+]
+.pull-right[
+<span style="color:deeppink"><b>ferocious</b></span> chihuahua<br><br>
+The chihuahua barked <span style="color:green"><b>angrily</b></span>.<br>
+It was <span style="color:blue"><b>extremely</b></span> aggressive.<br>
+It ran <span style="color:orange"><b>very</b></span>quickly.
+]
+<br><br>
+
+<span style="color:#CC0033"><b>syntactic distribution</b></span>
+<br><br>
+.pull-left[
+- both go <span style="color:green"><b>before</b></span> the word they modify:<br><br>
+- but **adverbs** can go <span style="color:green"><b>before</b></span> or <span style="color:blue"><b>after</b></span> verbs
+]
+.pull-right[
+<span style="color:green"><b>playful</b></span> labrador, <span style="color:green"><b>very</b></span> friendly<br><br>
+I <span style="color:green"><b>quickly</b></span> stopped. / I stopped <span style="color:blue"><b>quickly</b></span>.
+]
+
+---
+## **Adjectives and Adverbs**
+<br>
+### **adjectives** and **adverbs** modify other words<br>
+### providing additional description
+<br>
+**morphological distribution**
+<br><br>
+.pull-left[
+- many English adjectives can inflect for **comparative** and **superlative** with *-er*, *-est*<br><br>
+- <span style="color:green"><b>derivational</b></span> morphemes for adjectives<br>
+*-ish*, *-al*, *-ic*...<br><br>
+- <span style="color:blue"><b>derivational</b></span> morpheme for adverbs: *-ly*<br><br>
+  - though not all adverbs end in *-ly*
+  - and some adjectives end in *-ly*, too
+]
+.pull-right[
+nic**er**, nic**est**<br>
+`*` perfect**er**, `*` perfect**est**<br><br>
+book<span style="color:green"><b>ish</b></span>, person<span style="color:green"><b>al</b></span>, horrif<span style="color:green"><b>ic</b></span><br><br><br>
+happi<span style="color:blue"><b>ly</b></span>, slow<span style="color:blue"><b>slowlve</b></span><br><br>
+My dog runs <span style="color:orange"><b>quickly</b></span><br>
+the friend<span style="color:orange"><b>ly</b></span> cat, the kind<span style="color:orange"><b>ly</b></span> man
+]
+
+---
+## **Determiners**
+### **determiners** help to specify a word's reference
+<br>
+**determiners** gather together many words you may have learned as separate categories:<br><br>
+.pull-left[
+- articles<br><br>
+- possessive pronouns<br><br>
+- demonstratives<br><br>
+- interrogative determiners<br><br>
+- quantifiers
+]
+.pull-right[
+*the*, *a*<br><br>
+*my*, *our*, *your*, *his*, *her*, *their*, *its*<br><br>
+**this** apple, **that** barn<br><br>
+**which** computer, **what** floor<br><br>
+*all*, *some*, *many*
+]
+<br><br>
+**determiners** help to specify a word's reference, what **actual** thing in the world a word refers to<br><br>
+  - dog vs. **my** dog
+
+---
+## **Determiners**
+<br>
+**morphological distribution**<br><br>
+- English determiners don't have any specific morphemes that are typical of them<br>
+- in fact, they tend to be **monomorphemic**<br><br>
+
+**syntactic distribution**<br><br>
+.pull-left[
+- determiners can go <span style="color:green"><b>before</b></span> a noun<br><br>
+- or <span style="color:blue"><b>before</b></span> an adjective, <span style="color:blue"><b>then</b></span> a noun<br><br>
+- English usually doesn't allow <span style="color:orange"><b>two</b></span> determiners in a row
+]
+.pull-right[
+<span style="color:green"><b>the</b></span> apple, <span style="color:green"><b>my</b></span> friend<br><br>
+<span style="color:blue"><b>the</b></span> red apple, <span style="color:blue"><b>my</b></span> good firend<br><br>
+`*` <span style="color:orange"><b>the my</b></span> friend
+]
+
+---
+## **Prepositions**
+### **prepositions** indicate some relationship between a **noun**<br> and the **other words** in a sentence
+<br>
+  - **prepositions** can indicate:<br><br>
+.pull-left[
+- <span style="color:blue"><b>spatial</b></span> relationship<br><br>
+- <span style="color:green"><b>grammatical</b></span> relationships<br><br>
+- <span style="color:orange"><b>conceptual</b></span> relationships
+]
+.pull-right[
+<span style="color:blue"><b>on</b></span> the table<br><br>
+belong <span style="color:green"><b>to</b></span> me<br><br>
+<span style="color:orange"><b>in</b></span> the morning
+]<br><br>
+
+**morphological distribution**: no specific affixes and are often **monomorphemic**<br>
+
+**syntactic distribution**<br><br>
+.pull-left[
+- prepositions go **before** nouns in English<br>
+(pre-position)
+]
+.pull-right[
+**on** topic, **in** time, **with** cheese
+]
+
+---
+## **Conjunctions and Complementisers**
+###**conjunctions** join together two words, phrases, or clauses
+<br>
+  - *and*, *or*, *but*, *because*, *if*, *since*<br><br>
+
+- <span style="color:orange"><b>coordinating conjunctions</b></span> join two words/phrases of the **same type**
+  - *and*, *or*, *but*
+  - <i>cats <span style="color:green"><b>and</b></span> dogs</i>, <i>coffee <span style="color:green"><b>or</b></span> tea</i>
+  - **syntactic distribution**: between the two elements being joined<br><br>
+
+- <span style="color:blue"><b>subordinating conjunctions</b></span> are used to insert one sentence (subordinate clause) into another sentence (main clause) and they are also called <span style="color:blue"><b>complementisers</b></span>
+  - *because*, *that*, *if*, *since*, *whether* 
+  - <i>I went to bed <span style="color:blue"><b>because</b></span> I was tired</i>. / <i><span style="color:blue"><b>If</b></span> you study, you will succeed</i>.
+  - **syntactic distribution**: before the subordinate clause being inserted
+
+---
+## **Tense and Aspect**
+<br>
+### **tense** refers to when an action occurs<br> whether it happens in the <span style="color:blue"><b>past</b></span>, <span style="color:green"><b>present</b></span> or <span style="color:orange"><b>future</b></span>
+.pull-left[
+- tells **WHEN** the action occurs
+- <span style="color:blue"><b>past</b></span> tense: *She walk<span style="color:blue"><b>ed</b></span> to school*.
+- <span style="color:green"><b>present</b></span> tense: *She walk<span style="color:green"><b>s</b></span> to school*
+- <span style="color:orange"><b>future</b></span> tense: *She <span style="color:orange"><b>will</b></span> walk to school.*
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+<span style="color:blue"><b>PST</b></span><br>
+<span style="color:green"><b>PRES</b></span><br>
+<span style="color:orange"><b>FUT</b></span>
+</div>
+]
+<br><br>
+<h3><span style="color:#CC0033"><b>aspect</b></span> refers to the state of the action<br> whether it is <span style="color:blue"><b>ongoing</b></span>, <span style="color:green"><b>completed</b></span> or <span style="color:orange"><b>habitual</b></span></h3>
+.pull-left[
+- tells **HOW** the action unfolds
+- <span style="color:blue"><b>progressive</b></span> aspect: *She <span style="color:blue"><b>is</b></span> walk<span style="color:blue"><b>ing</b></span> to school.*
+- <span style="color:green"><b>perfective</b></span> aspect: *She <span style="color:green"><b>has</b></span> walked to school.*
+- <span style="color:orange"><b>habitual</b></span> aspect: *She walk<span style="color:orange"><b>s</b> </span><span style="color:orange"><b>every day</b></span>.*
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+<span style="color:blue"><b>PROG</b></span><br>
+<span style="color:green"><b>PERF</b></span><br>
+<span style="color:orange"><b>HAB</b></span>
+</div>
+]
+
+---
+## **Tense and Aspect**
+<br>
+### **tense** refers to when an action occurs<br> whether it happens in the <span style="color:blue"><b>past</b></span>, <span style="color:green"><b>present</b></span> or <span style="color:orange"><b>future</b></span>
+.pull-left[
+- tells **WHEN** the action occurs
+- <span style="color:blue"><b>past</b></span> tense: *She walk<span style="color:blue"><b>ed</b></span> to school*.
+- <span style="color:green"><b>present</b></span> tense: *She walk<span style="color:green"><b>s</b></span> to school*
+- <span style="color:orange"><b>future</b></span> tense: *She <span style="color:orange"><b>will</b></span> walk to school.*
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+<span style="color:blue"><b>PST</b></span><br>
+<span style="color:green"><b>PRES</b></span><br>
+<span style="color:orange"><b>FUT</b></span>
+</div>
+]
+<br><br><br><br>
+.pull-left[
+<b>auxiliaries</b><br><br>
+<b>modals</b><br><br><br>
+<b>non-finite tense marker</b>
+]
+.pull-right[
+*has/have/had*, *am/is/are/was/were*, *do/does/did*<br><br>
+*will*, *would*, *shall*, *should*,<br>
+*can*, *could*, *may*, *might*, *must*<br><br>
+*to*
+]
+
+---
+class: center, middle
+# **negation (Neg)**: not
+  
+---
+## **Example from another Language**
+### Nootka, Wakashan 
+<br>
+.pull-left[
+<table style="width:100%; border-collapse:collapse; text-align:left;">
+  <tr>
+    <td>(a)</td>
+    <td>mamu:k<span style="color:blue">-ma</span></td>
+    <td>qu:ʔas<span style="color:green">-ʔi</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>working<span style="color:blue">-PRES</span></td>
+    <td>man<span style="color:green">-DEF</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>'The man is working.'</td>
+    <td></td>
+  </tr>
+  
+  <tr><td><span style="color:white">-</span></td></tr>
+  
+  <tr>
+    <td>(b)</td>
+    <td>qu:ʔas<span style="color:blue">-ma</span></td>
+    <td>mamu:k<span style="color:green">-ʔi</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>man<span style="color:blue">-PRES</span></td>
+    <td>walking<span style="color:green">-DEF</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>'The working one is a man.'</td>
+    <td></td>
+  </tr>
+</table>
+]
+.pull-right[
+- <span style="color:blue"><b>PRES</b></span> = present tense<br>
+- <span style="color:green"><b>DEF</b></span> = definite<br><br>
+
+1. What’s the **noun** in (a)? What’s the <span style="color:orange"><b>verb</b></span>?<br><br>
+2. What’s the **noun** in (b)? What’s the <span style="color:orange"><b>verb</b></span>?
+]
+<br>
+--
+
+<h3>in both sentences:</h3>
+<br>
+- the first part is the <span style="color:orange"><b>verb</b></span><br>
+  - indicated by the presence of the <span style="color:blue"><b>present tense</b></span> morpheme <span style="color:blue">-ma</span><br><br>
+
+-  the second part is the **noun**<br>
+  - indicated by the <span style="color:green"><b>definite</b></span> morpheme <span style="color:green">-ʔi</span>
+
+
+---
+## **Open and Closed Classes**
+<br>
+- parts of speech can be divided into **open** and **closed classes**<br><br>
+- **open class**: words have more of a **lexical** meaning<br><br>
+  - typical dictionary definition
+  - it's fairly easy to *borrow* or *coin* new words in these categories
+  - nouns, verbs, adjectives, and adverbs<br><br>
+- **closed class**: words have more of a **grammatical** meaning<br><br>
+  - it's less common, but not impossible, to borrow or coin new words in these categories
+  - determiners, prepositions, conjunctions, complementisers, tense
+
+---
+## **Exercise II: Parts of Speech**
+<br>
+.pull-left[
+<img src="../pic/0923/pos.jpg" width="90%">
+]
+.pull-right[
+for every word in the sentences below, identify its **parts of speech** (lexical category)<br><br>
+1. Mary will come tomorrow.<br><br><br>
+2. John went to New York yesterday.<br><br><br>
+3. A cat is under the table.<br><br><br>
+4. Her dad was fixing a car.
+]
+
+---
+## **Summary**
+<br>
+- **parts of speech** are categories of words that tend to behave in similar ways:<br><br>
+  - noun, verb, adjective, adverb, determiner, preposition, conjunction, complementiser, tense<br><br>
+- we often learn them in school by definition<br><br>
+- but we figure them out here based on **context**, by considering their:<br><br>
+  - **morphological distribution** – what kinds of morphemes they have.
+  - **syntactic distribution** – where they tend to appear in the sentence<br><br>
+- by examining their **distribution**, we can notice patterns in the way certain types of words behave<br><br>
+- and this will be fundamental to our understanding of **syntax**, as we start putting words together to form **sentences**
+
+---
+class: center, middle
+**Homework I** is due this Sunday (**Feb 15**)<br><br>
+**Homework II** will be published this Sunday, and it is due next Sunday (**Feb 22**)<br><br>
+<span style="color:green"><b>continue reading</b></span> Chapter 2: Part of Speech from <i>Andrew Carnie's Syntax textbook</i><br><br>
+<img src="../pic/0923/fine.jpeg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

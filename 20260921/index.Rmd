@@ -1,0 +1,496 @@
+---
+title: "**Morphology IV**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/09/21 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+
+---
+## **Selectional Restrictions and Order**
+<br>
+.pull-left[
+the **selectional restrictions** of affixes often help us **determine** the order in which
+they were attached<br><br>
+- consider the following polymorphemic word<br><br>
+  - <i>**re**-<b>play-<span style="color:green">able</span></b></i><br><br>
+- which affix was attached **first** to the root *<b>play</b>*?
+]
+.pull-right[<img src="../pic/0921/morphosyn.jpg" width="65%">]<br><br><br><br>
+
+--
+
+- ***re-*** has to be attached first, since it cannot attach to adjectives <br><br>
+  - *<b>play</b>* → <i>**re**-<b>play</b></i> → <i>**re**-<b>play-<span style="color:green">able</span></b></i>
+
+
+---
+## **Morphological Tree Drawing**
+### **De-humid-ify-er**
+<br>
+1. identify the word's morphemes and write them out separately in one row
+2. identify the root (or roots) and label its **part of speech**
+3. look at the morphemes immediately before and after the root<br>
+  check **which one is added first**, draw lines upward connecting them, <br>
+  and **label** the new words's part of speech
+4. this new word becomes the base you'll keep building off of<br>
+  **repeat step 3** using this new base<br><br>
+
+--
+<img src="../pic/0921/how1.png" width="23%">
+
+--
+<img src="../pic/0921/how2.png" width="23%">
+
+--
+<img src="../pic/0921/how3.png" width="23%">
+
+--
+<img src="../pic/0921/how4.png" width="23%">
+
+
+---
+## **Morphological Structure: Ambiguity**
+<br><br>
+.pull-left[
+<br><br><br>
+.pull-left[
+*un* + *able*<br><br>
+<img src="../pic/0921/undo3.png" width="90%">
+]
+.pull-right[
+*undo* + *able*<br><br>
+<img src="../pic/0921/undo4.png" width="90%">
+]
+]
+.pull-right[
+- the case of **unlockable** is an example of a word with an **ambiguous structure**<br><br>
+- depending on the structure you assign it, it has a **different meaning**<br><br>
+- both meanings are acceptable <br><br>
+- which means the **meaning** of words is directly affected by their morphological structure<br><br>
+- that's why **structure** is important, without knowing the structure, we would not be able to be **compositional** properly
+]
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Morphological Processes
+</div>
+
+
+---
+## **Morphological Process I: Affixation**
+<br>
+.pull-left[
+- **affixation**: adding an affix (a prefix, suffix, infix, or circumfix)<br><br>
+  - depending on the type of affix, also called <span style="color:green"><b>prefixation</b></span>, <span style="color:blue"><b>suffixation</b></span>, **infixation**, <span style="color:orange"><b>circumfixation</b></span><br><br>
+  - <span style="color:green"><b>prefixation</b></span><br>
+  *<span style="color:green"><b>re-</b></span> + visit → revisit*<br>
+  - <span style="color:blue"><b>suffixation</b></span><br>
+  *modern + <span style="color:blue"><b>-ize</b></span>* → *modernize*<br>
+  - **infixation**<br>
+  (Tagalog) *bili* 'buy' → *b**-um-**ili* 'to buy'<br>
+  - <span style="color:orange"><b>circumfixation</b></span><br>
+  (Indonesian) *ajar* 'teach' → *<span style="color:orange"><b>pel</b></span>-ajar-<span style="color:orange"><b>an</b></span>* 'subject'
+]
+.pull-right[
+<br><br>
+<img src="../pic/0921/suffix.jpg" width="90%">]
+
+---
+## **Morphological Process II: Compounding**
+<br>
+.pull-left[
+- **compounding**: combining **two or more roots** into a single word<br><br>
+  - *tree + house → treehouse*
+  - *blue + bird → bluebird*
+  - *snow + white → Snowwhite*<br><br>
+- compound words usually contains more specific meaning than two separate words<br><br>
+- compound words often sound different from the words used separately – <u>one of the roots will be pronounced with **less stress**</u> than if it had been a separate word:<br><br>
+  - *Abraham Lincoln was born in a log cabin – a <span style="color:green"><b>tree house</b></span>*.
+  - *The child played in a <span style="color:orange"><b>treehouse</b></span>*.
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0921/treehouse1.png" width="50%"><br><br>
+<img src="../pic/0921/treehouse2.png" width="70%">
+</div>
+]
+
+---
+## **Morphological Process II: Compounding**
+<br>
+.pull-left[
+- **compounding**: combining **two or more roots** into a single word<br><br>
+- different languages have different rules for compounding<br><br>
+- **Germanic languages** are well-known for <u>permitting lots of compounding</u><br><br>
+<div style="text-align:center">
+<img src="../pic/0921/german.png" width="100%">
+</div><br>
+- **English** is also a Germanic language and allows this kind of compounding<br><br>
+- the meaning of compounds is usually **non-compositional**
+]
+.pull-right[
+<br><br><img src="../pic/0921/literal.jpg" width="100%">
+]
+
+
+---
+## **broken vs. broken-broken**
+<br>
+.pull-left[
+listen to this anecdote about a train breaking down
+<br><br>
+1. what does the speaker mean when he says the train was **broken vs. broken-broken**?<br><br>
+2. what's the **difference**? <br><br>
+[video](https://www.youtube.com/watch?v=Xi-xmOhd2vo&t=250)
+]
+.pull-right[
+<img src="../pic/0921/meme.png" width="100%">
+]
+<br><br><br>
+<img src="../pic/0921/cat1.png" width="24%">
+<img src="../pic/0921/cat2.png" width="24%">
+<img src="../pic/0921/cat3.png" width="24%">
+<img src="../pic/0921/cat4.png" width="24%">
+
+---
+## **Morphological Process III: Reduplication**
+<br>
+.pull-left[
+- **reduplication**: repeating all or part of a morpheme<br><br>
+- <span style="color:green"><b>English</b></span> examples:<br><br>
+  - *Do you just like him as a friend, or do you <span style="color:#CC0033"><b>like-like</b></span> him*?<br><br>
+  - *Yesterday, we just went out for coffee, but this weekend we're going on a <span style="color:#CC0033"><b>date-date</b></span>*.<br><br>
+  - *Whenever we go to a <span style="color:#CC0033"><b>fancy-shmancy</b></span> restaurant, we feel like James Bond*.<br><br>
+  - *He's just a baby! <span style="color:#CC0033"><b>Baby-shmaby</b></span>, he's five years old*!
+]
+.pull-right[
+<br><br><img src="../pic/0921/wugwug.png" width="70%">
+]
+
+
+---
+## **Morphological Process III: Reduplication**
+<br>
+.pull-left[
+<br>
+<img src="../pic/0921/diction.jpg" width="100%">
+]
+.pull-right[
+- **reduplication** is more productive in some other languages, serves an explicit **grammatical** purpose:<br><br>
+
+**full reduplication**: repeat **ALL** of a morpheme
+- <span style="color:orange"><b>Indonesian</b></span> plural
+  - *orang* 'person' $\rightarrow$ *orang*-*orang* 'people'
+- <span style="color:green"><b>Chinese</b></span> intensified adjective:
+  - <em>kʰai<sup>55</sup>ʂin<sup>55</sup></em> 'happy' $\rightarrow$ <em>kʰai<sup>55</sup>kʰai<sup>55</sup> ʂin<sup>55</sup>ʂin<sup>55</sup></em> 'very happy'
+<br><br>
+
+**partial reduplication**: repeat **PART** of a morpheme
+- <span style="color:blue"><b>Tagalog</b></span> future
+  - *bili* 'buy' $\rightarrow$ *<b>bi</b>-bili* 'will buy'
+- <span style="color:brown"><b>Kazakh</b></span> intensified adjective:
+  - *tætti* 'sweet' $\rightarrow$ *<b>tæp</b>-tætti* 'very sweet'
+]
+
+
+---
+## **Morphological Process IV: Alternation**
+<br>
+.pull-left[
+- **alternation**: changing one or more sounds within the morpheme<br><br>
+- usually <u>most of the sounds stay the same</u>, but one or a few are changed
+- alternation can result in *irregular* nouns, verbs, etc.<br>
+- what is the difference in **sound** in these words and what is the difference in **meaning**? (inflection or derivation?)<br><br>
+  - <i>goose</i>, <i>g**ee**se</i>
+  - <i>r**i**ng</i>, <i>r**a**ng</i>, <i>r**u**ng</i>
+  - <i>Does the baby have tee**th** yet? No, she hasn't yet started to tee**the**</i>.
+  - this tool has no u**se**. What are you talking about – I u**se** it every day</i>.
+]
+.pull-right[<br><br><img src="../pic/0921/geese.jpg" width="100%">]
+
+---
+## **Morphological Process V: Suppletion**
+<br>
+.pull-left[<br><img src="../pic/0921/goodest.jpg" width="100%">]
+.pull-right[
+- **suppletion**: when an inflected form is **phonetically very different** from other forms of the same word (the result is even more highly irregular)<br><br>
+- **English** examples:<br><br>
+<div style="text-align:center">PAST TENSE</div>
+  - **regular**: *walk → walked*, *jump → jumped*<br>
+  - <span style="color:green"><b>suppletive</b></span>: *is → was*, *go → went*<br><br>
+<div style="text-align:center">COMPARATIVE / SUPERLATIVE</div>
+  - **regular**: *nice → nicer → nicest*<br>
+  <span style="color:white"><b>regular</b>:</span> *big → bigger → biggest*<br>
+  - <span style="color:green"><b>suppletive</b></span>: *good → better → best*<br>
+  <span style="color:white"><b>suppletive</b>:</span> *bad → worse → worst*
+]
+
+
+---
+class:middle, center
+## **Multiple Processes**
+<br><br><br>
+### some words exhibit **multiple morphological processes**
+<br><br>
+### *break* → *broke* (alternation)<br>
+### *break* → *brok(e)-en* (alternation + suffixing)
+
+
+---
+## **Morphological Process VI: Zero Derivation**
+<br>
+<img src="../pic/0921/zeroderivation.jpg" width="100%">
+<br><br>
+how is Calvin (the child) using language in a creative or unusual way?<br>
+is Hobbes (the tiger) correct that Calvin's phrasing is a "complete impediment to understanding"?
+
+---
+## **Morphological Process VI: Zero Derivation**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/0921/derivation.jpg" width="100%">
+]
+.pull-right[
+- we know that **derivational** morphemes can change a word's part of speech:
+  - *magnet* (N) → *magnet-ize* (V)
+  - *atom* (N) → *atom-ic* (Adj)<br><br>
+- English can sometimes change a word's **part of speech** without adding anything
+  - *I'm going to <span style="color:#CC0033"><b>jump</b></span> (V) over that railing*.
+  - *That was a nice <span style="color:#CC0033"><b>jump</b></span> (N)*!<br><br>
+  - *Please send me an <span style="color:#CC0033"><b>email</b></span> (N) about that*.
+  - *OK, I <span style="color:#CC0033"><b>emailed</b></span> (V) you*!<br><br>
+- **zero-derivation**: deriving a new word with a **different part of speech** by adding nothing <br><br>
+- not all languages can do this! how about yours?
+]
+
+---
+## **Exercise: Morphological Processes**
+<br>
+identify the **morphological processes** involved in each of the following words.
+<br><br>
+<b>affixation</b> (prefixation, suffixation), <b>compounding</b>, <b>reduplication</b>, <b>alternation</b>, <b>suppletion</b>
+<br><br>
+.pull-left[
+- feed → fed <br><br>
+- leaf → leaves <br><br>
+- peace → peaceful <br><br>
+- foot, ball → football <br><br>
+- good → best <br><br>
+]
+.pull-right[
+- chair, woman → chairwomen <br><br>
+- back, pack → backpacks <br><br>
+- date → date-dated <br><br>
+- go → underwent <br><br>
+- ox → oxen
+]<br>
+<img src="../pic/0921/cat1.png" width="19%">
+<img src="../pic/0921/cat2.png" width="19%">
+<img src="../pic/0921/cat3.png" width="19%">
+<img src="../pic/0921/cat4.png" width="19%">
+<img src="../pic/0921/cat1.png" width="19%">
+
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Morphological Types of Languages
+</div>
+
+---
+## **Morphological Types of Languages**
+<br>
+languages can be classified according to the way they **use** or **don’t use** <u>morphological processes</u><br><br>
+
+--
+
+.pull-left[
+**analytic/isolating language**<br><br>
+- made up of sequences of **free morphemes**
+- NO <span style="color:green"><b>affixes</b></span> are used to compose words
+- <span style="color:blue"><b>Mandarin Chinese</b></span>
+  - the past tense is expressed with a functional free morpheme (tones omitted):
+<div style="text-align:center"><br>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="text-align:left;">(a)</td>
+    <td style="text-align:left;">[wɔ<sup>214</sup></td>
+    <td style="text-align:left;">mə<sup>35</sup>n</td>
+    <td style="text-align:left;">tæ<sup>35</sup>n</td>
+    <td style="text-align:left;">tɕi<sup>35</sup>n]</td>
+    <td style="text-align:left; color:white">lə</td>
+  </tr>
+  <tr>
+    <td style="text-align:left;color:white">(a)</td>
+    <td style="text-align:left;"><i>I</i></td>
+    <td style="text-align:left;"><i>plural</i></td>
+    <td style="text-align:left;"><i>play</i></td>
+    <td style="text-align:left;"><i>piano</i></td>
+    <td style="text-align:left; color:white">lə</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:left;color:white">(a)</td>
+    <td colspan="5" style="text-align:left; padding-bottom:20px;">
+    'We are playing the piano.'
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:left;">(b)</td>
+    <td style="text-align:left;">[wɔ<sup>214</sup></td>
+    <td style="text-align:left;">mə<sup>35</sup>n</td>
+    <td style="text-align:left;">tæ<sup>35</sup>n</td>
+    <td style="text-align:left;">tɕi<sup>35</sup>n]</td>
+    <td style="text-align:left;">lə</td>
+  </tr>
+  <tr>
+    <td style="text-align:left;color:white">(b)</td>
+    <td style="text-align:left;"><i>I</i></td>
+    <td style="text-align:left;"><i>plural</i></td>
+    <td style="text-align:left;"><i>play</i></td>
+    <td style="text-align:left;"><i>piano</i></td>
+    <td style="text-align:left;">lə</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:left;color:white">(b)</td>
+    <td colspan="5" style="text-align:left;">
+    'We played/have played the piano.'
+    </td>
+  </tr>
+</table>
+</div>
+]
+.pull-right[
+<br>
+<img src="../pic/0921/type.png" width="100%">
+]
+
+---
+## **Morphological Types of Languages**
+<br>
+languages can be classified according to the way they **use** or **don’t use** <u>morphological processes</u><br><br>
+
+--
+**synthetic language**<br><br>
+- **bound morphemes** can be attached to other morphemes
+- so a word can be made of <span style="color:green"><b>several types</b></span> of meaningful elements 
+- yet there are different ways to put together morphemes, resulting in different types of synthetic languages:
+___
+
+--
+
+.pull-left[
+A. **agglutinating**: the morphemes are joined together loosely, it is easy to determine the boundaries between morphemes
+  - one morpheme has **only one** meaning<br>
+  - <span style="color:blue"><b>Japanese</b></span>, Turkish, etc.
+<br><br>
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="text-align:left;">piano</td>
+    <td style="text-align:left;">o</td>
+    <td style="text-align:left;">hiki</td>
+    <td style="text-align:left;">-ma</td>
+    <td style="text-align:left;">-shi</td>
+    <td style="text-align:left;">-ta</td>
+  </tr>
+  <tr>
+    <td style="text-align:left;">piano</td>
+    <td style="text-align:left;">ACC</td>
+    <td style="text-align:left;">play</td>
+    <td style="text-align:left;">POL</td>
+    <td style="text-align:left;">POL</td>
+    <td style="text-align:left;">PST</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="6" style="text-align:left; padding-bottom:20px;">
+    'We played the piano.'
+    </td>
+  </tr>
+</table>
+]
+
+--
+
+.pull-right[
+B. **fusional**: morphemes are “fused” with
+the stem and can be hard to tell where the boundary is
+  - a single affix can convey **several** meanings simultaneously and there can be **alternations** to
+the forms of both the stems and affixes
+  - <span style="color:blue"><b>Greek</b></span>, Spanish, etc.
+<br><br>
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="text-align:left;">pez</td>
+    <td style="text-align:left;">-a</td>
+    <td style="text-align:left;">-me</td>
+    <td style="text-align:left;">to</td>
+    <td style="text-align:left;">piano</td>
+  </tr>
+  <tr>
+    <td style="text-align:left;">play</td>
+    <td style="text-align:left;">TH</td>
+    <td style="text-align:left;">1PL.PST</td>
+    <td style="text-align:left;">the</td>
+    <td style="text-align:left;">piano</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="5" style="text-align:left; padding-bottom:20px;">
+    'We were playing the piano.'
+    </td>
+  </tr>
+</table>
+]
+
+---
+class: center, middle
+## **DISCUSSION**
+<br><br>
+### Is English **analytic** or **synthetic**, and it if it is synthetic, is it <span style="color:green"><b>agglutinating</b></span> or <span style="color:green"><b>fusional</b></span>?
+
+---
+class: center, middle
+**Homework I** is due this Friday (**Sept 25**)<br><br>
+**Homework II** will be published before next Wednesday, and it is due next Friday (**Oct 02**)<br><br>
+<span style="color:green"><b>reading</b></span> Chapter 2: Part of Speech from <i>Andrew Carnie's Syntax textbook</i><br><br>
+<img src="../pic/0921/fine.jpeg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
