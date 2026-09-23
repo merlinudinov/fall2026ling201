@@ -489,7 +489,7 @@ class: center, middle
 ---
 class: center, middle
 **Homework I** is due this Friday (**Sept 25**)<br><br>
-**Homework II** will be published before next Wednesday, and it is due next Friday (**Oct 02**)<br><br>
+**Homework II** will be published before next Wednesday (**Sept 30**), and it is due Friday after next week (**Oct 09**)<br><br>
 <span style="color:green"><b>reading</b></span> Chapter 2: Part of Speech from <i>Andrew Carnie's Syntax textbook</i><br><br>
 <img src="../pic/0921/fine.jpeg" width="55%">
 <br><br>
