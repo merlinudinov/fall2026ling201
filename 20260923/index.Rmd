@@ -779,7 +779,7 @@ can, could, may, might, shall, should, would, must, outght to
 <span style="color:deeppink"><b>ferocious</b></span> chihuahua<br><br>
 The chihuahua barked <span style="color:green"><b>angrily</b></span>.<br>
 It was <span style="color:blue"><b>extremely</b></span> aggressive.<br>
-It ran <span style="color:orange"><b>very</b></span>quickly.
+It ran <span style="color:orange"><b>very</b></span> quickly.
 ]
 <br><br>
 
@@ -814,7 +814,7 @@ I <span style="color:green"><b>quickly</b></span> stopped. / I stopped <span sty
 nic**er**, nic**est**<br>
 `*` perfect**er**, `*` perfect**est**<br><br>
 book<span style="color:green"><b>ish</b></span>, person<span style="color:green"><b>al</b></span>, horrif<span style="color:green"><b>ic</b></span><br><br><br>
-happi<span style="color:blue"><b>ly</b></span>, slow<span style="color:blue"><b>slowlve</b></span><br><br>
+happi<span style="color:blue"><b>ly</b></span>, slow<span style="color:blue"><b>ly</b></span><br><br>
 My dog runs <span style="color:orange"><b>quickly</b></span><br>
 the friend<span style="color:orange"><b>ly</b></span> cat, the kind<span style="color:orange"><b>ly</b></span> man
 ]
@@ -826,14 +826,14 @@ the friend<span style="color:orange"><b>ly</b></span> cat, the kind<span style="
 **determiners** gather together many words you may have learned as separate categories:<br><br>
 .pull-left[
 - articles<br><br>
-- possessive pronouns<br><br>
+- **possessive pronouns**<br><br>
 - demonstratives<br><br>
 - interrogative determiners<br><br>
 - quantifiers
 ]
 .pull-right[
 *the*, *a*<br><br>
-*my*, *our*, *your*, *his*, *her*, *their*, *its*<br><br>
+<b><i>my</i></b>, <b><i>our</i></b>, <b><i>your</i></b>, <b><i>his</i></b>, <b><i>her</i></b>, <b><i>their</i></b>, <b><i>its</i></b><br><br>
 **this** apple, **that** barn<br><br>
 **which** computer, **what** floor<br><br>
 *all*, *some*, *many*
