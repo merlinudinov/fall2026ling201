@@ -737,7 +737,7 @@ dream, feel, rest<br><br>
 <br>
 **morphological distribution**: what kind of morphemes can <span style="color:green"><b>English</b></span> **verbs** have?<br><br>
 .pull-left[
-- verbs can be conjugated for <span style="color:blue"><b>tense</b></span> & <span style="color:green"><b>subject</b></span><br><br>
+- verbs can be conjugated for <span style="color:blue"><b>tense</b></span> & <span style="color:green"><b>aspect</b></span><br><br>
 - derivational morphemes can make verbs<br>
 <span style="color:orange"><b>-ise</b></span>, <span style="color:orange"><b>-ify</b></span>, <span style="color:orange"><b>-ate</b></span>, <span style="color:orange"><b>-en</b></span>...
 ]
@@ -1075,7 +1075,7 @@ for every word in the sentences below, identify its **parts of speech** (lexical
 ---
 class: center, middle
 **Homework I** is due this Friday (**Sept 25**)<br><br>
-**Homework II** will be published before next Wednesday (**Sept 30**), and it is due Friday after next week (**Oct 09**)<br><br>
+**Homework II** will be published before today (**Sept 23**), and it is due next Friday (**Oct 02**)<br><br>
 <span style="color:green"><b>continue reading</b></span> Chapter 2: Part of Speech from <i>Andrew Carnie's Syntax textbook</i><br><br>
 <img src="../pic/0923/fine.jpeg" width="55%">
 <br><br>
