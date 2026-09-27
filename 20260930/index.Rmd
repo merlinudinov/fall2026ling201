@@ -1,0 +1,503 @@
+---
+title: "**Syntax III**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/09/30 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+
+---
+## **Previously on 201: Constituent and Its Types**
+<br>
+- **constituent**: a group of words that <span style="color:green"><b>acts together</b></span> as a **unit** <br><br>
+- **phrases**: types of constituents, different types are decided by the **part of speech** of the **head**
+<br><br>
+  - <span style="color:blue"><b>noun phrase</b></span> (<span style="color:blue"><b>NP</b></span>): *<u>man</u>, the <u>man</u>, the happy <u>man</u>, the <u>man</u> with the hat*<br><br>
+  - <span style="color:green"><b>prepositional phrase</b></span> (<span style="color:green"><b>PP</b></span>): *<u>into</u> the forest, <u>by</u> the author, <u>for</u> good luck*<br><br>
+  - **verb phrase** (<span style="color:#CC0033"><b>VP</b></span>): *<u>eats</u>, <u>eats</u> pizza, <u>eats</u> quickly, <u>eats</u> pizza quickly at noon*<br><br>
+  - <span style="color:orange"><b>adjective phrase</b></span> (<span style="color:orange"><b>AdjP</b></span>): *<u>happy</u>, <u>ugly</u>*<br><br>
+  - <span style="color:deeppink"><b>adverb phrase</b></span> (<span style="color:deeppink"><b>AdvP</b></span>): *<u>quickly</u>, <u>happily</u>*<br><br>
+- **constituency tests**: to test whether a string of words is a constituent or not<br><br>
+  - replacement, movement, fragment, coordination
+
+---
+class: center, middle
+# **I saw the man with a telescope.**
+<br><br>
+### this sentence has **two** possible interpretations<br><br>
+### what are they?<br><br>
+### in each interpretation, who is <i><span style="color:blue">with a telescope</span></i><br><br>
+
+---
+<br>
+<div style="color:#CC0033; text-align:center">
+<h2><b>I saw the man with a telescope.</b></h2>
+</div>
+<br>
+.pull-left[
+<div style="border:2px solid #bfbfbf; padding:4px; text-align:center">
+<b>Interpretation 1</b><br>
+I used a telescope and I saw a man.
+</div>
+<br>
+<div style="text-align:center">
+<img src="../pic/0930/telescope1.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="border:2px solid #bfbfbf; padding:4px; text-align:center">
+<b>Interpretation 2</b><br>
+I saw the man who has a telescope.
+</div>
+<br>
+<div style="text-align:center">
+<img src="../pic/0930/telescope2.png" width="90%">
+</div>
+]
+
+---
+<br>
+<div style="color:#CC0033; text-align:center">
+<h2><b>I saw the man with a telescope.</b></h2>
+</div>
+<br>
+.pull-left[
+<div style="border:2px solid #bfbfbf; padding:4px; text-align:center">
+<b>Interpretation 1</b><br>
+I used a telescope and I saw a man.
+</div>
+<br>
+<div style="text-align:center">
+<img src="../pic/0930/telev.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="border:2px solid #bfbfbf; padding:4px; text-align:center">
+<b>Interpretation 2</b><br>
+I saw the man who has a telescope.
+</div>
+<br>
+<div style="text-align:center">
+<img src="../pic/0930/telen.png" width="90%">
+</div>
+]
+
+---
+<br>
+<div style="color:#CC0033; text-align:center">
+<h2><b>I saw the man with a telescope.</b></h2>
+</div>
+<br>
+.pull-left[
+<div style="border:2px solid #bfbfbf; padding:4px; text-align:center">
+<b>Interpretation 1</b><br>
+I used a telescope and I saw a man.
+</div>
+<br>
+<div style="text-align:center">
+<img src="../pic/0930/televmod.png" width="90%">
+</div>
+]
+.pull-right[
+<div style="border:2px solid #bfbfbf; padding:4px; text-align:center">
+<b>Interpretation 2</b><br>
+I saw the man who has a telescope.
+</div>
+<br>
+<div style="text-align:center">
+<img src="../pic/0930/telenmod.png" width="90%">
+</div>
+]
+
+---
+class: center, middle
+# ***I saw the man with a telescope.***
+<br><br>
+### an example of **structural ambiguity**<br><br>
+### but we did not look at it via **syntax trees** to visualize its two possible structures<br><br>
+### the syntax trees on the previous page show how there are two ways to interpret what *<u>[with a telescope]</u>* **modifies**<br><br>
+### the meaning of a sentence ≠ sum of its words, **syntactic structure** also contributes to meaning<br><br><br><br>
+## HOW DO WE DRAW TREES THEN!
+
+---
+## **Phrase Structure Rules** (PSRs)
+<br>
+- there are (descriptive) rules that indicate **how phrases are built out of smaller units** (which could be words or other phrases)<br><br>
+  - these rules are called **phrase structure rules** <br><br>
+  - they indicate the order and position of the smaller units in a phrase <br><br>
+
+- we derive these rules by observing what are the possible structures that exist in **natural language**<br><br>
+
+.pull-left[
+<br><br>
+<h3><b><span style="color:blue">NP</span></b> → (D) (AdjP+) <b><span style="color:blue">N</span></b> (PP+)</h3>
+]
+
+.pull-right[
+<img src="../pic/0930/teacher.png" width="70%">
+]
+
+---
+## **Notational Notes**
+<br>
+phrase structure rules indicate the **order** and **position** of the sub-parts
+<br><br>
+.pull-left[
+<img src="../pic/0930/notation1.png" width="90%">
+]
+.pull-right[
+<h3><b><span style="color:blue">NP</span></b> → (D) (AdjP+) <b><span style="color:blue">N</span></b> (PP+)</h3><br>
+<img src="../pic/0930/teachernode.png" width="100%">
+]
+
+---
+## **Phrase Structure Rules for English**
+<br>
+.pull-left[
+- <h3><b><span style="color:blue">NP</span></b> → (D) (AdjP+) <b><span style="color:blue">N</span></b> (PP+)</h3><br>
+- <h3><b><span style="color:green">PP</span></b> → <b><span style="color:green">P</span></b> NP</h3><br>
+- <h3><b><span style="color:orange">AdjP</span></b> → (AdvP) <b><span style="color:orange">Adj</span></b></h3><br>
+- <h3><b><span style="color:deeppink">AdvP</span></b> → (AdvP) <b><span style="color:deeppink">Adv</span></b></h3><br>
+]
+.pull-right[
+- <h3><b><span style="color:brown">TP</span></b> → NP <b><span style="color:brown">(T)</span></b> VP</h3><br>
+- <h3><b><span style="color:teal">CP</span></b> → <b><span style="color:teal">C</span></b> TP</h3><br>
+]
+- <h3><b><span style="color:#CC0033">VP</span></b> → (AdvP+) <b><span style="color:#CC0033">V</span></b> (NP) (NP) (AdvP+) (PP+) (AdvP+)</h3>
+
+---
+## **Noun Phrases (NP)**
+<br>
+.pull-left[
+- a noun phrase consists of **a noun** and all the words that **modify** it<br><br>
+- the simplest NP is a single noun:
+  - *Harriet*, *dogs*, *soup*, *snow*<br><br>
+- an <span style="color:blue"><b>NP</b></span> can also include any of the following:
+  - a <span style="color:blue"><b>determiner</b></span><br>
+  <i><span style="color:blue"><b>the</b></span> hat</i>, <i><span style="color:blue"><b>my</b></span> shoes</i>, <i><span style="color:blue"><b>this</b></span> idea</i>, <i><span style="color:blue"><b>which</b></span> tree</i><br><br>
+  - one or more <span style="color:orange"><b>adjective phrases</b></span> (AdjP)<br>
+  <i><span style="color:orange"><b>blue</b></span> sky</i>, <i>a <span style="color:orange"><b>great</b></span> time</i>, <i><span style="color:orange"><b>big red</b></span> trucks</i><br><br>
+  - one or more prepositional phrases (PP)<br>
+  <i>spaghetti <span style="color:green"><b>with meatballs</b></span></i>, <i>trees <span style="color:green"><b>in the yard</b></span></i>, <i>the tall bridge <span style="color:green"><b>over the river</b></span></i>
+]
+.pull-right[
+<img src="../pic/0930/nounph.jpg" width="90%">
+]
+
+- **note**: an adjective will **always** go in a separate AdjP, for reasons we'll discuss soon in a few pages later<br><br>
+
+---
+## **Phrase Structure Rules: Take NP as an Example**
+<br>
+.pull-left[
+- **notational notes** once again:<br><br>
+  - order **matters** – elements always appear in the order given in the rule<br><br>
+  - parentheses = **optional** element<br><br>
+  - no parentheses = **obligatory** element<br><br>
+  - plus sign (+) = one or more<br><br>
+- so the rule for <span style="color:blue"><b>noun phrases</b></span> means that a noun phrase consists of (in order):
+  - optional determiner
+  - one or more optional adjective phrase(s)
+  - the <span style="color:blue"><b>noun</b></span>
+  - one or more optional prepositional phrase(s)
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0930/notation1.png" width="60%">
+<h3><b><span style="color:blue">NP</span></b> → (D) (AdjP+) <b><span style="color:blue">N</span></b> (PP+)</h3><br>
+<img src="../pic/0930/teacher.png" width="60%">
+</div>
+]
+
+---
+## **Syntax Trees Drawn by Phrase Structure Rules**
+<br>
+1. write the **words** at the bottom
+2. label their **parts of speech**
+3. figure out how they **combine** into phrases
+4. write phrase type above and connect **all** its elements with lines – some phrases contain other phrases
+5. tree should reflect an **existing PSR**: phrase type on left of PSR at top elements on right of PSR at bottom
+<br><br>
+
+<div style="text-align:center">
+<h3><i>the bright sun</i></h3>
+</div>
+<br>
+--
+<img src="../pic/0930/b1.png" width="20%" style="margin-right:45px;">
+--
+<img src="../pic/0930/b2.png" width="20%" style="margin-right:45px;">
+--
+<img src="../pic/0930/b3.png" width="20%" style="margin-right:45px;">
+--
+<img src="../pic/0930/b4.png" width="20%" style="margin-right:45px;">
+
+
+---
+## **Adjective Phrase (AdjP), Adverb Phrase (AdvP)**
+<br>
+.pull-left[
+<img src="../pic/0930/well.jpg" width="80%">
+]
+.pull-right[
+consider the following sentence, and think about whether <i><span style="color:#CC0033">happy</span></i> and <i><span style="color:green">quickly</span></i> are constituents?<br><br>
+<div style="text-align:center">
+<i>The <i><span style="color:#CC0033">happy</span></i> dog ran <i><span style="color:green">quickly</span></i></i>.
+</div>
+<br>
+- **constituency tests**:<br><br>
+  - How was the dog who ran quickly? <i><span style="color:#CC0033">Happy</span></i>! (stand alone)
+  - How did the happy dog run? <i><span style="color:green">Quickly</span></i>! (stand alone)
+  - The happy dog ran like that. (replacing <i><span style="color:green">quickly</span></i>)<br><br>
+- <b><span style="color:orange">adjectives</b></span> and <b><span style="color:deeppink">adverbs</b></span> are their own constituents, so they need to be put into their own phrases: <b><span style="color:orange">AdjP</b></span> and <b><span style="color:deeppink">AdvP</b></span>
+]
+
+---
+## **Adjective Phrases (AdjP)**
+<br>
+.pull-left[
+- most basic <span style="color:orange"><b>AdjP</b></span>: one adjective (AdjP → Adj) <br>
+  - it can be inserted into an <span style="color:blue"><b>NP</b></span> as shown on the right <br><br>
+- **Modification Rule**
+  - *a phrase that modifies a word must be a <b>sibling</b> of that word*
+  - make a guess, what is this sibling?<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0930/slowcar.png" width="60%">
+</div>
+]<br>
+
+--
+
+.pull-left[
+- by making the <span style="color:orange"><b>AdjP</b></span> for <u><i>slow</i></u> a sibling of the **N** <u><i>car</i></u>, we're showing that *<u><i>slow</i></u>* modifies <u><i>car</i></u><br><br>
+- we can verify they are siblings by checking they have the same **parent**: both the <span style="color:orange"><b>AdjP</b></span> and the **N** <u><i>car</i></u> have <span style="color:blue"><b>NP</b></span> as parent
+]
+.pull-right[
+]
+
+
+---
+## **Adjective Phrases (AdjP)**
+<br>
+.pull-left[
+- <span style="color:orange"><b>AdjP</b></span>s can optionally contain an <span style="color:deeppink"><b>adverb phrase</b></span>(<span style="color:deeppink"><b>AdvP</b></span>): <u><i>very slow</i></u><br><br>
+- PSR for <span style="color:orange"><b>AdjP</b></span> modified<br>
+  **AdjP → (AdvP) Adj**<br><br>
+- since the adverb modifies the adjective:
+  - the adverb needs to go in its own <span style="color:deeppink"><b>AdvP</b></span>
+  - that <span style="color:deeppink"><b>AdvP</b></span> needs to be a sibling of the adjective
+  - that is, they need to be **children** of the same <span style="color:orange"><b>AdjP</b></span><br><br>
+  
+- when there are **two** adjectives in one phrase:
+  - they each is a separate <span style="color:orange"><b>AdjP</b></span>
+  - since both of them are modifying the **noun**
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0930/veryslowcar.png" width="50%">
+<br><br>
+<img src="../pic/0930/longhair.png" width="70%">
+</div>
+]
+
+---
+## **Adverb Phrases (AdvP)**
+<br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0930/adverb1.png" width="40%">
+<br><br>
+<img src="../pic/0930/adverb2.png" width="40%">
+</div>
+]
+.pull-right[
+if we check the PSR rules for English <span style="color:deeppink"><b>adverb phrase</b></span> (<span style="color:deeppink"><b>AdvP</b></span>), we will notice that they are basically the same:<br><br>
+- <h3><b><span style="color:orange">AdjP</span></b> → (AdvP) <b><span style="color:orange">Adj</span></b></h3><br>
+- <h3><b><span style="color:deeppink">AdvP</span></b> → (AdvP) <b><span style="color:deeppink">Adv</span></b></h3><br><br>
+
+- if you have two adverbs in a row, they will be in nested structure
+  - the first one **modifies** the second
+]
+
+---
+## **Prepositional Phrases (PP)**
+<br>
+.pull-left[
+- the PSR for <span style="color:green"><b>PP</b></span> is very straightforward<br><br>
+- it is always a <span style="color:deeppink"><b>PP</b></span> containing the **head** P and an <span style="color:blue"><b>NP</b></span><br>
+<div style="text-align:center">
+<h3><b><span style="color:green">PP</span></b> → <b><span style="color:green">P</span></b> NP</h3>
+</div><br>
+- other examples<br><br>
+  - <i><span style="color:green"><b>in</b></span> the park</i>
+  - <i><span style="color:green"><b>by</b></span> the tree</i>
+  - <i><span style="color:green"><b>with</b></span> a friend</i>
+  - <i><span style="color:green"><b>under</b></span> the sky</i>
+  - <i><span style="color:green"><b>for</b></span> my mom</i>
+  - ...
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0930/show.png" width="40%">
+<br><br>
+<img src="../pic/0930/garden.png" width="60%">
+</div>
+]
+
+---
+## **Prepositional Phrases (PP)**
+<br>
+.pull-left[<br><br>
+<img src="../pic/0930/gardenbench1.png" width="100%">
+]
+.pull-right[
+what's **noticeble** if we put these two PSRs together <br>
+<div style="text-align:center">
+<h3><b><span style="color:green">PP</span></b> → <b><span style="color:green">P</span></b> <span style="color:blue"><b>NP</b></span></h3><br>
+<h3><b><span style="color:blue">NP</span></b> → (D) (AdjP+) <b><span style="color:blue">N</span></b> (<span style="color:green"><b>PP</b></span>+)</h3>
+</div><br><br>
+
+- <span style="color:green"><b>PP</b></span> can contain <span style="color:blue"><b>NP</b></span>, but <span style="color:blue"><b>NP</b></span> can contain <span style="color:green"><b>PP</b></span> too<br><br>
+- so we can have <span style="color:blue"><b>NP</b></span> and <span style="color:green"><b>PP</b></span> nested to each other, go on and go on forever<br><br>
+- this is an example of **recursion**, which is an important feature of human language
+]
+
+---
+## **Prepositional Phrases (PP)**
+<br>
+these phrases both contain **two** <span style="color:green"><b>PP</b></span>s, but have **different** syntactic structures, why?<br>
+  - recall the **modification rule** – a phrase that modifies a word must be its **sibling**
+<br><br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0930/gardenbench2.png" width="100%">
+<br><br>
+<i>the book on the bench in the garden</i>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/0930/benchwriter.png" width="100%">
+<br><br>
+<i>the book on the bench by a writer</i>
+</div>
+]
+
+---
+## **Prepositional Phrases (PP)**
+<br>
+if we have this tree, what does it mean?
+<div style="text-align:center">
+<img src="../pic/0930/anonymous.png" width="55%">
+<br><br>
+<i>the book on the bench by the anonymous writer</i>
+</div>
+
+
+---
+.pull-left[
+## **Exercise I**
+### <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span>
+<br>
+draw a **syntax tree** for the underlined phrases <br><br>
+a. I ate <u>an apple</u>.<br><br>
+b. John went <u>into the building</u>.<br><br>
+c. They're like <u>peas in a pod</u>.<br><br>
+d. The bakery sells <u>wonderfully fresh bread</u>.<br><br>
+e. I like to drive <u>really slowly</u>.<br><br>
+f. Mary helped <u>the man in the car with the flat tire</u>.<br><br>
+g. I threw a ball to <u>the dog with a collar in the park</u>.
+]
+.pull-right[
+<img src="../pic/0930/psr.png" width="100%">
+<br><br><br>
+<img src="../pic/0930/a1.png" width="30%">
+<img src="../pic/0930/a2.png" width="30%">
+<img src="../pic/0930/a3.png" width="30%">
+<br><br>
+1. in **f** does <u><i>with the flat tire</i></u> modify 'the man' or 'the car'?
+2. what about <i><u>in the park</i></u> in **g**?
+]
+
+---
+.pull-left[
+## **Exercise I**
+### <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span>
+]
+.pull-right[
+<img src="../pic/0930/psr.png" width="100%">]
+<br><br>
+.pull-left[
+.pull-left[
+<img src="../pic/0930/c.png" width="90%">
+]
+.pull-right[
+<img src="../pic/0930/d.png" width="90%">
+]
+]
+.pull-right[
+.pull-left[
+<img src="../pic/0930/e.png" width="90%">
+]
+.pull-right[
+<img src="../pic/0930/f.png" width="90%">
+]
+]
+<br><br>
+.pull-left[
+.pull-left[
+b. '*into the building*'
+]
+.pull-right[
+c. '*peas in a pod*'
+]
+]
+.pull-right[
+.pull-left[
+d. '*wonderfully fresh bread*'
+]
+.pull-right[
+e. '*really slowly*'
+]
+]
+---
+.pull-left[
+## **Exercise I**
+### <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span>
+<br>
+**f. the man in the car with the flat tire**
+<br><br>
+<img src="../pic/0930/hard1.png" width="70%">
+]
+.pull-right[
+<img src="../pic/0930/psr.png" width="100%">
+<br><br>
+<img src="../pic/0930/hard2.png" width="80%">
+]
+<br><br>
+think about why it is the tree on the **left**, not the one on the **right** (both trees are correct according to PSRs).
+
+---
+class: center, middle
+**Homework II** is due this Friday (**Oct 02**)<br><br>
+**Homework III** will be published today (**Sept 30**) which is due next Friday (**Oct 09**)<br><br>
+<span style="color:green"><b>continue reading</b></span> Chapter 3: Constituency, Trees, and Rules from <i>Andrew Carnie's Syntax textbook</i><br><br>
+<img src="../pic/0930/fine.jpeg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

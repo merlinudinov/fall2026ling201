@@ -1,0 +1,669 @@
+---
+title: "**Syntax II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/09/28 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+
+---
+## **Words and Phrases**
+<br>
+.pull-left[
+- **parts of speech** are the basic building blocks of **phrases**<br><br>
+- a sentence is a also kind of phrase (**tense phrase**, TP)<br><br>
+- sentence may contain a noun and a verb:
+<div style="text-align:center">
+<table style="width:40%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td><i>Merlin</i></td>
+    <td><i>ran</i>.</td>
+  </tr>
+  <tr>
+    <td><span style="color:blue">N</span></td>
+    <td><span style="color:blue">V</span></td>
+  </tr>
+</table><br> 
+</div>
+
+- however, there are also other things that can go in the same spot as this **N**:
+<table style="width:60%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td><i>The</i></td>
+    <td><i>thief</i></td>
+    <td><i>ran</i>.</td>
+  </tr>
+  <tr>
+    <td><span style="color:blue">D</span></td>
+    <td><span style="color:blue">N</span></td>
+    <td><span style="color:blue">V</span></td>
+  </tr>
+</table>
+<br>
+<table style="width:80%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td><i>The</i></td>
+    <td><i>teacher</i></td>
+    <td><i>from</i></td>
+    <td><i>chicago</i></td>
+    <td><i>ran</i>.</td>
+  </tr>
+  <tr>
+    <td><span style="color:blue">D</span></td>
+    <td><span style="color:blue">N</span></td>
+    <td><span style="color:blue">P</span></td>
+    <td><span style="color:blue">N</span></td>
+    <td><span style="color:blue">V</span></td>
+  </tr>
+</table>
+</div>
+]
+
+.pull-right[
+<br><br>
+<img src="../pic/0928/bark.png" width="100%">
+]
+
+---
+## **Distribution**
+<br><br>
+.pull-left[
+<br><br>
+<img src="../pic/0928/can.png" width="100%">
+]
+.pull-right[
+- these ‘chunks’ also have other similar **distributional** properties:
+  - they only appear in certain context or environment<br><br>
+- in other words, they appear in **the same place** and they accomplish **a similar purpose**<br><br>
+<table style="width:95%; border-collapse:collapse; text-align:left;">
+  <tr>
+    <td></td>
+    <td>*Roger*.</td>
+  </tr>
+  <tr style="width:40%">
+    <td><span style="color:#CC0033"><b>who</b></span> ran?</td>
+    <td>*The thief*.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>*The teacher from Chicago*.</td>
+  </tr>
+</table>
+<br><br>
+*It is <span style="color:green"><u>Roger</u></span> who ran*.<br>
+*It is <span style="color:blue"><u>the thief</u></span> who ran*.<br>
+*It is <span style="color:orange"><u>the teacher from Chicago</u></span> who ran*.
+]
+
+---
+## **Constituents: Intuition**
+.pull-left[
+<br>
+<img src="../pic/0928/doctor.jpg" width="90%">
+]
+.pull-right[
+- imagine that you want to embed a [weblink](merlinudinov.github.io/spring2026ling201) in the following sentence:
+<br><br>
+  - <i>The cat loves <span style="color:deeppink"><b>his toy</b></span></i>.
+  - <i>The cat <span style="color:deeppink"><b>loves his toy</b></span></i>.
+  - <i><span style="color:deeppink"><b>The cat</b></span> loves his toy</i>.
+  - <i>The <span style="color:deeppink"><b>cat loves</b></span> his toy</i>.<br><br>
+- which of these options above would be **natural** choices?
+- do any of them strike you as **unnatural** or **unlikely** choices?<br><br>
+- although a sentence is composed of separate words, it is **NOT** constructed like a **parachute**, where each word independently attaches to the sentence as a whole
+- instead, words first group into component parts that function **together as units**, and these units then combine to form the sentence
+]
+
+---
+.pull-left[
+## **Constituents**
+<br>
+**constituent**: a group of words that <span style="color:green"><b>acts together</b></span> as a **unit** <br><br>
+- consider the following sentences and find out the **subject** for each sentence?<br><br>
+1. *Francisco <span style="color:blue"><b>studies linguistics</b><span>.*
+2. *The tall boy <span style="color:blue"><b>studies linguistics</b><span>.*
+3. *The tall boy from New Jersey <span style="color:blue"><b>studies linguistics</b><span>.*
+4. *The tall boy named Francisco <span style="color:blue"><b>studies linguistics</b><span>.*
+5. *The tall boy that I met last week <span style="color:blue"><b>studies linguistics</b><span>.*<br><br>
+]
+
+.pull-right[
+<br>
+<div style="text-align:center">
+<h3><b>large phrases and sentences</b></h3>
+<h3>⬆️<br><br>
+<span style="color:green"><b>phrases</b></span><br><br>
+⬆️<br><br>
+<span style="color:orange"><b>words</b></span><br><br>
+⬆️<br><br>
+<b>morphemes</b></h3>
+<br>
+<a href="https://www.youtube.com/watch?v=Ia7d4slVL6s">(</span style="color:#CC0033"><i>a video on constituent</i></span>)</a>
+</div>
+]
+
+---
+.pull-left[
+## **Constituents**
+<br>
+**constituent**: a group of words that <span style="color:green"><b>acts together</b></span> as a **unit** <br><br>
+- consider the following sentences and find out the **subject** for each sentence?<br><br>
+1. *<u>Francisco</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+2. *<u>The tall boy</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+3. *<u>The tall boy from New Jersey</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+4. *<u>The tall boy named Francisco</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+5. *<u>The tall boy that I met last week</u> <span style="color:blue"><b>studies linguistics</b><span>.* <br><br>
+
+- SUBJECT can be **one** or **many** words, but they all <span style="color:green"><b>act together</b></span> to describe a single concept
+]
+.pull-right[
+<br><br><br><br>
+<div style="text-align:center;">
+<img src="../pic/0928/christmas.jpg" width="85%"> <br><br>
+<a href="https://www.youtube.com/watch?v=Ia7d4slVL6s">(</span style="color:#CC0033"><i>a video on constituent</i></span>)</a>
+</div>
+]
+
+---
+## **Back to the Ambiguity Case AGAIN**
+<br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/0928/chicken.png" width="75%">
+</div>
+]
+.pull-right[
+- remember the case of structural ambiguity:<br><br>
+<div style="text-align:center">
+<i>Arthur read the book on the desk</i>.
+</div><br>
+- this type of ambiguity actually reveals that there is more than one **constituent organisation** for this sentence:<br><br>
+  - <i>Arthur read <span style="color:orange">[the book]</span> <span style="color:green">[on the desk]</span></span></i>.
+  - the green part is linked to the verb '*read*' directly, meaning 'read on the desk'<br><br>
+  - <i>Arthur read <span style="color:orange">[the book</span> <span style="color:green">[on the desk]</span></span><span style="color:orange">]</span></i>.
+  - the green part is linked to the noun '*book*' directly, meaning 'book on the desk'<br><br>
+]
+
+- speakers are aware of this fact
+- our knowledge of **sentences** must encompass a knowledge of **constituent structure**
+
+
+---
+## **Phrases**: Types of Constituents
+<br>
+.pull-left[
+- each phrase has a main word aka **head**<br><br>
+
+- phrases are named after the **head** word's **part of speech**:<br><br>
+  - <span style="color:green"><b>noun phrase</b></span> (<span style="color:green"><b>NP</b></span>): *<u>man</u>, the <u>man</u>, the happy <u>man</u>, the <u>man</u> with the hat*<br><br>
+  - <span style="color:deeppink"><b>prepositional phrase</b></span> (<span style="color:deeppink"><b>PP</b></span>): *<u>into</u> the forest, <u>by</u> the author, <u>for</u> good luck*<br><br>
+  - <span style="color:blue"><b>verb phrase</b></span> (<span style="color:blue"><b>VP</b></span>): *<u>eats</u>, <u>eats</u> pizza, <u>eats</u> quickly, <u>eats</u> pizza quickly at noon*<br><br>
+  - <span style="color:orange"><b>adjective phrase</b></span> (<span style="color:orange"><b>AdjP</b></span>): *<u>happy</u>, <u>ugly</u>*<br><br>
+  - <span style="color:#CC0033"><b>adverb phrase</b></span> (<span style="color:#CC0033"><b>AdvP</b></span>): *<u>quickly</u>, <u>happily</u>*
+]
+  
+.pull-right[
+- **one constituent can contain another**:<br><br>
+  - <u>*the man with the hat*</u> (<span style="color:green"><b>NP</b></span>) contains <u>*with the hat*</u> (<span style="color:deeppink"><b>PP</b></span>), which contains <u>*the hat*</u> (<span style="color:green"><b>NP</b></span>)<br>
+  <div style="text-align:center">
+  <img src="../pic/0928/hat.png" width="45%">
+  </div><br>
+  - <u>*eats quickly at noon*</u> (<span style="color:blue"><b>VP</b></span>)contains <u>*quickly*</u> (<span style="color:#CC0033"><b>AdvP</b></span>) and <u>*at noon*</u> (<span style="color:deeppik"><b>PP</b></span>)<br>
+  <div style="text-align:center">
+  <img src="../pic/0928/noon.png" width="45%">
+  </div>
+]
+  
+---
+background-image: url("../pic/0928/video1.png")
+background-size: contain
+backround-position: center
+
+
+---
+.pull-left[
+## **Constituency Tests**
+<br>
+- a **constituency test** applies to a portion of a sentence and identify **whether**
+groups of words act together as a unit or not<br><br>
+- if the test doesn’t apply, we can still use it but using **\* (ungrammatical)** notation to show that the test doesn’t work<br><br>
+- **four** types of test:
+  - <span style="color:green"><b>replacement/substitution</b></span> test
+  - **movement** test
+  - <span style="color:deeppink"><b>fragment/stand-alone</b></span> test
+  - <span style="color:blue"><b>coordination</b></span> test<br><br>
+- **these don't work 100% of the time**, and some tests work better with some sentences
+  - hence, you might have to try several
+]
+.pull-right[
+<br><br><br>
+<img src="../pic/0928/brocco.png" width="85%">
+<br><br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+]
+
+---
+## **Constituency Tests : Procedure Passed**
+<br>
+<div style="text-align:center">
+1. begin with <span style="color:green">Sentence A</span>, with a sequence to be tested (usually underlined)
+<br><br>
+<div style="border:2px solid black; padding:10px; display:inline-block; width:60%">
+<span style="color:green">Sentence A</span>: <i><u><b><span style="color:blue">The anonymous girl</span></b></u> escaped</i>.
+</div>
+<br><br>
+2. use <b><span style="color:#CC0033">some test(s)</span></b> to create a new sentence: <span style="color:orange">Sentence B</span>
+<br><br>
+<div style="border:2px solid black; padding:10px; display:inline-block; width:60%">
+<span style="color:orange">Sentence B</span>: <i>It is <u><b><span style="color:blue">the anonymous girl</span></b></u> who escaped</i>.
+</div>
+<br><br>
+3. decide if <span style="color:orange">Sentence B</span> is syntactically <b><span style="color:#CC0033">well-formed</span></b>
+</div>
+
+.pull-left[
+.pull-left[]
+.pull-right[
+<div style="text-align:center; font-size:1.5em">
+<b><span style="color:#CC0033">⬇</span></b><br>
+</div>
+]
+<div style="border:2px solid #CC0033; padding:10px; display:inline-block; width:90%; text-align:center">
+if <span style="color:orange">Sentence B</span> is grammatical, then the sequence in <span style="color:green">Sentence A</span> <b><span style="color:#CC0033">passed</span></b> this test
+<br><br>
+the sequence is <b><span style="color:#CC0033">a constituent</span></b>
+</div>
+]
+.pull-right[
+.pull-left[]
+.pull-right[
+<div style="text-align:center; font-size:1.5em">
+<b><span style="color:white">↙</span></b><br>
+</div>
+]
+<div style="border:2px solid white; padding:10px; display:inline-block; width:90%; text-align:center; color:grey">
+if <span style="color:grey">Sentence B</span> is ungrammatical, then the sequence in <span style="color:grey">Sentence A</span> <b><span style="color:grey">failed</span></b> this test
+<br><br>
+the sequence is <b><span style="color:grey">NOT</span></b> <b><span style="color:grey">a constituent</span></b>
+</div>
+]
+
+---
+## **Constituency Tests : Procedure Failed**
+<br>
+<div style="text-align:center">
+1. begin with <span style="color:green">Sentence A</span>, with a sequence to be tested (usually underlined)
+<br><br>
+<div style="border:2px solid black; padding:10px; display:inline-block; width:60%">
+<span style="color:green">Sentence A</span>: <i>The <u><b><span style="color:blue">anonymous girl</span></b></u> escaped</i>.
+</div>
+<br><br>
+2. use <b><span style="color:#CC0033">some test(s)</span></b> to create a new sentence: <span style="color:orange">Sentence B</span>.
+<br><br>
+<div style="border:2px solid black; padding:10px; display:inline-block; width:60%">
+<span style="color:orange">Sentence B</span>: * <i>It is <u><b><span style="color:blue">anonymous girl</span></b></u> who escaped</i>.
+</div>
+<br><br>
+3. decide if <span style="color:orange">Sentence B</span> is syntactically <b><span style="color:#CC0033">well-formed</span></b>
+</div>
+
+.pull-left[
+.pull-left[
+<div style="text-align:center; font-size:1.5em">
+<b><span style="color:white">↘</span></b><br>
+</div>
+]
+.pull-right[]
+<div style="border:2px solid white; padding:10px; display:inline-block; width:90%; text-align:center; color:grey">
+if <span style="color:grey">Sentence B</span> is grammatical, then the sequence in <span style="color:grey">Sentence A</span> <b><span style="color:grey">passed</span></b> this test
+<br><br>
+the sequence is <b><span style="color:grey">a constituent</span></b>
+</div>
+]
+.pull-right[
+.pull-left[
+<div style="text-align:center; font-size:1.5em">
+<b><span style="color:blue">⬇</span></b><br>
+</div>
+]
+.pull-right[]
+<div style="border:2px solid blue; padding:10px; display:inline-block; width:90%; text-align:center">
+if <span style="color:green">Sentence B</span> is ungrammatical, then the sequence in <span style="color:orange">Sentence A</span> <b><span style="color:#CC0033">failed</span></b> this test
+<br><br>
+the sequence is <b><span style="color:blue">NOT</span></b> <b><span style="color:#CC0033">a constituent</span></b>
+</div>
+]
+
+
+---
+## **Replacement (Substitution) Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **replacement test**: replace a group of words with a SINGLE **pro-form**<br><br>
+- if it works, they are one constituent <br><br>
+- while applying replacement tests, it is important to replace the **whole string** under investigation
+  - do **NOT** include anything more
+  - do **NOT** miss anything
+  - do **NOT** paraphrase the sentence
+  - apply the test to the **whole** and **only** the string under investigation
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="100%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Replacement (Substitution) Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **replacement test**: replace a group of words with a SINGLE **pro-form**<br><br>
+- **pro-from**: <u>pronoun</u> or other generic expression like <u>there</u>, <u>like that</u>, <u>do</u>, <u>do that</u>, <u>that way</u><br><br>
+  - a <b>noun-phrase-like</b> constituent can be replaced by a **pronoun** (it, them, ...)<br><br>
+  - a <b>verb-phrase-like</b> constituent can be replaced by **do/does/did/did** (so/that)<br><br>
+  - a <b>preposition-phrase-like</b> constituent can be replaced by **here/there**
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="100%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Replacement (Substitution) Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **replacement test**: replace a group of words with a SINGLE **pro-form**<br><br>
+- **pro-from**: <u>pronoun</u> or other generic expression like <u>there</u>, <u>like that</u>, <u>do</u>, <u>do that</u>, <u>that way</u><br><br>
+- *<span style="color:green"><u>The lugubrious man</u></span> is eating his bland meal*.<br>
+  - replacing '<i>the lugubrious man'</i> with '<i>he</i>'<br>
+  - → *<span style="color:green"><u>He</u></span> is eating his bland meal.* ✅<br><br>
+- *The lugubrious man <span style="color:green"><u>is eating his bland</u></span> meal*.<br>
+  - a **SINGLE pro-form** cannot be found<br>
+  - → *The lugubrious man <span style="color:green"><u>???</u></span> meal.*❌<br><br>
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="100%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Replacement (Substitution) Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **replacement test**: replace a group of words with a SINGLE **pro-form**<br><br>
+- **pro-from**: <u>pronoun</u> or other generic expression like <u>there</u>, <u>like that</u>, <u>do</u>, <u>do that</u>, <u>that way</u><br><br>
+- try the **replacement test** with following cases<br><br>
+1. *The lugubrious man is eating his <span style="color:green"><u>bland meal</u></span>*.
+2. *<span style="color:green"><u>The lugubrious</u></span> man is eating his bland meal*.
+3. *The lugubrious <span style="color:green"><u>man is eating</u></span> his bland meal*.
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="100%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Exercise I: Replacement (Substitution) Test**
+<br><br><br>
+.pull-left[
+try to apply the **replacement test** to the underlined string and determine whether it is a **constituent**<br><br>
+1. *I adopted the dog <span style="color:green"><u>from Alaska</u></span>*.<br><br>
+2. *<span style="color:green"><u>A tall giraffe</u></span> walked by*.<br><br>
+3. *The <span style="color:green"><u>box of</u></span> snacks fell off the table*.<br><br>
+4. *Merlin <span style="color:green"><u>likes to</u></span> sing in the shower*.<br><br>
+5. *Arthur read the book on <span style="color:green"><u>the table</u></span>*.
+]
+.pull-right[
+<img src="../pic/0928/syntax.jpg" width="80%">
+]
+
+---
+## **Movement Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **movement test**: moving a string of words together to a **different part** of the sentence and still meaning the **same thing**<br><br>
+- there are two types of **movement test**<br><br>
+- **preposing**: putting the string of words before a <span style="color:blue"><b>is was</b></span>/<span style="color:blue"><b>are what</b></span> or
+<span style="color:blue"><b>is was</b></span>/<span style="color:blue"><b>are who</b></span> at the beginning of the sentence<br><br>
+- *<span style="color:#CC0033"><u>The lugubrious man</u></span> is eating the bland meal*.<br>
+  → *<span style="color:#CC0033"><u>The lugubrious man</u></span>*<br>
+  <span style="color:white">→</span> *<span style="color:blue">is who</b></span> is eating the bland meal*.
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Movement Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **movement test**: moving a string of words together to a **different part** of the sentence and still meaning the **same thing**<br><br>
+- there are two types of **movement test**<br><br>
+- **clefting**: putting the string of words between <span style="color:blue"><b>it was</b></span>/<span style="color:blue"><b>it is</b></span> and a <span style="color:green"><b>that</b></span>/<span style="color:green"><b>who</b></span> at the beginning of the sentence<br><br>
+- *The lugubrious man is eating <span style="color:#CC0033"><u>the bland meal</u></span>*.<br>
+→ *<span style="color:blue">It is</b></span> <span style="color:#CC0033"><u>the bland meal</u></span>*<br>
+<span style="color:white">→</span> *<span style="color:green">that</span> the lugubrious man is eating*.
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Movement Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **movement test**: moving a string of words together to a **different part** of the sentence and still meaning the **same thing**<br><br>
+- **preposing**: ... <span style="color:blue"><b>is/was/are/were what</b></span>...<br>
+- **clefting**: <span style="color:blue"><b>it was/is</b></span> ... <span style="color:green"><b>that/who</b></span><br><br>
+- try the **movement test** with following cases<br><br>
+1. *The lugubrious man is eating <span style="color:#CC0033"><u>his bland meal</u></span>*.
+2. *The lugubrious man is <span style="color:#CC0033"><u>eating his bland</u></span> meal*.
+3. *The lugubrious <span style="color:#CC0033"><u>man is eating</u></span> his bland meal*.
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Fragment (Stand-Alone) Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **stand alone test**: come up with a question that can be **answered** by just saying the group of words you want to test **on its own** <br><br>
+- again, use the entire string under investigation
+  - do **NOT** include anything more
+  - do **NOT** miss anything<br><br>
+- *<span style="color:deeppink"><u>The lugubrious man</u></span> is eating his bland meal*.<br>
+  → *<span style="color:deeppink">Who</span> <u>is eating his bland meal</u>?*<br>
+  <span style="color:white">→</span> *<span style="color:deeppink"><u>The lugubrious man</u></span>.* <br><br>
+- *The lugubrious man is <span style="color:deeppink"><u>eating his bland</u></span> meal*.<br>
+  → \* *The lugubrious man is <span style="color:deeppink">what</span> <u> meal</u>?*<br>
+  <span style="color:white">→</span> \* *<span style="color:deeppink"><u>eating his bland.*
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Fragment (Stand-Alone) Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **stand alone test**: come up with a question that can be **answered** by just saying the group of words you want to test **on its own** <br><br>
+- **constituents** can often stand alone and act as the answers or as the content of a question<br><br>
+- try the **fragment test** with following cases<br><br>
+1. *The lugubrious man is eating <span style="color:deeppink"><u>his bland meal</u></span>*.
+2. *<span style="color:deeppink"><u>The lugubrious</u></span> man is eating his bland meal*.
+3. *The lugubrious <span style="color:deeppink"><u>man is eating</u></span> his bland meal*.
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Coordination Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **coordination test**: coordinating the tested string with anoter string of the same type<br><br>
+- a constituent of type **X** can be coordinated with another constituent of the same type
+  - coordinating conjunctions: <b><span style="color:green">and</span></b> / <b><span style="color:green">or</span></b><br><br>
+- a **noun-phrase-like** string is coordinated with another **noun phrase**
+  - the most safe choice would be a <b><span style="color:green">pronoun</span></b> or a <b><span style="color:green">common noun</span></b> (a name) <br><br>
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+<br>
+- a **prepositional-phrase-like** string is coordinated with another **prepositional phrase**
+  - typically with <b><span style="color:green">here</span></b>/<b><span style="color:green">there</span></b><br><br>
+  
+---
+## **Coordination Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **coordination test**: coordinating the tested string with anoter string of the same type<br><br>
+- a constituent of type **X** can be coordinated with another constituent of the same type
+  - coordinating conjunctions: <b><span style="color:green">and</span></b> / <b><span style="color:green">or</span></b><br><br>
+- *<span style="color:blue"><u>The lugubrious man</u></span> is eating his bland meal*.<br>
+  → *<span style="color:blue"><u>The lugubrious man</u></span> <span style="color:green">or</span></u> <span style="color:orange"><u>Rumpelstilzchen</u></span> is eating his bland meal</u>*.<br><br>
+- *The lugubrious man is <span style="color:blue"><u>eating his bland meal</u></span>*.<br>
+  → *The lugubrious man is <span style="color:blue"><u>eating his bland meal</u></span> <span style="color:green">and</span></u> <span style="color:orange"><u>running</u></span>*.
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Coordination Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* is eating *<b><span style="color:blue">[his bland meal]</span></b>*.
+<br>
+.pull-left[
+- **coordination test**: coordinating the tested string with anoter string of the same type<br><br>
+- a constituent of type **X** can be coordinated with another constituent of the same type
+  - coordinating conjunctions: <b><span style="color:green">and</span></b> / <b><span style="color:green">or</span></b><br><br>
+- try the **coordination test** with following cases<br><br>
+1. *The lugubrious man is eating <span style="color:blue"><u>his bland meal</u></span>*.
+2. *The lugubrious <span style="color:blue"><u>man is eating</u></span> his bland meal*.
+3. *The lugubrious man is eating <span style="color:blue"><u>his bland</u></span> meal*.
+]
+.pull-right[
+<img src="../pic/0928/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man is eating his bland meal*.'
+]
+
+---
+## **Exercise II: Constituency Tests**
+<br>
+.pull-left[
+<img src="../pic/0928/fork.jpeg" width="90%"> <br><br>
+]
+.pull-right[
+Use **constituency tests** to determine whether the underlined part is a **constituent** in each sentence:<br><br>
+1. <span style="color:green"><u>The tragedy</u></span> upset the entire family. <br><br>
+2. They hid <span style="color:blue"><u>in the cave</u></span>. <br><br>
+3. The <span style="color:orange"><u>computer was very</u></span> expensive. <br><br>
+4. The geese <span style="color:deeppink"><u>swam across</u></span> the lake. <br><br>
+5. Merlin gave <span style="color:orange"><u>a book to his sister</u></span>. <br><br>
+6. Arthur read <span style="color:blue"><u>a book about geology</u></span>.<br><br>
+7. Morgana ate the <span style="color:green"><u>nice meal of</u></span> Arthur.
+]
+
+---
+## **Careful with Constituency Tests**
+<br>
+.pull-left[
+- if a given string **passes** a constituency test<br><br>
+  - → you can assume it is a constituent<br><br>
+- however, if a string **fails** a constituency test<br><br>
+  - → you cannot be certain that it is not a constituent <br><br>
+- sometimes, a test yields an **anomalous** result
+  - *The student <span style="color:#CC0033"><u>from Korea</u></span>  arrived*.
+  - **clefting**: *It is <span style="color:#CC0033"><u>from Korea</u></span>  that the student arrived*.<br><br>
+- this is why it is best to apply **several** constituency tests and not just
+rely on one
+]
+.pull-left[
+<br>
+<div style="text-align:center">
+<img src="../pic/0928/sor.gif" width="85%">
+</div>
+]
+
+---
+## **The Whole Picture**
+<br>
+.pull-left[
+<div style="text-align:right">
+<h3><b>large phrases and sentences</b></h3>
+<h3>⬆<br><br>
+<span style="color:green"><b>phrases</b></span><br><br>
+⬆<br><br>
+<span style="color:orange"><b>words</b></span><br><br>
+⬆<br><br>
+<b>morphemes</b></h3>
+<br>
+<a href="https://www.youtube.com/watch?v=Ia7d4slVL6s">(</span style="color:#CC0033"><i>a video on constituent</i></span>)</a>
+</div>
+]
+.pull-right[
+<div style="text-align:left">
+<h3><b><span style="color:white">large phrases and sentences</span></b></h3>
+<h3><span style="color:blue">phrase structure rules</span><br><br>
+<span style="color:white"><b>phrases</b></span><br><br>
+<span style="color:blue">phrase structure rules</span><br><br>
+<span style="color:white"><b>words</b></span><br><br>
+<span style="color:deeppink">morphological rules</span><br><br>
+<b><span style="color:white">morphemes</white></b></h3>
+<br>
+<a href="https://www.youtube.com/watch?v=Ia7d4slVL6s">(</span style="color:#CC0033"><i>a video on constituent</i></span>)</a>
+</div>
+]
+
+---
+class: center, middle
+**Homework II** is due this Friday (**Oct 02**)<br><br>
+<span style="color:green"><b>reading</b></span> Chapter 3: Constituency, Trees, and Rules from <i>Andrew Carnie's Syntax textbook</i><br><br>
+<img src="../pic/0928/fine.jpeg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
