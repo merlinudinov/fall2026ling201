@@ -1,0 +1,394 @@
+---
+title: "**Midterm Review**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/03/02 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Thursdays, 1:00-2:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+
+---
+## **Homework 3, Part 3**
+<br><br>
+<div style="text-align:center">
+<h3><i>The spy saw the agent with the binoculars on the roof</i>.</h3>
+</div>
+<br><br>
+- draw syntax trees for the original sentence, NOT the interpretations<br><br>
+- so the main idea here is to capture different **modification** relation on **the same sentence**, which reflects **structural difference** on the tree
+  
+---
+## **Syntax Rules Across Languages**
+<br>
+.pull-left[
+speakers of different languages will have different syntax rules
+- because they have different mental grammars<br><br>
+
+consider these phrases from **different languages**:<br><br>
+- for each phrase, I've given a simplified version of a phrase structure rule for English<br><br>
+- how would you modify that rule to account for each phrase?<br><br>
+- what would you have to change?<br><br>
+- assume that these languages place each adjective in an AdjP and each noun in an NP, as English does
+]
+.pull-right[
+<div style="text-align:center">
+English Rule: <b>NP → D AdjP N</b>
+</div>
+
+***Portuguese***
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;"><span style="color:white">-</span></td>
+    <td style="white-space:nowrap;">a</td>
+    <td style="white-space:nowrap;">casa</td>
+    <td style="white-space:nowrap;">amarela</td>
+  </tr>
+    <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">the</td>
+    <td style="white-space:nowrap;">house</td>
+    <td style="white-space:nowrap;">yellow</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="3" style="text-align:left; padding-bottom:20px;">
+    '<i>the yellow house</i>'</td>
+  </tr>
+</table>
+<div style="text-align:center">
+English Rule: <b>PP → P NP</b>
+</div>
+
+***Japanese***
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;"><span style="color:white">-</span></td>
+    <td style="white-space:nowrap;">gakkō</td>
+    <td style="white-space:nowrap;">de</td>
+  </tr>
+    <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">school</td>
+    <td style="white-space:nowrap;">at</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="2" style="text-align:left; padding-bottom:20px;">
+    '<i>at school</i>'</td>
+  </tr>
+</table>
+<div style="text-align:center">
+English Rule: <b>VP → V NP</b>
+</div>
+
+***Quechua***
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;"><span style="color:white">-</span></td>
+    <td style="white-space:nowrap;">t'antata</td>
+    <td style="white-space:nowrap;">mikhurqani</td>
+  </tr>
+    <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">bread</td>
+    <td style="white-space:nowrap;">I.ate</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="2" style="text-align:left; padding-bottom:20px;">
+    '<i>I ate bread</i>.'</td>
+  </tr>
+</table>
+]
+
+---
+## **Syntax Rules Across Languages**
+<br>
+.pull-left[
+speakers of different languages will have different syntax rules
+- because they have different mental grammars<br><br>
+
+consider these phrases from **different languages**:<br><br>
+- for each phrase, I've given a simplified version of a phrase structure rule for English<br><br>
+- how would you modify that rule to account for each phrase?<br><br>
+- what would you have to change?<br><br>
+- assume that these languages place each adjective in an AdjP and each noun in an NP, as English does
+]
+.pull-right[
+<div style="text-align:center">
+English Rule: <b><span style="color:#CC0033">NP → D N AdjP</span></b>
+</div>
+
+***Portuguese***
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;"><span style="color:white">-</span></td>
+    <td style="white-space:nowrap;">a</td>
+    <td style="white-space:nowrap;">casa</td>
+    <td style="white-space:nowrap;">amarela</td>
+  </tr>
+    <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">the</td>
+    <td style="white-space:nowrap;">house</td>
+    <td style="white-space:nowrap;">yellow</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="3" style="text-align:left; padding-bottom:20px;">
+    '<i>the yellow house</i>'</td>
+  </tr>
+</table>
+<div style="text-align:center">
+English Rule: <b><span style="color:#CC0033">PP → NP P </span></b>
+</div>
+
+***Japanese***
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;"><span style="color:white">-</span></td>
+    <td style="white-space:nowrap;">gakkō</td>
+    <td style="white-space:nowrap;">de</td>
+  </tr>
+    <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">school</td>
+    <td style="white-space:nowrap;">at</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="2" style="text-align:left; padding-bottom:20px;">
+    '<i>at school</i>'</td>
+  </tr>
+</table>
+<div style="text-align:center">
+English Rule: <b><span style="color:#CC0033">VP → NP V</span></b>
+</div>
+
+***Quechua***
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;"><span style="color:white">-</span></td>
+    <td style="white-space:nowrap;">t'antata</td>
+    <td style="white-space:nowrap;">mikhurqani</td>
+  </tr>
+    <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">bread</td>
+    <td style="white-space:nowrap;">I.ate</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="2" style="text-align:left; padding-bottom:20px;">
+    '<i>I ate bread</i>.'</td>
+  </tr>
+</table>
+]
+
+---
+## **Syntactic Transformations**
+<br>
+- once we understand how to draw a syntax tree for a simple sentence, we can use it as a basis for
+more complex ideas, such as **syntactic transformations**<br><br>
+- for example, we can say the following sentence because it follows English rules: TP → NP T VP
+
+<div style="text-align:center">
+<img src="../pic/0302/trans1.png" width="25%">
+<br><i>'You can play piano.'</i>.
+</div>
+<br>
+
+- but what if we made it a question: ***Can you play piano?***
+  
+---
+## **Syntactic Transformations**
+<br>
+- to make questions, we need to apply **transformations**: move constituents about in the tree<br><br>
+- move <u><i>can</i></u> **up into** another level above TP: now we have a **yes-no question**!
+<br><br>
+<div style="text-align:center">
+<img src="../pic/0302/trans1.png" width="23%"><span style="color:#CC0033"><b>→</b></span><img src="../pic/0302/trans2.png" width="29%">
+</div>
+
+
+---
+## **Syntactic Transformations**
+<br>
+.pull-left[
+what if we wanted to make a wh- question<br><br>
+- ***What can you play?***
+]
+.pull-right[
+- what does <u><i>what</i></u> represent?<br><br>
+- **replace **piano with <u><i>what</i></u> and **move** it one level above <u><i>can</i></u>
+]
+<br>
+<div style="text-align:center">
+<img src="../pic/0302/trans2.png" width="28%"><span style="color:#CC0033"><b>→</b></span><img src="../pic/0302/trans3.png" width="26%">
+</div>
+  
+---
+.pull-left[
+## **Mid-course Survey**
+<div style="text-align:center">
+<br><br><br>
+<h3><a href="https://go.blueja.io/MMdCBFK2jUehD6SKtQp-Uw">mid-course survey link</a></h3>
+<br><br>
+<h3>please take a few minutes to complete the survey</h3>
+<br><br>
+<h3>Please respond to <b>the 8th homework poll</b> as well</h3>
+</div>
+]
+.pull-right[
+<br><br>
+<div style="text-align:center">
+<img src="../pic/0302/midqr.png" width="80%">
+</div>
+]
+  
+---
+## **How well do you know each of these topics?**
+<br>
+.pull-left[
+**basic concepts in Linguistics**
+- mental grammar/linguistic competence
+- descriptivism vs. prescriptivism
+- Grammatical vs. ungrammatical language
+- standard vs. non-standard language <br><br>
+
+**Syntax**
+- parts of speech: definitions of nouns, verbs, etc.
+- parts of speech: morphological and syntactic distribution of nouns, verbs, etc.
+- constituents
+- phrase structure rules (PSRs)
+- types of phrases: NP, AdjP, AdvP, PP, VP, TP
+- complex sentences: main and dependent clauses, complementisers, CP
+- sentences and tree structure
+]
+.pull-right[
+**Morphology**
+- morphemes
+- roots vs. affixes
+- roots vs. stems
+- types of affixes
+- free vs. bound morphemes
+- derivational vs. inflectional morphemes
+- allomorphs
+- monomorphemic and polymorphemic words
+- simple and compound words
+- morphological processes
+  - affixation
+  - compounding
+  - reduplication
+  - alternation
+  - suppletion
+  - zero-derivation
+- order of affixation
+]
+
+
+---
+## **How well can you apply<br> these analytical tools in practice?**
+<br>
+.pull-left[
+- break down words **into morphemes** and identify the **type** of each morpheme<br><br>
+- identify specific **morphological processes**<br><br>
+- analyze the morphological structure of an **unfamiliar language**<br><br>
+- draw a **morphological tree** to illustrate a word’s structure and **order of affixation**<br><br>
+- identify a word’s **part of speech**<br><br>
+- use morphological and syntactic **distribution** to determine a word’s part of speech
+]
+.pull-right[
+- use **constituency tests** to determine if a sequence of words is a constituent<br><br>
+- identify different **types of phrase**: NP, PP, AdjP, AdvP, VP, TP<br><br>
+- identify the **head** of a phrase<br><br>
+- use **phrase structure rules** to combine words into phrases<br><br>
+- draw **syntax trees** to illustrate a sentence’s internal structure<br><br>
+]
+
+---
+## **Syntax Tree Practice**
+<br>
+.pull-left[
+Draw syntax trees for the following sentence.<br><br><br>
+1. The happy dog caught the frisbee.<br><br>
+2. The boy with the red hair threw the ball.<br><br>
+3. Harriet ate a bagel for breakfast.<br><br>
+4. Frank happily ate a plate of nachos.<br><br>
+5. The old man rowed his boat gently down the stream.<br><br>
+6. I bought a beautiful bouquet of flowers for my mom.<br><br>
+]
+.pull-right[
+<br><br><br>
+<img src="../pic/0302/syntax.png" width="100%">
+]
+
+
+---
+## **1. The happy dog caught the frisbee.**
+<br><br><br><br>
+<div style="text-align:center">
+<img src="../pic/0302/happydog.png" width="70%">
+</div>
+
+---
+## **2. The boy with the red hair threw the ball.**
+<br><br>
+<div style="text-align:center">
+<img src="../pic/0302/redhairboy.png" width="70%">
+</div>
+
+---
+## **3. Harriet ate a bagel for breakfast.**
+<br><br>
+<div style="text-align:center">
+<img src="../pic/0302/harriet.png" width="70%">
+</div>
+
+---
+## **4. Frank happily ate a plate of nachos.**
+
+<div style="text-align:center">
+<img src="../pic/0302/nacho.png" width="70%">
+</div>
+
+---
+## **5. The old man rowed his boat gently down the stream.**
+<br>
+<div style="text-align:center">
+<img src="../pic/0302/oldman.png" width="80%">
+</div>
+
+---
+## **6. I bought a beautiful bouquet of flowers for my mom.**
+<br>
+<div style="text-align:center">
+<img src="../pic/0302/momflower.png" width="80%">
+</div>
+
+---
+class: center, middle
+**Homework III** is due tomorrow (**Mar 03**) at **11:59 pm**<br><br>
+you can finish early for a early feed back if you want<br><br>
+<span style="color:green"><b>good luck</b></span> with the **MIDTERM** (**Mar 05** at class time)<br><br>
+**SEMANTICS** coming up<br><br>
+<span style="color:green"><b>reading</b></span>: the chapter **Semantics I: Compositionality** from Victoria Fromkin et al.'s <i>An Introduction to Language</i><br><br>
+<img src="../pic/0302/fine.jpeg" width="50%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

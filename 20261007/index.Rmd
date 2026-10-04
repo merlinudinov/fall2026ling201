@@ -1,0 +1,851 @@
+---
+title: "**Syntax V**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/10/07 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Mondays, 2:00-3:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+
+
+---
+## **Assignment II**
+<br><br>
+<h3><b>that </b></h3>
+<br>
+<i><span style="color:#CC0033">that</span> person</i> (determiner, D)<br>
+<i>I know <span style="color:#CC0033">that</span> you are right</i>. (complementiser, C)
+<br><br><br><br>
+<h3><b><span style="color:#CC0033">the spy</span> saw <span style="color:blue">the agent</span> <span style="color:#CC0033">with</span> <span style="color:green">the binoculars on the roof</span></b></h3><br>
+<h3><b><span style="color:#CC0033">the spy</span> saw <span style="color:blue">the agent</span> <span style="color:blue">with</span> <span style="color:green">the binoculars on the roof</span></b></h3><br><br>
+
+
+ 
+---
+class: center, middle
+## **START REVIEWING** for the **Midterm**
+<br><br>
+## **Oct 14**, class time in the same classroom
+<br><br>
+## you are allowed to have a cheat sheet<br>
+## but you have to make your own
+<br><br>
+You may bring to the exam **one sheet of paper with any (printed or handwritten) notes you choose** -- 8.5 × 11 in. (standard US letter paper size) or smaller, front and back -- that you may consult during the exam, but otherwise it is a closed-book, closed-notes exam
+ 
+ 
+---
+## **Previously on 201**
+### **Phrase Structure Rules (PSRs) for VP, TP**
+<br><br>
+- <h3><b><span style="color:#CC0033">VP</span></b> → (AdvP+) <b><span style="color:#CC0033">V</span></b> (NP) (NP) (AdvP+) (PP+) (AdvP+)</h3><br>
+- <h3><b><span style="color:brown">TP</span></b> → NP <b><span style="color:brown">(T)</span> VP</b></h3><br><br>
+- <h3><b><i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast.</i></b></h3><br><br>
+- <h3><b>steps of drawing <span style="color:#CC0033">trees</span> for simple sentences</b></h3>
+
+---
+## **Steps for Drawing Trees**
+<br>
+1. write the sentence at the bottom of the page – leave yourself **plenty of room**<br><br>
+2. label the **part of speech** of each word<br><br>
+3. sentences have a subject <span style="color:blue"><b>NP</b></span> and predicate **VP** – try to identify these first, and draw the subject<br><br>
+4. trees should ALWAYS follow **PSR**s, so try to identify elements that can be part of rules for different phrases<br><br>
+5. every <span style="color:blue"><b>noun</b></span>, <span style="color:orange"><b>adjective</b></span>, <span style="color:deeppink"><b>adverb</b></span>, <span style="color:green"><b>preposition</b></span> has its own corresponding phrase <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span><br><br>
+6. smaller trees first, then figure out how they connect to the rest of the tree<br><br>
+<b>some notes</b>
+- VPs can have lots of elements, so figure them out last
+- **pay attention to what modifies what** – any phrase that modifies a word should be its **sibling**
+- because of the way English is structured, it can often be easier to start at the end and work **backwards**
+
+---
+class: center, middle
+## **John said Mary went to the store quickly.**
+
+
+
+---
+## **Simple and Complex Sentences**
+<br>
+.pull-left[
+- so far we've been studying **simple sentences: sentences** with **one** subject <span style="color:blue"><b>NP</b></span> and one predicate <span style="color:#CC0033"><b>VP</b></span><br><br>
+- now we're going to talk about **complex sentences** : sentencesthat have another sentence (clause) **embedded** inside of them<br><br>
+  - *She said [that <b><span style="color:blue">she went to China</span></b>]*.<br><br>
+  - *I bought an umbrella [because<b><span style="color:blue"> it was raining</span></b>]*.<br><br>
+  - *That's the movie [<b><span style="color:blue">I saw</span></b>]*.<br><br>
+  - *The book [that <b><span style="color:blue">I read</span></b>] was very interesting*.
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/she.png" width="40%"><br><br>
+<img src="../pic/1007/shechina.png" width="65%">
+</div>
+]
+
+---
+## **Complementiser Phrases (CP)**
+<br>
+.pull-left[
+consider the following sentence: <br><br>
+  - <i>Tina thinks <span style="color:green"><u>that her brother has finished his homework</u></span></i>.<br>
+
+is the underlined string a constituent?<br><br>
+]
+.pull-right[]
+
+--
+
+.pull-left[
+- **movement test**<br>
+  <i><u>That her brother has finished his homework</u></i><br>
+  <b><span style="color:blue">is what</span></b> Tina thinks. <br><br>
+- **fragment test**<br>
+  What does Tina think?<br>
+  <i><u>That her brother has finished his homework</u></i>.<br><br>
+  
+<span style="color:teal"><b>CP</b></span>s are sentences preceded by a **complementiser**<br>
+- <h3><b><span style="color:teal">CP</span></b> → <b><span style="color:red">C</span></b> TP</h3>]
+
+.pull-right[
+<img src="../pic/1007/cp.png" width="90%">
+<br><br>
+*'that her brother has finished his homework'*
+]
+
+---
+.pull-left[
+## **Complex Sentences**
+<br><br>
+<img src="../pic/1007/shechina1.png" width="100%">
+]
+.pull-right[
+<br><br>
+- A **complementiser** can connect two <b><span style="color:brown">TP</span></b>s together<br><br>
+- **two parts** of a complex sentence:<br><br>
+- <b><span style="color:blue">dependent clause</span></b> (aka subordinate clause, embedded clause, embedded sentence) – the sentence that has been **inserted** into the larger sentence<br><br>
+  - *She said [that <b><span style="color:blue"> she went to China</span></b>]*.<br><br>
+- <b><span style="color:green">main clause</span></b> (aka independent clause, main sentence) – the **full** sentence, technically **including the dependent clause**, since the dependent clause is inside of the main clause<br><br>
+  - *<b><span style="color:green">She said [that she went to China]</span></b>*.
+]
+
+---
+## **Complementisers**
+<br>
+- dependent clauses are usually linked to main clauses with a special type of word called a **complementiser** or **subordinating conjunction** (relative pronouns are a subtype):<br><br>
+  - *that*, *which*, *because*, *if*, *so*, *since*, *which*, *who*, *although*, *where*...<br><br>
+  - *She said <span style="color:deeppink">[<sub>CP</sub></span> <b><span style="color:blue">that</span></b> she went to China <span style="color:deeppink">]</span> *.<br><br>
+  - *I bought an umbrella <span style="color:deeppink">[<sub>CP</sub></span>  <b><span style="color:blue">because</span></b> it was raining <span style="color:deeppink">]</span>*.<br><br>
+  - *Please tell me <span style="color:deeppink">[<sub>CP</sub></span>  <b><span style="color:blue">if</span></b> you're going to the store <span style="color:deeppink">]</span>*.<br><br>
+- sometimes the complementiser is **omitted** (often in English, that can be variably omitted):<br><br>
+  - *She said <span style="color:deeppink">[<sub>CP</sub></span>  <b><span style="color:blue">(that)</span></b> she went to China <span style="color:deeppink">]</span>*.<br><br>
+  - *The book <span style="color:deeppink">[<sub>CP</sub></span>  <b><span style="color:blue">(that)</span></b> I read<span style="color:deeppink">]</span> is about dinosaurs*.<br><br>
+  - *Ben thought <span style="color:deeppink">[<sub>CP</sub></span>  <b><span style="color:blue">(that)</span></b> he was going to be late<span style="color:deeppink">]</span>*.
+
+---
+## **Structure of Dependent Clauses**
+<br>
+.pull-left[
+- dependent clauses are **embedded sentences**, so we will also take them as a <span style="color:brown"><b>TP</b></span> <br><br>
+- dependent clause <span style="color:brown"><b>TP</b></span>s are then inserted into a larger constituent called the **complementizer phrase** or <span style="color:teal"><b>CP</b></span>: <span style="color:teal"><b>CP</b></span> → **(C)** <span style="color:brown"><b>TP</b></span>
+  - C (complementizer), is optional<br><br>
+- <span style="color:teal"><b>CP</b></span> is then inserted into the **main clause**<br><br>
+- **note** that some dependent clauses don NOT have an explicit subject NP <br><br>
+  - *He wants <span style="color:deeppink">[<sub>TP</sub></span> <span style="color:#CC0033"><b>Ø</b></span> to go to Machu Picchu <span style="color:deeppink">]</span>*.<br><br>
+  - *I know the author <span style="color:green">[<sub>CP</sub></span> who <span style="color:deeppink">[<sub>TP</sub></span> <span style="color:#CC0033"><b>Ø</b></span> wrote this book <span style="color:deeppink">]</span> <span style="color:green">]</span>*.
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/shechina.png" width="50%">
+<br><br>
+<img src="../pic/1007/wrotebook.png" width="65%">
+</div>
+]
+
+---
+## **CPs inside VPs**
+<br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/1007/merlinasked.png" width="60%">
+<br><br>
+<img src="../pic/1007/because3.png" width="60%">
+</div>
+]
+.pull-right[
+- four roles <span style="color:teal"><b>CP</b></span> can play in a sentence: <br><br>
+1. take the role of an <span style="color:blue"><b>NP</b></span>, acting as the **object** <br><br>
+  - *Merlin <span style="color:#CC0033">[<sub>VP</sub></span> asked <span style="color:blue">[<sub>NP</sub></span> a question <span style="color:blue">]</sub></span> <span style="color:#CC0033">]</sub></span>*.
+  - → *Merlin <span style="color:#CC0033">[<sub>VP</sub></span> asked <span style="color:teal">[<sub>CP</sub></span></sub> where I went <span style="color:teal">]</sub></span> <span style="color:#CC0033">]</sub></span>*.<br><br>
+2. take the role of <span style="color:deeppink"><b>AdvP</b></span>, acting as an **adjunct**<br><br>
+  - *I was <span style="color:#CC0033">[<sub>VP</sub></span> running <span style="color:deeppink">[<sub>AdvP</sub></span> quickly <span style="color:deeppink">]</sub></span> <span style="color:#CC0033">]</sub></span>*.
+  - → *I was <span style="color:#CC0033">[<sub>VP</sub></span> running <span style="color:teal">[<sub>CP</sub></span> because I missed the bus <span style="color:teal">]</sub></span> <span style="color:#CC0033">]</sub></span>*.<br><br>
+  
+- since these <span style="color:teal"><b>CP</b></sub></span>s go inside **VP**s, let's modify our **VP** rule to account for these two cases:<br>
+  - **VP** → (AdvP+) **V** (NP) **({**<span style="color:blue"><b>NP</b></sub></span>, <span style="color:teal"><b>CP</b></sub></span>**})** (AdvP+) (PP+) (AdvP+) <span style="color:teal"><b>(CP+)</b></sub></span>
+]
+
+---
+## **CPs inside NPs**
+<br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/1007/girl.png" width="80%">
+<br><br>
+<img src="../pic/1007/girlimet.png" width="100%">
+</div>
+]
+.pull-right[
+- four roles <span style="color:teal"><b>CP</b></span> can play in a sentence: <br><br>
+- act **like** an <span style="color:orange"><b>AdjP</b></span>, modifying a noun and going inside an <span style="color:blue"><b>NP</b></span><br><br>
+  - *<span style="color:blue">[<sub>NP</sub></span> The girl <span style="color:blue">]</sub></span> studies linguistics*.
+  - *<span style="color:blue">[<sub>NP</sub></span> The girl <span style="color:teal">[<sub>CP</sub></span> that I met <span style="color:teal">]</span> <span style="color:blue">]</span> studies linguistics*.<br><br>
+- these can go inside an <span style="color:blue"><b>NP</b></span> anywhere in the sentence:<br><br>
+  - *<span style="color:blue">[<sub>NP</sub></span> The book <span style="color:teal">[<sub>CP</sub></span> I read <span style="color:teal">]</span> <span style="color:blue">]</span> is about geology*.
+  - *She bought <span style="color:blue">[<sub>NP</sub></span> the book <span style="color:teal">[<sub>CP</sub></span> I read <span style="color:teal">]</span> ]*.<br><br>
+- since these <span style="color:teal"><b>CP</b></sub></span>s go inside <span style="color:blue"><b>NP</b></sub></span>s, let's modify our <span style="color:blue"><b>NP</b></sub></span> rule:
+  - <span style="color:blue"><b>NP</b></sub></span> → (D) (AdjP+) **N** (PP+) <span style="color:teal"><b>(CP+)</b></sub></span>
+]
+
+---
+## **CPs as the Subject**
+<br><br><br><br>
+.pull-left[
+<br><br>
+<img src="../pic/1007/elders.png" width="100%">
+]
+.pull-right[
+- four roles <span style="color:teal"><b>CP</b></span> can play in a sentence: <br><br>
+- act as **the subject**, going into a <span style="color:brown"><b>TP</b></sub></span><br><br>
+  - *<span style="color:brown">[<sub>TP</sub></span> <span style="color:blue">[<sub>NP</sub></span> That story <span style="color:blue">]</span> impressed me <span style="color:brown">]</span>*.
+  - *<span style="color:brown">[<sub>TP</sub></span> <span style="color:teal">[<sub>CP</sub></span> That he helped the elders <span style="color:teal">]</span> impressed me <span style="color:brown">]</span>*.<br><br>
+- since these <span style="color:teal"><b>CP</b></sub></span>s go inside <span style="color:brown"><b>TP</b></sub></span>ss, let's modify our <span style="color:teal"><b>TP</b></sub></span>s rule:
+  - <span style="color:brown"><b>TP</b></sub></span>s → **{**<span style="color:blue"><b>NP</b></sub></span>, <span style="color:teal"><b>CP</b></sub></span>**}** **(T)** VP
+]
+
+---
+## **Modified Phrase Structure Rules for English**
+<br>
+.pull-left[
+- <h3><b><span style="color:blue">NP</span></b> → (D) (AdjP+) <b><span style="color:blue">N</span></b> (PP+) <span style="color:teal">(CP+)</span></h3><br>
+- <h3><b><span style="color:green">PP</span></b> → <b><span style="color:green">P</span></b> NP</h3><br>
+- <h3><b><span style="color:orange">AdjP</span></b> → (AdvP) <b><span style="color:orange">Adj</span></b></h3><br>
+- <h3><b><span style="color:deeppink">AdvP</span></b> → (AdvP) <b><span style="color:deeppink">Adv</span></b></h3><br>
+]
+.pull-right[
+- <h3><b><span style="color:brown">TP</span></b> → **{**<span style="color:blue">NP</span>, <span style="color:teal">CP</span>**}** <b><span style="color:brown">(T)</span></b> VP</h3><br>
+- <h3><b><span style="color:teal">CP</span></b> → <b><span style="color:teal">(C)</span></b> TP</h3><br>
+]
+- <h3><b><span style="color:#CC0033">VP</span></b> → (AdvP+) <b><span style="color:#CC0033">V</span></b> (NP) (<span style="color:#CC0033">{</span><span style="color:blue">NP</span>, <span style="color:teal">CP</sub></span><span style="color:#CC0033">}</span>) (AdvP+) (PP+) (AdvP+) <span style="color:teal">(CP+)</span></h3>
+
+---
+## **Drawing Complex Sentences**
+<br>
+- if a sentence has **two main verbs** joined by a **complementizer**, it's **complex**<br><br>
+- this doesn't include sentences with two main verbs joined by a **coordinating
+conjunction** like <i><u>and</u></i>, <i><u>or</u></i>, <i><u>but</u></i><br><br>
+<div style="text-align:center">
+<i>I read a book **and** I took a walk</i>.
+</div>
+<br><br>
+- then identify which of these verbs is in the **main** clause, and which is in the **subordinate** clause<br><br>
+  - the **subordinate** clause is the one that <b><span style="color:blue">starts with a complementiser</span></b>
+  - but be aware that the complementiser that is sometimes **omitted**
+  - draw the tree for the subordinate clause first<br><br>
+- draw the tree for the **main** clause without the subordinate clause, then figure out <b><span style="color:blue">how the two are connected</span></b><br><br>
+  - does the subordinate clause modify a noun (goes in to <b><span style="color:blue">NP</span></b>)
+  - is it part of the main clause's VP (goes in to **VP**)
+  - is is the subject (goes into <b><span style="color:brown">TP</span></b>)
+  
+
+---
+.pull-left[
+## **Exercise III**
+### complex sentences
+<br>
+draw **syntax trees** for the following sentences.
+<br><br><br>
+a. John said that he likes pizza.<br><br>
+b. The dog I saw can run fast.<br><br>
+c. I will take an umbrella if it rains.<br><br>
+d. I saw a deer that was grazing in the park.<br><br>
+e. I am studying because I am taking a test tomorrow.<br><br>
+f. That Merlin randomly did his part of work totally ruined the whole plan..
+]
+.pull-right[
+<img src="../pic/1007/psr2.png" width="100%">
+]
+
+---
+## **Exercise III**
+### complex sentences
+<br><br>
+.pull-left[
+<img src="../pic/1007/pizza.png" width="100%"><br><br>
+]
+.pull-right[
+<img src="../pic/1007/fastdog.png" width="100%"><br><br>
+]
+
+.pull-left[
+a. '*John said that he likes pizza*.'
+]
+.pull-right[
+b. '*The dog I saw can run fast*.'
+]
+
+
+---
+.pull-left[
+## **Exercise III**
+### complex sentences
+<br><br><br><br><br>
+<img src="../pic/1007/rains.png" width="100%"><br><br>
+]
+.pull-right[
+<br><br><br><br><br>
+<img src="../pic/1007/deer.png" width="100%"><br><br>
+]
+
+.pull-left[
+c. '*I will take an umbrella if it rains*.'
+]
+.pull-right[
+d. '*I saw a deer that was grazing in the park*.'
+
+]
+
+---
+## **Exercise III**
+### complex sentences
+<br>
+<div style="text-align:center">
+<img src="../pic/1007/test.png" width="60%"><br><br>
+e. '<i>I am studying because I am taking a test tomorrow</i>.'
+</div>
+
+---
+## **Exercise III**
+### complex sentences
+<br>
+<div style="text-align:center">
+<img src="../pic/1007/ruin.png" width="80%"><br><br>
+f. '<i>That Merlin randomly did his part of work totally ruined the whole plan</i>.'
+]
+
+
+---
+.pull-left[
+### **Cross-linguistic Comparison**
+<br>
+state at least **three differences** between English and the following languages, using just the sentence(s) given, 
+**ignore** lexical differences (i.e., the different vocabulary)<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/psr2.png" width="60%">
+</div>
+]
+.pull-left[
+### ***Thai***
+<br>
+
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;">(a)</td>
+    <td style="white-space:nowrap;">dèg</td>
+    <td style="white-space:nowrap;">khon</td>
+    <td style="white-space:nowrap;">níi</td>
+    <td style="white-space:nowrap;">kamlang</td>
+    <td style="white-space:nowrap;">kin</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">boy</td>
+    <td style="white-space:nowrap;">CL</td>
+    <td style="white-space:nowrap;">this</td>
+    <td style="white-space:nowrap;">PROG</td>
+    <td style="white-space:nowrap;">eat</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="5" style="text-align:left; padding-bottom:20px;">
+    '<i>This boy is eating</i>.'
+    </td>
+  </tr>
+  <tr>  
+    <td style="white-space:nowrap;"></td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;">(b)</td>
+    <td style="white-space:nowrap;">mǎa</td>
+    <td style="white-space:nowrap;">tua</td>
+    <td style="white-space:nowrap;">nán</td>
+    <td style="white-space:nowrap;">kin</td>
+    <td style="white-space:nowrap;">khâaw</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">dog</td>
+    <td style="white-space:nowrap;">CL</td>
+    <td style="white-space:nowrap;">that</td>
+    <td style="white-space:nowrap;">eat</td>
+    <td style="white-space:nowrap;">rice</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="5" style="text-align:left; padding-bottom:20px;">
+    '<i>That dog ate rice</i>.'
+    </td>
+  </tr>
+</table>
+
+CL = classifier
+]
+
+--
+
+.pull-right[
+### **Thai vs English**
+<br>
+
+1. Thai has **classifiers** (no English equivalent)<br><br>
+2. demonstratives (**this / that**) follow the noun in Thai but precede it in English<br><br>
+3. the **progressive** is expressed by a **separate** word in Thai and the verb does not change form
+]
+
+---
+.pull-left[
+### **Cross-linguistic Comparison**
+<br>
+state at least **three differences** between English and the following languages, using just the sentence(s) given, 
+**ignore** lexical differences (i.e., the different vocabulary)<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/psr2.png" width="60%">
+</div>
+]
+
+### ***French***
+<br>
+
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;">(a)</td>
+    <td style="white-space:nowrap;">cet</td>
+    <td style="white-space:nowrap;">homme</td>
+    <td style="white-space:nowrap;">intelligent</td>
+    <td style="white-space:nowrap;">comprendra</td>
+    <td style="white-space:nowrap;">la</td>
+    <td style="white-space:nowrap;">question</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">this</td>
+    <td style="white-space:nowrap;">man</td>
+    <td style="white-space:nowrap;">intelligent</td>
+    <td style="white-space:nowrap;">will understand</td>
+    <td style="white-space:nowrap;">the</td>
+    <td style="white-space:nowrap;">question</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="6" style="text-align:left; padding-bottom:20px;">
+    '<i>This intelligent man will understand the question</i>.'</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;">(b)</td>
+    <td style="white-space:nowrap;">ces</td>
+    <td style="white-space:nowrap;">hommes</td>
+    <td style="white-space:nowrap;">intelligents</td>
+    <td style="white-space:nowrap;">comprendront</td>
+    <td style="white-space:nowrap;">les</td>
+    <td style="white-space:nowrap;">questions</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">these</td>
+    <td style="white-space:nowrap;">men</td>
+    <td style="white-space:nowrap;">intelligent.PL</td>
+    <td style="white-space:nowrap;">will understand.PL</td>
+    <td style="white-space:nowrap;">the.PL</td>
+    <td style="white-space:nowrap;">questions.PL</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="6" style="text-align:left; padding-bottom:20px;">
+    '<i>These intelligent men will understand the questions</i>.'</td>
+  </tr>
+</table>
+<br>
+PL = plural
+
+---
+.pull-left[
+### **Cross-linguistic Comparison**
+<br>
+state at least **three differences** between English and the following languages, using just the sentence(s) given, 
+**ignore** lexical differences (i.e., the different vocabulary)<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/psr2.png" width="60%">
+</div>
+]
+
+### ***Greek***
+<br>
+
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+<tr>
+<td style="white-space:nowrap;">(a)</td>
+<td style="white-space:nowrap;">ego</td>
+<td colspan="2" style="white-space:nowrap;">edos-a</td>
+<td colspan="2" style="white-space:nowrap;">s-to</td>
+<td colspan="2" style="white-space:nowrap;">skyl-o</td>
+<td colspan="2" style="white-space:nowrap;">en-a</td>
+<td colspan="2" style="white-space:nowrap;">kokkal-o</td>
+</tr>
+<tr>
+<td style="white-space:nowrap;"></td>
+<td style="white-space:nowrap;">ego</td>
+<td style="white-space:nowrap;">edos-</td>
+<td style="white-space:nowrap;">a</td>
+<td style="white-space:nowrap;">s-</td>
+<td style="white-space:nowrap;">to</td>
+<td style="white-space:nowrap;">skyl-</td>
+<td style="white-space:nowrap;">o</td>
+<td style="white-space:nowrap;">en-</td>
+<td style="white-space:nowrap;">a</td>
+<td style="white-space:nowrap;">kokkal-</td>
+<td style="white-space:nowrap;">o</td>
+</tr>
+<tr>
+<td style="white-space:nowrap;"></td>
+<td style="white-space:nowrap;">I</td>
+<td style="white-space:nowrap;">give-</td>
+<td style="white-space:nowrap;">PST.1SG</td>
+<td style="white-space:nowrap;">to</td>
+<td style="white-space:nowrap;">the</td>
+<td style="white-space:nowrap;">dog-</td>
+<td style="white-space:nowrap;">OBJ.SG</td>
+<td style="white-space:nowrap;">one-</td>
+<td style="white-space:nowrap;">SG.NEUT</td>
+<td style="white-space:nowrap;">bone-</td>
+<td style="white-space:nowrap;">SG.NEUT</td>
+</tr>
+<tr>
+  <td style="white-space:nowrap;"></td>
+  <td colspan="11" style="white-space:nowrap;">
+  <i>I gave a bone to the dog</i>.</td>
+</tr>
+</table>
+<br>
+OBJ = object marker<br>
+NEUT = neuter noun (in contrast with feminine and masculine)
+
+---
+.pull-left[
+### **Cross-linguistic Comparison**
+<br>
+state at least **three differences** between English and the following languages, using just the sentence(s) given, 
+**ignore** lexical differences (i.e., the different vocabulary)<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/psr2.png" width="60%">
+</div>
+]
+
+### ***Japanese***
+<br>
+
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;">(a)</td>
+    <td style="white-space:nowrap;">watashi</td>
+    <td style="white-space:nowrap;">ga</td>
+    <td style="white-space:nowrap;">sakana</td>
+    <td style="white-space:nowrap;">o</td>
+    <td style="white-space:nowrap;">tabete</td>
+    <td style="white-space:nowrap;">iru</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">I</td>
+    <td style="white-space:nowrap;">SUBJ</td>
+    <td style="white-space:nowrap;">fish</td>
+    <td style="white-space:nowrap;">OBJ</td>
+    <td style="white-space:nowrap;">eat.PROG</td>
+    <td style="white-space:nowrap;">am</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="6" style="text-align:left; padding-bottom:20px;">
+    '<i>I am eating fish</i>.'</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+  </tr>
+</table>
+<br><br>
+SUBJ = subject marker<br>
+OBJ = object marker
+
+---
+.pull-left[
+### **Cross-linguistic Comparison**
+<br>
+state at least **three differences** between English and the following languages, using just the sentence(s) given, 
+**ignore** lexical differences (i.e., the different vocabulary)<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/psr2.png" width="60%">
+</div>
+]
+
+### ***Swahili***
+<br>
+
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;">(a)</td>
+    <td colspan="2" style="white-space:nowrap;">mtoto</td>
+    <td colspan="3" style="white-space:nowrap;">alivunja</td>
+    <td colspan="2" style="white-space:nowrap;">kikombe</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">m-</td>
+    <td style="white-space:nowrap;">toto</td>
+    <td style="white-space:nowrap;">a-</td>
+    <td style="white-space:nowrap;">li-</td>
+    <td style="white-space:nowrap;">vunja</td>
+    <td style="white-space:nowrap;">ki-</td>
+    <td style="white-space:nowrap;">kombe</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">NOUN CLASS</td>
+    <td style="white-space:nowrap;">child</td>
+    <td style="white-space:nowrap;">he</td>
+    <td style="white-space:nowrap;">PST</td>
+    <td style="white-space:nowrap;">break</td>
+    <td style="white-space:nowrap;">NOUN CLASS</td>
+    <td style="white-space:nowrap;">cup</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="7" style="text-align:left; padding-bottom:20px;">
+    '<i>The child broke the cup</i>.'</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;">(b)</td>
+    <td colspan="2" style="white-space:nowrap;">watoto</td>
+    <td colspan="3" style="white-space:nowrap;">wanavunja</td>
+    <td colspan="2" style="white-space:nowrap;">vikombe</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">wa-</td>
+    <td style="white-space:nowrap;">toto</td>
+    <td style="white-space:nowrap;">wa-</td>
+    <td style="white-space:nowrap;">na-</td>
+    <td style="white-space:nowrap;">vunja</td>
+    <td style="white-space:nowrap;">vi-</td>
+    <td style="white-space:nowrap;">kombe</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">NOUN CLASS</td>
+    <td style="white-space:nowrap;">child</td>
+    <td style="white-space:nowrap;">they</td>
+    <td style="white-space:nowrap;">PRES</td>
+    <td style="white-space:nowrap;">break</td>
+    <td style="white-space:nowrap;">NOUN CLASS</td>
+    <td style="white-space:nowrap;">cup</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="7" style="text-align:left; padding-bottom:20px;">
+    '<i>The children break the cups</i>.'</td>
+  </tr>
+</table>
+
+---
+.pull-left[
+### **Cross-linguistic Comparison**
+<br>
+state at least **three differences** between English and the following languages, using just the sentence(s) given, 
+**ignore** lexical differences (i.e., the different vocabulary)<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/psr2.png" width="60%">
+</div>
+]
+
+### ***Korean***
+<br>
+
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;">(a)</td>
+    <td style="white-space:nowrap;">kɨ</td>
+    <td colspan="2" style="white-space:nowrap;">sonyɔn-iee</td>
+    <td colspan="2" style="white-space:nowrap;">wɨyu-lɨl</td>
+    <td colspan="3" style="white-space:nowrap;">masi-ass-ta</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">kɨ</td>
+    <td style="white-space:nowrap;">sonyɔn-</td>
+    <td style="white-space:nowrap;">iee</td>
+    <td style="white-space:nowrap;">wɨyu-</td>
+    <td style="white-space:nowrap;">lɨl</td>
+    <td style="white-space:nowrap;">masi-</td>
+    <td style="white-space:nowrap;">ass-</td>
+    <td style="white-space:nowrap;">ta</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">the</td>
+    <td style="white-space:nowrap;">boy</td>
+    <td style="white-space:nowrap;">SUBJ</td>
+    <td style="white-space:nowrap;">milk</td>
+    <td style="white-space:nowrap;">OBJ</td>
+    <td style="white-space:nowrap;">drink</td>
+    <td style="white-space:nowrap;">PST</td>
+    <td style="white-space:nowrap;">ASSRT</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="8" style="text-align:left; padding-bottom:20px;">
+    '<i>The child broke the cup</i>.'</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;">(b)</td>
+    <td colspan="2" style="white-space:nowrap;">kɨ-nɨn</td>
+    <td colspan="2" style="white-space:nowrap;">muɔs-ɨl</td>
+    <td colspan="3" style="white-space:nowrap;">mɔk-ass-nɨnya</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">kɨ</td>
+    <td style="white-space:nowrap;">nɨn</td>
+    <td style="white-space:nowrap;">muɔs-</td>
+    <td style="white-space:nowrap;">ɨl</td>
+    <td style="white-space:nowrap;">mɔk-</td>
+    <td style="white-space:nowrap;">ass-</td>
+    <td style="white-space:nowrap;">nɨnya</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">he</td>
+    <td style="white-space:nowrap;">SUBJ</td>
+    <td style="white-space:nowrap;">what</td>
+    <td style="white-space:nowrap;">OBJ</td>
+    <td style="white-space:nowrap;">eat</td>
+    <td style="white-space:nowrap;">past</td>
+    <td style="white-space:nowrap;">QUES</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="8" style="text-align:left; padding-bottom:20px;">
+    '<i>The children break the cups</i>.'</td>
+  </tr>
+</table>
+ASSRT = assertion, QUES = question
+
+---
+.pull-left[
+### **Cross-linguistic Comparison**
+<br>
+state at least **three differences** between English and the following languages, using just the sentence(s) given, 
+**ignore** lexical differences (i.e., the different vocabulary)<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1007/psr2.png" width="60%">
+</div>
+]
+
+### ***Tagalog***
+<br>
+
+<table style="width:100%; table-layout:auto; border-collapse:collapse;">
+  <tr>
+    <td style="white-space:nowrap;">(a)</td>
+    <td style="white-space:nowrap;">Nakita</td>
+    <td style="white-space:nowrap;">ni</td>
+    <td colspan="2" style="white-space:nowrap;">Pedro-ng</td>
+    <td style="white-space:nowrap;">puno</td>
+    <td style="white-space:nowrap;">na</td>
+    <td style="white-space:nowrap;">ang</td>
+    <td style="white-space:nowrap;">bus</td>
+  </tr>
+    <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">Nakita</td>
+    <td style="white-space:nowrap;">ni</td>
+    <td style="white-space:nowrap;">Pedro</td>
+    <td style="white-space:nowrap;">-ng</td>
+    <td style="white-space:nowrap;">puno</td>
+    <td style="white-space:nowrap;">na</td>
+    <td style="white-space:nowrap;">ang</td>
+    <td style="white-space:nowrap;">bus</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td style="white-space:nowrap;">saw</td>
+    <td style="white-space:nowrap;">ART</td>
+    <td style="white-space:nowrap;">Pedro</td>
+    <td style="white-space:nowrap;">that</td>
+    <td style="white-space:nowrap;">full</td>
+    <td style="white-space:nowrap;">already</td>
+    <td style="white-space:nowrap;">TOP</td>
+    <td style="white-space:nowrap;">bus</td>
+  </tr>
+  <tr>
+    <td style="white-space:nowrap;"></td>
+    <td colspan="8" style="text-align:left; padding-bottom:20px;">
+    '<i>Pedro saw that the bus was already full</i>.'</td>
+  </tr>
+</table>
+<br>
+ART = article<br>
+TOP = topic marker
+
+
+---
+class: center, middle
+**Assignment III** is due this Sunday (**Oct 11**) at **11:59 pm**<br><br>
+<span style="color:green"><b>start preparing</b></span> for the **MIDTERM**</i><br><br>
+the **MIDTERM** is on **Oct 14** at class time<br><br>
+<img src="../pic/1007/fine.jpeg" width="60%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

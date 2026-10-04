@@ -1,0 +1,596 @@
+---
+title: "**Syntax IV**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/10/05 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+
+---
+## **Previously on 201**
+### **Phrase Structure Rules (PSRs) for NP, PP, AdjP and AdvP**
+<br><br><br>
+- <h3><b><span style="color:blue">NP</span></b> → (D) (AdjP+) <b><span style="color:blue">N</span></b> (PP+)</h3><br>
+- <h3><b><span style="color:green">PP</span></b> → <b><span style="color:green">P</span></b> NP</h3><br>
+- <h3><b><span style="color:orange">AdjP</span></b> → (AdvP) <b><span style="color:orange">Adj</span></b></h3><br>
+- <h3><b><span style="color:deeppink">AdvP</span></b> → (AdvP) <b><span style="color:deeppink">Adv</span></b></h3><br>
+
+
+---
+.pull-left[
+## **Exercise I**
+### <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span>
+<br>
+draw a **syntax tree** for the underlined phrases <br><br>
+a. I ate <u>an apple</u>.<br><br>
+b. John went <u>into the building</u>.<br><br>
+c. They're like <u>peas in a pod</u>.<br><br>
+d. The bakery sells <u>wonderfully fresh bread</u>.<br><br>
+e. I like to drive <u>really slowly</u>.<br><br>
+f. Mary helped <u>the man in the car with the flat tire</u>.<br><br>
+g. I threw a ball to <u>the dog with a collar in the park</u>.
+]
+.pull-right[
+<img src="../pic/1005/psr.png" width="100%">
+<br><br><br>
+<img src="../pic/1005/a1.png" width="30%">
+<img src="../pic/1005/a2.png" width="30%">
+<img src="../pic/1005/a3.png" width="30%">
+<br><br>
+1. in **f** does <u><i>with the flat tire</i></u> modify 'the man' or 'the car'?
+2. what about <i><u>in the park</i></u> in **g**?
+]
+
+---
+.pull-left[
+## **Exercise I**
+### <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span>
+]
+.pull-right[
+<img src="../pic/1005/psr.png" width="100%">]
+<br><br>
+.pull-left[
+.pull-left[
+<img src="../pic/1005/c.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1005/d.png" width="90%">
+]
+]
+.pull-right[
+.pull-left[
+<img src="../pic/1005/e.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1005/f.png" width="90%">
+]
+]
+<br><br>
+.pull-left[
+.pull-left[
+b. '*into the building*'
+]
+.pull-right[
+c. '*peas in a pod*'
+]
+]
+.pull-right[
+.pull-left[
+d. '*wonderfully fresh bread*'
+]
+.pull-right[
+e. '*really slowly*'
+]
+]
+---
+.pull-left[
+## **Exercise I**
+### <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span>
+<br>
+**f. the man in the car with the flat tire**
+<br><br>
+<img src="../pic/1005/hard1.png" width="70%">
+]
+.pull-right[
+<img src="../pic/1005/psr.png" width="100%">
+<br><br>
+<img src="../pic/1005/hard2.png" width="80%">
+]
+<br><br>
+both trees above are correct according to **PSRs**, but what do they each mean?
+
+---
+## **Verb Phrases (VP)**
+<br>
+.pull-left[
+- a verb phrase (**VP**) consists of **a verb** and everything that **modify** it<br><br>
+- generally, this includes **everything** in a sentence except the **subject** (the entity that performs the action indicated by the verb)<br><br>
+- the simplest **VP** is a single verb:
+.pull-left[
+- *Arthur <u>ate</u>*.<br>
+
+- *Merlin <u>left</u>*.
+<br><br><br><br>
+
+<h3><span style="color:#CC0033"><b>VP</b></span>→ V</h3>
+]
+.pull-right[
+**VP** → V<br>
+
+**VP** → V
+]<br><br>
+]
+.pull-right[
+<img src="../pic/1005/english.jpg" width="85%">
+]
+
+---
+## **Verb Phrases (VP)**
+<br>
+.pull-left[
+- besides the verb, **VP**s also contain any **objects** of the verb<br><br>
+- <span style="color:blue"><b>direct object</b></span>: person or entity **affected** by the action indicated by the verb<br>
+  <span style="color:blue"><b>direct object</b></span>s are <span style="color:blue"><b>NP</b></span>s:
+  - <i>Peter <u>baked [<span style="color:blue">a cake</span>]</u></i>.<br><br>
+  
+- <span style="color:orange"><b>indirect object</b></span>: person or entity that **receives** something or **benefits** from the action<br>
+  <span style="color:orange"><b>indirect object</b></span> can be <span style="color:green"><b>PP</b></span>s or <span style="color:blue"><b>NP</b></span>s:
+  - <i>Peter <u>baked [<span style="color:blue">a cake</span>] [<span style="color:orange">for his mom</span>]</u></i>.
+  - <i>Peter <u>baked [<span style="color:orange">his mom</span>] [<span style="color:blue">a cake</span>] </u></i>.
+<br><br>
+
+<h3><span style="color:#CC0033"><b>VP</b></span>→ V (NP) (NP/PP)</h3>
+]
+.pull-right[
+<img src="../pic/1005/english.jpg" width="85%">
+]
+
+---
+## **Verb Phrases (VP)**
+<br>
+.pull-left[
+- in addition to objects, a **VP** can contain <span style="color:green"><b>adjuncts</b></span><br><br>
+- they are **optional** elements that describe the **action** and therefore **modify** the verb<br><br>
+- adjuncts may be <span style="color:green"><b>PP</b></span>s or <span style="color:deeppink"><b>AdvP</b></span>s:<br><br>
+  - <i>The train <u>arrived [<span style="color:green">at Shanghai</span>]</u></i>.<br>
+  **VP** → V <span style="color:green">PP</span><br><br>
+  - <i>The train <u>arrived [<span style="color:green">quickly</span>]</u></i>.<br>
+  **VP** → V <span style="color:deeppink">AdvP</span><br><br>
+- a sentence can have multiple <span style="color:green"><b>adjuncts</b></span>:<br><br>
+  - <i>The train <u>arrived [<span style="color:green">quickly</span>] [<span style="color:green">at Shanghai</span>]</u></i>.<br>
+]
+.pull-right[
+<img src="../pic/1005/english.jpg" width="85%">
+]
+
+---
+class: center, middle
+<h1><span style="color:#CC0033"><b>VP</b></span>→ <span style="color:deeppink"><b>(AdvP+)</b></span> <span style="color:#CC0033"><b>V</b></span> <span style="color:blue"><b>(NP)</b></span> <span style="color:blue"><b>(NP)</b></span> <span style="color:deeppink"><b>(AdvP+)</b></span> <span style="color:green"><b>(PP+)</b></span> <span style="color:deeppink"><b>(AdvP+)</b></span></h1>
+<br><br><br>
+<div style="text-align:left">
+just remember a few things:<br><br>
+1. a <span style="color:#CC0033"><b>VP</b></span> always has a verb <span style="color:#CC0033"><b>head</b></span><br>
+2. a <span style="color:#CC0033"><b>VP</b></span> can contain many <span style="color:#CC0033"><b>optional</b></span> things like <span style="color:blue"><b>NP</b></span>, <span style="color:green"><b>PP</b></span>, and <span style="color:deeppink"><b>AdvP</b></span> arguments and adjuncts, <span style="color:#CC0033"><b>BUT</b></span>:<br><br>
+3. a <span style="color:#CC0033"><b>VP</b></span> does NOT contain the subject of the verb<br>
+4. <span style="color:#CC0033"><b>VP</b></span>s will NOT directly contain an <span style="color:orange"><b>AdjP</b></span> (since AdjPs describe nouns, not verbs)<br>
+5. any <span style="color:blue"><b>NP</b></span>s or <span style="color:green"><b>PP</b></span>s will always go after the verb<br>
+6. objects and adjuncts will always be <span style="color:#CC0033"><b>siblings</b></span> of the verb
+</div>
+
+
+---
+## **Tense Phrases (TP, Sentence)**
+<br>
+.pull-left[
+**sentences** are also known as <span style="color:brown"><b>tense phrases</b></span> (<span style="color:brown"><b>TP</b></span>, or occasionally S), and it consists of:<br><br>
+- <span style="color:blue"><b>NP</b></span> – a required subject<br><br>
+- <span style="color:brown"><b>T</b></span> – an optional slot called "tense" that can be filled by:<br><br>
+  1. modal verbs (*can*, *might*, *should...*)
+  2. auxiliary verbs (*is*, *are*, *has*, *will*…)
+  3. the infinitive marker *to* as in *to go*, *to see*
+  4. PAST and PRESENT if there is no overt tense-marker as above<br><br>
+- <span style="color:#CC0033"><b>VP</b></span> – a required verb phrase (sometimes called the predicate)
+<br>
+<h3><b><span style="color:brown">TP</span></b> → <span style="color:blue">NP</span></b> <b><span style="color:brown">(T)</span></b> <span style="color:#CC0033">VP</span></b></h3>
+]
+.pull-right[
+<br>
+<br><br>
+<img src="../pic/1005/tense.jpg" width="90%">
+]
+
+
+---
+## **Steps for Drawing Trees**
+<br>
+1. write the sentence at the bottom of the page – leave yourself **plenty of room**<br><br>
+2. label the **part of speech** of each word<br><br>
+3. sentences have a subject <span style="color:blue"><b>NP</b></span> and predicate **VP** – try to identify these first, and draw the subject<br><br>
+4. trees should ALWAYS follow **PSR**s, so try to identify elements that can be part of rules for different phrases<br><br>
+5. every <span style="color:blue"><b>noun</b></span>, <span style="color:orange"><b>adjective</b></span>, <span style="color:deeppink"><b>adverb</b></span>, <span style="color:green"><b>preposition</b></span> has its own corresponding phrase <span style="color:blue"><b>NP</b></span>, <span style="color:orange"><b>AdjP</b></span>, <span style="color:deeppink"><b>AdvP</b></span>, <span style="color:green"><b>PP</b></span><br><br>
+6. smaller trees first, then figure out how they connect to the rest of the tree<br><br>
+<b>some notes</b>
+- VPs can have lots of elements, so figure them out last
+- **pay attention to what modifies what** – any phrase that modifies a word should be its **sibling**
+- because of the way English is structured, it can often be easier to start at the end and work **backwards**
+
+
+---
+background-image: url("../pic/1005/oatmeal.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+let's do a this tree <span style="color:#CC0033"><b>bottom-to-top</b></span>together
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal0.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+first, write out the <span style="color:#CC0033"><b>words</b></span><br>
+and label the parts of speech
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal1.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+first, write out the words<br>
+and label the <span style="color:#CC0033"><b>parts of speech</b></span>
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal2.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+find out where <span style="color:brown"><b>T</b></span> should be <br>
+since it breaks apart <span style="color:blue"><b>NP</b></span> and <span style="color:#CC0033"><b>VP</b></span> in the sentence
+<br><br>
+usually we look for the <span style="color:#CC0033"><b>subject</b></span> and the <span style="color:#CC0033"><b>main verb</b></span><br>
+in this case, it is <i>Arthur</i> and <i>ate</i>
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal3.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+draw a tree for the whole sentence by using 
+<span style="color:brown"><b>TP</b></span> → <span style="color:blue"><b>NP</b></span> T <span style="color:#CC0033"><b>VP</b></span> at the top<br><br>
+identify any **T** and connect it<br><br>
+if there's no **T**,you might need to think about<br>
+if it is **PRESENT** or **PAST** tense
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal4.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+identify the subject <span style="color:blue"><b>NP</b></span> and draw its tree
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal5.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+everything left over is the <span style="color:#CC0033"><b>VP</b></span><br><br>
+the <span style="color:#CC0033"><b>VP</b></span> always has a head <b>V</b><br>
+identify it and connect it to the <span style="color:#CC0033"><b>VP</b></span>
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal6.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+check there are any adjectives or adverbs<br>
+that you can make simple <span style="color:orange"><b>AdjP</b></span>s or <span style="color:deeppink"><b>AdvP</b></span>s for?
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal7.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+what does this <span style="color:deeppink"><b>AdvP</b></span> **modify**?<br><br>
+if A modifies B, A must be a **sibling** of B<br><br>
+<i><u>thoughtfully</u></i> modifies the verb <i><u>ate</u></i><br>
+so they're part of the same <span style="color:#CC0033"><b>VP</b></span>
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal8.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+can we connect this <span style="color:deeppink"><b>AdjP</b></span><br>
+in the same way to the same <span style="color:#CC0033"><b>VP</b></span>?
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal9.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+what does this <span style="color:orange"><b>AdjP</b></span> **modify**?<br><br>
+if A modifies B, A must be a **sibling** of B<br><br>
+<i><u>hot</u></i> modifies the noun <i><u>oatmeal</u></i><br>
+so they're part of the same <span style="color:blue"><b>NP</b></span>
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal10.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+if there are any other nouns<br> they should also go into an <span style="color:blue"><b>NP</b></span>
+<br><br>
+<img src="../pic/1005/psr1.png" width="55%">
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal11.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+<br>
+<img src="../pic/1005/psr1.png" width="55%">
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+are there any **prepositions** you can draw <span style="color:green"><b>PP</b></span>s for?
+any <span style="color:green"><b>PP</b></span> should contain the **P** and the following <span style="color:blue"><b>NP</b></span>
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal12.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+<br>
+<img src="../pic/1005/psr1.png" width="55%">
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+what does the <span style="color:green"><b>PP</b></span> <i><u>of hot oatmeal</u></i> **modify**?<br>
+it needs to be a **sibling** of the word it modifies<br><br>
+recall that an <span style="color:blue"><b>NP</b></span><br>
+includes everything that modifies **N**<br>
+so the <span style="color:green"><b>PP</b></span> is part of the <span style="color:blue"><b>NP</b></span><br><br>
+we don't end up with<br>separate the <span style="color:blue"><b>NP</b></span> <i><u>for a bowl</u></i>.
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal13.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+<br>
+<img src="../pic/1005/psr1.png" width="55%">
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+what does the <span style="color:green"><b>PP</b></span> <i><u>for breakfast</u></i> **modify**?<br>
+it needs to be a **sibling** of the word it modifies
+<div>
+]
+
+---
+background-image: url("../pic/1005/oatmeal14.png")
+background-size: 85% auto
+
+.pull-left[
+### **<i>Arthur thoughtfully ate a bowl of hot oatmeal for breakfast</i>.**
+<br>
+<img src="../pic/1005/psr1.png" width="55%">
+]
+.pull-right[
+<div style="text-align:right">
+<br>
+does the verb <i><u>ate</u></u> have any objects?<br><br>
+or what is **eaten**?<br><br>
+that something goes directly under the **VP**
+<div>
+]
+
+---
+.pull-left[
+## **Exercise II**
+### <span style="color:#CC0033"><b>VP</b></span>, <span style="color:teal"><b>TP</b></span>
+<br>
+draw **syntax trees** for the following sentences.
+<br><br>
+a. The robin caught a worm.<br><br>
+b. The mockingbird was singing.<br><br>
+c. The sparrow on the windowsill chirped loudly.<br><br>
+d. The osprey brought its hungry chicks a fish.<br><br>
+e. The large owl lives in a nest in the barn.<br><br>
+f. The duck quickly led her ducklings across the street.<br><br>
+]
+.pull-right[
+<img src="../pic/1005/psr.png" width="100%">
+]
+
+---
+## **Exercise II**
+### <span style="color:#CC0033"><b>VP</b></span>, <span style="color:teal"><b>TP</b></span>
+<br><br>
+.pull-left[
+<img src="../pic/1005/v1.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1005/v2.png" width="90%">
+]
+<br><br>
+.pull-left[
+a. '*The robin caught a worm*.'
+]
+.pull-right[
+b. '*The mockingbird was singing loudly*.'
+]
+
+---
+## **Exercise II**
+### <span style="color:#CC0033"><b>VP</b></span>, <span style="color:teal"><b>TP</b></span>
+<br><br>
+.pull-left[
+<img src="../pic/1005/v3.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1005/v4.png" width="90%">
+]
+<br><br>
+.pull-left[
+c. '*The sparrow on the windowsill chirped loudly*.'
+]
+.pull-right[
+d. '*The osprey brought its hungry chicks a fish*.'
+]
+
+---
+## **Exercise II**
+### <span style="color:#CC0033"><b>VP</b></span>, <span style="color:teal"><b>TP</b></span>
+<br><br>
+.pull-left[
+<img src="../pic/1005/v5.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1005/v6.png" width="90%">
+]
+<br><br>
+.pull-left[
+e. '*The large owl lives in a nest in the barn*.'
+]
+.pull-right[
+f. '*The duck quickly led her ducklings across the street*.'
+]
+
+
+
+---
+class: center, middle
+**Assignment III** is due this Sunday (**Oct 11**) at **11:59 pm**<br><br>
+<span style="color:green"><b>continue reading</b></span> Chapter 3: Constituency, Trees, and Rules from <i>Andrew Carnie's Syntax textbook</i><br><br>
+start preparing for the **MIDTERM**, materials uploaded to the canvas <br><br><br>
+<img src="../pic/1005/fine.jpeg" width="50%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
