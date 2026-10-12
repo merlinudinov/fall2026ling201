@@ -2,7 +2,7 @@
 title: "**Midterm Review**"
 author: "Merlin Balkhash"
 institute: "Department of Linguistics, Rutgers University"
-date: "2026/03/02 (updated: `r Sys.Date()`)"
+date: "2026/10/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: ["rutgers", "rutgers-fonts"]
@@ -19,12 +19,9 @@ output:
 ---
 class: center, middle
 ## Please pick up your **name card** from the front
-<br><br>
-## **office hours**: Thursdays, 1:00-2:00 pm<br>
-## Basement, Room 003, **Linguistics Building**
 
 ---
-## **Homework 3, Part 3**
+## **Assignment 3, Part 3**
 <br><br>
 <div style="text-align:center">
 <h3><i>The spy saw the agent with the binoculars on the roof</i>.</h3>
@@ -209,7 +206,7 @@ more complex ideas, such as **syntactic transformations**<br><br>
 - for example, we can say the following sentence because it follows English rules: TP → NP T VP
 
 <div style="text-align:center">
-<img src="../pic/0302/trans1.png" width="25%">
+<img src="../pic/1012/trans1.png" width="25%">
 <br><i>'You can play piano.'</i>.
 </div>
 <br>
@@ -223,7 +220,7 @@ more complex ideas, such as **syntactic transformations**<br><br>
 - move <u><i>can</i></u> **up into** another level above TP: now we have a **yes-no question**!
 <br><br>
 <div style="text-align:center">
-<img src="../pic/0302/trans1.png" width="23%"><span style="color:#CC0033"><b>→</b></span><img src="../pic/0302/trans2.png" width="29%">
+<img src="../pic/1012/trans1.png" width="23%"><span style="color:#CC0033"><b>→</b></span><img src="../pic/1012/trans2.png" width="29%">
 </div>
 
 
@@ -240,7 +237,7 @@ what if we wanted to make a wh- question<br><br>
 ]
 <br>
 <div style="text-align:center">
-<img src="../pic/0302/trans2.png" width="28%"><span style="color:#CC0033"><b>→</b></span><img src="../pic/0302/trans3.png" width="26%">
+<img src="../pic/1012/trans2.png" width="28%"><span style="color:#CC0033"><b>→</b></span><img src="../pic/1012/trans3.png" width="26%">
 </div>
   
 ---
@@ -248,17 +245,15 @@ what if we wanted to make a wh- question<br><br>
 ## **Mid-course Survey**
 <div style="text-align:center">
 <br><br><br>
-<h3><a href="https://go.blueja.io/MMdCBFK2jUehD6SKtQp-Uw">mid-course survey link</a></h3>
+<h3><a href="https://go.blueja.io/igi8CrVixE2ctYKUWWhu8A">mid-course survey link</a></h3>
 <br><br>
 <h3>please take a few minutes to complete the survey</h3>
-<br><br>
-<h3>Please respond to <b>the 8th homework poll</b> as well</h3>
 </div>
 ]
 .pull-right[
 <br><br>
 <div style="text-align:center">
-<img src="../pic/0302/midqr.png" width="80%">
+<img src="../pic/1012/midqr.png" width="80%">
 </div>
 ]
   
@@ -336,7 +331,7 @@ Draw syntax trees for the following sentence.<br><br><br>
 ]
 .pull-right[
 <br><br><br>
-<img src="../pic/0302/syntax.png" width="100%">
+<img src="../pic/1012/syntax.png" width="100%">
 ]
 
 
@@ -344,51 +339,49 @@ Draw syntax trees for the following sentence.<br><br><br>
 ## **1. The happy dog caught the frisbee.**
 <br><br><br><br>
 <div style="text-align:center">
-<img src="../pic/0302/happydog.png" width="70%">
+<img src="../pic/1012/happydog.png" width="70%">
 </div>
 
 ---
 ## **2. The boy with the red hair threw the ball.**
 <br><br>
 <div style="text-align:center">
-<img src="../pic/0302/redhairboy.png" width="70%">
+<img src="../pic/1012/redhairboy.png" width="70%">
 </div>
 
 ---
 ## **3. Harriet ate a bagel for breakfast.**
 <br><br>
 <div style="text-align:center">
-<img src="../pic/0302/harriet.png" width="70%">
+<img src="../pic/1012/harriet.png" width="70%">
 </div>
 
 ---
 ## **4. Frank happily ate a plate of nachos.**
 
 <div style="text-align:center">
-<img src="../pic/0302/nacho.png" width="70%">
+<img src="../pic/1012/nacho.png" width="70%">
 </div>
 
 ---
 ## **5. The old man rowed his boat gently down the stream.**
 <br>
 <div style="text-align:center">
-<img src="../pic/0302/oldman.png" width="80%">
+<img src="../pic/1012/oldman.png" width="80%">
 </div>
 
 ---
 ## **6. I bought a beautiful bouquet of flowers for my mom.**
 <br>
 <div style="text-align:center">
-<img src="../pic/0302/momflower.png" width="80%">
+<img src="../pic/1012/momflower.png" width="80%">
 </div>
 
 ---
 class: center, middle
-**Homework III** is due tomorrow (**Mar 03**) at **11:59 pm**<br><br>
-you can finish early for a early feed back if you want<br><br>
-<span style="color:green"><b>good luck</b></span> with the **MIDTERM** (**Mar 05** at class time)<br><br>
+<span style="color:green"><b>good luck</b></span> with the **MIDTERM** (**Oct 14** at class time)<br><br>
 **SEMANTICS** coming up<br><br>
 <span style="color:green"><b>reading</b></span>: the chapter **Semantics I: Compositionality** from Victoria Fromkin et al.'s <i>An Introduction to Language</i><br><br>
-<img src="../pic/0302/fine.jpeg" width="50%">
+<img src="../pic/1012/fine.jpeg" width="50%">
 <br><br>
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
