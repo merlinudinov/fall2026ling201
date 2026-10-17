@@ -1,0 +1,600 @@
+---
+title: "**Semantics I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/10/19 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Thursdays, 1:00-2:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+
+---
+## **Midterm: Morphological Analysis, Hebrew**
+<br>
+<div style="text-align:center">
+<img src="../pic/1019/hebrew.png" width="60%">
+</div>
+<br>
+--
+
+if **red** is [adom], what is **reddish**?<br><br>
+
+--
+
+<div style="text-align:center">
+(l) [ʃaxaɣxaɣ] 'blackish'
+</div><br><br>
+
+--
+
+**reddish** is actually [admumi]<br><br>
+
+--
+
+### never be arrogant towards other people's languages
+
+
+---
+## **Meaning in Language**
+<br>
+.pull-left[
+- so far this semester, we've focused on the form or structure of language<br><br>
+- **Morphology**: study of the <u>structure</u> of words
+  - morphemes, morphological processes, morphological trees<br><br>
+- **Syntax**: study of the <u>structure</u> of sentences
+  - parts of speech, constituents, phrase structure rules, syntax trees
+]
+.pull-right[
+<br>
+<div style="text-align:center">
+<img src="../pic/1019/green1.png" width="40%">
+<br><br><br>
+<img src="../pic/1019/green2.png" width="40%">
+</div>
+]
+
+---
+.pull-left[
+## **Meaning in Language**
+<br>
+of course, language is **NOT** just structure – language has **meaning** – and we've mentioned meaning on several occasions:<br><br>
+- **Morphology**
+  - morphemes are the smallest linguistic unit with <u><i>meaning</i></u>
+  - derivation changes a word's core <u><i>meaning</i></u>
+  - order of affixation reflects a word's <u><i>meaning</i></u><br><br>
+- **Syntax**
+  - parts of speech can be defined based on their <u><i>meaning</i></u>
+  - ambiguous sentences like '<i>The girl saw the bear with the telescope</i>' show us that syntactic structures contribute to the <u><i>meaning</i></u> of sentences
+]
+.pull-right[
+<br>
+<div style="text-align:center">
+<img src="../pic/1019/telev.png" width="70%">
+<br><br>
+<img src="../pic/1019/telen.png" width="70%">
+</div>
+]
+
+---
+## **Meaning in Language**
+<br>
+in this and the next unit, we're going to focus on **meaning** more specifically and we can differentiate three **types** of linguistic meaning:<br><br>
+
+**literal meaning**<br>
+  - **Semantics** studies <u>*literal meaning*</u> in language <br><br>
+  
+<span style="color:green"><b>implied meaning</b></span><br>
+  - <span style="color:green"><b>Pragmatics</b></span> studies <u>*implied meaning*</u> in language <br><br>
+  
+<span style="color:blue"><b>social meaning</b></span><br>
+  - <span style="color:blue"><b>Sociolinguistics</b></span> and <span style="color:blue"><b>Linguistic Anthropology</b></span> study <u>*social meaning*</u>
+
+  
+---
+## **Literal Meaning and Implied Meaning**
+<br>
+.pull-left[
+- as a system for communicating ideas, language must have **meaning**<br><br>
+- but meaning in language goes **beyond** the **literal**<br><br>
+  - imagine the following conversation:<br><br>
+  **A**: <i>Do you want to go out tonight</i>?<br>
+  **B**: <i>I have an exam in the morning</i><br><br>
+  - what has B literally said?<br><br>
+  - what has B implied that they have not said explicitly?<br><br>
+- as in this example, much of what we say has different levels of **literal** and **implied** meaning
+]
+.pull-right[
+<br>
+<img src="../pic/1019/long.jpg" width="100%">
+]
+
+---
+## **Social Meaning**
+<br>
+- language also has **social meaning**, since it's a tool for **social interaction**:<br><br>
+  - we use **small talk** to establish and reinforce social bonds with others
+  - the way we speak can indicate our attitude toward others (friendliness, solidarity, irritation…)<br><br>
+- we actively **choose** to speak a particular way to convey a particular social identity<br><br>
+  - good morning</i> to a professor<br>
+  - 'sup</i> to a friend<br>
+  - do we usually do it other way around?<br><br>
+  - homosexual voice? [just an example, not sterotype]<br><br>
+- we often unconsciously **accommodate to the speech** of people we like, adopting phrases and speech patterns from them without even noticing it<br><br>
+  - have you noticed your speech changing since you came to college?
+---
+## **Social Meaning**
+<br>
+.pull-left[
+language **varies** by region, community, and other social factors<br><br>
+- so the way we speak often **conveys information** like where we're from, our age, gender, etc.<br><br>
+- we often strongly **identify** with the language and dialect we grew up speaking<br><br>
+- we can actively use language to **signal our membership** in certain communities<br><br>
+  - A: <i>Did you eat my cake</i>?<br>
+    B: <i>I <b>never</b> ate your cake</i>.
+]
+.pull-right[
+<br>
+<img src="../pic/1019/british.jpg" width="100%">
+]
+  
+---
+.pull-left[
+## **Semantics**
+<br>
+<img src="../pic/1019/coffeeortea.jpg" width="85%">
+]
+.pull-right[
+<br>
+- in this unit, we'll focus on **Semantics** – the literal meaning of language<br><br>
+- we can identify two levels of semantics: **lexical semantics** and **compositional semantics**<br><br>
+- **lexical semantics** – the meaning of words
+  - lexicon refers to a speaker's mental vocabulary; words are known as lexical items, but lexical items can also include common multi-word expressions<br><br>
+- **compositional semantics** – the meaning of sentences
+  - we said <u><i>A girl saw a bear with a telescope.</i></u> has two different meanings, and these meanings depend on syntax
+  - meaning of a sentence = meaning of words + meaning of structure
+]
+
+---
+## **Lexical Meaning**
+<br>
+**lexical semantics** studies the **meaning of words** and lexical meaning is **conventional** and **arbitrary**<br><br>
+- lexical meaning is **conventional**<br><br>
+1. words mean what they mean because we agree as a speech community that's what they mean – that is, words are defined by **social convention**<br><br>
+2. consider words with slang meanings like <i><u>sick</u></i> 'amazing, excellent'<br><br>
+  - how did <i><u>sick</u></i> come to mean 'great'? <br><br>
+  - someone starting using it with that meaning, and it caught on – the rest of the community agreed it can be used that way, too<br><br>
+3. same thing with **technological terms** like <i><u>mouse</u></i>, <i><u>screen</u></i>, <i><u>tablet</u></i>, even <i><u>computer</u></i>:<br><br>
+  - all of these words originally had other meanings, but when we invented new technology and needed a name for it, we agreed these words can have new meanings<br><br>
+
+---
+## **Lexical Meaning**
+<br>
+**lexical semantics** studies the **meaning of words** and lexical meaning is **conventional** and **arbitrary**<br><br>
+- lexical meaning is **arbitrary**
+  - there is no inherent connection between the sound of a word and its meaning<br><br>
+- we know this because:
+  - same **sounds** can have different **meanings** in different languages:<br>
+  <span style="color:green"><b>Spanish</b></span> <i>taco</i> 'taco' vs. <span style="color:green"><b>Japanese</b></span> <i>tako</i> 'octopus'<br>
+  <span style="color:green"><b>English</b></span> <i>eat</i> 'eat' vs. <span style="color:green"><b>Kazakh</b></span> <i>it</i> 'dog'<br><br>
+  - same **meaning** can be conveyed with different **sounds** in different languages:<br>
+  <span style="color:green"><b>English</b></span> <i>dog</i> vs. <span style="color:green"><b>Spanish</b></span> <i>perro</i><br><br>
+  - meaning and sound of words can **change over time**:<br>
+  <i>nice</i> 'foolish' > 'kind', <i>knight</i> [knixt] > [najt]<br><br>
+- main exception: **onomatopoeia** – words that mimic sounds
+  - even **onomatopoeia** can be a bit arbitrary: cockadoodledoo, quiquiriquí, kokekokko, wowo
+  
+---
+## **Sense and Reference**
+<br>
+.pull-left[
+- so we know that words have meaning: **lexical semantics**<br><br>
+- and we know that lexical meaning is **conventional** and **arbitrary**<br><br>
+- but how do we specify what a word means?<br><br>
+- think of the words **fruit** and **animal**:<br><br>
+  - what image comes to mind when you think of a **fruit** or an **animal**?
+  - how might you try to define these words?
+]
+.pull-right[
+<div style="text-align:left">
+<div style="
+border:6px solid #CC0033;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/fruit.png" width="100%">
+</div></div>
+<br><br>
+<div style="text-align:right">
+<div style="
+border:6px solid green;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/animals.png" width="100%">
+</div>
+</div>
+]
+  
+---
+## **Sense and Reference**
+<br>
+**a test**: which group is **animal** and which group is **fruit**? how do you know?
+<br><br><br><br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/1019/fruit.png" width="70%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1019/animals.png" width="70%">
+</div>
+]
+
+---
+## **Sense and Reference**
+<br>
+**a test**: how about these new thigs? **animals or fruit**? how do you know?
+<br><br><br><br>
+<div style="text-align:left">
+<div style="
+border:6px solid blue;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:32%
+">
+<img src="../pic/1019/strange.png" width="100%">
+</div>
+<img src="../pic/1019/fruit.png" width="32%">
+<img src="../pic/1019/animals.png" width="32%">
+</div>
+
+---
+## **Sense and Reference**
+<br>
+.pull-left[
+<div style="text-align:left">
+<div style="
+border:6px solid #CC0033;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/fruit.png" width="100%">
+</div></div>
+<br><br>
+<div style="text-align:right">
+<div style="
+border:6px solid green;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/animals.png" width="100%">
+</div>
+</div>
+]
+.pull-right[
+there are two ways of thinking about a word's meaning:<br><br>
+**sense** and **reference**<br><br>
+- the **sense** of a word is:
+  - the mental concept of a word's meaning
+  - a description of this mental concept: dictionary definition<br><br>
+- for instance, the sense of fruit might be:
+  - a seed-bearing structure in flowering plants
+]
+
+---
+## **Sense and Reference**
+<br>
+.pull-left[
+<div style="text-align:left">
+<div style="
+border:6px solid #CC0033;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/fruit.png" width="100%">
+</div></div>
+<br><br>
+<div style="text-align:right">
+<div style="
+border:6px solid green;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/animals.png" width="100%">
+</div>
+</div>
+]
+.pull-right[
+there are two ways of thinking about a word's meaning:<br><br>
+**sense** and **reference**<br><br>
+- the **reference** of a word is:
+  - the set of things in the world that the word refers to
+  - each thing the word refers to is a **referent** of the word<br><br>
+- the reference of the word fruit would include:
+  - the apple I had for breakfast
+  - the bananas they have at Cafe West
+  - the oranges they sell at Costco...
+]
+
+---
+## **Sense and Reference**
+<br>
+.pull-left[
+<div style="text-align:left">
+<div style="
+border:6px solid #CC0033;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/fruit.png" width="100%">
+</div></div>
+<br><br>
+<div style="text-align:right">
+<div style="
+border:6px solid green;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/animals.png" width="100%">
+</div>
+</div>
+]
+.pull-right[
+- defining words by **reference** helps us understand how we can
+categorise new items we come across:
+  - by comparing them to the referents we already know<br><br>
+- it's also more in line with how we **learn** words:
+  - we don't learn what an animal is by learning that it's a
+"<u><i>multicellular eukaryotic organism [in] Animalia</i></u>" (Wikipedia)<br><br>
+  - we learn what an animal is by learning that a **puppy** is an animal and a **kitty** is an animal and a **froggy** is an animal...<br><br>
+  - we learn what a fruit is by observing what our caregivers call fruit
+]
+
+---
+## **Sense and Reference**
+<br>
+.pull-left[
+<div style="text-align:left">
+<div style="
+border:6px solid #CC0033;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/fruit.png" width="100%">
+</div></div>
+<br><br>
+<div style="text-align:right">
+<div style="
+border:6px solid green;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/animals.png" width="100%">
+</div>
+</div>
+]
+.pull-right[
+in this class, we'll define words by **reference**, which is the **set** of things in the world (referents) that the word refers to<br><br>
+- once we define a word as a **set** or collection of things, we can also **compare** the sets of things that different words refer to<br><br>
+
+1. some words refer to **entirely different** sets of things
+2. sometimes there is overlap between **two sets** of referents<br><br>
+
+is there any reference overlap in each pair below?
+  - <span style="color:green">dog</span> vs. <span style="color:blue">animal</span>
+  - <span style="color:green">dog</span> vs. <span style="color:orange">canine</span>
+  - <span style="color:green">dog</span> vs. <span style="color:deeppink">husky</span>
+
+]
+
+---
+.pull-left[
+## **Semantic Relations**
+<br>
+- **synonym:** words that have the same reference / refer to the same set of things in the world<br><br>
+  - <span style="color:green"><b>drinks</b></span> and <span style="color:green"><b>beverages</b></span><br><br>
+- **hypernym:** words whose reference is a **superset** of another words reference<br><br>
+  - <span style="color:green"><b>student</b></span> is a hypernym to <span style="color:green"><b>linguistics student</b></span><br><br>
+- **hyponym:** words whose reference is a **subset** of another words reference<br><br>
+  - <span style="color:green"><b>dog</b></span> is a hyponym to <span style="color:green"><b>mammal</b></span><br><br>
+- **antonym:** words that have opposite meanings
+]
+.pull-right[
+<br>
+<div style="text-align:center">
+<div style="
+border:6px solid blue;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:50%
+">
+<img src="../pic/1019/drink.png" width="100%">
+</div><br>
+<i>[[drink]]</i> = <i>[[beverages]]</i>
+<br><br>
+<img src="../pic/1019/hyper.png" width="80%">
+</div>
+]
+
+---
+## **Semantic Relations: Antonyms**
+<br>
+.pull-left[
+**antonym:** words that have opposite meanings, and it turns out to be difficult to define in terms of reference<br><br>
+- **complementary pairs:** items that can't be in both categories
+  - <span style="color:green"><b>alive</b></span> vs. <span style="color:green"><b>dead</b></span><br><br>
+  
+- **gradable pairs:** opposite ends of a scale
+  - <span style="color:green"><b>young</b></span> vs. <span style="color:green"><b>old</b></span><br><br>
+  
+- **reverses:** opposite directions
+  - <span style="color:green"><b>up</b></span> vs. <span style="color:green"><b>down</b></span><br><br>
+  
+- **converses:** same action, different perspective
+  - <span style="color:green"><b>buy</b></span> vs. <span style="color:green"><b>sell</b></span><br><br>
+]
+.pull-right[
+<img src="../pic/1019/seman4.jpg" width="100%">
+]
+
+---
+## **Exercise I: Semantic Relations**
+<br>
+- are the following word pairs **synonyms**, **antonyms**, or a **hypernym-hyponym pair**? 
+- if the last, which is the hypernym and which is the hyponym?<br><br>
+.pull-left[
+<img src="../pic/1019/seman1.jpg" width="70%">
+]
+.pull-right[
+1. bird – avian<br><br>
+2. bird – sparrow<br><br>
+3. bird – animal<br><br>
+4. synonym - antonym<br><br>
+5. hypernym - hyponym<br><br>
+6. Rutgers - universities<br><br>
+7. Linguistics - Mathematics<br><br>
+8. **MORE**?
+]
+
+
+---
+## **Compositional Semantics**
+<br>
+- so we've seen some ideas about **lexical semantics** – the meaning of words (or lexical items)<br><br>
+- beyond words, phrases and sentence can also have meaning - **compositional semantics**<br><br>
+- **COMPOSITIONALITY in semantics**:<br><br>
+  - the meaning of a **complex** expression is due to
+  1. the meaning of its parts (i.e., lexical meaning);
+  2. how these parts are **combined** (i.e., syntactic structure)<br><br>
+- compare these two sentences:
+  (a) <i>It is <span style="color:green">snowing</span> outside</i>.
+  (b) <i>It is <span style="color:green">sunny</span> outside</i>.<br><br>
+- both sentences are formed by <i><u>it is ... outside</u></i> + a <span style="color:green"><i>weather word</i></span>
+- yet they cannot be true at the same time, and which one is true depends on <span style="color:green"><i>snowing</i></span> and <span style="color:green"><i>sunny</i></span>
+
+
+---
+## **Truth Values**
+<br><br>
+.pull-left[
+- part of a sentence's meaning is its **truth value**: is it <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> or <span style="color:green; font-variant: small-caps"><b>false</b></span><br><br>
+- What is the **truth value** of the following sentences?<br><br>
+  1. Earth is a planet.<br><br>
+  2. Fish are birds.<br><br>
+  3. Mars is in the Solar System.<br><br>
+  4. Cats are animals.
+]
+.pull-right[
+<img src="../pic/1019/truthvalue.jpg" width="90%">
+]
+
+---
+## **Complex Truth Values**
+<br>
+
+- some sentences make multiple propositions, each of which has its own truth value:
+<span style="color:white">- the truth value of a sentence <span style="color:white"><b>depends on</b></span> the truth value of its propositions</span>
+<span style="color:white">- all of the propositions in a sentence must be <span style="color:white; font-variant: small-caps"><b>true</b></span> for the entire sentence to be <span style="color:white; font-variant: small-caps"><b>true</b></span></span><br><br>
+
+.pull-left[
+- <span style="color:blue"><i>Earth is a rocky planet</i>.</span><br><br>
+  - <u>proposition 1</u>: Earth is a planet. <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span></span>
+  - <u>proposition 2</u>: Earth is rocky. <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span></span><br><br>
+  <span style="color:white">- sentence truth value: <span style="color:white; font-variant: small-caps"><b>true</b></span></span><br><br>
+- <span style="color:deeppink"><i>Merlin speaks Kazakh and Greek</i>.</span><br><br>
+  - <u>proposition 1</u>: Merlin speaks Kazakh. <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+  - <u>proposition 2</u>: Merlin speaks Greek. <span style="color:green; font-variant: small-caps"><b>false</b></span><br><br>
+  <span style="color:white">- sentence truth value: <span style="color:white; font-variant: small-caps"><b>false</b></span></span>
+]
+.pull-right[
+<img src="../pic/1019/seman3.png" width="90%">
+]
+
+---
+## **Complex Truth Values**
+<br>
+- some sentences make multiple propositions, each of which has its own truth value:
+- the truth value of a sentence **depends on** the truth value of its propositions
+- all of the propositions in a sentence must be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> for the entire sentence to be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+
+.pull-left[
+- <span style="color:blue"><i>Earth is a rocky planet</i>.</span><br><br>
+  - <u>proposition 1</u>: Earth is a planet. <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+  - <u>proposition 2</u>: Earth is rocky. <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+  - sentence truth value: <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+- <span style="color:deeppink"><i>Merlin speaks Kazakh and Greek</i>.</span><br><br>
+  - <u>proposition 1</u>: Merlin speaks Kazakh. <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+  - <u>proposition 2</u>: Merlin speaks Greek. <span style="color:green; font-variant: small-caps"><b>false</b></span><br><br>
+  - sentence truth value: <span style="color:green; font-variant: small-caps"><b>false</b></span>
+]
+.pull-right[
+<img src="../pic/1019/seman3.png" width="90%">
+]
+
+---
+## **Complex Truth Values**
+<br>
+.pull-left[
+<img src="../pic/1019/seman2.jpg" width="65%">
+]
+.pull-right[
+- a sentence might also give rise to other, **unspoken propositions** –
+  often related through synonyms, hypernyms, and hyponyms<br><br>
+- the sentence <i><u>I have a dog.</u><i> gives rise to other propositions:<br><br>
+  - I have a pet.<br><br>
+  - My pet is a canine.<br><br>
+  - My pet is an animal.<br><br>
+- all of these propositions must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> for the sentence to be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>:<br><br>
+  - If <u><i>my pet is an animal</i></u> is false, then <u><i>I have a dog</i></u> cannot be true.
+]
+.pull-right[
+
+]
+
+
+---
+class: center, middle
+**Assignment IV** will be published this Wednesday (**Oct 21**)<br>
+and is due next Friday **Oct 30** at **11:59 pm**<br><br>
+<span style="color:green"><b>continue reading</b></span>: the chapter **Semantics I: Compositionality** <br>from Victoria Fromkin et al.'s <i>An Introduction to Language</i><br><br>
+<img src="../pic/1019/fine.jpeg" width="60%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

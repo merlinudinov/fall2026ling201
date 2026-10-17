@@ -1,0 +1,636 @@
+---
+title: "**Semantics II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/10/21 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Mondays, 2:00-3:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+
+---
+## **Previously on 201**
+<br>
+- defining the meaning of words **by sense** and **by reference**:
+  - a word's **sense** is the **mental concept** of the word's meaning or a dictionary definition of the word's meaning
+  - a word's **reference** is the set of entities (referents) that the word **refers to**<br><br>
+- consider the word <i><u>university</u></i>
+  - **sense**: an institution of higher education
+  - **reference**: Rutgers, NYU, CUNY, Harvard, MIT, Penn, Stanford, Johns Hopkins...<br><br>
+
+- **Semantics** is the study of **literal** meaning in language
+  - lexical semantics (words) and compositional semantics (sentences)<br><br>
+
+- lexical meaning is **conventional** and **arbitrary**
+  - under this, we can have different relations: synonym, antonynm, hypernym, hyponym<br><br>
+
+- compositional meaning includes **truth values** of the sentence
+  - sentences can have multiple propositions with different **truth values**
+
+
+
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Entailment
+</div>
+
+
+---
+class: middle, center
+
+# **ENTAILMENT** <br><br>
+
+### a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:black; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:black; font-variant: small-caps"><b>true</b></span><br><br>
+
+### more formally: ***p*** entails ***q*** <span style="color:green"><b>iff "whenever</b></span> ***p*** is <span style="color:black; font-variant: small-caps"><b>true</b></span>, ***q*** is <span style="color:black; font-variant: small-caps"><b>true</b></span><br><br>
+
+<span style="color:green"><b>iff</b></span>: if and only if<br><br>
+"<span style="color:green"><b>whenever</b></span>": it means you cannot find any possible world, 
+where **q** is <span style="color:#CC0033; font-variant: small-caps"><b>false</b></span> while **p** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+
+---
+## **Entailment**
+<br>
+.pull-left[
+.pull-left[<img src="../pic/1021/earth.png" width="100%">]
+.pull-right[]
+.pull-left[]
+.pull-right[<img src="../pic/1021/snoopy.png" width="100%">]
+]
+.pull-right[
+the relationship between the propositions in a sentence is called **entailment**<br><br>
+- a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+
+the sentence <span style="color:blue">(1) <i><u>Earth is a rocky planet.</u></i></span> **entails** the sentence <span style="color:orange">(2) <i><u>Earth is a planet.</u></i></span>
+- for <span style="color:blue">(1) <i><u>Earth is a rocky planet.</u></i></span> to be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, <span style="color:orange">(2) <i><u>Earth is a planet.</u></i></span> must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> <br><br>
+
+the sentence <span style="color:deeppink">(3) <i><u>Snoopy is a beagle.</u></i></span> **entails** the sentence <span style="color:teal">(4) <i><u>Snoopy is a dog.</u></i></span>
+- for <span style="color:deeppink">(3) <i><u>Snoopy is a beagle.</u></i></span> to be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, <span style="color:teal">(4) <i><u>Snoopy is a dog.</u></i></span> must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+]
+
+---
+## **Possible Worlds**
+<br>
+- one way to think about entailment is to imagine the **possible worlds** (alternative realities) in which a sentence would be true<br><br>
+- consider the sentence <span style="color:green; font-style:italic; font-weight:700;"><i>Merlin has a dog</i>.</span><br><br>
+- There are many possible worlds in which <span style="color:green; font-style:italic; font-weight:700;"><i>Merlin has a dog</i></span> would be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+<br><br>
+.pull-left[
+.pull-left[<div style="text-align:center">
+<span style="color:#CC0033"><b>World 1</b></span>
+</div>]
+.pull-right[<div style="text-align:center">
+<span style="color:green"><b>World 2</b></span>
+</div>]
+]
+.pull-right[
+.pull-left[<div style="text-align:center">
+<span style="color:blue"><b>World 3</b></span>
+</div>]
+.pull-right[<div style="text-align:center">
+<span style="color:orange"><b>World 4</b></span>
+</div>]
+]
+<br><br>
+<div style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap:18px; align-items:end; margin-top:30px;">
+  <img src="../pic/1021/dog1.png" style="width:100%;">
+  <img src="../pic/1021/dog2.png" style="width:100%;">
+  <img src="../pic/1021/dog3.png" style="width:100%;">
+  <img src="../pic/1021/dog4.png" style="width:100%;">
+</div>
+
+---
+.pull-left[
+## **Possible Worlds**
+<br>
+There are also many possible worlds in which
+<span style="color:green; font-style:italic; font-weight:700;"><i>Merlin has a dog</i></span> would be <span style="color:green; font-variant: small-caps"><b>false</b></span>
+<br><br>
+.pull-left[
+
+]
+.pull-right[
+<span style="color:deeppink"><b>World 5</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/horse.png" style="width:49%;">
+]
+<br><br>
+.pull-left[
+<span style="color:brown"><b>World 6</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/hamster.png" style="width:49%;">
+]
+.pull-right[
+
+]
+]
+.pull-right[
+.pull-left[<span style="color:purple"><b>World 7</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/fish.png" style="width:49%;">]
+.pull-right[]
+<br><br>
+.pull-left[]
+.pull-right[<span style="color:cyan"><b>World 8</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/sugar.png" style="width:49%;">]
+<br><br>
+.pull-left[<span style="color:teal"><b>World 9</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/cat.png" style="width:49%;">]
+.pull-right[]
+]
+
+---
+.pull-left[
+## **Possible Worlds**
+knowing the **meaning** of a sentence involves knowing in
+which <u>possible worlds</u> the sentence would be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+<br><br>
+.pull-left[
+<span style="color:deeppink"><b>World 5</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/horse.png" style="width:49%;">
+]
+.pull-right[
+<span style="color:brown"><b>World 6</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/hamster.png" style="width:49%;">
+]
+<br><br>
+.pull-left[
+<span style="color:cyan"><b>World 8</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/sugar.png" style="width:49%;">
+]
+.pull-right[
+<span style="color:teal"><b>World 9</b></span><br><br>
+<img src="../pic/1021/merlin.png" style="width:49%;"><img src="../pic/1021/cat.png" style="width:49%;">
+]
+]
+
+.pull-right[
+<br><br>
+<div style="
+border:6px dashed blue;
+border-radius:40px;
+padding:15px;
+display:inline-block;
+width:100%">
+.pull-left[<span style="color:#CC0033"><b>World 1</b></span><br><br>
+<img src="../pic/1021/dog1.png" style="width:100%;">]
+.pull-right[]
+<br><br>
+.pull-left[]
+.pull-right[<span style="color:green"><b>World 2</b></span><br><br>
+<img src="../pic/1021/dog2.png" style="width:100%;">]
+</div>
+]
+
+---
+## **Possible Worlds**
+<br>
+.pull-left[
+now consider the following sentences:<br><br>
+- can you think of a possible world in which only one of these sentences is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>?
+- can you think of a possible world in which two or more of these sentences are <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>?<br><br>
+
+(a) Merlin has a fluffy dog.<br><br>
+(b) Merlin has a dog.<br><br>
+(c) Merlin has a fluffy dog and a cat.<br><br>
+]
+.pull-right[
+<img src="../pic/1021/coffee.jpg" style="width:90%;">
+]
+
+---
+## **Entailment and Possible Words**
+<br>
+.pull-left[
+- recall our definition of **entailment**<br><br>
+- (a) **entails** (b) because (a) cannot be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> while (b)
+is <span style="color:green; font-variant: small-caps"><b>false</b></span>:<br><br>
+  - there is <span style="color:blue"><b>NO</b></span> possible world in which<br>
+  <i><u>John has a fluffy dog but not a dog</u></i><br><br>
+- (b) does <span style="color:blue"><b>NOT</b></span> **entail** (a) because (b) can be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+while (a) is <span style="color:green; font-variant: small-caps"><b>false</b></span>:<br><br>
+  - there is a possible world, in which <br>
+  <i><u>John could have a short-haired dog</u></i><br><br>
+- (c) **entails** both (a) and (b) because (c) cannot be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> while (a) or (b) is <span style="color:green; font-variant: small-caps"><b>false</b></span>
+]
+.pull-right[
+**entailment**: a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+**in other words**: ***p*** entails ***q*** when there is <span style="color:blue"><b>NO</b></span> possible world in which ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> and ***q*** is <span style="color:green; font-variant: small-caps"><b>false</b></span><br><br><br><br><br><br>
+
+(a) Merlin has a fluffy dog.<br><br>
+(b) Merlin has a dog.<br><br>
+(c) Merlin has a fluffy dog and a cat.<br><br>
+]
+
+---
+.pull-left[
+## **Entailment**
+<br>
+consider the following sentences:<br><br>
+(a) Alicia drank coffee at midnight.<br><br>
+(b) Alicia drank coffee.<br><br>
+(c) Alicia drank coffee at midnight in the living room.<br><br>
+]
+.pull-right[
+<br><br>
+**entailment**: a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+**in other words**: ***p*** entails ***q*** when there is <span style="color:blue"><b>NO</b></span> possible world in which ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> and ***q*** is <span style="color:green; font-variant: small-caps"><b>false</b></span>
+]
+.pull-left[
+- does (a) **entail** (b)?<br><br>
+- does (a) **entail** (c)?<br><br>
+- does (b) **entail** (c)?<br><br>
+- does (c) **entail** (a)?
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1021/sor.gif" style="width:50%;">
+</div>
+]
+
+---
+.pull-left[
+## **Entailment**
+<br>
+consider the following sentences:<br><br>
+(a) Alicia drank coffee at midnight.<br><br>
+(b) Alicia drank coffee.<br><br>
+(c) Alicia drank coffee at midnight in the living room.<br><br>
+]
+.pull-right[
+<br><br>
+**entailment**: a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+**in other words**: ***p*** entails ***q*** when there is <span style="color:blue"><b>NO</b></span> possible world in which ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> and ***q*** is <span style="color:green; font-variant: small-caps"><b>false</b></span><br><br><br>
+]
+
+- does (a) **entail** (b)? <span style="color:blue"><i>yes: if Alicia drank coffee at midnight is true, it must be true that Alicia drank coffee</i></span><br><br>
+- does (a) **entail** (c)? <span style="color:green"><i>no: Suppose Alicia drank coffee at midnight in the kitchen. (a) will be true while (b) is false</i></span><br><br>
+- does (b) **entail** (c)? <span style="color:green"><i>no: Suppose Alicia drank coffee in the morning. (b) will be true while (c) is false</i></span><br><br>
+- does (c) **entail** (a)? <span style="color:blue"><i>yes: If Alicia drank coffee at midnight in the living room is true, it must be true that
+Alicia drank coffee at midnight</i></span>
+
+---
+## **Logical Entailment**<br><br>
+.pull-left[
+- **p** *entails* **q** for logical reasons, **regardless** of world knowledge or lexical meaning <br><br>
+**p**: <span style="color:green"><b>The cat sat on the mat.</b></span> <br>
+**q**: <span style="color:blue"><b>There is a cat/mat.</b></span> <br><br>
+**p**: <span style="color:green"><b>(a dog): I heard the can opener.</b></span> <br>
+**q**: <span style="color:blue"><b>(Therefore for the dog), FOOD EXISTS!.</b></span> <br><br>
+- We got the entailment relation between **p** and **q** by logical inferences
+]
+.pull-right[
+<img src="../pic/1021/entail1.png" width="75%">
+]
+
+---
+## **World-specific Entailment**<br><br>
+.pull-left[
+- **p** *entails* **q** due to <span style="color:green">world knowledge</span> or <span style="color:green">lexical meaning</span><br><br>
+**p**: <span style="color:green"><b>Charles III is the King of the United Kingdom.</b></span> <br>
+**q**: <span style="color:blue"><b>Queen Elizabeth II was Charles's mother.</b></span> <br><br>
+**p**: <span style="color:green"><b>Merlin is from Scotland. </b></span> <br>
+**q**: <span style="color:blue"><b>Merlin is from UK.</b></span> <br><br>
+- We got the entailment relation between **p** and **q** by making reference to how the world works, or to knowledge of lexical meaning
+]
+.pull-right[
+<img src="../pic/1021/entail3.png" width="75%">
+]
+
+---
+## **Mutual Entailment**<br><br>
+.pull-left[
+- **p** *entails* **q** <span style="color:green"><b>AND</b></span> **q** *entails* **p** as well.<br><br>
+**p**: <span style="color:green"><b>Merlin is a sorcerer.</b></span> <br>
+**q**: <span style="color:blue"><b>Merlin is a wizard.</b></span> <br><br>
+**p**: <span style="color:green"><b>Merlin is immortal </b></span> <br>
+**q**: <span style="color:blue"><b>Merlin is not capable of dying.</b></span> <br><br>
+]
+.pull-right[
+<img src="../pic/1021/entail4.png" width="75%">
+]
+
+---
+.pull-left[
+### **Exercise I: Entailment**
+]
+.pull.right[
+**entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+]
+<br>
+
+For each pair of sentences, which one <span style="color:#CC0033"><b>entails</b></span> the other one?<br><br>
+.pull-left[
+- **p**. Charles III is the King of the United Kingdom.<br>
+**q**. Queen Elizabeth II was Charles's mother.<br><br>
+- **p**. I am tired.<br>
+**q**. I am very very very very very very tired.<br><br>
+- **p**. Bob live above a restaurant on Ocean Avenue.<br>
+**q**. Bob and Linda lives above a restaurant on Ocean Avenue.<br><br>
+- **p**. The kids trick-or-treated on Halloween.<br>
+**q**. The kids trick-or-treated in scary costumes on Halloween.
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1021/seman5.jpg" width="70%">
+</div>
+]
+
+---
+.pull-left[
+### **Exercise II: Entailment**
+]
+.pull.right[
+**entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+]
+<br><br>
+work in <span style="color:#CC0033"><b>GROUP</b></span>, think of three sentences that are entailed by each of these sentences:<br><br>
+.pull-left[
+<br><br>
+- **a**. <br>
+The spotted lanternfly is an insect that has spread invasively to New Jersey and can cause damage to forests and fruit crops.<br><br>
+- **b**. <br>
+The starship Enterprise explored strange new worlds, sought out new life and new civilizations, and boldly went where no one had gone before.<br><br>
+]
+.pull-right[
+<br><br>
+- **c**. <br>
+Controversially, DeLa chose to eliminate herself from the competition after winning the lip-sync battle, which allowed Trixie, Kennedy, and Shangela to all stay in the competition.<br><br>
+- **d**. <br>
+Mario defeated Bowser, but then all he found in the dungeon was Toad, who told him that the princess was in another castle.
+]
+
+---
+.pull-left[
+### **Exercise III: Entailment Chain**
+]
+.pull.right[
+**entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+]
+<br><br>
+
+.pull-left[
+consider the following sentences:<br><br>
+- (a) <span style="color:#CC0033">Merlin drank coffee</span>.<br><br>
+- (b) <span style="color:#CC0033">Merlin drank coffee</span> <span style="color:green">in the library</span>.<br><br>
+- (c) <span style="color:#CC0033">Merlin drank coffee</span> <span style="color:blue">at midnight</span> <span style="color:green">in the library</span>.<br><br>
+
+1. does a **entail** b?
+2. does b **entail** c?
+3. does c **entail** b?
+4. does b **entail** a?<br><br>
+
+what is the **difference** among these three sentences?
+]
+
+.pull-right[
+<img src="../pic/1021/coffeeli.jpg" width="90%">
+]
+
+---
+.pull-left[
+### **Exercise III: Entailment Chain**
+]
+.pull.right[
+**entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+]
+<br><br>
+
+.pull-left[
+consider the following sentences:<br><br>
+- (a) <span style="color:#CC0033">Merlin drank coffee</span>.<br><br>
+- (b) <span style="color:#CC0033">Merlin drank coffee</span> <span style="color:green">in the library</span>.<br><br>
+- (c) <span style="color:#CC0033">Merlin drank coffee</span> <span style="color:blue">at midnight</span> <span style="color:green">in the library</span>.<br><br>
+
+1. does a **entail** b?
+2. does b **entail** c?
+3. does c **entail** b?
+4. does b **entail** a?<br><br>
+
+5. does c **entail** a?
+]
+
+--
+
+.pull-right[
+<br><br><br>
+<h3><b><span style="color:#CC0033">TRANSITIVITY</span></b></h3><br><br>
+a property where a **relation** transfers across elements<br><br>
+for instance, **if** A=B and B=C, **then** A=C<br><br>
+generally it refers to a "**passing over**" of a relationship, action, or property across elements
+]
+
+---
+## **Entailment Notes I**
+<br>
+- importantly, not all entailment relations can be identified so easily from the **syntactic structure** of the sentences and/or the **particular words** that they contain <br><br>
+
+.pull-left[
+- consider three pairs of sentences below:<br><br>
+(a). <i>Arthur <span style="color:#CC0033"><b>managed to</b></span> <span style="color:blue">leave</span> on time</i>.<br>
+(b). <i>Arthur <span style="color:blue">left</span> on time</i>.<br><br>
+(c). <i>Arthur <span style="color:#CC0033"><b>tried to</b></span> <span style="color:blue">leave</span> on time</i>.<br>
+(d). <i>Arthur <span style="color:blue">left</span> on time</i>.<br><br>
+(e). <i>Arthur <span style="color:#CC0033"><b>attempted to</b></span> <span style="color:blue">leave</span> on time</i>.<br>
+(f). <i>Arthur <span style="color:blue">left</span> on time</i>.<br><br>
+
+1. does (a) **entail** (b)? 
+2. does (c) **entail** (d)? 
+3. does (e) **entail** (f)? 
+]
+
+--
+
+.pull-right[
+<div style="text=align:center">
+<h3>
+in fact, <u>syntactic structure is a poor indicator of entailment</u>
+<br><br>
+afterall, entailment is a <span style="color:#CC0033"><b>semantic relation</b></span>, not a syntactic one
+</h3
+</div>
+]
+
+---
+## **Entailment Notes II: 'Weird' Case**
+<br>
+- there are sentences that are **ALWAYS** true and they are **true** in every possible world<br><br>
+  - (a) <i>A dog is a dog</i>.<br><br>
+  - (b) <i>I will either save the world or I will not save the world</i>.<br><br>
+
+- given our definition of entailment, such sentences are **entailed by all other sentences**<br><br>
+  - (c) <i>Merlin is a musical actor</i>.<br><br>
+  
+- (a) and (b) are **always** true, so whenever (c) is true, they will be true:
+  - if Merlin **IS** actually a musical actor in a possible world, then "<i>A dog is a dog</i>." is **true**<br><br>
+
+- we call this: entailment holds **vacuously**
+  - why we call it "vacuously"?
+    
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Presupposition
+</div>
+
+
+---
+class: middle, center
+
+# **PRESUPPOSITION** <br><br>
+### A **SPECIAL** TYPE OF ENTAILMENT <br><br>
+
+___
+
+### for two propositions <span style="color:green"><b>p</b></span> and <span style="color:blue"><b>q</b></span>:<br><br>
+###<span style="color:green"><b>p</b></span> presupposes <span style="color:blue"><b>q</b></span> iff **both** <span style="color:green"><b>p</b></span> and the <span style="color:deeppink"><b>negation</b></span> of <span style="color:green"><b>p</b></span> **entail** <span style="color:blue"><b>q</b></span>
+
+---
+## **Presupposition: a Special Type of Entailment**
+<br>
+- consider the following two pairs of sentences:<br><br>
+
+(a). <i>My brother Jeong Kwan lives in Korea</i>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(c). <i>My brother Jeong Kwan <span style="color:green"><b>does not</b></span> live in Korea</i>.<br><br>
+
+(b). <i><span style="color:#CC0033">I have a brother</span></i>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b). <i><span style="color:#CC0033">I have a brother</span></i>.<br><br>
+
+.pull-left[
+<div style="text-align:center">
+does (a) entail (b)?
+</div>
+]
+
+.pull-right[
+<div style="text-align:left">
+does (c) entail (b)?
+</div>
+]<br><br>
+
+--
+
+- this entailment **survives negation** so it is also a **presupposition**<br><br>
+
+--
+
+- "if it is a <b><span style="color:blue">presupposition</span></b> relation, it must be an <b><span style="color:green">entailment</span></b> relation as well"
+- "if it is an <b><span style="color:green">entailment</span></b> relation, it is <b><span style="color:deeppink">NOT necessarily</span></b> a <b><span style="color:blue">presuppostion</span></b> relation"<br><br>
+
+--
+
+we also say that a <b><span style="color:blue">presuppostion</span></b> is the <u>belief or background (tacit) assumption</u> whose truth is <span style="color:#CC0033">taken for
+granted</span> in a sentence or discourse
+
+---
+## **Presupposition: a Special Type of Entailment**
+<br>
+- **FOR INSTANCE**:<br><br>
+
+.pull-left[
+(a). <i><span style="color:blue">Merlin drank coffee</span> <span style="color:green">in the library</span></i>.<br><br>
+(b). <i><span style="color:blue">Merlin drank coffee</span></i>.
+]
+.pull-right[
+(c). <i><span style="color:blue">Merlin <span style="color:deeppink">DID NOT</span> drink coffee</span> <span style="color:green">in the library</span></i>.<br><br>
+(b). <i><span style="color:blue">Merlin drank coffee</span></i>.
+]<br><br>
+
+--
+
+.pull-left[
+<div style="text-align:center">
+(a) <span style="color:#CC0033">entails</span>  (b)
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+(c) <span style="color:deeppink">does NOT</span> <span style="color:#CC0033">entail</span>  (b)
+</div>
+]
+<br><br>
+- therefore, (a) is <span style="color:deeppink">NOT</span> a **presupposition** of (b)<br><br>
+
+--
+
+- note here: we are deciding the presupposition relation between **proposition (a) and (b)**
+- however, given our definition of presupposition, we have to refer to another proposition, **c**, which is the **negation of b,** to determine presupposition relation
+
+---
+.pull-left[
+### **Exercise IV: Presupposition**
+]
+.pull-right[
+**presupposition**: for two propositions <span style="color:green"><b>p</b></span> and <span style="color:blue"><b>q</b></span>, <span style="color:green"><b>p</b></span> presupposes <span style="color:blue"><b>p</b></span> iff **both** <span style="color:green"><b>p</b></span> and the <span style="color:deeppink"><b>negation</b></span> of <span style="color:green"><b>p</b></span> **entail** <span style="color:blue"><b>q</b></span>.
+]
+<br><br>
+.pull-left[
+do following pairs of sentence fall under **presupposition** relation?<br><br>
+(1)<br>
+**p**: <span style="color:green"><b>The cat sat on the mat.</b></span> <br>
+**q**: <span style="color:blue"><b>There is a cat/mat.</b></span> <br><br>
+(2)<br>
+**p**: <span style="color:green"><b>(a dog): I heard the can opener.</b></span> <br>
+**q**: <span style="color:blue"><b>(Therefore for the dog), FOOD EXISTS!.</b></span> <br><br>
+(3)<br>
+**p**: <span style="color:green"><b>The king of the United States is bald.</b></span> <br>
+**q**: <span style="color:blue"><b>There is a king of the United States.</b></span> <br><br>
+(4)<br>
+**p**: <span style="color:green"><b>Arthur is driving a blue car.</b></span> <br>
+**q**: <span style="color:blue"><b>Arthur is driving a car.</b></span>
+]
+.pull-right[
+**entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+<br><br><br>
+<img src="../pic/1021/entail1.png" width="75%">
+]
+
+---
+class:middle, center
+## we will come back to **presupposition** again in **Pragmatics** <br><br>
+## in that section, we will introduce different types of presupposition
+
+---
+class: center, middle
+**Assignment IV** will be published today (**Oct 21**)<br>
+and it is due **Oct 30** at **11:59 pm**<br><br>
+<span style="color:green"><b>continue reading</b></span>: the chapter **Semantics I: Compositionality** <br>from Victoria Fromkin et al.'s <i>An Introduction to Language</i><br><br>
+<img src="../pic/1021/fine.jpeg" width="60%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
