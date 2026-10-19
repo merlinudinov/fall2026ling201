@@ -20,7 +20,7 @@ output:
 class: center, middle
 ## Please pick up your **name card** from the front
 <br><br>
-## **office hours**: Thursdays, 1:00-2:00 pm<br>
+## **office hours**: Mondays, 1:00-2:00 pm<br>
 ## Basement, Room 003, **Linguistics Building**
 
 ---
