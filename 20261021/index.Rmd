@@ -68,7 +68,7 @@ class: middle, center
 
 ### a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:black; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:black; font-variant: small-caps"><b>true</b></span><br><br>
 
-### more formally: ***p*** entails ***q*** <span style="color:green"><b>iff "whenever</b></span> ***p*** is <span style="color:black; font-variant: small-caps"><b>true</b></span>, ***q*** is <span style="color:black; font-variant: small-caps"><b>true</b></span><br><br>
+### more formally: ***p*** entails ***q*** <span style="color:green"><b>iff whenever</b></span> ***p*** is <span style="color:black; font-variant: small-caps"><b>true</b></span>, ***q*** is <span style="color:black; font-variant: small-caps"><b>true</b></span><br><br>
 
 <span style="color:green"><b>iff</b></span>: if and only if<br><br>
 "<span style="color:green"><b>whenever</b></span>": it means you cannot find any possible world, 
@@ -87,11 +87,14 @@ where **q** is <span style="color:#CC0033; font-variant: small-caps"><b>false</b
 the relationship between the propositions in a sentence is called **entailment**<br><br>
 - a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
 
-the sentence <span style="color:blue">(1) <i><u>Earth is a rocky planet.</u></i></span> **entails** the sentence <span style="color:orange">(2) <i><u>Earth is a planet.</u></i></span>
-- for <span style="color:blue">(1) <i><u>Earth is a rocky planet.</u></i></span> to be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, <span style="color:orange">(2) <i><u>Earth is a planet.</u></i></span> must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> <br><br>
-
-the sentence <span style="color:deeppink">(3) <i><u>Snoopy is a beagle.</u></i></span> **entails** the sentence <span style="color:teal">(4) <i><u>Snoopy is a dog.</u></i></span>
-- for <span style="color:deeppink">(3) <i><u>Snoopy is a beagle.</u></i></span> to be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, <span style="color:teal">(4) <i><u>Snoopy is a dog.</u></i></span> must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+let's say we have two propositions<br><br>
+<b><i>p:</i></b> <span style="color:deeppink"><i><u>Snoopy is a beagle.</u></i></span><br>
+<b><i>q:</i></b> <span style="color:teal"><i><u>Snoopy is a dog.</u></i></span><br><br>
+proposition <b><i>p</i></b> **entails** proposition <b><i>q</i></b><br><br>
+because if we say "<span style="color:deeppink"><i><u>Snoopy is a beagle.</u></i></span>" is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>,<br>
+Snoopy must be a dog, since beagles are dogs,<br>
+then "<span style="color:teal"><i><u>Snoopy is a dog.</u></i></span>" is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+But, <b><i>q</i></b> does NOT **entail** <b><i>p</i></b>, why?
 ]
 
 ---
@@ -226,23 +229,24 @@ now consider the following sentences:<br><br>
 <br>
 .pull-left[
 - recall our definition of **entailment**<br><br>
-- (a) **entails** (b) because (a) cannot be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> while (b)
-is <span style="color:green; font-variant: small-caps"><b>false</b></span>:<br><br>
-  - there is <span style="color:blue"><b>NO</b></span> possible world in which<br>
-  <i><u>John has a fluffy dog but not a dog</u></i><br><br>
-- (b) does <span style="color:blue"><b>NOT</b></span> **entail** (a) because (b) can be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
-while (a) is <span style="color:green; font-variant: small-caps"><b>false</b></span>:<br><br>
-  - there is a possible world, in which <br>
-  <i><u>John could have a short-haired dog</u></i><br><br>
-- (c) **entails** both (a) and (b) because (c) cannot be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> while (a) or (b) is <span style="color:green; font-variant: small-caps"><b>false</b></span>
-]
-.pull-right[
 **entailment**: a proposition ***p*** entails another proposition ***q*** <span style="color:green"><b>if</b></span>, <span style="color:green"><b>whenever</b></span> ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, ***q*** must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
-**in other words**: ***p*** entails ***q*** when there is <span style="color:blue"><b>NO</b></span> possible world in which ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> and ***q*** is <span style="color:green; font-variant: small-caps"><b>false</b></span><br><br><br><br><br><br>
+**in other words**: ***p*** entails ***q*** when there is <span style="color:blue"><b>NO</b></span> possible world in which ***p*** is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> and ***q*** is <span style="color:green; font-variant: small-caps"><b>false</b></span><br><br><br>
 
 (a) Merlin has a fluffy dog.<br><br>
 (b) Merlin has a dog.<br><br>
-(c) Merlin has a fluffy dog and a cat.<br><br>
+(c) Merlin has a fluffy dog and a cat.
+]
+.pull-right[
+<br><br>
+- (a) **entails** (b) because (a) cannot be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> while (b)
+is <span style="color:green; font-variant: small-caps"><b>false</b></span>:<br><br>
+  - there is <span style="color:blue"><b>NO</b></span> possible world in which<br>
+  <i><u>Merlin has a fluffy dog but not a dog</u></i><br><br>
+- (b) does <span style="color:blue"><b>NOT</b></span> **entail** (a) because (b) can be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>
+while (a) is <span style="color:green; font-variant: small-caps"><b>false</b></span>:<br><br>
+  - there is a possible world, in which <br>
+  <i><u>Merlin could have a short-haired dog</u></i><br><br>
+- (c) **entails** both (a) and (b) because (c) cannot be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span> while (a) or (b) is <span style="color:green; font-variant: small-caps"><b>false</b></span>
 ]
 
 ---
@@ -473,15 +477,15 @@ generally it refers to a "**passing over**" of a relationship, action, or proper
 <h3>
 in fact, <u>syntactic structure is a poor indicator of entailment</u>
 <br><br>
-afterall, entailment is a <span style="color:#CC0033"><b>semantic relation</b></span>, not a syntactic one
+after all, entailment is a <span style="color:#CC0033"><b>semantic relation</b></span>, not a syntactic one
 </h3
 </div>
 ]
 
 ---
-## **Entailment Notes II: 'Weird' Case**
+## **Entailment Notes II: 'Weird' Case - Tautology**
 <br>
-- there are sentences that are **ALWAYS** true and they are **true** in every possible world<br><br>
+- there are sentences that are **ALWAYS** true and they are **true** in every possible world (**tautology**)<br><br>
   - (a) <i>A dog is a dog</i>.<br><br>
   - (b) <i>I will either save the world or I will not save the world</i>.<br><br>
 

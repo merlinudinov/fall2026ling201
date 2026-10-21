@@ -22,7 +22,7 @@ class: center, middle, inverse, title-slide
 ### Department of Linguistics, Rutgers University
 ]
 .date[
-### 2026/10/21 (updated: 2026-10-17)
+### 2026/10/21 (updated: 2026-10-21)
 ]
 
 ---
@@ -78,7 +78,7 @@ class: middle, center
 
 ### a proposition ***p*** entails another proposition ***q*** &lt;span style="color:green"&gt;&lt;b&gt;if&lt;/b&gt;&lt;/span&gt;, &lt;span style="color:green"&gt;&lt;b&gt;whenever&lt;/b&gt;&lt;/span&gt; ***p*** is &lt;span style="color:black; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;, ***q*** must also be &lt;span style="color:black; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
 
-### more formally: ***p*** entails ***q*** &lt;span style="color:green"&gt;&lt;b&gt;iff "whenever&lt;/b&gt;&lt;/span&gt; ***p*** is &lt;span style="color:black; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;, ***q*** is &lt;span style="color:black; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+### more formally: ***p*** entails ***q*** &lt;span style="color:green"&gt;&lt;b&gt;iff whenever&lt;/b&gt;&lt;/span&gt; ***p*** is &lt;span style="color:black; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;, ***q*** is &lt;span style="color:black; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
 
 &lt;span style="color:green"&gt;&lt;b&gt;iff&lt;/b&gt;&lt;/span&gt;: if and only if&lt;br&gt;&lt;br&gt;
 "&lt;span style="color:green"&gt;&lt;b&gt;whenever&lt;/b&gt;&lt;/span&gt;": it means you cannot find any possible world, 
@@ -97,11 +97,14 @@ where **q** is &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b
 the relationship between the propositions in a sentence is called **entailment**&lt;br&gt;&lt;br&gt;
 - a proposition ***p*** entails another proposition ***q*** &lt;span style="color:green"&gt;&lt;b&gt;if&lt;/b&gt;&lt;/span&gt;, &lt;span style="color:green"&gt;&lt;b&gt;whenever&lt;/b&gt;&lt;/span&gt; ***p*** is &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;, ***q*** must also be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
 
-the sentence &lt;span style="color:blue"&gt;(1) &lt;i&gt;&lt;u&gt;Earth is a rocky planet.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt; **entails** the sentence &lt;span style="color:orange"&gt;(2) &lt;i&gt;&lt;u&gt;Earth is a planet.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;
-- for &lt;span style="color:blue"&gt;(1) &lt;i&gt;&lt;u&gt;Earth is a rocky planet.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt; to be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;, &lt;span style="color:orange"&gt;(2) &lt;i&gt;&lt;u&gt;Earth is a planet.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt; must also be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt; &lt;br&gt;&lt;br&gt;
-
-the sentence &lt;span style="color:deeppink"&gt;(3) &lt;i&gt;&lt;u&gt;Snoopy is a beagle.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt; **entails** the sentence &lt;span style="color:teal"&gt;(4) &lt;i&gt;&lt;u&gt;Snoopy is a dog.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;
-- for &lt;span style="color:deeppink"&gt;(3) &lt;i&gt;&lt;u&gt;Snoopy is a beagle.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt; to be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;, &lt;span style="color:teal"&gt;(4) &lt;i&gt;&lt;u&gt;Snoopy is a dog.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt; must also be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;
+let's say we have two propositions&lt;br&gt;&lt;br&gt;
+&lt;b&gt;&lt;i&gt;p:&lt;/i&gt;&lt;/b&gt; &lt;span style="color:deeppink"&gt;&lt;i&gt;&lt;u&gt;Snoopy is a beagle.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;&lt;br&gt;
+&lt;b&gt;&lt;i&gt;q:&lt;/i&gt;&lt;/b&gt; &lt;span style="color:teal"&gt;&lt;i&gt;&lt;u&gt;Snoopy is a dog.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+proposition &lt;b&gt;&lt;i&gt;p&lt;/i&gt;&lt;/b&gt; **entails** proposition &lt;b&gt;&lt;i&gt;q&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+because if we say "&lt;span style="color:deeppink"&gt;&lt;i&gt;&lt;u&gt;Snoopy is a beagle.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;" is &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;,&lt;br&gt;
+Snoopy must be a dog, since beagles are dogs,&lt;br&gt;
+then "&lt;span style="color:teal"&gt;&lt;i&gt;&lt;u&gt;Snoopy is a dog.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;" is &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+But, &lt;b&gt;&lt;i&gt;q&lt;/i&gt;&lt;/b&gt; does NOT **entail** &lt;b&gt;&lt;i&gt;p&lt;/i&gt;&lt;/b&gt;, why?
 ]
 
 ---
@@ -236,23 +239,24 @@ now consider the following sentences:&lt;br&gt;&lt;br&gt;
 &lt;br&gt;
 .pull-left[
 - recall our definition of **entailment**&lt;br&gt;&lt;br&gt;
-- (a) **entails** (b) because (a) cannot be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt; while (b)
-is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;:&lt;br&gt;&lt;br&gt;
-  - there is &lt;span style="color:blue"&gt;&lt;b&gt;NO&lt;/b&gt;&lt;/span&gt; possible world in which&lt;br&gt;
-  &lt;i&gt;&lt;u&gt;John has a fluffy dog but not a dog&lt;/u&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-- (b) does &lt;span style="color:blue"&gt;&lt;b&gt;NOT&lt;/b&gt;&lt;/span&gt; **entail** (a) because (b) can be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;
-while (a) is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;:&lt;br&gt;&lt;br&gt;
-  - there is a possible world, in which &lt;br&gt;
-  &lt;i&gt;&lt;u&gt;John could have a short-haired dog&lt;/u&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-- (c) **entails** both (a) and (b) because (c) cannot be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt; while (a) or (b) is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;
-]
-.pull-right[
 **entailment**: a proposition ***p*** entails another proposition ***q*** &lt;span style="color:green"&gt;&lt;b&gt;if&lt;/b&gt;&lt;/span&gt;, &lt;span style="color:green"&gt;&lt;b&gt;whenever&lt;/b&gt;&lt;/span&gt; ***p*** is &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;, ***q*** must also be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
-**in other words**: ***p*** entails ***q*** when there is &lt;span style="color:blue"&gt;&lt;b&gt;NO&lt;/b&gt;&lt;/span&gt; possible world in which ***p*** is &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt; and ***q*** is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+**in other words**: ***p*** entails ***q*** when there is &lt;span style="color:blue"&gt;&lt;b&gt;NO&lt;/b&gt;&lt;/span&gt; possible world in which ***p*** is &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt; and ***q*** is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
 (a) Merlin has a fluffy dog.&lt;br&gt;&lt;br&gt;
 (b) Merlin has a dog.&lt;br&gt;&lt;br&gt;
-(c) Merlin has a fluffy dog and a cat.&lt;br&gt;&lt;br&gt;
+(c) Merlin has a fluffy dog and a cat.
+]
+.pull-right[
+&lt;br&gt;&lt;br&gt;
+- (a) **entails** (b) because (a) cannot be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt; while (b)
+is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;:&lt;br&gt;&lt;br&gt;
+  - there is &lt;span style="color:blue"&gt;&lt;b&gt;NO&lt;/b&gt;&lt;/span&gt; possible world in which&lt;br&gt;
+  &lt;i&gt;&lt;u&gt;Merlin has a fluffy dog but not a dog&lt;/u&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+- (b) does &lt;span style="color:blue"&gt;&lt;b&gt;NOT&lt;/b&gt;&lt;/span&gt; **entail** (a) because (b) can be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt;
+while (a) is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;:&lt;br&gt;&lt;br&gt;
+  - there is a possible world, in which &lt;br&gt;
+  &lt;i&gt;&lt;u&gt;Merlin could have a short-haired dog&lt;/u&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+- (c) **entails** both (a) and (b) because (c) cannot be &lt;span style="color:#CC0033; font-variant: small-caps"&gt;&lt;b&gt;true&lt;/b&gt;&lt;/span&gt; while (a) or (b) is &lt;span style="color:green; font-variant: small-caps"&gt;&lt;b&gt;false&lt;/b&gt;&lt;/span&gt;
 ]
 
 ---
@@ -483,15 +487,15 @@ generally it refers to a "**passing over**" of a relationship, action, or proper
 &lt;h3&gt;
 in fact, &lt;u&gt;syntactic structure is a poor indicator of entailment&lt;/u&gt;
 &lt;br&gt;&lt;br&gt;
-afterall, entailment is a &lt;span style="color:#CC0033"&gt;&lt;b&gt;semantic relation&lt;/b&gt;&lt;/span&gt;, not a syntactic one
+after all, entailment is a &lt;span style="color:#CC0033"&gt;&lt;b&gt;semantic relation&lt;/b&gt;&lt;/span&gt;, not a syntactic one
 &lt;/h3
 &lt;/div&gt;
 ]
 
 ---
-## **Entailment Notes II: 'Weird' Case**
+## **Entailment Notes II: 'Weird' Case - Tautology**
 &lt;br&gt;
-- there are sentences that are **ALWAYS** true and they are **true** in every possible world&lt;br&gt;&lt;br&gt;
+- there are sentences that are **ALWAYS** true and they are **true** in every possible world (**tautology**)&lt;br&gt;&lt;br&gt;
   - (a) &lt;i&gt;A dog is a dog&lt;/i&gt;.&lt;br&gt;&lt;br&gt;
   - (b) &lt;i&gt;I will either save the world or I will not save the world&lt;/i&gt;.&lt;br&gt;&lt;br&gt;
 
