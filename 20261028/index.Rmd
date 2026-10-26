@@ -20,7 +20,7 @@ output:
 class: center, middle
 ## Please pick up your **name card** from the front
 <br><br>
-## **office hours**: Thursdays, 1:00-2:00 pm<br>
+## **office hours**: Mondays, 2:00-3:00 pm<br>
 ## Basement, Room 003, **Linguistics Building**
 
 ---
@@ -1021,7 +1021,9 @@ given the definitions to the right, **express** the meaning of the following sen
 
 ---
 class: center, middle
-**Homework V** is due **Mar 29** at **11:59 pm**<br><br>
+**Assignment IV** is due this Friday (**Oct 30**) at **11:59 pm**<br><br>
+**Assignment V** will be published today (**Oct 28**) and<br>
+it is due next Friday (**Nov 06**) at **11:59 pm**<br><br>
 <span style="color:green"><b>reading</b></span>: **Chapter 8: Pragmatics** of Griffiths & Cummins’ (2017) <i>An Introduction to English Semantics and Pragmatics</i><br><br>
 <img src="../pic/1028/fine.jpeg" width="60%">
 <br><br>
