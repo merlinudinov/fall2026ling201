@@ -1,0 +1,1028 @@
+---
+title: "**Semantics IV**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/10/28 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Thursdays, 1:00-2:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+
+---
+## **Previously on 201: Set Theory**
+<br>
+.pull-left[
+1. in a set, **order** of items <span style="color:green"><b>does not</b></span> matter
+  - {a, b, c} = {a, c, b} = {b, a, c} = {b, c, a} = {c, a, b} = {c, b, a} 
+<br><br>
+2. **repetitions** of items <span style="color:green"><b>do not</b></span> matter
+  - {a, b, c} = {a, a, a, b, c} = {a, b, b, c, c}
+<br><br>
+3. an <span style="color:green"><b>item</b></span> in a set is called the **MEMEBER** of that set
+  - and we use symbol **∈** to describe membership relation <br><br>
+  - a **∈** {a, b, c}
+  - a **is in** / <span style="color:green"><b>belongs to</b></span> / <span style="color:blue"><b>is an element of</b></span> the set {a, b, c}
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1028/natural.jpg" width="70%">
+</div>
+]
+
+### **∈ ∉**
+
+---
+## **Previously on 201: Set Theory**
+.pull-left[
+### **list notation**
+<br>
+the **list notation** specifies a set by <span style="color:green">listing its members</span>  between {curly brackets}<br><br>
+  - The set <span style="color:green">*T*</span> is characters in ***Tom and Jerry***
+  - <span style="color:green">*T*</span> = {Tom, Jerry, Tuffy, Spike, Tyke, Butch, Quacker, Cuckoo...}
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1028/tom.gif" width="20%"><img src="../pic/1028/jerry.gif" width="20%"><img src="../pic/1028/spike.gif" width="20%"><img src="../pic/1028/tyke.gif" width="20%">
+</div>
+<br>
+
+### **venn diagram notation**
+]
+
+.pull-right[
+### **predicate notation**
+<br>
+The **predicate notation** specifies a set by <span style="color:green">describing member's property</span><br><br>
+- <span style="color:green">*S*</span> = { x **|** x is a sorcerer }
+- "<span style="color:green">*S*</span> equals the set of elements <span style="color:blue"><b>*x*</b></span>, such that **every** <span style="color:blue"><b>*x*</b></span> is a sorcerer"
+- normal words: "the set of all sorcerers"
+- **|** stands for "*<u>such that</u>*" 
+<br><br>
+<div style="text-align:center;">
+  <img src="../pic/1028/sor.gif" width="25%">
+</div>
+]
+
+---
+## **Previously on 201: Set Relations**
+<br>
+.pull-left[
+### **cardinality**: the number of elements in a set
+<br>
+- if A = {a, b, c}
+
+  then the **cardinality** of the set A, **|A|** = 3
+  
+  also, **|A|** = **| {a, b, c} |**<br><br>
+- <span style="color:green"><b>singleton set</b></span>: a set with cardinality = 1
+- <span style="color:green"><b>null set</b></span> <span style="color:green"><b>empty set</b></span>: a set with cardinality = 0
+  - {} = **Ø** "empty set"
+]
+
+.pull-right[
+### **subset (⊆)**
+*A* is a subset of *B* if **every** element of *A* is **also** an element of *B*
+
+.pull-left[
+<div style="text-align:center;">
+{a, b} **⊆** {a, b, c}
+</div>]
+.pull-right[
+<div style="text-align:center;">
+{a, b} **⊆** {a, b}
+</div>]<br><br>
+
+- a ⊆ {a, b, c} is <b>WRONG</b>, why?<br>
+
+<h3><span style="color:green"><b>proper subset (⊂)</b></span></h3>
+<i>A</i> is a proper subset of <i>B</i> if <i>A</i> is a <span style="color:green"><b>subset</b></span> of <i>B</i> and they are not <span style="color:green"><b>identical</b></span><br>
+
+.pull-left[
+<div style="text-align:center;">
+{a, b} <span style="color:green"><b>⊂</b></span> {a, b, c}
+</div>]
+.pull-right[
+<div style="text-align:center;">
+{a, b, c} <span style="color:green"><b>⊄</b></span>  {a, b}
+</div>]<br>
+
+### <span style="color:blue"><b>identity (=)</b></span>
+- two sets are identical/equal if they have <span style="color:blue"><b>exactly the same elements</b></span>
+  - {a, b} <span style="color:blue"><b>=</b></span> {b, a}
+]
+
+---
+## **Previously on 201: Set Relations in Languages**
+<br><br>
+.pull-left[
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Snoopy runs</i>.</span></b></h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Cats run</i>.</span></b></h3>
+</div>
+]
+<br><br><br><br>
+.pull-left[
+- <i><u>Snoopy runs</u></i>. has the form **Name VERBS**<br><br>
+  - [[Snoopy]] = **element** Snoopy = s<br><br><br><br>
+  
+<div style="text-align:center">
+<h3><b><span style="color:green">[[Snoppy]] ∈ [[run]]</span></b></h3>
+</div>
+]
+.pull-right[
+- <i><u>cats run</u></i>. has the form **NOUNs VERB**<br><br>
+  - [[cat]] = **set** of all cats = { x | x is a cat }<br><br><br><br>
+
+<div style="text-align:center">
+<h3><b><span style="color:green">[[cat]] ⊆ [[run]]</span></b></h3>
+</div>
+]
+
+
+---
+## **Compositional Semantics: NPs**
+<br>
+- suppose I wanted to use an **NP** like <u><i>yellow birds</i></u>
+<br><br>
+<div style="text-align:center">
+<h3><b><span style="color:green"><i>What kind of birds do you like</i>?</span></b></h3>
+<h3><b><span style="color:orange"><i>Yellow birds</i>!</span></b></h3>
+</div>
+<br><br>
+
+- by using this **NP**, we are not making a <b><span style="color:blue">claim</span></b><br><br>
+- we did not say "<u><i>birds are yellow</i></u>"<br><br>
+- we are just trying to refer to **all elements** that are **simultaneously** in both [[bird]] and [[yellow]]<br><br>
+- to define this in set theory, we need **set operations**
+
+---
+## **Set Operations**
+<br>
+- **set operations** are ways of taking <b><span style="color:green">existing sets</span></b> and creating a <b><span style="color:blue">new set</span></b> out of them<br>
+  this is analogous to how **addition** and **subtraction** take <b>two</b> numbers and make a <b>third</b> number<br><br>
+- four set operations: **union (∪)**, <b><span style="color:green">intersection (∩)</span></b>, <b><span style="color:blue">difference (–)</span></b>, <b><span style="color:deeppink">complement (')</span></b><br><br><br><br>
+
+.pull-left[
+imagine a **universe ** <b>U</b>, in that universe, there are five elements divided into two **sets**<br><br>
+  - let A = { x ∈ U | x is an animal } = { rabbit, chicken, frog }<br><br>
+  - let B = { x ∈ U | x is green } = { tree, frog, pepper }<br><br>
+  - notice that **frog** is in both A and B
+]
+.pull-right[
+<img src="../pic/1028/setop1.png" width="100%">
+]
+
+
+
+---
+## **Set Operations: Union**
+<br>
+**union** of A and B produces a new set, which contains all **elements** that **belong to A or B** (or both).
+  - A **∪** B = { rabbit, chicken, frog, tree, pepper }
+<br><br><br><br>
+<div style="text-align:center">
+<img src="../pic/1028/setop2.png" width="60%">
+</div>
+
+---
+## **Set Operations: Intersection**
+<br>
+<b><span style="color:green">intersection</span></b> of A and B produces a new set that contains all elements that **belong to both A and B**
+  - A <b><span style="color:green">∩</span></b> B = { frog }
+  - <b><span style="color:green">intersection</span></b> is the part that **overlaps** between two sets in a Venn diagram
+<br><br><br>
+<div style="text-align:center">
+<img src="../pic/1028/setop3.png" width="60%">
+</div>
+
+---
+## **Set Operations: Difference**
+<br>
+<b><span style="color:blue">difference (–)</span></b> of A and B produces a new set, which contains all elements that **belong to A but not B**
+  - A <b><span style="color:blue">–</span></b> B = { rabbit, chicken }
+  - **note** that A <b><span style="color:blue">–</span></b> B **≠** B <b><span style="color:blue">–</span></b> A
+<br><br><br><br>
+.pull-left[
+<div style="text-align:center">
+A <b><span style="color:blue">–</span></b> B<br><br>
+<img src="../pic/1028/setop4.png" width="100%">
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+B <b><span style="color:blue">–</span></b> A<br><br>
+<img src="../pic/1028/setop5.png" width="100%">
+</div>
+]
+
+---
+## **Set Operations: Complement**
+<br>
+<b><span style="color:deeppink">complement</span></b> of A produces a new set, which contains all elements **in the specified universe (U) that are not in A**
+  - A<b><span style="color:deeppink">'</span></b> = { tree, pepper }
+  - the symbol of <b><span style="color:deeppink">complement</span></b>  is tiny, so be careful
+<br><br><br>
+<div style="text-align:center">
+<img src="../pic/1028/setop6.png" width="60%">
+</div>
+
+---
+## **Set Operations: Summary**
+<br>
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="width:25%; padding: 20px;"><b><span style="color:#CC0033">union (∪)</span></b></td>
+    <td style="width:50%; padding: 20px;">
+      <div><i>A ∪ B = { x ∈ U | x ∈ A or x ∈ B }</i></div>
+      <div style="margin-top:10px;">(elements in A or B or <i>both</i>)</div>
+    </td>
+    <td style="width:20%; padding: 20px; text-align:center;">
+      <img src="../pic/1028/setop2.png" width="80%">
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 20px;"><b><span style="color:green">intersection (∩)</span></b></td>
+    <td style="padding: 20px;">
+      <div><i>A ∩ B = { x ∈ U | x ∈ A and x ∈ B }</i></div>
+      <div style="margin-top:10px;">(elements in both A and B)</div>
+    </td>
+    <td style="padding: 20px; text-align:center;">
+      <img src="../pic/1028/setop3.png" width="80%">
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 20px;"><b><span style="color:blue">difference (–)</span></b></td>
+    <td style="padding: 20px;">
+      <div><i>A − B = { x ∈ U | x ∈ A and x ∉ B }</i></div>
+      <div style="margin-top:10px;">(elements in A but not B)</div>
+    </td>
+    <td style="padding: 20px; text-align:center;">
+      <img src="../pic/1028/setop4.png" width="80%">
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 20px;"><b><span style="color:deeppink">complement (')</span></b></td>
+    <td style="padding: 20px;">
+      <div><i>A' = { x ∈ U | x ∉ A }</i></div>
+      <div style="margin-top:10px;">(elements in U but not A)</div>
+    </td>
+    <td style="padding: 20px; text-align:center;">
+      <img src="../pic/1028/setop6.png" width="80%">
+    </td>
+  </tr>
+
+</table>
+
+---
+## **Exercise I: Set Operations**
+<br>
+.pull-left[
+**calculate** the following formulas, and **name** the set operation(s) involved<br><br>
+1. A ∪ B<br>
+  <span style="color:white">- <b>union</b>: {apple, pear, plum, orange}</span><br><br>
+2. A – B<br>
+  <span style="color:white">- <b><span style="color:white">difference</span></b>: {apple, plum}</span><br><br>
+3. B ∩ C<br>
+  <span style="color:white">- <b><span style="color:white">intersection</span></b>: {orange}</span><br><br>
+4. B ∩ D<br>
+  <span style="color:white">- <b><span style="color:white">intersection</span></b>: Ø or {}</span><br><br>
+5. C′<br>
+  <span style="color:white">- <b><span style="color:white">complement</span></b>: {apple, pear}</span>
+]
+.pull-right[<br><br>
+A = { apple, pear, plum }<br><br>
+B = { orange, pear }<br><br>
+C = { plum, apricot, orange, nectarine }<br><br>
+D = { nectarine, apple }<br><br>
+**universe** of fruit<br>
+U = { apple, pear, plum, orange, apricot, nectarine }<br><br>
+<ol start="6">
+  <li>(A ∩ B)′</li>
+</ol>
+  <span style="color:white">- <b><span style="color:white">intersection</span></b>: A ∩ B = {pear}</span><br> 
+  <span style="color:white">- <b><span style="color:white">complement</span></b>: (A ∩ B)'= ({pear})' = {apple, plum, orange, apricot, nectarine}</span>
+]
+
+---
+## **Exercise I: Set Operations**
+<br>
+.pull-left[
+**calculate** the following formulas, and **name** the set operation(s) involved<br><br>
+1. A ∪ B<br>
+  - **union**: {apple, pear, plum, orange}<br><br>
+2. A – B<br>
+  - <b><span style="color:blue">difference</span></b>: {apple, plum}<br><br>
+3. B ∩ C<br>
+  - <b><span style="color:green">intersection</span></b>: {orange}<br><br>
+4. B ∩ D<br>
+  - <b><span style="color:green">intersection</span></b>: Ø or {}<br><br>
+5. C′<br>
+  - <b><span style="color:deeppink">complement</span></b>: {apple, pear}
+]
+.pull-right[<br><br>
+A = { apple, pear, plum }<br><br>
+B = { orange, pear }<br><br>
+C = { plum, apricot, orange, nectarine }<br><br>
+D = { nectarine, apple }<br><br>
+**universe** of fruit<br>
+U = { apple, pear, plum, orange, apricot, nectarine }<br><br> 
+<ol start="6">
+  <li>(A ∩ B)′</li>
+</ol>
+  - <b><span style="color:green">intersection</span></b>: A ∩ B = {pear} <br> 
+  - <b><span style="color:deeppink">complement</span></b>: (A ∩ B)'= ({pear})' = {apple, plum, orange, apricot, nectarine}
+]
+
+---
+## **Set Operations in Natural Languages**
+<br>
+.pull-left[
+- returning to our **NP** <span style="color:green"><b>yellow birds</b></span>:<br><br>
+  - <span style="color:green">[[yellow birds]]</span> refers to **all elements** that are in both <span style="color:deeppink">[[yellow]]</span> and <span style="color:blue">[[bird]]</span>
+  - simultaneously in two sets<br><br>
+- what **set operation** do we use to specify elements that are **simultaneously** in two sets?<br><br>
+  - intersection (∩): A **∩** B = all elements that are in both A and B at the same time
+  - <span style="color:deeppink">[[yellow]]</span> **∩** <span style="color:blue">[[bird]]</span> = all elements that are in both [[yellow]] and [[bird]] = [[yellow bird]]<br><br>
+- any **NP** of type <u>ADJ NOUN</u> can be specified in set theory via **intersection**: [[ADJ]] **∩** [[NOUN]]
+]
+.pull-right[
+<br>
+<div style="text-align:center">
+<img src="../pic/1028/yellowbird.png" width="90%">
+</div>
+]
+---
+## **Set Operations in Natural Languages**
+<br>
+.pull-left[
+- this **NP** <span style="color:green"><b>yellow birds</b></span> is further usable in structures we've already seen<br><br>
+
+.pull-left[
+<i>Tweety is a <span style="color:deeppink">bird</span></i>.
+]
+.pull-right[
+[[Tweety]] **∈** [[bird]]
+]
+<i>Tweety is a <span style="color:blue">yellow</span> <span style="color:deeppink">bird</span></i>.<br>
+<div style="text-align:right">
+[[Tweety]] **∈** [[yellow]] **∩** [[bird]]
+</div><br>
+
+.pull-left[
+<i><span style="color:blue">Birds</span> are pretty</i>.]
+.pull-right[
+[[bird]] **⊆** [[pretty]]
+]
+<i><span style="color:deeppink">Yellow</span> <span style="color:blue">birds</span> are pretty</i>.<br>
+<div style="text-align:right">
+[[yellow]] **∩** [[bird]] **⊆** [[pretty]]
+</div><br>
+
+- again, this demonstrates the **Principle of Semantic Compositionality**<br><br>
+- more complicated sentences usually need more composing and more set relations
+
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1028/yellowbird.png" width="80%">
+</div>
+<br>
+- note that set operators (∪, ∩, −, ′) **take precedence over** set relation symbols (∈, ⊆, =)
+- compare this to arithmetic operators (+, –, ×, ÷) and (in)equality symbols (=, <, >) in algebra
+]
+
+---
+## **Set Theory in Semantics So Far**
+<br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/1028/setoperation.jpg" width="70%">
+</div>
+]
+.pull-right[
+- we can define words by **reference** – the set of things they refer to<br><br>
+- we can use set theory to precisely define the reference of a **natural language expression**<br><br>
+  - **sets** are **collections** of elements<br><br>
+  - **set relations** can capture the relationship **between words**<br>
+  <u><i>Cats are mammals</u></i>.(hypo/hypernyms)<br>
+  <u><i>Snoopy is happy</u></i>.(declarative sentences)<br><br>
+  - **set operations** can capture the reference of **NP**s like ADJ NOUN<br><br>
+- at last, we use**cardinality** to define **quantifiers**
+]
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Quantifiers
+</div>
+
+---
+## **Semantics of Determiners**
+<br>
+.pull-left[
+<br>
+  <img src="../pic/1028/the.jpg" width="100%">
+]
+.pull-right[
+- we previously defined **determiner** as a part of speech and it consists of<br><br>
+  <small>
+  - <span style="color:deeppink"><b>articles</b></span> – <i>the</i>, <i>a</i>
+  - <span style="color:green"><b>demonstratives</b></span> – <i>this</i>, <i>that</i>, <i>these</i>, <i>those</i>
+  - <span style="color:#CC0033">q<b>uantifiers</b></span> – <i>every</i>, <i>some</i>, <i>many</i>, <i>most</i>, <i>no</i>
+  - <span style="color:blue"><b>possessive pronouns</b></span> – <i>my</i>, <i>your</i>, <i>her</i>, <i>his</i>, <i>their</i>, <i>our</i>
+  - some <span style="color:orange"><b>question words</b></span> – <i>which</i>, <i>what</i>  </small><br><br>
+- determiners serve to **specify** which member of a set we're **referring to** in the world<br><br>
+  <small>
+  - <i><span style="color:blue"><b>my</b></span> dog</i> – a **member** of [[dog]] that belongs to me
+  - <i><span style="color:green"><b>this</b></span> dog</i> – a **member** of [[dog]] that is near me
+  - <i><span style="color:#CC0033"><b>every</b></span> dog</i> – the **entire set** of [[dog]]
+  - <i><span style="color:deeppink"><b>the</b></span> dog</i> – a **member** of [[dog]] that is relevant to our current conversation
+  - <i><span style="color:deeppink"><b>a</b></span> dog</i> – an unspecified **member** of [[dog]]
+  </small>
+]
+
+---
+## **Semantics of Quantifiers**
+<br>
+.pull-left[
+- **quantifiers** (including numerals) are specific type of **determiners** that describes how many **members** of a set we're talking about<br><br>
+
+.pull-left[
+1. <span style="color:green"><b>every</b></span> cat<br><br>
+2. <span style="color:green"><b>some</b></span> cats<br><br>
+3. <span style="color:green"><b>three</b></span> cats<br><br>
+4. <span style="color:green"><b>many</b></span> cats<br><br>
+5. <span style="color:green"><b>most</b></span> cats<br><br>
+6. <span style="color:green"><b>no</b></span> cats
+]
+.pull-right[
+
+]
+]
+
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1028/forall.jpeg" width="80%">
+</div>
+]
+
+---
+## **Semantics of Quantifiers**
+<br>
+.pull-left[
+- **quantifiers** (including numerals) are specific type of **determiners** that describes how many **members** of a set we're talking about<br><br>
+
+.pull-left[
+1. <span style="color:green"><b>every</b></span> cat<br><br>
+2. <span style="color:green"><b>some</b></span> cats<br><br>
+3. <span style="color:green"><b>three</b></span> cats<br><br>
+4. <span style="color:green"><b>many</b></span> cats<br><br>
+5. <span style="color:green"><b>most</b></span> cats<br><br>
+6. <span style="color:green"><b>no</b></span> cats
+]
+.pull-right[
+all<br><br>
+more than zero<br><br>
+exactly three<br><br>
+a large number<br><br>
+more than half<br><br>
+zero
+]
+]
+
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1028/forall.jpeg" width="80%">
+</div>
+]
+
+---
+## **Semantics of Quantifiers**
+<br>
+- **declarative sentences** like <span style="color:blue">NOUNs are NOUNs</span>, <span style="color:blue">NOUNs are ADJ</span>, or <span style="color:blue">NOUN VERBs</span> make some **claim** about the relationship between sets<br>
+.pull-left[
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Cats run</i>.</span></b></h3>
+⬇
+<h3><b><span style="color:green">[[cat]] ⊆ [[run]]</span></b></h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Snoopy runs</i>.</span></b></h3>
+⬇
+<h3><b><span style="color:green">[[Snoppy]] ∈ [[run]]</span></b></h3>
+</div>
+]
+<br><br>
+- sentences with **quantifiers** like <span style="color:blue">QUANT NOUN VERBs</span> also make some **claim** about the relationship between sets – but now it involves some **quantity**<br>
+<div style="text-align:center">
+<h3><b><span style="color:blue"><i>Four cats are running</i>.</span></b></h3>
+</div>
+
+  - how many elements are <span style="color:#CC0033"><b>both</b></span> in <span style="color:deeppink">[[cat]]</span> and <span style="color:deeppink">[[run]]</span>?
+  - the **cardinality** of the intersection of <span style="color:deeppink">[[cat]]</span> and <span style="color:deeppink">[[run]]</span> is <span style="color:blue"><b>four</b></span>, in other words, there are <span style="color:blue"><b>exactly four elements</b></span> that are both in <span style="color:deeppink">[[cat]]</span> and <span style="color:deeppink">[[run]]</span>
+
+--
+
+<div style="text-align:center">
+<h3><b><span style="color:#CC0033">| [[cat]] ∩ [[run]] | = 4</span></b></h3>
+</div>
+  
+  
+---
+## **Semantics of Quantifiers**
+<br>
+<div style="padding-left: 25px; padding-right: 25px;">
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 30%;">
+    <col style="width: 25%;">
+    <col style="width: 25%;">
+  </colgroup>
+
+  <tr>
+    <td><b>quantifier</b></td>
+    <td><b>example</b></td>
+    <td colspan="2"><b>set theory expression</b> (| [[N]] ∩ [[VP]] | = ?)</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green"><b>numeral</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Two</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">= n</span></td>
+    <td style="text-align:right">(n specificed by numeral)</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green"><b>some</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Some</b></span> students run</i>.</td>
+    <td style="color:white">| [[N]] ∩ [[VP]] | <span style="color:white">≠ 0</span></td>
+    <td style="text-align:right; color:white"><b>or</b> [[N]] ∩ [[VP]] <span style="color:white">≠ Ø</span></td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>every</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Every</b></span> student runs</i>.</td>
+    <td style="color:white">| [[N]] ∩ [[VP]] | <span style="color:white">= | [[N]] |</span></td>
+    <td style="text-align:right; color:white"><b>or</b> [[N]] ⊆ [[VP]] = <span style="color:white">TRUE</span></td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>many</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Many</b></span> students run</i>.</td>
+    <td style="color:white">| [[N]] ∩ [[VP]] | <span style="color:white">> n</span></td>
+    <td style="text-align:right; color:white">(n is some large number)</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>most</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Most</b></span> students run</i>.</td>
+    <td colspan="2"; style="color:white">| [[N]] ∩ [[VP]] | <span style="color:white">>  ½ | [[N]] |</span></td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>no</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>No</b></span> students run</i>.</td>
+    <td style="color:white">| [[N]] ∩ [[VP]] | <span style="color:white">= 0</span></td>
+    <td style="text-align:right; color:white"><b>or</b> [[N]] ∩ [[VP]] <span style="color:white">= Ø</span></td>
+  </tr>
+
+</table>
+</div>
+
+---
+## **Semantics of Quantifiers**
+<br>
+<div style="padding-left: 25px; padding-right: 25px;">
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 30%;">
+    <col style="width: 25%;">
+    <col style="width: 25%;">
+  </colgroup>
+
+  <tr>
+    <td><b>quantifier</b></td>
+    <td><b>example</b></td>
+    <td colspan="2"><b>set theory expression</b> (| [[N]] ∩ [[VP]] | = ?)</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green"><b>numeral</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Two</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">= n</span></td>
+    <td style="text-align:right">(n specificed by numeral)</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green"><b>some</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Some</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">≠ 0</span></td>
+    <td style="text-align:right"><b>or</b> [[N]] ∩ [[VP]] <span style="color:#CC0033">≠ Ø</span></td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>every</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Every</b></span> student runs</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">= | [[N]] |</span></td>
+    <td style="text-align:right"><b>or</b> [[N]] ⊆ [[VP]] = <span style="color:#CC0033">TRUE</span></td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>many</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Many</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">> n</span></td>
+    <td style="text-align:right">(n is some large number)</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>most</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Most</b></span> students run</i>.</td>
+    <td colspan="2">| [[N]] ∩ [[VP]] | <span style="color:#CC0033">>  ½ | [[N]] |</span></td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>no</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>No</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">= 0</span></td>
+    <td style="text-align:right"><b>or</b> [[N]] ∩ [[VP]] <span style="color:#CC0033">= Ø</span></td>
+  </tr>
+
+</table>
+</div>
+
+---
+## **Limitations of Set Theory**
+<br>
+- so set theory is a useful way to be **precise** about the **semantic meaning** of language<br><br>
+- yet, there are a few things that **cannot** be described in set theory<br><br>
+- an example is **non-intersective** adjectives<br><br>
+  - an adjective like yellow in yellow bird is called **intersective** because <span style="color:green">[[yellow bird]]</span> can be described as the **intersection** between <span style="color:deeppink">[[yellow]]</span> and <span style="color:blue">[[bird]]</span><br><br>
+  - what about <u><i>biggest tree</i></u> or <u><i>matching shirts</i></u>?<br><br>
+  - we need more information – for instance to know which tree is biggest, we need to know the size of all other trees we need to compare them<br><br>
+- also, we have not yet differentiated pairs like <u><i>Cats run</i>.</u> and <u><i>Cats are running</i>.</u><br><br>
+- so **set theory** IS useful, but it **CANNOT** describe all aspects of semantics
+
+---
+## **Exercise II: Reference Defining**
+<br>
+**define the reference in terms of sets**<br>
+.pull-left[
+### 1. <span style="color:green"><b>[[sleep]]</b></span>
+<span style="color:white">[[sleep]] = { x | x sleeps }</b></span><br><br>
+
+### 2. <span style="color:blue"><b>[[Arthur]]</b></span>
+<span style="color:white">[[Arthur]] = arthur</b></span><br><br>
+
+### 3. <span style="color:orange"><b>[[happy]]</b></span>
+<span style="color:white">[[happy]] = { x | x is happy }</b></span><br><br>
+
+### 4. **[[king]]**
+<span style="color:white">[[king]] = { x | x is a king }</b></span>
+]
+.pull-right[
+<div style="text-align:center">
+  <img src="../pic/1028/king1.png" width="70%">
+  <img src="../pic/1028/king2.png" width="70%">
+</div>
+]
+
+---
+## **Exercise II: Reference Defining**
+<br>
+**define the reference in terms of sets**<br>
+.pull-left[
+### 1. <span style="color:green"><b>[[sleep]]</b></span>
+[[sleep]] = { x | x sleeps }<br><br>
+
+### 2. <span style="color:blue"><b>[[Arthur]]</b></span>
+[[Arthur]] = arthur <br><br>
+
+### 3. <span style="color:orange"><b>[[happy]]</b></span>
+[[happy]] = { x | x is happy }<br><br>
+
+### 4. **[[king]]**
+[[king]] = { x | x is a king }
+]
+.pull-right[
+<div style="text-align:center">
+  <img src="../pic/1028/king1.png" width="70%">
+  <img src="../pic/1028/king2.png" width="70%">
+</div>
+]
+
+
+
+---
+## **Exercise III: Set Relation and Operation**
+<br>
+translate sentences into **set theory** expressions<br><br>
+.pull-left[
+1. Music is beautiful.<br><br>
+2. Beautiful fish swim.<br><br>
+3. Arthur is an ancient figure. <br><br>
+4. Morgana and Merlin are good sorcerers. <br><br>
+5. Dark magic is a horrible thing.<br><br>
+6. Big old dogs are friendly.<br><br>
+7. Every linguist is a mathematician.<br><br>
+8. Most blue cats are elegant.
+]
+.pull-right[
+<br><br><br>
+<div style="text-align:center">
+<img src="../pic/1028/setmeme.jpeg" width="80%">
+</div>
+]
+
+   
+---
+## **Exercise IV: Mario Universe**
+### list notation and predicate notation<br><br>
+define the following sets using both **list notation** and **predicate notation**<br><br>
+.pull-left[
+1. M, the set of characters with mustaches<br><br>
+2. P, the set of characters who are/wear pink<br><br>
+3. C, the set of characters with crowns<br><br>
+4. G, the set of characters who are ghosts<br><br><br>
+
+are any of the sets defined above **singletons**? which one(s)?
+]
+.pull-right[
+<u>***U*** = universe of Mario Kart characters</u><br><br>
+<img src="../pic/1028/mario.png" width="95%">
+]
+
+---
+## **Exercise IV: Mario Universe**
+### <span style="color:white"><b>A</b></span><br><br>
+**true** or **false**? why?<br><br>
+.pull-left[
+1. Mario ∈ M<br><br>
+2. Peach ∉ C<br><br>
+3. | C | = 3<br><br>
+4. {Daisy, Birdo, Luigi} = {Luigi, Daisy, Birdo}<br><br>
+5. | { x | x has a name that starts with 'W' } | = {Wario, Waluigi}
+]
+.pull-right[
+<u>***U*** = universe of Mario Kart characters</u><br><br>
+<img src="../pic/1028/mario.png" width="95%">
+]
+
+---
+## **Exercise IV: Mario Universe**
+<br>
+use the sets definedbelow, determine if each of these expressions is **true** or **false**<br><br>
+.pull-left[
+<small>
+**M** = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}<br>
+**H** = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}<br>
+**N** = { x | x is a human} = {Mario, Luigi, Baby Mario, Baby Luigi, Peach, Daisy, Wario, Waluigi}<br>
+**R** = { x | x is a princess} = {Peach, Daisy}<br>
+**F** = { x | x is a female human} = {Peach, Daisy}</small><br><br>
+
+.pull-left[
+1.M ⊂ H<br><br>
+2.R ⊆ F<br><br>
+3.H = N
+]
+.pull-right[
+4.N ⊆ M<br><br>
+5.R ⊄ N<br><br>
+6.F ⊈ M<br><br>
+]
+]
+.pull-right[
+<u> ***U*** = universe of Mario Kart characters</u>
+<br><br>
+<img src="../pic/1028/mario.png" width="88%">
+<br>
+.pull-left[
+<small>
+A **=** B: equality/identity<br>
+A **⊆** B: subset<br>
+A **⊂** B: proper subset
+</small>
+]
+.pull-right[
+<small>
+A **≠** B: not equal/identical<br>
+A **⊈** B: not a subset<br>
+A **⊄** B: not a proper subset
+</small>
+]
+]
+
+---
+## **Exercise IV: Mario Universe**
+<br>
+.pull-left[
+given sets on the right, **calculate** the following and **describe** the resulting set in words<br><br>
+
+.pull-left[
+01.C ∪ P<br><br>
+02.H ∩ O<br><br>
+03.H – M<br><br>
+04.P ′<br><br>
+05.C ∩ S
+]
+.pull-right[
+06.| F ∪ S |<br><br>
+07.| C ∩ P |<br><br>
+08.O – H<br><br>
+09.( C ∩ F ) ∪ M<br><br>
+10.( F ∪ H )′
+]
+
+11.F ∩ S = S ∩ F (true or false?)<br><br>
+12.F – S = S – F (true or false?)<br>
+
+.pull-left[
+<i>A **∪** B</i>: union<br>
+<i>A **∩** B</i>: intersection
+]
+.pull-right[
+<i>A **-** B</i>: difference<br>
+<i>A**'**</i>: complement
+]
+]
+
+.pull-right[
+<u> ***U*** = universe of Mario Kart characters</u>
+<br><br>
+<img src="../pic/1028/mario.png" width="80%">
+<br>
+<small><small>
+**M** = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}<br>
+**H** = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}<br>
+**C** = { x | x has a crown} = {Peach, Daisy, King Boo}<br>
+**F** = { x | x has fangs} = {Bowser, Petey Piranha, King Boo}<br>
+**P** = { x | x is/wears pink} = {Peach, Birdo, Toadette}<br>
+**S** = { x | x has spots} = {Toad, Toadette, Petey Piranha}<br>
+**O** = { x | x's name ends in "o" } = { Mario, Baby Mario, Wario, Birdo, King Boo }
+</small></small>
+]
+---
+## **Exercise V: Lion King Universe**
+<br>
+write out the **lexical meaning** of these words using **predicate notation**<br><br>
+.pull-left[
+1. lion				
+  [[lion]] = L = { x | x is lion } <br><br>
+2. warthog<br><br>
+3. brown<br><br>
+4. meerkat<br><br>
+5. smile<br><br>
+6. ferocious
+]
+.pull-right[
+<img src="../pic/1028/simba.png" width="75%">
+]
+
+---
+## **Exercise V: Lion King Universe**
+<br>
+write out the **compositional meaning** of these sentences using **set theory** and decide the **truth value**<br><br>
+.pull-left[
+1. Timon is a warthog.
+
+  [[Timon]] ∈ [[warthog]] <br><br>			
+2. Simba is brown.<br><br>
+3. Meerkats are ferocious.<br><br>
+4. Pumbaa smiles.<br><br>
+5. Lions are not meerkats.<br><br>
+]
+.pull-right[
+<img src="../pic/1028/simba.png" width="75%">
+]
+
+---
+## **Exercise V: Lion King Universe**
+<br>
+write out the **compositional meaning** of these sentences using **set theory** <br><br>
+.pull-left[
+1. Simba is a cute lion.<br><br>
+2. Lions are ferocious creatures.<br><br>
+3. Pumbaa is smelly.<br><br>
+4. Adult lions roar.<br><br>
+5. Young lions are adorable animals.<br><br>
+6. Pumbaa is not a sarcastic meerkat.<br><br>
+7. Timon and Pumbaa are friendly.<br><br>
+8. Lions and warthogs are ferocious.<br><br>
+6-8 are **tricky**!
+]
+.pull-right[
+<img src="../pic/1028/simba.png" width="75%">
+]
+
+---
+## **Exercise VI: Stardew Valley Universe**
+<br>
+given the definitions to the right, **express** the meaning of the following sentences using **set theory**<br><br>
+.pull-left[
+1. Abigail is a villager.<br><br>
+2. Mr. Qi does not live in Pelican Town.<br><br>
+3. Every farmer grows crops.<br><br>
+4. Some villagers raise chickens.<br><br>
+5. Only one farmer lives in Pelican Town.<br><br>
+6. Most villagers live in Pelican Town.<br><br>
+7. Marnie and Shane both raise chickens.<br><br>
+8. Neither Robin nor Abigail grow crops.
+]
+.pull-right[
+[[Marnie]] = *m*<br>
+[[Shane]] = *s*<br>
+[[Mr. Qi]] = *q*<br>
+[[Robin]] = *r*<br>
+[[Abigail]] = *a*<br><br>
+[[villager]] = { x | x is a villager } = *V*<br>
+[[farmer]] = { x | x is a farmer } = *F*<br>
+[[grow crops]] = { x | x grows crops } = *G*<br>
+[[raise chickens]] = { x | x raises chickens } = *C*<br>
+[[live in Pelican Town]] = { x | x lives in Pelican Town } = *P*
+]
+
+
+---
+class: center, middle
+**Homework V** is due **Mar 29** at **11:59 pm**<br><br>
+<span style="color:green"><b>reading</b></span>: **Chapter 8: Pragmatics** of Griffiths & Cummins’ (2017) <i>An Introduction to English Semantics and Pragmatics</i><br><br>
+<img src="../pic/1028/fine.jpeg" width="60%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

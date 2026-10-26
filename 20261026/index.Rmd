@@ -1,0 +1,868 @@
+---
+title: "**Semantics III**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/10/26 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+<br>
+**tools** to figure out meanings in Semantics:<br><br>
+
+### for two propositions <span style="color:green"><b>p</b></span> and <span style="color:blue"><b>q</b></span>:<br><br>
+
+### <b><span style="color:deeppink">entailment</span></b>: a proposition <span style="color:green"><b>p</b></span> entails another proposition <span style="color:blue"><b>q</b></span> iff, whenever <span style="color:green"><b>p</b></span> is <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span>, <span style="color:blue"><b>q</b></span> must also be <span style="color:#CC0033; font-variant: small-caps"><b>true</b></span><br><br>
+
+### <b><span style="color:deeppink">presupposition</span></b>: a proposition <span style="color:green"><b>p</b></span> presupposes aother proposition <span style="color:blue"><b>q</b></span> iff both <span style="color:green"><b>p</b></span> and the <span style="color:orange"><b>negation</b></span> of <span style="color:green"><b>p</b></span> <b><span style="color:#CC0033">entail</span></b> <span style="color:blue"><b>q</b></span><br><br>
+
+--
+
+<div style="text-align:center">
+<h3><b><span style="color:deeppink">Set Theory</span></b></h3>
+</div>
+
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Set Theory: Basic Concepts
+</div>
+
+---
+## **Set theory: Sets and Elements**
+<br>
+.pull-left[
+a **set** is an abstract <u>collection of items</u>:<br><br>
+- {Mon, Tue, Wed, Thu, Fri, Sat, Sun} is the set of days of the week<br><br>
+
+the individual items in a set are called **member**s or **element**s:<br><br>
+- *Thursday* is a **member** or **element** of the set of days of the week<br><br>
+
+The symbols <span style="color:green"><b>∈</b></span> and <span style="color:green"><b>∉</b></span> are used to specify whether an element is a member of a given set:<br><br>
+  - *Mon* <span style="color:green"><b>∈</b></span> {Mon, Tue, Wed, Thu, Fri, Sat, Sun}
+  - *Oct* <span style="color:green"><b>∉</b></span> {Mon, Tue, Wed, Thu, Fri, Sat, Sun}
+]
+.pull-right[
+<img src="../pic/1026/set.jpg" width="80%">
+]
+
+---
+## **Set theory: Sets and Elements**
+<br>
+- as in other branches of mathematics, we can use variables to stand in for values:
+.pull-left[
+***A*** = {Mon, Tue, Wed, Thu, Fri, Sat, Sun}
+]
+.pull-right[
+defines variable ***A*** as the set of days
+]
+<br><br>
+
+- by convention, we use **capital letters (*A*, *B*, *C*...)** for sets and <span style="color:green"><b>lowercase letters (<i>x</i>, <i>y</i>, <i>z</i>...)</b></span> for elements<br><br>
+
+- we can first assign various elements to variables and then define sets based on them:
+.pull-left[
+.pull-left[
+<div style="text-align:center">
+<span style="color:#CC0033"><i><b>a</b></i></span> = Rutgers
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:green"><i><b>b</b></i></span> = Stanford
+</div>
+]
+]
+.pull-right[
+.pull-left[
+<div style="text-align:center">
+<span style="color:deeppink"><i><b>c</b></i></span> = MIT
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:blue"><i><b>d</b></i></span> = Fudan
+</div>
+]
+]
+<br><br>
+.pull-left[
+  - ***U*** = {Rutgers, Stanford, MIT, Fudan}
+]
+.pull-right[
+  - [[**U**niversities]]
+]
+.pull-left[
+  - ***B*** = {Rutgers, Fudan}
+]
+.pull-right[
+  - [[the **B**est Universities]]
+] <br><br>
+- we can also define sets in terms of their <span style="color:blue"><b>natural language meaning</b></span>
+.pull-left[
+  - ***D*** = [[days of the week]]
+]
+.pull-right[
+  - [[Monday]] ∈ **D**
+]<br><br>
+
+- we put [[ ]] around natural language expressions to show we're talking about their meaning, not their structure, morphology, or sounds
+
+---
+## **Set theory: Properties of Sets**
+<br>
+.pull-left[
+- **order** of elements does **NOT** matter:
+  - {a, e, i, o, u} = {u, o, i, e, a}<br><br>
+- <span style="color:green"><b>repeating</b></span> does <span style="color:green"><b>NOT</b></span> matter
+  - an element is either **in** the set **or not**, it can't be in it twice:
+  - {a, e, i, o, u} = {a, a, a, e, i, o, o, o, o, u, u}<br><br>
+- sets can be <span style="color:blue"><b>finite</b></span> or <span style="color:deeppink"><b>infinite</b></span>:
+  - <span style="color:blue"><b>finite</b></span>: set of days of the week = {Mon, Tue, Wed, Thu, Fri, Sat, Sun}
+  - <span style="color:deeppink"><b>infinite</b></span>: set of positive integers = {1, 2, 3…}<br><br>
+- members do <span style="color:orange"><b>NOT</b></span> have to be <span style="color:blue"><b>relevant</b></span> to each other
+  - although in **Semantics**, they usually are:
+  - {u, 3, Wed, blue} is a legitimate set
+]
+.pull-right[
+in **mathematics**:
+- a <span style="color:green"><b>SET</b></span> must  be **well-defined**
+- meaning we know how to decide <span style="color:blue"><b>membership</b></span> clearly
+- {2, 4, 6, 8, 10,...} (the set of even numbers)<br><br>
+
+yet in **semantics**:
+- a **list** is also considered a <span style="color:green"><b>SET</b></span><br><br>
+- {legitmate, 3x=5, OIIAI-cat.GIF, *never-gonna-give-you-up.MP4*}
+<br><br>
+<div style="text-align:center">
+<img src="../pic/1026/oiiai.gif" width="40%">
+</div>
+]
+
+---
+class: center, middle, video-slide
+
+<style>
+.video-slide .remark-slide-content {
+  background: black !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+.video-slide video {
+  width: 80%;   /* adjust this number for size (e.g., 70% or 90%) */
+  height: auto;
+  border: none;
+  border-radius: 8px;  /* optional soft corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* subtle shadow */
+}
+</style>
+
+<video id="vid"
+  src="https://merlinudinov.github.io/spring2026ling201/pic/1026/never_web.mp4"
+  type="video/mp4"
+  autoplay
+  muted
+  controls     <!-- ✅ adds play/pause + volume/unmute -->
+  playsinline>
+</video>
+
+<script>
+const v = document.getElementById("vid");
+
+// Allow manual unmute via click
+v.addEventListener("click", () => {
+  if (v.muted) v.muted = false;
+});
+
+// Pause when leaving the slide
+document.addEventListener("keydown", e => {
+  if (["ArrowRight","ArrowLeft","PageUp","PageDown"].includes(e.key)) {
+    if (!v.paused) v.pause();
+  }
+});
+</script>
+
+---
+## **Set theory: Specifying a Set**
+<br>
+- <span style="color:green"><b>list notation</b></span>: we can specify a set by listing its **members** between curly brackets<br><br>
+  - <span style="color:#CC0033"><b>C</b></span>(olours) = {red, orange, yellow, green, blue, violet}
+  - <span style="color:blue"><b>F</b></span>(lowers) = {tulip, rose, violet, carnation, peony, daisy}<br><br>
+- <span style="color:deeppink"><b>venn diagram notation</b></span>: we can specify a set by placing its **members** in a circle
+<br><br>
+
+<div style="position:relative; width:900px; height:500px; margin:auto;">
+
+<!-- Left circle -->
+<div style="
+position:absolute;
+width:200px;
+height:200px;
+border:3px solid #777;
+border-radius:50%;
+left:80px;
+top:30px;">
+</div>
+
+<!-- Right circle -->
+<div style="
+position:absolute;
+width:200px;
+height:200px;
+border:3px solid #777;
+border-radius:50%;
+left:180px;
+top:30px;">
+</div>
+
+<!-- Labels C and F -->
+<div style="position:absolute; left:60px; top:0px; font-size:20px; font-style:italic; color:#CC0033"><b>C</b></div>
+<div style="position:absolute; left:360px; top:0px; font-size:20px; font-style:italic; color:blue"><b>F</b></div>
+
+<!-- Left words -->
+<div style="position:absolute; left:120px; top:60px;">yellow</div>
+<div style="position:absolute; left:110px; top:90px;">green</div>
+<div style="position:absolute; left:100px; top:120px;">blue</div>
+<div style="position:absolute; left:110px; top:150px;">orange</div>
+<div style="position:absolute; left:120px; top:180px;">red</div>
+
+<!-- Intersection -->
+<div style="position:absolute; left:200px; top:120px;">violet</div>
+
+<!-- Right words -->
+<div style="position:absolute; left:275px; top:60px;">tulip</div>
+<div style="position:absolute; left:285px; top:90px;">rose</div>
+<div style="position:absolute; left:290px; top:120px;">carnation</div>
+<div style="position:absolute; left:285px; top:150px;">peony</div>
+<div style="position:absolute; left:275px; top:180px;">daisy</div>
+
+</div>
+
+- Venn diagrams are especially useful for illustrating where sets overlap (what members they have in common):
+  - violet ∈ C and violet ∈ F
+  
+
+---
+## **Set theory: Specifying a Set**
+<br>
+- sometimes we can't list all the members (we don't know them, there are too many)
+- can anyone of us list **ALL** the stars in the universe?
+  - Sun, Polaris, Proxima Centauri, Betelgeuse, Rigel...<br><br>
+- we can use **predicate notation** to define such a set:<br><br>
+<div style="text-align:center">
+set of all starts: <b><i>S</i></b> = { &nbsp;&nbsp;&nbsp x &nbsp;&nbsp;&nbsp | &nbsp;&nbsp;&nbsp <u>x is a star</u> }
+</div>
+
+<svg width="1200" height="180" viewBox="0 0 1200 180">
+  <!-- little braces -->
+  <text x="565" y="235" font-size="25" fill="#CC0033" transform="rotate(270 455 120)">{</text>
+  <text x="640" y="195" font-size="25" fill="#CC0033" transform="rotate(270 530 120)">{</text>
+  <text x="870" y="35" font-size="25" fill="#CC0033" transform="rotate(270 760 120)">{</text>
+
+  <!-- lines -->
+  <line x1="563" y1="20" x2="413" y2="120" stroke="#CC0033" stroke-width="3"/>
+  <line x1="598" y1="20" x2="598" y2="120" stroke="#CC0033" stroke-width="3"/>
+  <line x1="668" y1="20" x2="818" y2="120" stroke="#CC0033" stroke-width="3"/>
+
+  <!-- labels -->
+  <text x="300" y="140" font-size="20">variable standing in</text>
+  <text x="300" y="166" font-size="20">for the set's members</text>
+  <text x="550" y="153" font-size="20">"such that"</text>
+  <text x="700" y="140" font-size="20">condition elements have to</text>
+  <text x="700" y="166" font-size="20">fulfill in order to be members</text>
+</svg>
+
+<br><br>
+- we read this out loud as: <i><u>S equals the set of elements x, such that x is a star</u></i><br>
+- this is more or less the same as saying **the set of all stars** or the <span style="color:green"><b>set of all referent</b></span> of the word "star"
+
+---
+## **Words and Sets**
+<br>
+- now that we know how to define a set, we can use it to define the meaning of a word<br><br>
+- recall that we're trying to define words in terms of their **reference**
+  - the **set** of things they refer to<br><br>
+- we can define the reference of a word by:<br><br>
+<div style="text-align:center">
+<h3><span style="color:green"><b>list notation</b></span>: [[bird]] = {goose, duck, sparrow, eagle…}</h3><br><br>
+<h3><span style="color:#CC0033"><b>predicate notation</b></span>: [[bird]] = { x | x is a bird }</h3>
+</div><br><br>
+- remember that we put natural language expressions like words in [[ ]]
+  - this shows we're talking about the meaning of the word, not its structure
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Set Relations
+</div>
+
+---
+## **Sets**
+<br>
+.pull-left[
+- the reference of words can **overlap** in various ways<br><br>
+- in order to **compare** two sets, we need **set relations <br><br>
+  - equality (identity)<br><br>
+  - subset <br><br>
+  - proper subset
+]
+
+<div style="
+position:absolute;
+width:400px;
+height:400px;
+border:3px solid #777;
+border-radius:50%;
+left:700px;
+top:200px;">
+</div>
+
+<div style="
+position:absolute;
+width:280px;
+height:280px;
+border:3px solid #777;
+border-radius:50%;
+left:800px;
+top:250px;">
+</div>
+
+<div style="position:absolute; left:725px; top:225px; font-size:20px; font-style:italic; background:orange">[[animal]]</div>
+<div style="position:absolute; left:825px; top:275px; font-size:20px; font-style:italic; background:orange">[[dog]]</div>
+
+<div style="position:absolute; left:725px; top:330px;">pigeon</div>
+<div style="position:absolute; left:715px; top:360px;">octopus</div>
+<div style="position:absolute; left:705px; top:390px;">raccoon</div>
+<div style="position:absolute; left:715px; top:420px;">cat</div>
+<div style="position:absolute; left:720px; top:450px;">sugarglider</div>
+
+<div style="position:absolute; left:900px; top:315px;">boarder collie</div>
+<div style="position:absolute; left:900px; top:345px;">husky</div>
+<div style="position:absolute; left:900px; top:375px;">shiba</div>
+<div style="position:absolute; left:900px; top:405px;">labrador</div>
+<div style="position:absolute; left:900px; top:435px;">golden retriever</div>
+
+</div>
+
+---
+## **Set Theory: Cardinality**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1026/card.jpg" width="100%">
+]
+.pull-right[
+- **cardinality** refers to the number of elements in a set (think cardinal numbers)<br><br>
+- we use vertical bars **|A|** to indicate cardinality
+  - **|A|** is pronounced: cardinality of A, not absolute value of A)
+  - suppose C = { red, orange, yellow, green, blue, violet }, what is |C|? <br><br>
+- a set with only one element (cardinality = 1) is called a **singleton set**:
+  - {red}, {Wednesday}, {3}, {Snoopy}<br><br>
+- a set with no elements (cardinality = 0) is called the **null set** or the **empty set**:
+  - an empty set is written as {} or Ø
+  - but not as {Ø} （**why not?**）
+]
+
+
+---
+## **Set Relations: Equality/Identity**
+<br>
+- equality/identity symbol: *A* **=** *B* (not equal/identical symbol: *A* **≠** *B*)<br><br>
+- two sets are equal or identical if they have **exactly the same elements**:<br><br>
+  - { a, e, i, o, u } = { i, e, a, u, o }
+  - { x | x is a bird } = { x | x is a winged, feathered animal that lays eggs }<br><br>
+- **formally**: *A* = *B* **iff** for every x: x ∈ *A* iff x ∈ *B*<br><br>
+
+<div style="text-align:center">
+<img src="../pic/1026/equality.png" width="50%">
+</div>
+
+---
+## **Set Relations: Subset**
+<br>
+.pull-left[
+- subset symbol: *A* **⊆** *B* (not a subset symbol: *A* **⊈** *B*)
+  - *A* is a subset of *B* if **every element of** *A* is **also** an element of *B*:
+  - { a, o, u } ⊆ { a, e, i, o, u }<br><br>
+- **formally**: *A* ⊆ *B* **iff** for every x: if x ∈ *A* then x ∈ *B*
+  - if A contains <span style="color:green"><b>anything</b></span> that's <span style="color:green"><b>NOT</b></span> in *B*, it's <span style="color:green"><b>NOT</b></span> a subset of *B*:
+  - { a, o, y } ⊈ { a, e, i, o, u }<br><br>
+- <b>note</b>: if *A* and *B* are identical (*A* = *B*)
+  - *A* is technically still a **subset** of *B*, because every element in *A* is also in *B*:
+  - { a, e, i, o, u } ⊆ { a, e, i, o, u }
+]
+
+<div style="
+position:absolute;
+width:400px;
+height:400px;
+border:3px solid #777;
+border-radius:50%;
+left:700px;
+top:200px;">
+</div>
+
+<div style="
+position:absolute;
+width:280px;
+height:280px;
+border:3px solid #777;
+border-radius:50%;
+left:800px;
+top:250px;">
+</div>
+
+<div style="position:absolute; left:725px; top:225px; font-size:20px; font-style:italic; background:orange">[[vowel]]</div>
+<div style="position:absolute; left:825px; top:275px; font-size:20px; font-style:italic; background:orange">[[back_vowel]]</div>
+
+<div style="position:absolute; left:750px; top:360px;">i</div>
+<div style="position:absolute; left:750px; top:420px;">e</div>
+
+<div style="position:absolute; left:950px; top:330px;">a</div>
+<div style="position:absolute; left:950px; top:390px;">o</div>
+<div style="position:absolute; left:950px; top:450px;">u</div>
+
+</div>
+
+---
+## **Set Relations: Proper Subset**
+<br>
+.pull-left[
+- proper subset symbol: *A* **⊂** *B* (not a proper subset symbol: *A* **⊄** *B*)
+  - *A* is a **proper subset** of *B* if *A* is a <span style="color:green"><b>subset</b></span> of *B* <span style="color:blue"><b>and</b></span> they are <span style="color:green"><b>NOT</b></span> identical (*A* ≠ *B*)<br><br>
+  - { a, o, u } ⊂ { a, e, i, o, u}
+  - { a, e, i, o, u } ⊄ { a, e, i, o, u}<br><br>
+- **formally**: *A* ⊂ *B* **iff** *A* ⊆ *B* <span style="color:blue"><b>and</b></span> *A* ≠ *B*<br><br>
+- in natural language, we **typically** use subsets (⊆) rather than proper subsets (⊂) because they're more flexible
+]
+
+<div style="
+position:absolute;
+width:400px;
+height:400px;
+border:3px solid #777;
+border-radius:50%;
+left:700px;
+top:200px;">
+</div>
+
+<div style="
+position:absolute;
+width:280px;
+height:280px;
+border:3px solid #777;
+border-radius:50%;
+left:800px;
+top:250px;">
+</div>
+
+<div style="position:absolute; left:725px; top:225px; font-size:20px; font-style:italic; background:orange">[[vowel]]</div>
+<div style="position:absolute; left:825px; top:275px; font-size:20px; font-style:italic; background:orange">[[back_vowel]]</div>
+
+<div style="position:absolute; left:750px; top:360px;">i</div>
+<div style="position:absolute; left:750px; top:420px;">e</div>
+
+<div style="position:absolute; left:950px; top:330px;">a</div>
+<div style="position:absolute; left:950px; top:390px;">o</div>
+<div style="position:absolute; left:950px; top:450px;">u</div>
+
+</div>
+
+---
+## **Exercise I: Set Relation**
+<br>
+.pull-left[
+are the following statements **true** or **false**?<br><br>
+1. B ⊂ A<br>
+  <span style="color:white">- <b>true</b>, all elements in B are also in A</span><br><br>
+2. B = C<br>
+  <span style="color:white">- <b>true</b>, order does not matter</span><br><br>
+3. B ⊆ C<br>
+  <span style="color:white"><b>true</b>- , if B = C, B is also a subset of C</span><br><br>
+4. B ⊂ C<br>
+  <span style="color:white"><b>false</b>- , to be a proper subset, there must be elements in C but not in B</span><br><br>
+5. B ⊆ D
+  <span style="color:white"><b>false</b>- , there are elements in B that are not in D</span>
+]
+.pull-right[
+<br><br><br><br>
+A = {Mary, Peter, Ivan, Josefina, Antonio}<br><br>
+B = {Peter, Ivan, Antonio}<br><br>
+C = {Antonio, Peter, Ivan}<br><br>
+D = {Peter, Mary, Ivan, Josefina}
+]
+
+---
+## **Exercise I: Set Relation**
+<br>
+.pull-left[
+are the following statements **true** or **false**?<br><br>
+1. B ⊂ A<br>
+  - **true**, all elements in B are also in A<br><br>
+2. B = C<br>
+  - **true**, order does not matter<br><br>
+3. B ⊆ C<br>
+  - **true**, if B = C, B is also a subset of C<br><br>
+4. B ⊂ C<br>
+  - **false**, to be a proper subset, there must be elements in C but not in B<br><br>
+5. B ⊆ D
+  - **false**, there are elements in B that are not in D
+]
+.pull-right[
+<br><br><br><br>
+A = {Mary, Peter, Ivan, Josefina, Antonio}<br><br>
+B = {Peter, Ivan, Antonio}<br><br>
+C = {Antonio, Peter, Ivan}<br><br>
+D = {Peter, Mary, Ivan, Josefina}
+]
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Set Relations in Natural Languages
+</div>
+
+---
+## **Set Relations in Natural Language**
+<br>
+- now that we know how to talk about **set relations** (equality, subset), we can return to our discussion of **synonyms**, **hyponyms**, and **hypernyms**<br><br>
+
+  - are the following pairs of words <span style="color:green"><b>synonyms</b></span> or <span style="color:blue"><b>hypernyms/hyponyms</b></span>?
+  - what is the set relation between them?
+  - how would you write that out using **set theory** notation (=, ⊆/⊇) <br><br>
+
+.pull-left[
+<div style="text-align:center">
+cats vs. felines
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+[[cats]] = [[felines]]
+</div>
+]
+<br><br>
+.pull-left[
+<div style="text-align:center">
+drink vs. beverage<br><br>
+squirrel vs. mammal<br><br>
+sparrow vs. bird<br><br>
+soft drink vs. soda<br><br>
+beverage vs. juice
+</div>
+]
+
+--
+
+.pull-right[
+<div style="text-align:center">
+<span style="color:deeppink">[[drink]]</span> <span style="color:blue"><b>=</b></span> <span style="color:green">[[beverage]]</span><br><br>
+<span style="color:deeppink">[[squirrel]]</span> <span style="color:blue"><b>⊆</b></span> <span style="color:green">[[mammal]]</span><br><br>
+<span style="color:deeppink">[[sparrow]]</span> <span style="color:blue"><b>⊆</b></span> <span style="color:green">[[bird]]</span><br><br>
+<span style="color:deeppink">[[soft drink]]</span> <span style="color:blue"><b>=</b></span> <span style="color:green">[[soda]]</span><br><br>
+<span style="color:deeppink">[[beverage]]</span> <span style="color:blue"><b>⊇</b></span> <span style="color:green">[[juice]]</span><br><br>
+</div>
+]
+
+---
+## **Principle of Semantic Compositionality**
+<br>
+- recall that we can talk about two levels of semantic meaning:
+  - **lexical semantics**: the meaning of words
+  - **compositional semantics**: the meaning of sentences<br><br>
+- we can do the same with set theory<br><br>
+- **Principle of Semantic Compositionality** states that the meaning of <span style="color:deeppink"><b>sentences</b></span> derives from the meaning of their <span style="color:blue"><b>words</b></span> plus the meaning of their <span style="color:green"><b>structures</b></span>
+  - we have known how to represent <span style="color:blue"><b>words</b></span> using set theory
+  - and we need to find a way to use set theory to show a sentence's <span style="color:green"><b>structures</b></span><br><br>
+  
+- we will only look at **declarative** sentences, and ignore <span style="color:blue"><b>interrogative</b></span> and <span style="color:green"><b>imprative</b></span> sentences for now
+  - since a declarative sentence is what we considered a **PROPOSITION** (or a statement)
+  - a proposistion can be either **true** or **false**<br><br>
+.pull-left[
+(a) <i>Snoopy is a dog</i>. 
+]
+.pull-right[
+<div style="text-align:center">
+(b) <i>Birds are animals</i>.
+</div>
+]
+  
+---
+## **Declarative Sentences and Claims**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1026/snoopy2.png" width="100%">
+]
+.pull-right[
+**declarative** sentences typically state propositions in **two** steps<br><br>
+- first, they introduce some <span style="color:green"><b>topic</b></span> in the subject of the sentence
+  
+.pull-left[
+(a) <i><u><span style="color:green">Snoopy</span></u> is a dog</i>. 
+]
+.pull-right[
+<div style="text-align:center">
+(b) <i><u><span style="color:green">Birds</span></u> are animals</i>.
+</div>
+]<br><br>
+
+  - then, they make some <span style="color:blue"><b>comment</b></span> about that <span style="color:green"><b>topic</b></span> in the predicate:
+  
+.pull-left[
+(a) <i>Snoopy <u><span style="color:blue">is a dog</span></u></i>. 
+]
+.pull-right[
+<div style="text-align:center">
+(b) <i>Birds <u><span style="color:blue">are animals</span></u></i>.
+</div>
+]<br><br>
+
+so to translate into a sentence into set theory, we need to figure out how to <b>identify a sentence's <span style="color:green"><b>topic</b></span> and <span style="color:blue"><b>comment</b></span> and then state it in set theory</b>
+]
+
+---
+## **Compositional Semantics: Name is NOUN**
+<br>
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Snoopy is a dog</i>.</span></b></h3>
+</div>
+<br><br>
+
+- what is the <span style="color:green"><b>subject</b></span> (<span style="color:green"><b>topic</b></span>)of this sentence?<br><br>
+- what is the <span style="color:blue"><b>predicate</b></span> (<span style="color:blue"><b>comment</b></span>) of this sentence?<br><br>
+- what is the <span style="color:blue"><b>predicate</b></span> saying about the <span style="color:green"><b>topic</b></span>?<br><br>
+- is there anything in this sentence that could be represented as **a set** or **an element**?
+
+---
+## **Compositional Semantics: Name is NOUN**
+<br>
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Snoopy is a dog</i>.</span></b></h3>
+</div>
+<br><br>
+
+in a sentence with the structure **Name is NOUN** like <i><u>Snoopy is a dog</u></i><br><br>
+- the <span style="color:green"><b>subject</b></span>  is a **proper noun** – that is, an **element**, not a set<br><br>
+- the <span style="color:blue"><b>predicate</b></span>:<br>
+  - introduces some noun referring to a **set**: <span style="color:deeppink">[[dog]]</span> = set of all dogs<br>
+  - makes a claim about the **relationship** between the subject and this set: Snoopy is a **member** of the **set** of all dogs<br><br>
+
+--
+
+<div style="text-align:center">
+<h3><b><span style="color:orange">[[Snoopy]] ∈ [[dog]]</span></b></h3>
+</div>
+<br><br>
+
+- in general, sentences of the structure <u>Name is NOUN</u> can be written as **[[name]] ∈ [[NOUN]]**
+
+---
+## **Compositional Semantics: Name is ADJ**
+<br>
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Snoopy is happy</i>.</span></b></h3>
+</div>
+<br><br>
+
+- this sentence has the form **NAME is ADJ**<br><br>
+- we can use set theory to define adjectives, too:<br>
+  - <i><u>happy</u></i> refers to the **set** of <span style="color:green">all happy things</span> in the world, so **[[happy]]** = { x | x is happy }<br><br>
+- the sentence <i><u>Snoopy is happy</u></i>:
+  - mentions an individual (**element**) Snoopy and a set [[happy]]
+  - makes the claim (**comment**) that Snoopy is a member of [[happy]]<br><br>
+
+--
+
+<div style="text-align:center">
+<h3><b><span style="color:orange">[[Snoopy]] ∈ [[happy]]</span></b></h3>
+</div>
+<br><br>
+
+- sentences of the form <u>Name is ADJ</u> can be encoded in set theory as: **[[name]] ∈ [[ADJ]]**
+  
+---
+## **Compositional Semantics: Name VERBs**
+<br>
+<div style="text-align:center">
+<h3><b><span style="color:deeppink"><i>Snoopy runs</i>.</span></b></h3>
+</div>
+<br><br>
+- the sentence has the form Name VERBs – the **predicate** is a verb<br><br>
+- suppose we define the verb run as referring to the **set** of <span style="color:green">all things in the world that run</span>:<br>
+  **[[run]]** = {x | x runs}<br>
+- then the sentence above
+  - introduces an **element** Snoopy, introduces a **set** [[run]]
+  - again makes the **claim** that the element is a member of the set<br><br>
+  
+--
+
+<div style="text-align:center">
+<h3><b><span style="color:orange">[[Snoopy]] ∈ [[run]]</span></b></h3>
+</div>
+<br><br>
+
+
+- sentences of the type <u>NAME VERBs</u> can be encoded: **[[name]] ∈ [[VERB]]**
+- all three sentence types (**NAME** is NOUN/is ADJ/ VERBs) above can be encoded in the same way
+  
+---
+## **Compo Semantics: Commoun Noun Subjects**
+<br>
+<div style="text-align:center">
+<h3><b><span style="color:teal"><i>Cats are mammals</i>.</span></b></h3>
+</div>
+<br><br>
+- now the subject doesn't refer to an **individual**, it refers to a **set** of things: **[[cat]]**<br><br>
+- yet the <span style="color:blue"><b>predicate</b></span> is the same as above sentences, which
+  - introduces another **set**: [[mammal]]<br>
+  - makes a <span style="color:blue"><b>claim</b></span> about the **relationship** between the <span style="color:green"><b>subject</b></span> [[cat]] and [[mammal]]<br><br>
+- can we say <span style="color:deeppink"><b>[[cat]] ∈ [[mammal]]</b></span>?
+  - **all** members of [[cat]] are **also** members of [[mammal]]<br><br>
+
+--
+
+<div style="text-align:center">
+<h3><b><span style="color:blue">[[cat]] ⊆ [[mammal]]</span></b></h3>
+</div>
+<br><br>
+
+- sentences of the type <u>Nouns are Nouns</u> can be encoded: **[[NOUN]] ⊆ [[NOUN]]**
+
+
+---
+## **Compo Semantics: Commoun Noun Subjects**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3><b><span style="color:teal"><i>Cats are fuzzy</i>.</span></b></h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><b><span style="color:teal"><i>Cats meow</i>.</span></b></h3>
+</div>
+]
+<br><br>
+.pull-left[
+- <i><u>cats are fuzzy.</u></i> has the form **NOUNs are ADJ**<br><br>
+  - [[fuzzy]] = **set** of all fuzzy things = {x | x is fuzzy}
+]
+.pull-right[
+- <i><u>cats meow.</u></i> has the form **NOUNs VERB**<br><br>
+  - [[meow]] = **set** of all things that meow = {x | x meows}
+]<br><br>
+
+--
+
+.pull-left[
+<div style="text-align:center">
+<h3><b><span style="color:blue">[[cat]] ⊆ [[fuzzy]]</span></b></h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><b><span style="color:blue">[[cat]] ⊆ [[meow]]</span></b></h3>
+</div>
+]<br><br>
+
+--
+
+note that we use <b><span style="color:#CC0033">subset (⊆)</span></b> rather than <b><span style="color:#CC0033">proper subset (⊂)</span></b>, because it works even when the sets in the subject and predicate are <b><span style="color:blue">synonyms</span></b><br>
+  
+.pull-left[
+<div style="text-align:center">
+<h3><b><span style="color:green">[[beverage]] ⊆ [[drink]]</span></b></h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3><b>??? <span style="color:green">[[beverage]] ⊂ [[drink]]</span></b></h3>
+</div>
+]
+
+- so using subsets gives us more **flexibility** and helps us deal with ambiguity in language
+
+---
+## **Compositional Semantics: Truth Values**
+<br>
+- as we've seen, declarative sentences state some proposition, which can be encoded in set theory<br><br>
+- but just because you **state a proposition**, that does **NOT** mean it's **true**
+  - you can make a **false** claim <br><br>
+- You can lie, you can be wrong, or you can say things without knowing if they're true<br><br>
+- so when we think of <u>what a sentence means</u>, we need to **separate** these two concepts:<br><br>
+  - what is **its proposition**? (and how do we **encode** that proposition in set theory?)
+  - is the proposition **true** or **false**? (that is, what is its **truth value**?)<br><br>
+- defining sentences in set theory and determining whether they're true are two **separate** processes
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="width:40%;">(a) <i>Snoopy is a cat</i></td>
+    <td style="width:40%;">[[Snoopy]] ∈ [[cat]]</td>
+    <td style="width:20%; padding-right: 20px;"><b>FALSE</b></td>
+  </tr>
+
+  <tr>
+    <td>(b) <i>Cats bark.</i></td>
+    <td>[[cat]] ⊆ [[bark]]</td>
+    <td style=" padding-right: 20px;"><b>FALSE</b></td>
+  </tr>
+
+  <tr>
+    <td>(c) <i>Dogs are mammals.</i></td>
+    <td>[[cat]] ⊆ [[mammal]]</td>
+    <td style="padding-right: 20px;"><b>TRUE</b></td>
+  </tr>
+</table>
+
+---
+class: center, middle
+**Assignment IV** is due this Friday (**Oct 30**) at **11:59 pm**<br><br>
+**Assignment V** will be published this Wednesday (**Oct 28**) and<br>
+it is due next Friday (**Nov 06**) at **11:59 pm**<br><br>
+<span style="color:green"><b>continue reading</b></span>: the chapter **Semantics I: Compositionality** <br>from Victoria Fromkin et al.'s <i>An Introduction to Language</i><br><br>
+<img src="../pic/1026/fine.jpeg" width="60%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
