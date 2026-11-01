@@ -1,0 +1,980 @@
+---
+title: "**Pragmatics II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/11/04 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Mondays, 2:00-3:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+
+---
+## **Previously on 201: Grice’s Maxims**
+<br>
+<div style="width:100%; border-radius:12px; background:#c0504d; color:white; margin-bottom:15px; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1104/gm1.png" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Quality</b><br>
+    be truthful
+  </div>
+  <div style="width:50%;">
+  - don't say what you believe to be false<br>
+  - don't say what you don't have evidence for
+  </div>
+</div>
+
+<div style="width:100%; border-radius:12px; background:#c0804d; color:white; margin-bottom:15px; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1104/gm2.jpeg" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Quantity</b><br>
+    be informative as needed
+  </div>
+  <div style="width:50%;">
+  - don't say more than you need to<br>
+  - don't say less than you need to
+  </div>
+</div>
+
+<div style="width:100%; border-radius:12px; background:#b7a84d; color:white; margin-bottom:15px; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1104/gm3.jpg" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Relation (Relevance)</b><br>
+    be relevant
+  </div>
+  <div style="width:50%;">
+  - don't say irrelevant things
+  </div>
+</div>
+
+<div style="width:100%; border-radius:12px; background:#8fbf4d; color:white; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1104/gm4.jpeg" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Manner</b><br>
+    be clear
+  </div>
+  <div style="width:50%;">
+  \- don't be obscure, ambiguous or wordy<br>
+  \- provide information in a <b>sensible</b> order
+  </div>
+</div>
+<br>
+although they're worded like commands, the maxims are intended to describe how people **tend** to behave or are **assumed** to behave, not how they **ought to** behave
+
+---
+## **Previously on 201: Cancelling Implicatures**
+<br>
+- what if we say the following sentence: <br><br>
+<span style="color:white">aaaaaa</span><i>Anna speaks English, Korean, and Farsi. **In fact, she also speaks Greek**</i>.<br><br>
+
+- implicatures can be **cancelled** or **defeated**: we add extra information to the statement that **contradicts** the <span style="color:green"><b>implicature</b></span> and makes it go away <br><br>
+
+
+- – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span> <span style="color:orange">*In fact, she also speaks Greek*.</span>
+  - <b><i>implicature</i></b>: ~~*Anna speaks only these three languages*~~.<br><br>
+- – <span style="color:blue">*Ian ate a cake and was happy*.</span> <span style="color:orange">*In fact, he ate the cake because he was happy*.</span>
+  - <b><i>implicature</i></b>: ~~*Ian ate a cake and that made him happy*~~.<br><br>
+- – <span style="color:green">*Does Sue have any siblings?*.</span><br>
+– <span style="color:blue">*Sue has a brother*.</span> <span style="color:orange">*In fact, she has two brothers*.</span>
+  - <b><i>implicature</i></b>: ~~*Sue has only one brother*~~.
+  
+---
+## **Previously on 201: Reinforcing Implicatures**
+<br>
+- what if we say the following sentence: <br><br>
+<span style="color:white">aaaaaa</span><i>Anna speaks English, Korean, and Farsi. **And she doesn't speak any others**</i>.<br><br>
+
+- implicatures can be **reinforced** as well: we add extra information to the statement that
+**further supports** the <span style="color:green"><b>implicature</b></span> and makes it firmer <br><br>
+
+
+- – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span> <span style="color:green">*And she doesn't speak any others*.</span>
+  - <b><i>implicature</i></b>: *Anna speaks only these three languages*. <span style="color:green"><b>✔</b></span><br><br>
+- – <span style="color:blue">*Ian ate a cake and was happy*.</span> <span style="color:green">*It was the cake that made him happy*.</span>
+  - <b><i>implicature</i></b>: *Ian ate a cake and that made him happy*. <span style="color:green"><b>✔</b></span><br><br>
+- – <span style="color:red">*Does Sue have any siblings?*.</span><br>
+– <span style="color:blue">*Sue has a brother*,</span> <span style="color:green">*and only one brother*.</span>
+  - <b><i>implicature</i></b>: *Sue has only one brother*. <span style="color:green"><b>✔</b></span>
+
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Presupposition Revisit
+</div>
+
+---
+## **Presuppositions**
+<br>
+.pull-left[
+<div style="text-align:center; font-size:25px">
+<i><b><span style="color:green">The king of England had lunch.</span></b></i><br><br>
+<b><span style="color:black">⬇</span></b><br><br>
+<b><span style="color:deeppink">[[King of England]] ∈ [[had lunch]]</span></b><br><br>
+</div>
+
+- mentions a <b>person</b>: the king of England
+- mentions an <b>action</b>: had lunch
+- state a <b>proposition</b> involving the person and the action
+]
+.pull-right[
+<div style="text-align:center; font-size:25px">
+<i><b><span style="color:green">The king of New Jersey had lunch.</span></b></i><br><br>
+<b><span style="color:black">⬇</span></b><br><br>
+<b><span style="color:deeppink">[[king of New Jersey]] ∈ [[had lunch]]</span></b><br><br>
+</div>
+
+- mentions a <b>person</b>: the king of New Jersey
+- mentions an <b>action</b>: had lunch
+- state a <b>proposition</b> involving the person and the action
+]<br><br>
+
+--
+<div style="text-align:center">
+both sentences are declarative, only two <b><span style="color:#CC0033">different</span></b> entities doing the <b><span style="color:#CC0033">same</span></b> action<br><br>
+yet, the <i><u>king of New Jersey</u></i> does not exist<br><br>
+how can we make sense of the proposition if it involves <b><span style="color:#CC0033">someone who doesn't exist</span></b>?
+</div>
+
+---
+## **Presuppositions**
+<br>
+- these two sentences have the same **presupposition**<br><br>
+
+.pull-left[
+<div style="text-align:center">
+(a) <i>The king of England had lunch</i>.
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+(b) <i>The king of New Jersey had lunch</i>.
+</div>
+]<br><br>
+
+- in order to make sense of each, we have to assume **the person each refers to** exists:<br><br>
+
+- <u><i>The king of England had lunch.</i></u> **presupposes** that someone exists called king of England
+- not a problem if we put it in our **real world**, since there **IS** this <u><i>king of England</i></u><br><br>
+
+- <u><i>The king of New Jersey had lunch.</i></u> **presupposes** that someone exists called king of New Jersey
+- this is a problem if we put it in our **real world**, since there exists **NO** such a <u><i>king of New Jersey</i></u>, and it's what makes this sentence odd<br><br>
+
+- a **presupposition** is information that must be **assumed** in order to make
+sense of an **utterance**
+
+
+---
+## **Presuppositions**
+<br>
+- previously, we have said that it is a **special type** of entailment<br><br>
+- but we only discussed half of this issue<br><br>
+- in fact, presupposition is a **special type** only when we consider the **truth value**<br><br>
+
+.pull-left[
+- entailments are propositions that must be true in order for some other proposition to be true <br><br>
+- but they're not the same, because entailments rely on **truth values** only, and presuppositions are also about **making sense of** an utterance
+]
+.pull-right[
+<img src="../pic/1104/snoopy.png" width="60%">
+]
+
+
+---
+## **Presuppositions**
+<br>
+.pull-left[
+<div style="text-align:center">
+<h3>(a) <i>Snoopy is a beagle</i>.</h3>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<h3>(b) <i>Snoopy is a dog</i>.</h3>
+</div>
+]<br><br>
+
+(a) <span style="color:#CC0033"><b>entails</b></span> (b), if (a) is true, then (b) must be true<br><br>
+
+<div style="text-align:center">
+<h3>(c) <i><span style="color:green">It is not the case that</span> Snoopy is a beagle</i>.</h3>
+</div><br><br>
+
+- entailment is gone - (c) does **NOT** entail (b)
+- but presupposition holds - Snoopy still exists<br><br>
+
+- presuppositions do **NOT** rely on truth values **only**<br><br>
+
+### HOW TO DO NEGATION
+
+---
+## **Family of Sentences**
+<br>
+- previously in **Semantics**, we sait that a **presupposes** b iff <span style="color:green">both a and <i>neg</i>-a entails b</span><br><br>
+- that is in fact to say **presuppositions** hold under <span style="color:green"><b>negation</b></span><br><br>
+- actually <span style="color:blue"><b>questioning</b></span> can do the same thing, which gives us a way to test whether a given idea is a **presupposition** or part of a sentence's **truth value**<br><br>
+- a <span style="color:deeppink"><b>declarative sentence</b></span>, together with its and <span style="color:green"><b>negation</b></span> and <span style="color:blue"><b>questioning</b></span> forms the **family of sentences**
+  - any presuppositions will hold up – we still have to assume them to **make sense**
+  - any propositions (ideas that are part of the sentence's **truth value**) will not
+<br><br>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <th style="width:15%; text-align:left">sentence type<br><br></th>
+    <th style="width:35%; text-align:left">sentence<br><br></th>
+    <th style="width:27%; text-align:left">proposition<br>(<i>he had lunch</i>)<br><br></th>
+    <th style="width:23%; text-align:left">presupposition<br>(<i>king of NJ exists</i>)<br><br></th>
+  </tr>
+
+  <tr>
+    <td><span style="color:deeppink"><b>declarative</b></span></td>
+    <td><i>The king of NJ ate lunch.</i></td>
+    <td><span style="color:deeppink">asserted</span></td>
+    <td>assumed</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green"><b>negation</b></span></td>
+    <td><i>The king of NJ didn't eat lunch.</i></td>
+    <td><span style="color:green">denied</span></td>
+    <td>assumed</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:blue"><b>question</b></span></td>
+    <td><i>Did the king of NJ eat lunch?</i></td>
+    <td><span style="color:blue">questioned</span></td>
+    <td>assumed</td>
+  </tr>
+</table>
+  
+---
+## **Common Ground**
+<br>
+.pull-left[
+<img src="../pic/1104/auth.jpg" width="75%">
+]
+.pull-right[
+**presuppositions** interact with a pragmatic concept known as the **common ground**<br><br>
+**common ground** is the information shared by all participants in a conversation<br><br>
+- basic info about the current situation
+  - participants, event, venue/time
+- information being discussed
+- previous experience shared by participants
+  - <i>Last night was fun!</i>
+- general information about the world
+  - <i>Merlin is a sorcerer.</i><br><br>
+
+essentially, all the information <span style="color:green">I know</span> and <span style="color:blue">you know</span> and <span style="color:#CC0033">I know that you know</span> as the interlocutors
+]
+
+---
+## **Common Ground**
+<br>
+- we are constantly updating the **common ground** with **new information** as we talk<br><br>
+- it is like story-telling, things are added to the **common ground** along the telling<br><br>
+
+.pull-left[
+<div style="text-align:center; font-size:25px">
+<b>conversation</b>
+</div>
+]
+.pull-right[
+<div style="text-align:center; font-size:25px">
+<b>common ground</b>
+</div>
+]<br><br>
+.pull-left[
+1. <i>I have a friend named <span style="color:blue">Lancelot</span></i>.<br><br>
+2. <i><span style="color:green">Lancelot</span> has <span style="color:blue">a dog</span></i>.<br><br>
+3. <i>Last night <span style="color:green">Lancelot</span> ordered <span style="color:blue">a pizza</span></i>.<br><br>
+4. <i><span style="color:green">Lancelot</span> went into <span style="color:blue">the kitchen</span> to get a drink</i>.<br><br><br>
+5. <i>When he came back, <span style="color:#CC0033">his dog</span> had eaten <span style="color:deeppink">the whole pizza</span></i>.
+]
+
+--
+
+.pull-right[
+<i><span style="color:blue">Lancelot</span></i><br><br>
+<i>Lancelot, <span style="color:blue">Lancelot's dog</span></i><br><br>
+<i>Lancelot, Lancelot's dog, <span style="color:blue">the pizza</span>Lancelot ordered</i><br><br>
+<i>Lancelot, Lancelot's dog, the pizza Lancelot ordered, Lancelot <span style="color:blue">went to the kitchen</span></i><br><br>
+- utterance <span style="color:#CC0033"><b>makes sense</b></span> because it relies on all of the info in the <b>common ground</b>
+]
+
+---
+## **Common Ground**
+<br>
+.pull-left[
+- information needs to be mentioned **in steps**, and they are gradually in the **common ground**<br><br>
+- once it is in the common ground, we can **refer back** to it<br><br>
+- information that is **NOT** yet in the common ground will **confuse** other participants in the conversation<br><br>
+- without any background information clarification<br><br>
+  - A: <i>When he came back, his dog had eaten the whole pizza!</i><br><br>
+  - B: <i>Wait, what?!</i>
+]
+.pull-right[
+<img src="../pic/1104/doctor.jpeg" width="100%">
+]
+  
+---
+## **Presuppositions and the Common Ground**
+<br>
+- what presuppositions do is not just **assume** information – they **assume that information is in the common ground**<br>
+<div style="text-align:center; color:blue">
+<i>The king of England took a nap.</i>
+</div><br><br>
+
+- ➡️ **presupposes**: <u>the king of England exists.</u><br><br>
+  - both speaker and listener are aware of this – which is <b>true</b>, so we can **accept** the sentence as meaningful<br><br>
+
+<div style="text-align:center; color:deeppink">
+<i>The king of New Jersey took a nap.</i>
+</div><br><br>
+
+- ➡️ **presupposes**: <u>the king of New Jersey exists.</u><br><br>
+  - both speaker and listener are aware he exists – which is <b>not true</b>, so we **cannot accept** the sentence as meaningful
+]
+---
+## **Presupposition Triggers**
+<br>
+<table style="width:100%">
+  <tr>
+    <th style="text-align:center; background:green; border: solid green; width:22%; color:white">
+    definite expressions
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:15%; color:#414141">
+    iteratives
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:28%; color:#414141">
+    change-of-state verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    factive verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:13%; color:#414141">
+    clefts
+    </th>
+  </tr>
+</table><br>
+
+- <span style="color:green"><b>definite expressions</b></span> presuppose <u><b>something exists</b></u> and is in our common ground (existence presuppositions)<br><br><br>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <th style="width:33%; text-align:left">expression<br><br><br></th>
+    <th style="width:33%; text-align:left">example sentence<br><br><br></th>
+    <th style="width:34%; text-align:left">presupposition<br><br><br></th>
+  </tr>
+
+  <tr>
+    <td><span style="color:green">definite article</span>: <i>the</i><br><br></td>
+    <td><i>I saw a cat. <span style="color:green"><b>The cat</b></span> was fuzzy.</i><br><br></td>
+    <td>a unique cat <u>exists</u><br><br></td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green">definite pronouns</span>: <i>I, you, she...</i><br><br></td>
+    <td><i><span style="color:green"><b>He</b></span> is a good student.</i><br><br></td>
+    <td>a unique male person <u>exists</u><br><br></td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green">demonstratives</span>: <i>this, that</i><br><br></td>
+    <td><i>Pass me <span style="color:green"><b>that bottle</b></span>.</i><br><br></td>
+    <td>a unique bottle <u>exists</u><br><br></td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green">possessives</span>: <i>my, our, their, Jane’s</i><br><br></td>
+    <td><i><span style="color:green"><b>Jane’s dog</b></span> is friendly.</i><br><br></td>
+    <td>Jane <u>has</u> a dog<br><br></td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green">proper nouns</span>: <i>Peter, Jane, Snoopy</i></td>
+    <td><i><span style="color:green"><b>Peter</b></span> called yesterday.</i></td>
+    <td>a unique person named Peter <u>exists</u></td>
+  </tr>
+</table>
+
+---
+## **Presupposition Triggers**
+<br>
+<table style="width:100%">
+  <tr>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    definite expressions
+    </th>
+    <th style="text-align:center; background:#CC0033; border: solid #CC0033; width:15%; color:white">
+    iteratives
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:28%; color:#414141">
+    change-of-state verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    factive verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:13%; color:#414141">
+    clefts
+    </th>
+  </tr>
+</table><br>
+
+- **iterative expressions** presuppose the <b>repetition</b> of some action or state<br>
+- <i>again</i>, <i>too</i>, <i>either</i>, <i>return</i>, <i>come back</i>, <i>restore</i>, <i>more</i>, <i>less</i><br><br>
+
+.pull-left[
+<div style="text-align:center; font:25px">
+<b>utterance</b>
+</div><br><br>
+
+- *Sally baked a cake **again**.*<br><br>
+- *John **returned**.* <br><br>
+- *I want **more** cake.* <br><br>
+- *Sam **restored** the watch.*
+]
+.pull-right[
+<div style="text-align:center; font:25px">
+<b>presupposition</b>
+</div><br><br>
+
+- Sally has **previously** baked a cake.<br><br>
+- John was **previously** here.<br><br>
+- I **previously** had some cake.<br><br>
+- The watch was **previously** in good repair.
+
+]
+
+---
+## **Presupposition Triggers**
+<br>
+<table style="width:100%">
+  <tr>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    definite expressions
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:15%; color:#414141">
+    iteratives
+    </th>
+    <th style="text-align:center; background:teal; border: solid teal; width:28%; color:white">
+    change-of-state verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    factive verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:13%; color:#414141">
+    clefts
+    </th>
+  </tr>
+</table><br>
+
+- <span style="color:teal"><b>change-of-state verbs</b></span> presuppose an action was <b>ongoing (or not ongoing) prior to</b> the moment in question 
+- <i>stop</i>, <i>start</i>, <i>begin</i>, <i>continue</i>, <i>keep</i><br><br>
+
+.pull-left[
+<div style="text-align:center; font:25px">
+<b>utterance</b>
+</div><br><br>
+
+- <i>Sally <span style="color:teal"><b>stopped</b></span> baking.</i><br><br>
+- <i>I <span style="color:teal"><b>started</b></span> singing.</i><br><br>
+- <i>Pablo <span style="color:teal"><b>kept</b></span> working.</i>
+]
+.pull-right[
+<div style="text-align:center; font:25px">
+<b>presupposition</b>
+</div><br><br>
+
+- Sally was <span style="color:teal"><b>previously</b></span> baking.<br><br>
+- I was not <span style="color:teal"><b>previously</b></span> singing.<br><br>
+- Pablo was <span style="color:teal"><b>previously</b></span> working.
+]
+
+---
+## **Presupposition Triggers**
+<br>
+<table style="width:100%">
+  <tr>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    definite expressions
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:15%; color:#414141">
+    iteratives
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:28%; color:#414141">
+    change-of-state verbs
+    </th>
+    <th style="text-align:center; background:blue; border: solid blue; width:22%; color:white">
+    factive verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:13%; color:#414141">
+    clefts
+    </th>
+  </tr>
+</table><br>
+
+<ul>
+  <li><span style="color:blue"><b>factive verbs</b></span> are verbs that refer to someone's <b>knowledge of</b> or <b>opinion about</b> some fact</li>
+  <li><i>know</i>, <i>realize</i>, <i>regret</i>, <i>be aware of</i>, <i>be glad that</i>, <i>be sorry that</i></li>
+  <li>they introduce a <span style="color:blue"><b>dependent clause</b></span> containing the information <span style="color:blue"><b>the subject</b></span> knows or has an opinion about</li>
+  <li>this information is <span style="color:blue"><b>presupposed</b></span>, since we can't know something if it's false</li>
+</ul><br>
+  
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <th style="width:40%; text-align:left">sample sentence<br><br></th>
+    <th style="width:30%; text-align:left">presupposition (dep clause)<br><br></th>
+    <th style="width:30%; text-align:left">proposition (main clause)<br><br></th>
+  </tr>
+
+  <tr>
+    <td><i>I <span style="color:blue;"><b>know</b></span> that <span style="color:green;">you studied</span>.</i></td>
+    <td>You studied.</td>
+    <td>I know <span style="color:green;"><b>it</b></span>.</td>
+  </tr>
+
+  <tr>
+    <td><i>Sally <span style="color:blue;"><b>is happy</b></span> that <span style="color:green;">she bought a book</span>.</i></td>
+    <td>Sally bought a book</span></td>
+    <td>Sally is happy about <span style="color:green;"><b>it</b></span>.</td>
+  </tr>
+
+  <tr>
+    <td><i>Linda <span style="color:blue;"><b>regrets</b></span> <span style="color:green;">sending the letter</span>.</i></td>
+    <td>Linda sent the letter.</td>
+    <td>Linda regrets <span style="color:green;"><b>it</b></span>.</td>
+  </tr>
+
+  <tr>
+    <td><i>Yuri <span style="color:blue;"><b>realized</b></span> <span style="color:green;">that it was late</span>.</i></td>
+    <td>It was late.</td>
+    <td>Yuri realized <span style="color:green;"><b>it</b></span>.</td>
+  </tr>
+</table><br>
+  
+- test with the <span style="color:blue;"><b>family of sentences</b></span>
+  - <i><b>It is not the case that</b> Linda regrets sending the letter.
+  - <i><b>Does</b> Linda regret sending the letter?</u>
+
+---
+## **Presupposition Triggers**
+<br>
+<table style="width:100%">
+  <tr>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    definite expressions
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:15%; color:#414141">
+    iteratives
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:28%; color:#414141">
+    change-of-state verbs
+    </th>
+    <th style="text-align:center; background:#d3d3d3; border: solid #d3d3d3; width:22%; color:#414141">
+    factive verbs
+    </th>
+    <th style="text-align:center; background:deeppink; border: solid deeppink; width:13%; color:white">
+    clefts
+    </th>
+  </tr>
+</table><br>
+
+<ul>
+<li><span style="color:deeppink"><b>clefts</b></span> are complex sentences formed by taking a simple sentence and putting part of it into a <span style="color:deeppink"><b>dependent clause</b></span> as shown below</li>
+</ul>
+.pull-left[
+.pull-left[
+<div style="text-align:center">
+<span style="color:green">X</span> <span style="color:blue">Y'ed</span> ➔
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+It was <span style="color:green">X</span> that <span style="color:blue">Y'ed</span>.
+</div>
+]
+]
+.pull-right[
+.pull-left[
+<div style="text-align:center">
+What <span style="color:blue">Y'ed</span> was <span style="color:green">X</span>.
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:green">X</span> was who <span style="color:blue">Y'ed</span>.
+</div>
+]
+]<br><br>
+
+<ul>
+<li>the <span style="color:deeppink"><b>main clause</b></span> indicates the sentence's <span style="color:deeppink"><b>claim</b></span></li>
+<li>the information that has been moved to the <span style="color:deeppink"><b>dependent clause</b></span> is <span style="color:deeppink"><b>presupposed</b></span></li>
+</ul><br>
+
+<div style="font-size:18px">
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <th style="width:20%; text-align:left">simple sentence<br><br></th>
+    <th style="width:30%; text-align:left">cleft sentence<br><br></th>
+    <th style="width:25%; text-align:left">presupposition<br><br></th>
+    <th style="width:25%; text-align:left">proposition (main clause)<br><br></th>
+  </tr>
+
+  <tr>
+    <td><i>John ate the pie.</i></td>
+    <td>
+      <i>
+        <span style="color:deeppink;"><b>It was John</b></span>
+        <span style="color:green;"> that ate the pie</span>.
+      </i>
+    </td>
+    <td><i><span style="color:deeppink;">Someone</span> ate the pie.</i></td>
+    <td><i>That person was John.</i></td>
+  </tr>
+
+  <tr>
+    <td><i>Sally bought a souvenir.</i></td>
+    <td>
+      <i>
+        <span style="color:green;">What Sally bought</span> <span style="color:deeppink;"><b>was a souvenir</b></span>.
+      </i>
+    </td>
+    <td><i>Sally bought <span style="color:deeppink;">something</span>.</i></td>
+    <td><i>That thing was a souvenir.</i></td>
+  </tr>
+
+  <tr>
+    <td><i>I saw Alice.</i></td>
+    <td>
+      <i>
+        <span style="color:deeppink;"><b>Alice was</b></span> <span style="color:green;">who I saw</span>.
+      </i>
+    </td>
+    <td><i>I saw <span style="color:deeppink;">someone</span>.</i></td>
+    <td><i>That person was Alice.</i></td>
+  </tr>
+</table>
+</div><br>
+
+- test with the <span style="color:deeppink"><b>family of sentences</b></span>
+  - <i><b>It was not the case that</b> what Sally bought was a souvenir</i>.
+  - <i><b>Is</b> what Sally bought a souvenir</i>
+
+---
+.pull-left[
+### **Exercise I: Presupposition**
+]
+.pull-right[
+- identify any **definite expressions** and state the existence presuppositions they raise
+- identify any **other presupposition trigger** and state the presuppositions they raise
+]<br><br>
+
+(a) <i>I took my dog for a walk again.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:white">I, my dog</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>again</b></span> <span style="color:white">(iterative)</span> – <u>I previously took my dog for a walk.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(b) <i>It was Emily that ate the cookie.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%;text-align:left; color:white"><b><i><span style="color:white">Emily, the cookie</span></i></b></td>
+    <td style="width:70%;text-align:left; color:white"><span style="color:white"><b>it was X that Y</b></span> <span style="color:white">(cleft)</span> – <u>Someone ate the cookie.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(c) <i>Juliana found out that Toby had returned.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:white">Juliana, Toby</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>found out</b></span> <span style="color:white">(factive)</span> – <u>Toby had in fact returned.</u><br><span style="color:white"><b>returned</b></span> <span style="color:white">(iterative)</span> – <u>Toby was previously there.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(d) <i>Eli wants more popcorn.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:white">Eli</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>more</b></span> <span style="color:white">(iterative)</span> – <u>Eli previously had popcorn.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(e) <i>The elephant will continue to be endangered until we stop destroying its natural habitat.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:white">the elephant,<br>its natural habitat</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>continue</b></span> <span style="color:white">(CoS)</span> – <u>The elephant was previously endangered.</u><br><span style="color:white"><b>stop</b></span> <span style="color:white">(CoS)</span> – <u>We were previously destroying its habitat.</u></td>
+  </tr>
+</table>
+</div><br>
+
+
+---
+.pull-left[
+### **Exercise I: Presupposition**
+]
+.pull-right[
+- identify any **definite expressions** and state the existence presuppositions they raise
+- identify any **other presupposition trigger** and state the presuppositions they raise
+]<br><br>
+
+(a) <i>I took my dog for a walk again.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:green">I, my dog</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>again</b></span> <span style="color:white">(iterative)</span> – <u>I previously took my dog for a walk.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(b) <i>It was Emily that ate the cookie.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%;text-align:left; color:white"><b><i><span style="color:green">Emily, the cookie</span></i></b></td>
+    <td style="width:70%;text-align:left; color:white"><span style="color:white"><b>it was X that Y</b></span> <span style="color:white">(cleft)</span> – <u>Someone ate the cookie.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(c) <i>Juliana found out that Toby had returned.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:green">Juliana, Toby</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>found out</b></span> <span style="color:white">(factive)</span> – <u>Toby had in fact returned.</u><br><span style="color:white"><b>returned</b></span> <span style="color:white">(iterative)</span> – <u>Toby was previously there.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(d) <i>Eli wants more popcorn.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:green">Eli</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>more</b></span> <span style="color:white">(iterative)</span> – <u>Eli previously had popcorn.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(e) <i>The elephant will continue to be endangered until we stop destroying its natural habitat.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left; color:white"><b><i><span style="color:green">the elephant,<br>its natural habitat</span></i></b></td>
+    <td style="width:70%; text-align:left; color:white"><span style="color:white"><b>continue</b></span> <span style="color:white">(CoS)</span> – <u>The elephant was previously endangered.</u><br><span style="color:white"><b>stop</b></span> <span style="color:white">(CoS)</span> – <u>We were previously destroying its habitat.</u></td>
+  </tr>
+</table>
+</div><br>
+
+---
+.pull-left[
+### **Exercise I: Presupposition**
+]
+.pull-right[
+- identify any **definite expressions** and state the existence presuppositions they raise
+- identify any **other presupposition trigger** and state the presuppositions they raise
+]<br><br>
+
+(a) <i>I took my dog for a walk again.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left"><b><i><span style="color:green">I, my dog</span></i></b></td>
+    <td style="width:70%; text-align:left"><span style="color:#CC0033"><b>again</b></span> <span style="color:blue">(iterative)</span> – <u>I previously took my dog for a walk.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(b) <i>It was Emily that ate the cookie.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%;text-align:left"><b><i><span style="color:green">Emily, the cookie</span></i></b></td>
+    <td style="width:70%;text-align:left"><span style="color:#CC0033"><b>it was X that Y</b></span> <span style="color:blue">(cleft)</span> – <u>Someone ate the cookie.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(c) <i>Juliana found out that Toby had returned.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left"><b><i><span style="color:green">Juliana, Toby</span></i></b></td>
+    <td style="width:70%; text-align:left"><span style="color:#CC0033"><b>found out</b></span> <span style="color:blue">(factive)</span> – <u>Toby had in fact returned.</u><br><span style="color:#CC0033"><b>returned</b></span> <span style="color:blue">(iterative)</span> – <u>Toby was previously there.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(d) <i>Eli wants more popcorn.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left"><b><i><span style="color:green">Eli</span></i></b></td>
+    <td style="width:70%; text-align:left"><span style="color:#CC0033"><b>more</b></span> <span style="color:blue">(iterative)</span> – <u>Eli previously had popcorn.</u></td>
+  </tr>
+</table>
+</div><br>
+
+(e) <i>The elephant will continue to be endangered until we stop destroying its natural habitat.</i><br>
+<div style="text-align:center">
+<table style="width:80%; border-collapse:collapse;">
+  <tr>
+    <td style="width:30%; text-align:left"><b><i><span style="color:green">the elephant,<br>its natural habitat</span></i></b></td>
+    <td style="width:70%; text-align:left"><span style="color:#CC0033"><b>continue</b></span> <span style="color:blue">(CoS)</span> – <u>The elephant was previously endangered.</u><br><span style="color:#CC0033"><b>stop</b></span> <span style="color:blue">(CoS)</span> – <u>We were previously destroying its habitat.</u></td>
+  </tr>
+</table>
+</div><br>
+
+---
+## **Presupposition Accommodation and Failure**
+<br>
+.pull-left[
+- presuppositions **assume that something is in the common ground**<br><br>
+<div style="text-align:center">
+<span style="color:blue"><i>The king of England took a nap.</i></span>
+</div><br>
+- ➡️ <b>presupposes</b>: <i><u>England has a king.</u></i><br><br>
+  - it is in our common ground and it **makes sense**<br><br>
+- what if a presupposition assumes something that is **NOT** actually in our common ground?<br><br>
+<div style="text-align:center">
+<span style="color:green"><i>The king of New Jersey took a nap.</i></span>
+</div><br>
+- ➡️ <b>presupposes</b>: <i><u>New Jersey has a king.</u></i><br><br>
+  - it is NOT in our common ground<br><br>
+]
+.pull-right[
+- we either **accommodate to** or **dispute on** the presupposition <br><br>
+  - presupposition <span style="color:blue"><b>accommodation</b></span>
+  - presupposition <span style="color:green"><b>failure</b></span><br><br>
+<div style="text-align:center">
+<img src="../pic/1104/love.png" width="90%">
+</div>
+]
+
+---
+## **Presupposition Accommodation**
+<br>
+**accommodating** a presupposition: assuming (or at least pretending) that a presupposition is **true** in order to **make sense** out of the utterance<br>
+<div style="text-align:center">
+<h3><span style="color:green"><i>I need to pick up <span style="color:deeppink">my dragon</span> from the vet.</i></span></h3>
+</div><br>
+
+- ➡️ **presupposes** <u><i>I have a dragon.</i></u><br><br>
+
+that's not in the common ground, but can be **accommodated** - assuming that <b>I do have a dragon</b>
+which is reasonable if you know I am <span style="color:green"><b>MERLIN</b></span> and it doesn't conflict with your knowledge of the **fantasy** world<br><br>
+- by **accommodating** the presupposition, I am allowing it to be added to the **common ground**<br><br>
+- now I can say something further about **"him"** (the dragon)<br><br>
+- you know who I'm talking about, because you've **allowed** <u><i>my dragon</i></u> to be added to the **common ground**
+]
+  
+---
+## **Presupposition Failure**
+<br>
+sometimes a presupposition is **harder to accommodate**<br>
+<h3><i><span style="color:deeppink">the Martian in our class is going to give a presentation.</span></i></h3><br>
+
+.pull-left[
+- ➡️ **presupposes** <u><i>There is a Martian in our class.</i></u><br><br>
+- this is harder to accommodate so it leads to **presupposition failure**<br><br>
+- the result is the utterance **doesn't make sense** <br><br>
+- it's not that the sentence is **true or false**, it's just **nonsensical**
+]
+.pull-right[
+- if I say you're lying or that's false, I'm denying the claim, **NOT** the presupposition<br><br>
+- to deny the presupposition, we would have to say something like <br><br>
+  - <u><i>There cannot be Martian in the class.</u></i><br><br>
+<img src="../pic/1104/martian.gif" width="60%">
+]
+
+---
+## **Presuppositions and Misleading Language**
+<br>
+- because presupposition failure leads to a breakdown in communication but we do want our conversation to go on, so<br><br>
+- **we have a tendency to accommodate to presuppositions**<br><br>
+- sometimes people <span style="color:green">take advantage of</span> this property and trick others to **accomodate to the presupposition**<br><br>
+
+___
+
+.pull-left[
+- <b>in the court room, the lawyer asked a defendant</b><br><br>
+  - <i>Have you <span style="color:blue">stopped</span> embezzling money?</i>
+  - <i>Yes or no?</i><br><br>
+- what is the lawyer <span style="color:deeppink"><b>presupposing</b></span>?
+- can the defendant answer <span style="color:deeppink"><b>without looking guilty</b></span>?
+]
+.pull-right[
+- <b>in the restaurant, someone asked their boyfriend</b><br><br>
+  - <i> Has she alwayes liked it here as well</i>?<br><br>
+- what is this someone <span style="color:deeppink"><b>presupposing</b></span>?
+- what would probably be after this boyfriend <span style="color:deeppink"><b>answers yes or no</b></span>?
+]
+
+---
+## **Presuppositions and Misleading Language**
+<br>
+.pull-left[
+- <span style="color:blue"><b>clickbait headlines</b></span>, <span style="color:green"><b>advertisements</b></span>, and other persuasive language sometimes uses **presuppositions** to influence people:<br><br>
+- <u><i>what local dad found will surprise you!</i></u>
+  - proposition: X will surprise you
+  - presuppositions: local dad found something worth knowing about <br><br>
+- the author's goal here is to get the reader to accept the **presupposition** by accommodating it without questioning it directly
+  - because we figure out **presupposition** so unintentionally<br><br>
+- in each **clickbait** headline to the right, identify at least one **presupposition** and its trigger
+]
+.pull-right[
+<br>
+1. <i><span style="color:green">Why You Should</span> Create a Vision Board for 2024</i><br><br>
+2. <i><span style="color:blue">Why You Should</span> Ditch the ‘Diet’ and Go Keto Instead</i><br><br>
+3. <i><span style="color:green">You Won’t Believe</span> This Dog’s Dance Moves!</i><br><br>
+4. <i><span style="color:blue">Did You Know</span> HOW Healthy Mushrooms Are for Your Brain?</i><br><br>
+5. <i><span style="color:green">This is How</span> Designers Can Make More Money With Fewer Clients</i><br><br>
+6. <i><span style="color:blue">This Is Why</span> Business Owners are Investing in Bitcoin</i>
+]
+
+---
+class: center, middle
+**Assignment V** is due this Friday (**Nov 06**) at **11:59 pm**<br><br>
+**Assignment VI** will be published this Wednesday (**Nov 04**) and is due next Friday (**Nov 13**) at **11:59 pm**<br><br>
+<span style="color:green"><b>reading</b></span>: Michael Dobrovolsky's chapter **Phonetics**<br> (from O'Grady et al.'s <i>Contemporary Linguistics: An Introduction</i><br><br>
+<img src="../pic/1104/fine.jpeg" width="60%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

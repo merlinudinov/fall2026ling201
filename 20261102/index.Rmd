@@ -1,0 +1,1325 @@
+---
+title: "**Pragmatics I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/11/02 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Mondays, 2:00-3:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+
+---
+## **Previously on 201: Set Operations**
+<br>
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="width:25%; padding: 20px;"><b><span style="color:#CC0033">union (∪)</span></b></td>
+    <td style="width:50%; padding: 20px;">
+      <div><i>A ∪ B = { x ∈ U | x ∈ A or x ∈ B }</i></div>
+      <div style="margin-top:10px;">(elements in A or B or <i>both</i>)</div>
+    </td>
+    <td style="width:20%; padding: 20px; text-align:center;">
+      <img src="../pic/1102/setop2.png" width="80%">
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 20px;"><b><span style="color:green">intersection (∩)</span></b></td>
+    <td style="padding: 20px;">
+      <div><i>A ∩ B = { x ∈ U | x ∈ A and x ∈ B }</i></div>
+      <div style="margin-top:10px;">(elements in both A and B)</div>
+    </td>
+    <td style="padding: 20px; text-align:center;">
+      <img src="../pic/1102/setop3.png" width="80%">
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 20px;"><b><span style="color:blue">difference (–)</span></b></td>
+    <td style="padding: 20px;">
+      <div><i>A − B = { x ∈ U | x ∈ A and x ∉ B }</i></div>
+      <div style="margin-top:10px;">(elements in A but not B)</div>
+    </td>
+    <td style="padding: 20px; text-align:center;">
+      <img src="../pic/1102/setop4.png" width="80%">
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 20px;"><b><span style="color:deeppink">complement (')</span></b></td>
+    <td style="padding: 20px;">
+      <div><i>A' = { x ∈ U | x ∉ A }</i></div>
+      <div style="margin-top:10px;">(elements in U but not A)</div>
+    </td>
+    <td style="padding: 20px; text-align:center;">
+      <img src="../pic/1102/setop6.png" width="80%">
+    </td>
+  </tr>
+
+</table>
+
+---
+## **Previously on 201: Set Theory in Languages**
+<br><br>
+.pull-left[
+<div style="text-align:center">
+<b><span style="color:deeppink"><i>Snoopy is a white dog</i>.</span></b><br><br>
+<span style="color:blue">⬇</span><br><br>
+<b><span style="color:green">[[Snoopy]] <span style="color:#CC0033">∈</span> [[white]]</span> <span style="color:#CC0033">∩</span> <span style="color:green">[[dog]]</span></b><br><br><br><br><br><br>
+<b><span style="color:deeppink"><i>Yellow birds are pretty</i>.</span></b><br><br>
+<span style="color:blue">⬇</span><br><br>
+<b><span style="color:green">[[yellow]] <span style="color:#CC0033">∩</span> [[bird]] <span style="color:#CC0033">⊆</span> [[pretty]]</span></b>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1102/yellowbird.png" width="80%">
+</div>
+<br>
+- note that set operators (∪, ∩, −, ′) **take precedence over** set relation symbols (∈, ⊆, =)
+- compare this to arithmetic operators (+, –, ×, ÷) and (in)equality symbols (=, <, >) in algebra
+]
+
+---
+## **Previously on 201: Quantifiers**
+<br>
+- sentences with **quantifiers** involve some quantity – **cardinality** of a set <br>
+<div style="text-align:center">
+<h3><b><span style="color:blue"><i>Four cats are running</i>.</span></b></h3>
+</div>
+
+- the **cardinality** of the intersection of <span style="color:deeppink">[[cat]]</span> and <span style="color:deeppink">[[run]]</span> is <span style="color:blue"><b>four</b></span>
+- in other words, there are <span style="color:blue"><b>exactly four elements</b></span> that are both in <span style="color:deeppink">[[cat]]</span> and <span style="color:deeppink">[[run]]</span>
+
+<div style="text-align:center">
+<h3><b><span style="color:#CC0033">| [[cat]] ∩ [[run]] | = 4</span></b></h3>
+</div>
+<br>
+
+<div style="padding-left: 25px; padding-right: 25px;">
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 30%;">
+    <col style="width: 25%;">
+    <col style="width: 25%;">
+  </colgroup>
+
+  <tr>
+    <td><b>quantifier</b></td>
+    <td><b>example</b></td>
+    <td colspan="2"><b>set theory expression</b> (| [[N]] ∩ [[VP]] | = ?)</td>
+  </tr>
+  <tr>
+    <td style="color:white">-</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green"><b>numeral</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Two</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">= n</span></td>
+    <td style="text-align:right">(n specificed by numeral)</td>
+  </tr>
+
+  <tr>
+    <td><span style="color:green"><b>some</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Some</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">≠ 0</span></td>
+    <td style="text-align:right"><b>or</b> [[N]] ∩ [[VP]] <span style="color:#CC0033">≠ Ø</span></td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>every</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Every</b></span> student runs</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">= | [[N]] |</span></td>
+    <td style="text-align:right"><b>or</b> [[N]] ⊆ [[VP]] = <span style="color:#CC0033">TRUE</span></td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>many</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Many</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">> n</span></td>
+    <td style="text-align:right">(n is some large number)</td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>most</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>Most</b></span> students run</i>.</td>
+    <td colspan="2">| [[N]] ∩ [[VP]] | <span style="color:#CC0033">>  ½ | [[N]] |</span></td>
+  </tr>
+  
+  <tr>
+    <td><span style="color:green"><b>no</b></span> N VP</td>
+    <td><i><span style="color:blue"><b>No</b></span> students run</i>.</td>
+    <td>| [[N]] ∩ [[VP]] | <span style="color:#CC0033">= 0</span></td>
+    <td style="text-align:right"><b>or</b> [[N]] ∩ [[VP]] <span style="color:#CC0033">= Ø</span></td>
+  </tr>
+
+</table>
+</div>
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Pragmatics
+</div>
+
+
+---
+## **A Mysterious Note**
+<br>
+.pull-left[
+- what information does this note provide?<br><br>
+- what information is **missing** for fully understanding the note?<br><br><br><br>
+- who is "<span style="color:green">me</span>"? (who is writing?)<br><br>
+- who is the implied "<span style="color:blue">you</span>"? (who is written to?)<br><br>
+- where is "<span style="color:deeppink">here</span>"? <br><br>
+- when is "<span style="color:#CC0033">tomorrow</span>"? (when is the note written and when iss the day after that?)
+]
+.pull-right[
+<br><br>
+<img src="../pic/1102/meet.jpg" width="100%">
+]
+
+---
+## **Pragmatics**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1102/meet.jpg" width="100%">
+]
+.pull-right[
+- we have said that **Semantics** focuses on the literal meaning<br><br>
+- yet when we actually talk, we do **NOT** speak in a vacuum<br><br>
+- we also care about the **particular context**<br><br>
+1. particular <span style="color:deeppink"><b>time</b></span>
+2. particular <span style="color:green"><b>venue</b></span>
+3. particular <span style="color:blue"><b>situation</b></span>
+4. with particular <span style="color:#CC0033"><b>people</b></span> that we have a particular <span style="color:orange"><b>relationship</b></span> with (or don't)
+5. within an <span style="color:teal"><b>ongoing</b></span>conversation (in a **discourse**, not individual sentences)
+]
+
+
+---
+## **Pragmatics**
+<br>
+.pull-left[
+- **Pragmatics**, focuses on **implied meaning** and is the study of **language in context**<br><br>
+- in Pragmatics, we talk about **utterances** rather than <span style="color:green"><b>sentences</b></span>:<br><br>
+  - a <span style="color:green"><b>sentence</b></span>: is language used in a vacuum <u>without reference to context</u><br><br>
+  - an **utterance** is language spoken <u>in a particular context</u> that informs meanings
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1102/husband.jpg" width="75%">
+</div>
+]
+<br><br>
+
+--
+
+<div style="text-align:center">
+two types of <b><span style="color:#CC0033">implied meaning</b> will be introduced
+</div><br>
+.pull-left[
+<b><span style="color:blue">conversational implicatures</b></span>, implied meaning that arises when speakers <span style="color:#CC0033">follow (or ignore)</span> the common rules of conversation
+]
+.pull-right[
+  - <b><span style="color:green">presuppositions</b></span> (revisit), the <span style="color:#CC0033">background information</span> that is taken for granted when saying an utterance
+]
+
+---
+### **Pragmatics: Speech Acts and Politeness Strategies**
+<br>
+Pragmatics studies many aspects of language **in context**, for instance
+<br><br>
+.pull-left[
+<div style="text-align:center">
+<h3><b><span style="color:green">speech act</span></b></h3>
+</div><br><br>
+- most language communicates an idea, asks a question, gives a command...<br><br>
+- so we take an action simply by saying something, so the language that does something is called a **speech act**<br><br>
+1. <b>a rookie</b>: <i>Roger that, sir!</i><br>
+2. <b>officiator</b>: <i>I now pronounce you married.</i><br>
+3. <b>King Arthur</b>: <i>For the love of Camelot!</i>
+
+]
+.pull-right[
+<div style="text-align:center">
+<h3><b><span style="color:blue">politeness strategies</span></b></h3>
+</div><br><br>
+- <b><span style="color:deeppink">Kazakh</b></span>: two words for 'you', familiar <i><u>sen</u></i> and polite <i><u>siz</u></i>, part of knowing Kazakh is knowing **when** to use which pronoun<br><br>
+- <b><span style="color:green">Japanese</span></b>: a person named Kentaro Tanaka might be called <i><u>Ken-chan</u></i>, <i><u>Tanaka-san</u></i>, <i><u>Tanaka-sama</u></i>, <i><u>Tanaka-sensei</u></i>, etc. depending on their relationship to the speaker<br><br>
+- **English**: <i><u>'Sup!</u></i> is used mostly in casual situation
+]
+
+---
+## **Pragmatics vs. Semantics**
+<br>
+.pull-left[
+<div style="padding-left:40px">
+<b>Arthur: <span style="color:blue">Do you want to go out tonight?</span></b><br>
+<b>Merlin: <span style="color:deeppink">I have an exam tomorrow.</span></b>
+</div><br><br>
+- **Semantics** studies <span style="color:blue"><b>literal meaning</b></span>
+  - meanings that can be defined with <u>truth values</u> or calculated with <u>set theory</u> expressions
+  - literal meaning: Merlin has an exam<br><br>
+- **Pragmatics** studies <span style="color:green"><b>implied meaning</b></span>
+  - meanings that rely on **context** for interpretation
+  - implied meaning: Merlin can't or doesn't want to go out
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1102/iceberg.jpeg" width="60%">
+</div>
+]
+
+---
+## **Pragmatics vs. Semantics**
+<br>
+in semantics, we discussed **relations** between sentences and we saw that some sentences can <span style="color:green"><b>entails</b></span> or <span style="color:blue"><b>presuppose</b></span> other sentences<br><br>
+
+.pull-left[
+<div style="text-align:center;
+  border:3px solid #CC0033;
+  background:#ebebeb;
+  padding:10px">
+P <span style="color:green"><b>entails</b></span> Q iff: whenever P is <span style="color:blue"><b>TRUE</b></span>, Q is also <span style="color:blue"><b>TRUE</b></span>
+</div>
+<br><br>
+<div style="text-align:center;
+  border:3px solid #CC0033;
+  background:#ebebeb;
+  padding:10px">
+P <span style="color:blue"><b>presupposes</b></span> Q iff: both P and the negation of P <span style="color:#CC0033"><b>entail</b></span> Q
+</div>
+]
+
+--
+
+.pull-right[
+<div style="text-align:center;
+  border:3px solid blue;
+  background:#ebebeb;
+  padding:10px">
+<span style="color:green"><b>entailment</b></span> is only about the relationships between the <span style="color:#CC0033"><b>literal</b></span> meanings of sentences
+</div>
+<br><br>
+<div style="text-align:center;
+  border:3px solid blue;
+  background:#ebebeb;
+  padding:10px">
+but <span style="color:blue"><b>presupposition</b></span> could further be about <span style="color:#CC0033"><b>common sense</b></span> and general <span style="color:#CC0033"><b>world knowledge</b></span>
+</div>
+]<br><br><br><br>
+
+--
+.pull-left[
+<div style="padding-left:20px; font-size:30px">
+(a) <i>Lancelot opened his umbrella</i>.<br>
+(b) <i>it was raining outside</i>.
+</div>
+]
+
+--
+
+.pull-right[
+if we only consider the <b>literal meaning</b>, (a) does **NOT** entai (b), even though common sense might tell us that (a) is likely due to (b)
+]
+
+---
+class:middle, center
+<div style="
+  background:#CC0033;
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  padding:40px 0;
+  width:100%;
+  margin:200px auto;
+  text-align:center;
+">
+Implicature
+</div>
+
+---
+## **A New Inference**
+<br>
+<div style="padding-left:40px">
+<h3><b>- Arthur: <span style="color:#CC0033">Is it raining outside?</span></b></h3>
+<h3><b>- Merlin: <span style="color:green">(well,) Lancelot opened his umbrella.</span></b></h3>
+</div>
+<br>
+- Arthur's utterance neither <span style="color:green"><b>entails</b></span> nor <span style="color:blue"><b>presupposes</b></span> Merlin's utterance<br><br>
+- but Merlin's utterance does have an **inference** that it is raining outside (and that is why Lancelot opened his umbrella)<br><br><br><br>
+
+--
+- we call this inference **implicature**<br><br>
+- informally, an **implicature** is an inference that: is <span style="color:blue"><b>“suggested” by</b></span> an utterance, and
+is <span style="color:green"><b>NOT entailed</b></span> by the utterance
+
+---
+## **Implicature**
+<br>
+<div style="padding-left:40px">
+<h3><b>- Arthur: <span style="color:#CC0033">Is it raining outside?</span></b></h3>
+<h3><b>- Merlin: <span style="color:green">(well,) Lancelot opened his umbrella.</span></b></h3>
+</div>
+<br>
+if Merlin's utterance is an implicature of Arthur's, we may want to ask:<br><br>
+1. why are there **implicatures**?
+2. where do **implicatures** come from?<br><br>
+
+or more specifically, we want to know<br>
+- <u>how Arthur derives the inference that '<i>it is raining outside</i>', from what Merlin has said</u>
+
+---
+## **Implicature**
+<br>
+<div style="padding-left:40px">
+<h3><b>- Arthur: <span style="color:#CC0033">Is it raining outside?</span></b></h3>
+<h3><b>- Merlin: <span style="color:green">(well,) Lancelot opened his umbrella.</span></b></h3>
+</div>
+<br>
+- intuitively, Arthur might go through a <b>chain of thought</b> roughly like this<br><br>
+1. let’s assume that Merlin is trying to have a **genuine** conversation (and he’s not just trying to joke with John);<br><br>
+2. **based on this assumption**, Merlin should **NOT** say things that are <span style="color:green"><b>irrelevant</b></span> to the conversation<br><br>
+3. so what he said '<i><u>Lancelot opened his umbrella.</u></i>' should be <span style="color:blue"><b>relevant</b></span><br><br>
+4. the answer to Arthur's question is literally either '<i><u>Yes, it is raining outside.</u></i>' or '<i><u>No, it is not raining outside.</u></i>'<br><br>
+5. if Merlin's utterance is <span style="color:blue"><b>not irrelevant</b></span>, then it must be **related to** the possible answers (relation built)<br><br>
+**conclusion**: ‘<u><i>Lancelot opened his umbrella</i>.</u>’ must **implicate** '<u><i>it is raining outside</i>.</u>'
+
+---
+## **Implicature**
+<br>
+.pull-left[
+<div style="padding-left:20px; font-size:25px">
+<b>- Morgana: <span style="color:green">Did you mow the grass and wash the car like I told you to? </span></b><br><br>
+<b>- Modred: <span style="color:deeppink">I mowed the grass.</span></b>
+</div>
+<br><br>
+<span style="color:#CC0033"><b>implicature</b></span> of Modred's utterance<br><br>
+<div style="text-align:center">
+<i>Modred did not wash the car.</i>
+</div>
+]
+
+.pull-right[
+<div style="padding-left:25px; font-size:25px">
+<b>- Parceval: <span style="color:green">Did you make a doctor’s appointment?</span></b><br><br>
+<b>- Gawain: <span style="color:deeppink">Their line was busy.</span></b>
+</div>
+<br><br>
+<span style="color:#CC0033"><b>implicature</b></span> of Gawain's utterance<br><br>
+<div style="text-align:center">
+<i>Modred did not make the oppointment.</i>
+</div>
+]<br><br><br>
+
+--
+
+from all of these conversations, we say that the second speaker <span style="color:#CC0033"><b>is trying to have a genuine conversation</b></span><br><br>
+
+the first speaker automatically <span style="color:#CC0033"><b>assumes</b></span> that the second speaker (hearer) will reply<br><br>
+<div style="text-align:center">
+<h3><b><span style="color:teal">adhering to the rules of conversation</span></b></h3>
+</div>
+
+
+---
+## **The Cooperative Principle**
+<br>
+.pull-left[
+- philosopher **Paul Grice** studied how people behave when they're having a conversation <br><br>
+- <u>participants in a conversation</u> (**interlocutors**) tend to collaborate and follow certain rules: <br><br>
+1. **NOT** saying things that are **irrelevant**<br>
+  – <span style="color:green">*How are you today?*</span><br>
+  – <span style="color:blue">*false*.</span><br><br>
+2. **NOT** saying things are believed to be **false**<br>
+  – <span style="color:green">*Do you know where the truck is?*</span><br>
+  – <span style="color:blue">*On the top of my head*.</span><br><br>
+3. **NOT** saying **more** or **less** than needed<br>
+  – <span style="color:green">*Do you fancy a cuppa tea or coffee?*</span><br>
+  – <span style="color:blue">*Yes*.</span>
+]
+.pull-right[
+<img src="../pic/1102/grice.png" width="95%"> <br><br>
+<div style="text-align:center">
+<i>Paul Grice</i> (1913-1988)
+</div>
+]
+
+---
+## **The Cooperative Principle**
+<br>
+.pull-left[
+<br><br><img src="../pic/1102/example.png" width="95%">
+]
+.pull-right[
+- these rules of conversation is called the **Cooperative Principle**<br><br>
+- we tend to behave **cooperative** whenever we're collaborating on a <span style="color:green">common task</span> with a <span style="color:green">common goal</span> with other people<br><br>
+- this sounds like a big ask, but people are actually pretty good at it (**subconsciously**)<br><br>
+- people are said to be cooperative when they follow the **conversational maxims**
+]
+<br><br>
+
+### participants in a conversation tend to say what's **appropriate** for the situation and goals of the conversation
+
+---
+class: middle, center
+<div style="text-align:center">
+<img src="../pic/1102/comic.jpg" width="90%">
+</div>
+
+---
+## **Grice’s Maxims**
+<br>
+<div style="width:100%; border-radius:12px; background:#c0504d; color:white; margin-bottom:15px; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1102/gm1.png" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Quality</b><br>
+    be truthful
+  </div>
+  <div style="width:50%;">
+  - don't say what you believe to be false<br>
+  - don't say what you don't have evidence for
+  </div>
+</div>
+
+<div style="width:100%; border-radius:12px; background:#c0804d; color:white; margin-bottom:15px; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1102/gm2.jpeg" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Quantity</b><br>
+    be informative as needed
+  </div>
+  <div style="width:50%;">
+  - don't say more than you need to<br>
+  - don't say less than you need to
+  </div>
+</div>
+
+<div style="width:100%; border-radius:12px; background:#b7a84d; color:white; margin-bottom:15px; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1102/gm3.jpg" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Relation (Relevance)</b><br>
+    be relevant
+  </div>
+  <div style="width:50%;">
+  - don't say irrelevant things
+  </div>
+</div>
+
+<div style="width:100%; border-radius:12px; background:#8fbf4d; color:white; display:flex; align-items:center;">
+  <div style="width:20%; text-align:center; padding:5px"><img src="../pic/1102/gm4.jpeg" width="60%"></div>
+  <div style="width:30%;">
+    <b>Maxim of Manner</b><br>
+    be clear
+  </div>
+  <div style="width:50%;">
+  \- don't be obscure, ambiguous or wordy<br>
+  \- provide information in a <b>sensible</b> order
+  </div>
+</div>
+<br>
+although they're worded like commands, the maxims are intended to describe how people **tend** to behave or are **assumed** to behave, not how they **ought to** behave
+
+---
+## **Provide Information in a SENSIBLE Order**
+<br>
+.pull-left[
+<b>what was reported in the news</b>: <br><br>
+1. Arthur resigned.<br><br>
+2. The company decided to launch an investigation into him.<br><br>
+
+<b>what actually happened</b>: <br><br>
+1. The company decided to launch an investigation into him.<br><br>
+2. Arthur resigned.
+]
+
+.pull-right[
+<img src="../pic/1102/nothing.jpg" width="95%">
+]
+
+---
+## **Sometimes We Break (Flout) the Maxims**
+<br>
+.pull-left[
+- we generally assume interlocutors are following the **Cooperative Principle** and **conversational maxims**<br><br>
+- yet, sometimes it **seems** we break the maxims:
+  - Lancelot: <span style="color:green">*How was the dinner?*</span><br>
+  - Percival: <span style="color:blue">*I wish I stayed home*.</span><br><br>
+- Percival said something **irrelevant** to the dinner, <u>flouting</u> the **Maxim of Relevance**<br><br>
+- what if Percival is in fact being **cooperative**?
+  - *(The dinner was bad/not that good, so) <span style="color:blue">I wish I stayed home*.</span>
+]
+.pull-right[
+<img src="../pic/1102/successful.png" width="85%"> <br><br>
+]
+<br>
+**conversational implicature** can be arised when the interlocuter **intentionally** flouts the maxims (they are still cooperative), in this case, Percival's utterance **implicates** that '<i>the dinner was bad</i>'
+
+---
+## **Maxim of Quality**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quality</b>: be truthful
+</div>
+</div>
+<br><br>
+.pull-left[
+- do **not** say what you believe to be **false**
+  - not everything is a lie in a conversation<br><br>
+- do **not** say that for which you **lack adequate evidence**<br><br>
+- "adequate evidence" depends on the situation
+  - a doctor would be held to a **higher standard of evidence** than a regular person on a disease outcome
+]
+
+.pull-right[
+<span style="color:blue"><b>obeying the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+<br>Did you break my bowl?<br><br>
+</div>
+
+<div style="width:100%; text-align:left">
+<br><br>
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Sorry, it was me. I got too excited chasing a tennis ball.
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]
+]
+
+---
+## **Maxim of Quality**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quality</b>: be truthful
+</div>
+</div>
+<br><br>
+.pull-left[
+- do **not** say what you believe to be **false**
+  - not everything is a lie in a conversation<br><br>
+- do **not** say that for which you **lack adequate evidence**<br><br>
+- "adequate evidence" depends on the situation
+  - a doctor would be held to a **higher standard of evidence** than a regular person on a disease outcome
+]
+
+.pull-right[
+<span style="color:deeppink"><b>flouting the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+<br>Dogs can fly, right?<br><br>
+</div>
+
+<div style="width:100%; text-align:left">
+<br><br>
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+And cats can swim in the outer space, I suppose.<br><br>
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]
+]
+
+---
+## **Maxim of Quality**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quality</b>: be truthful
+</div>
+</div>
+<br><br>
+.pull-left[
+- do **not** say what you believe to be **false**
+  - not everything is a lie in a conversation<br><br>
+- do **not** say that for which you **lack adequate evidence**<br><br>
+- "adequate evidence" depends on the situation
+  - a doctor would be held to a **higher standard of evidence** than a regular person on a disease outcome<br><br>
+- **note** here that an **implicature** is not what is literally said
+]
+
+.pull-right[
+<span style="color:deeppink"><b>flouting the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+<br>Dogs can fly, right?<br><br>
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+And cats can swim in the outer space, I suppose.<br><br>
+</div>
+]<br><br>
+
+<div style="background:cyan; text-align:center">
+<b>implicature</b>: The cat’s statement is wildly wrong.
+</div><br>
+if we assume the dog is **cooperative**, dog's saying <u>obviously false</u> things **implicate** that the cat’s statement is absurd
+]
+
+---
+## **Notes on Violation or Flouting**
+<br><br>
+.pull-left[
+- we **DO** have cases where people <span style="color:green"><b>violate</b></span> or <span style="color:green"><b>ignore</b></span> the **maxims** <br><br>
+- **lying** and **claiming without evidence** would be <span style="color:green"><b>violating</b></span> maxim of quality <br><br>
+- sometimes, **flouting** a maxim is done to convey additional message for sarcastic or comedic effect <br><br>
+  - A: <span style="color:orange">*My TA gave me 59 as the final grade intentionally just to fail me*!</b></span>
+  - B: <span style="color:blue">*What a lovely and responsible TA he is!*</b></span><br><br>
+- hence, **intentionally** flouting the maxim will arise an **implicature**
+]
+.pull-right[
+<img src="../pic/1102/room.jpg" width="80%">
+]
+
+---
+## **Maxim of Quantity**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quantity</b>: be informative as needed
+</div>
+</div>
+<br><br>
+.pull-left[
+- be as **informative** as is required <br><br>
+- do not be either <span style="color:green"><b>over</b></span>**informative** or <span style="color:blue"><b>under</b></span>**informative** <br><br>
+- this maxim calls for an **appropriate** amount of information<br><br>
+]
+.pull-right[
+<span style="color:blue"><b>obeying the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+<br>What languages do you speak?<br>
+</div>
+<br><br>
+<div style="width:100%; text-align:left">
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+I speak English, Kazakh and Mandarin.<br>
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]
+]
+
+---
+## **Maxim of Quantity**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quantity</b>: be informative as needed
+</div>
+</div>
+<br><br>
+.pull-left[
+- be as **informative** as is required <br><br>
+- do not be either <span style="color:green"><b>over</b></span>**informative** or <span style="color:blue"><b>under</b></span>**informative** <br><br>
+- this maxim calls for an **appropriate** amount of information<br><br>
+- for the utterance on the right, if the dog also speaks German <br><br>
+  - is the utterance still true?
+  - how does the utterance sound?
+]
+.pull-right[
+<span style="color:deeppink"><b>flouting the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+<br>What languages do you speak?<br>
+</div>
+<br><br>
+<div style="width:100%; text-align:left">
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+I speak English, Kazakh, <span style="color:grey">German</span> and Mandarin.<br>
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]<br><br>
+]
+
+---
+## **Maxim of Quantity**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quantity</b>: be informative as needed
+</div>
+</div>
+<br><br>
+.pull-left[
+- be as **informative** as is required <br><br>
+- do not be either <span style="color:green"><b>over</b></span>**informative** or <span style="color:blue"><b>under</b></span>**informative** <br><br>
+- this maxim calls for an **appropriate** amount of information<br><br>
+- for the utterance on the right, if the dog also speaks German <br><br>
+  - is the utterance still true?
+  - how does the utterance sound?
+]
+.pull-right[
+<span style="color:deeppink"><b>flouting the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+<br>What languages do you speak?<br>
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+I speak English, Kazakh, <span style="color:grey">German</span> and Mandarin.<br>
+</div>
+]<br><br>
+
+<div style="background:cyan; text-align:center">
+<b>implicature (possible)</b>: The dog does not want to let the cat know that he speaks German as well.
+</div><br>
+if we assume the dog is **cooperative**, dog's intentionally <u>hiding</u> things **implicate** that he thinks it is not necessary to tell the cat about this case
+]
+
+---
+## **Maxim of Quantity**
+<br>
+<div style="padding:20px">
+<h3><b>Judge</b>: <span style="color:green"><i>Mr. Lachinskaya, have you pleaded guilty to all of the charges listed before this court?</i></span></h3>
+<h3><b>Mr. L</b>: <span style="color:blue"><i>I admit to the first one, Your Honor</i>.</h3></span><br>
+what is Mr. lachinskaya <span style="color:#CC0033"><b>implicating</b></span>?
+</div><br>
+
+<div style="padding:20px">
+<h3><b>Arthur</b>: <span style="color:green"><i>What do you do for a living?</i></span></h3>
+<h3><b>Merlin</b>: <span style="color:blue"><i>I work</i>.</h3></span><br>
+what is probably <span style="color:#CC0033"><b>implicated</b></span> Merlin via flouting the <span style="color:#CC0033"><b>maxim of quantity</b></span>?
+</div>
+
+---
+## **Maxim of Quantity: Scalar Implicature**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quantity</b>: be informative as needed
+</div>
+</div>
+<br><br>
+.pull-left[
+- **scalar implicature** is a special type of quantity implicature
+  - <i>Some students passed the exam.</i><br><br>
+- **literal** meaning
+  - ⟦student⟧ ∩ ⟦passed the exam⟧ ≠ ∅<br><br>
+- **implicature**: <i><u>Not all students passed the exam.</u></i>
+  - if <i><u>all</u></i> students passed
+  - since <i><u>all</u></i> is a stronger statement compared to <i><u>some</u></i>
+  - assuming I’m adhering to Maxim of Quantity, I **would have** just used <i><u>all</u></i>
+  - but I **intentionally** used <i><u>some</u></i>
+
+]
+.pull-right[
+<span style="color:blue"><b>obeying the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Did you eat the cookies?<br>
+</div>
+<br><br>
+<div style="width:100%; text-align:left">
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+I ate <b>some of</b> them.<br>
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]<br><br>
+]
+
+---
+## **Maxim of Quantity: Scalar Implicature**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of quantity</b>: be informative as needed
+</div>
+</div>
+<br><br>
+.pull-left[
+- **scalar implicature** is a special type of quantity implicature
+  - <i>Some students passed the exam.</i><br><br>
+- **literal** meaning
+  - ⟦student⟧ ∩ ⟦passed the exam⟧ ≠ ∅<br><br>
+- **implicature**: <i><u>Not all students passed the exam.</u></i>
+  - if <i><u>all</u></i> students passed
+  - since <i><u>all</u></i> is a stronger statement compared to <i><u>some</u></i>
+  - assuming I’m adhering to Maxim of Quantity, I **would have** just used <i><u>all</u></i>
+  - but I **intentionally** used <i><u>some</u></i>
+]
+.pull-right[
+<span style="color:blue"><b>obeying the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Did you eat the cookies?<br>
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+I ate <b>some of</b> them.<br>
+</div>
+]<br><br>
+
+<div style="background:cyan; text-align:center">
+<b>implicature (possible)</b>: The dog did not eat all cookies.
+</div><br>
+the dog is **cooperative**, and offering information that is as **informative** as needed, but he **intentionally** chose <u><i>weaker</i></u> statement (<i>some</i>), which **implicate** that he did not eat <b>all</b> cookies
+]
+
+
+---
+## **Maxim of Relevance**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of relevance</b>: be relevant
+</div>
+</div>
+<br><br>
+.pull-left[
+- it is generally assumed that people will say things **relevant to the current topic** of conversation
+]
+.pull-right[
+<span style="color:blue"><b>obeying the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Our TA is nice, isn't he?<br>
+</div>
+<br><br>
+<div style="width:100%; text-align:left">
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+He is lovely and responsible.<br>
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]<br><br>
+]
+
+---
+## **Maxim of Relevance**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of relevance</b>: be relevant
+</div>
+</div>
+<br><br>
+.pull-left[
+- it is generally assumed that people will say things **relevant to the current topic** of conversation
+]
+.pull-right[
+<span style="color:deeppink"><b>flouting the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Our TA is nice, isn't he?<br>
+</div>
+<br><br>
+<div style="width:100%; text-align:left">
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Cookies are pretty nice for sure.<br>
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]<br><br>
+]
+
+---
+## **Maxim of Relevance**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of relevance</b>: be relevant
+</div>
+</div>
+<br><br>
+.pull-left[
+- it is generally assumed that people will say things **relevant to the current topic** of conversation<br><br>
+- we sometimes **CAN** change the topic without violating this **maxim**<br><br>
+- but we do need to **literally** signal the change of topic to our interlocutors
+  - – Arthur: <span style="color:green">*How was the movie?*</span><br>
+  – Merlin: <span style="color:blue">*Actually, there's something else I want to talk to you about*.</span><br><br>
+- Merlin is not being relevant, but he signaled his desire to change the topic with "**actually**"
+]
+.pull-right[
+<span style="color:deeppink"><b>flouting the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Our TA is nice, isn't he?<br>
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+Cookies are pretty nice for sure.<br>
+</div>
+]<br><br>
+<div style="background:cyan; text-align:center">
+<b>implicature</b>: The dog does not like the TA at all.
+</div><br>
+if we assume the dog is **cooperative**, dog's intentionally changing <u>the topic</u> things **implicate** that he does not agree with the cat
+]
+
+
+---
+## **Maxim of Relevance**
+<br>
+.pull-left[
+<br>
+<img src="../pic/1102/crash.jpg" width="90%">
+<br><br>
+<i>we often rely on implied meanings like implicatures because it would be **rude** or **inappropriate** or even just overly **pedantic** to say everything literally</i>
+]
+.pull-right[
+- assuming that people are being **relevant** helps us make sens of people's utterances <br><br>
+- – Arthur: <span style="color:green">*Is Lancelot dating anyone these days?*</span><br>
+– Merlin: <span style="color:blue">*He goes to London every weekend*.</span><br><br>
+  - if Merlin (<span style="color:grey">~~as always~~</span>) makes sense (is being **relevant**), what is he **implicating**? <br><br>
+- a professor writes in the recommendation letter to a graduate programme for Merlin:<br><br>
+  - <span style="color:deeppink">*Merlin has good handwriting and he always dresses neatly*</span><br><br>
+  - is it relevant?
+  - what is the **implicature**?
+]
+
+  
+---
+## **Maxim of Manner**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of manner</b>: be clear
+</div>
+</div>
+<br>
+.pull-left[
+- avoid **obscurity** of expression (don't be hard to understand) <br><br>
+- avoid **ambiguity**<br><br>
+- be **brief**. (don't be too wordy)<br><br>
+- be **orderly** (present information in an order that makes sense)
+]
+
+.pull-right[
+<span style="color:blue"><b>obeying the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: white; padding-left:10px; padding:20px; color: white">
+What did you do this morning?<br>
+</div>
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:28px; color: purple">
+What did you do this morning?<br>
+</div>
+<br><br>
+<div style="width:100%; text-align:left">
+<img src="../pic/1102/kitten.png" width="54%">
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+A<sub>1</sub>: I went to the park and had my breakfast.<br>
+A<sub>2</sub>: I had my breakfast and went to the park.<br>
+</div>
+<br>
+<div style="width:100%; text-align:right">
+<img src="../pic/1102/doggy.png" width="70%">
+</div>
+]<br><br>
+]
+
+---
+## **Maxim of Manner**
+<br>
+<div style="text-align:center;">
+<div style="width:50%;
+  border:3px solid green;
+  background:#ebebeb;">
+<b>maxim of manner</b>: be clear
+</div>
+</div>
+<br>
+.pull-left[
+- avoid **obscurity** of expression (don't be hard to understand) <br><br>
+- avoid **ambiguity**<br><br>
+- be **brief**. (don't be too wordy)<br><br>
+- be **orderly**. (present information in an order that makes sense)<br><br>
+  - <span style="color:green">*Arthur took the medication and had an allergic reaction*.</span><br><br>
+  - <span style="color:blue">*Arthur had an allergic reaction and took the medication*.</span>
+]
+
+.pull-right[
+<span style="color:blue"><b>obeying the maxim</b></span><br><br>
+.pull-left[
+<div style="width:100%; text-align:left; background: white; padding-left:10px; padding:20px; color: white">
+What did you do this morning?<br>
+</div>
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:28px; color: purple">
+What did you do this morning?<br>
+</div>
+]
+.pull-right[
+<div style="width:100%; text-align:left; background: #fdeada; padding-left:10px; padding:20px; color: purple">
+A<sub>1</sub>: I went to the park and had my breakfast.<br>
+A<sub>2</sub>: I had my breakfast and went to the park.<br>
+</div>
+]<br><br>
+<div style="background:cyan; text-align:center">
+<b>A<sub>1</sub>'s implicature</b>: He had breakfast in the park.<br>
+<b>A<sub>2</sub>'s implicature</b>: He had breakfast at home.
+</div><br>
+if the dog is **cooperative**, his intentionally using <u>different</u> orders **implicate** the order of events
+]
+
+---
+## **Exercise I: Grice's Maxims**
+<br>
+identify the **conversational implicatures** in the following dialogues<br>
+identify the **maxims** that lead to each implicature
+<br><br>
+.pull-left[
+1. Merlin: <span style="color:green">Do you have our tickets with you?</span> <br>
+  Arthur: <span style="color:blue">Didn't I give it to you?</span> <br><br>
+  <span style="color:white">- Arthur does not have the tickets.
+  - maxim of relevance (flouted)</span><br><br><br><br>
+2. Merlin: <span style="color:green">How do you like the string quartet?</span> <br>
+  Arthur: <span style="color:blue">I think the violinist is good</span><br><br>
+  <span style="color:white">- Arthur does not think the whole quartet is good
+  - maxim of quantity (flouted)</span>
+]
+.pull-right[
+<img src="../pic/1102/tea.jpg" width="90%">
+<br><br>
+what is this violating?
+]
+
+---
+## **Exercise I: Grice's Maxims**
+<br>
+identify the **conversational implicatures** in the following dialogues<br>
+identify the **maxims** that lead to each implicature
+<br><br>
+.pull-left[
+1. Merlin: <span style="color:green">Do you have our tickets with you?</span> <br>
+Arthur: <span style="color:blue">Didn't I give it to you?</span> <br><br>
+  - Arthur does not have the tickets.
+  - Maxim of relevance (flouted)<br><br><br><br>
+2. Merlin: <span style="color:green">How do you like the string quartet?</span> <br>
+Arthur: <span style="color:blue">I think the violinist is good</span><br><br>
+  - Arthur does not think the whole quartet is good
+  - Maxim of quantity (flouted)
+]
+.pull-right[
+<img src="../pic/1102/tea.jpg" width="90%">
+<br><br>
+what is this violating?
+- maxim of quality
+- the original question was not **genuine**
+]
+
+---
+## **Cancelling and Reinforcing Implicatures**
+.pull-left[
+<br><br>
+<img src="../pic/1102/doctor.jpeg" width="90%">
+]
+.pull-right[<br>
+- implicatures can be **cancelled** and **reinforced**, but literal meaning cannot<br><br>
+- what do the following utterances **implicate**? <br><br>
+  - – <span style="color:green">*What languages does Anna speak?*</span> <br>
+  – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span><br>
+  <span style="color:white">- <b><i>implicature</i></b>: *Anna speaks only these three languages*.</span><br><br>
+  - <span style="color:orange">*Ian ate a cake and was happy*.</span><br>
+  <span style="color:white">- <b><i>implicature</i></b>: *Ian ate a cake and that made him happy*.</span><br><br>
+  - – <span style="color:green">*Does Sue have any siblings?*</span> <br>
+  – <span style="color:blue">*Sue has a brother*.</span><br>
+  <span style="color:white">- <b><i>implicature</i></b>: *Sue has only one brother*.</span>
+]
+---
+## **Cancelling and Reinforcing Implicatures**
+.pull-left[
+<br><br>
+<img src="../pic/1102/doctor.jpeg" width="90%">
+]
+.pull-right[<br>
+- implicatures can be **cancelled** and **reinforced**, but literal meaning cannot<br><br>
+- what do the following utterances **implicate**? <br><br>
+  - – <span style="color:green">*What languages does Anna speak?*</span> <br>
+  – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span><br>
+  - <b><i>implicature</i></b>: *Anna speaks only these three languages*.<br><br>
+  - <span style="color:orange">*Ian ate a cake and was happy*.</span><br>
+  - <b><i>implicature</i></b>: *Ian ate a cake and that made him happy*.<br><br>
+  - – <span style="color:green">*Does Sue have any siblings?*</span> <br>
+  – <span style="color:blue">*Sue has a brother*.</span><br>
+  - <b><i>implicature</i></b>: *Sue has only one brother*.
+]
+
+---
+## **Cancelling Implicatures**
+<br>
+- what if we say the following sentence: <br><br>
+<span style="color:white">aaaaaa</span><i>Anna speaks English, Korean, and Farsi. **In fact, she also speaks Greek**</i>.<br><br>
+
+- implicatures can be **cancelled** or **defeated**: we add extra information to the statement that **contradicts** the <span style="color:green"><b>implicature</b></span> and makes it go away <br><br>
+
+--
+
+- – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span> <span style="color:orange">*In fact, she also speaks Greek*.</span>
+  - <b><i>implicature</i></b>: ~~*Anna speaks only these three languages*~~.<br><br>
+- – <span style="color:blue">*Ian ate a cake and was happy*.</span> <span style="color:orange">*In fact, he ate the cake because he was happy*.</span>
+  - <b><i>implicature</i></b>: ~~*Ian ate a cake and that made him happy*~~.<br><br>
+- – <span style="color:green">*Does Sue have any siblings?*.</span><br>
+– <span style="color:blue">*Sue has a brother*.</span> <span style="color:orange">*In fact, she has two brothers*.</span>
+  - <b><i>implicature</i></b>: ~~*Sue has only one brother*~~.
+  
+---
+## **Reinforcing Implicatures**
+<br>
+- what if we say the following sentence: <br><br>
+<span style="color:white">aaaaaa</span><i>Anna speaks English, Korean, and Farsi. **And she doesn't speak any others**</i>.<br><br>
+
+- implicatures can be **reinforced** as well: we add extra information to the statement that
+**further supports** the <span style="color:green"><b>implicature</b></span> and makes it firmer <br><br>
+
+--
+
+- – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span> <span style="color:green">*And she doesn't speak any others*.</span>
+  - <b><i>implicature</i></b>: *Anna speaks only these three languages*. <span style="color:green"><b>✔</b></span><br><br>
+- – <span style="color:blue">*Ian ate a cake and was happy*.</span> <span style="color:green">*It was the cake that made him happy*.</span>
+  - <b><i>implicature</i></b>: *Ian ate a cake and that made him happy*. <span style="color:green"><b>✔</b></span><br><br>
+- – <span style="color:red">*Does Sue have any siblings?*.</span><br>
+– <span style="color:blue">*Sue has a brother*,</span> <span style="color:green">*and only one brother*.</span>
+  - <b><i>implicature</i></b>: *Sue has only one brother*. <span style="color:green"><b>✔</b></span>
+  
+---
+### **Literal Meaning is NOT Cancellable/Reinforceable**
+<br>
+.pull-left[
+- **cancelling** and **reinforcing** are important tests for literal **vs.** implied meaning <br><br>
+  - <span style="color:green"><b>literal meaning</b></span> **CANNOT** be cancelled or reinforced<br><br>
+  - but <span style="color:green"><b>implicatures</b></span> **CAN** be <br><br>
+- if we try to cancel the <span style="color:green"><b>literal meaning</b></span><br><br>
+
+- <span style="color:blue">*Merlin speaks English, Kazakh, and Mandarin*.</span><br><br>
+  - <span style="color:green">*but he does not speak Kazakh*.</span><br>
+  **cancelling → contradiction**<br><br>
+  - <span style="color:orange">*and he speaks Kazakh*.</span><br>
+  **reinforcing → redundancy**
+]
+.pull-right[
+<br><br>
+<img src="../pic/1102/milk.jpeg" width="90%">
+]
+
+---
+## **Exercise II: Implicature Cancelling/Reinforcing**
+<br>
+for each sentence below, two additional statements are given – one is part of the sentence's literal meaning, one is an implicature, try to **reinforce/cancel** each statement to test whether it is **literal** or an **implicature**<br><br><br><br>
+.pull-left[
+1. **I drove home at noon**.<br>
+A: I drove a car.<br>
+B: I drove home during the day.<br><br><br><br>
+2. **I called 10 times and nobody picked up**.<br>
+A: I called at least 5 times.<br>
+B: I was using a phone.
+]
+.pull-right[
+
+<img src="../pic/1102/pragmatic.jpg" width="90%">
+]
+
+---
+class: center, middle
+**Assignment V** is due this Friday (**Nov 06**) at **11:59 pm**<br><br>
+**Assignment VI** will be published this Wednesday (**Nov 04**) and is due next Friday (**Nov 13**) at **11:59 pm**<br><br>
+<span style="color:green"><b>continue reading</b></span>: **Chapter 8: Pragmatics** of Griffiths & Cummins’ (2017) <i>An Introduction to English Semantics and Pragmatics</i><br><br>
+<img src="../pic/1102/fine.jpeg" width="60%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
