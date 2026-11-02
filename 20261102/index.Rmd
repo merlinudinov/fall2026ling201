@@ -199,7 +199,7 @@ Pragmatics
 - who is "<span style="color:green">me</span>"? (who is writing?)<br><br>
 - who is the implied "<span style="color:blue">you</span>"? (who is written to?)<br><br>
 - where is "<span style="color:deeppink">here</span>"? <br><br>
-- when is "<span style="color:#CC0033">tomorrow</span>"? (when is the note written and when iss the day after that?)
+- when is "<span style="color:#CC0033">tomorrow</span>"? (when is the note written and when is the day after that?)
 ]
 .pull-right[
 <br><br>
@@ -221,7 +221,7 @@ Pragmatics
 2. particular <span style="color:green"><b>venue</b></span>
 3. particular <span style="color:blue"><b>situation</b></span>
 4. with particular <span style="color:#CC0033"><b>people</b></span> that we have a particular <span style="color:orange"><b>relationship</b></span> with (or don't)
-5. within an <span style="color:teal"><b>ongoing</b></span>conversation (in a **discourse**, not individual sentences)
+5. within an <span style="color:teal"><b>ongoing</b></span> conversation (in a **discourse**, not individual sentences)
 ]
 
 
@@ -407,7 +407,7 @@ or more specifically, we want to know<br>
 </div>
 <br>
 - intuitively, Arthur might go through a <b>chain of thought</b> roughly like this<br><br>
-1. let’s assume that Merlin is trying to have a **genuine** conversation (and he’s not just trying to joke with John);<br><br>
+1. let’s assume that Merlin is trying to have a **genuine** conversation (and he’s not just trying to joke with Arthur);<br><br>
 2. **based on this assumption**, Merlin should **NOT** say things that are <span style="color:green"><b>irrelevant</b></span> to the conversation<br><br>
 3. so what he said '<i><u>Lancelot opened his umbrella.</u></i>' should be <span style="color:blue"><b>relevant</b></span><br><br>
 4. the answer to Arthur's question is literally either '<i><u>Yes, it is raining outside.</u></i>' or '<i><u>No, it is not raining outside.</u></i>'<br><br>

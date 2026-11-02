@@ -973,7 +973,7 @@ ___
 ---
 class: center, middle
 **Assignment V** is due this Friday (**Nov 06**) at **11:59 pm**<br><br>
-**Assignment VI** will be published this Wednesday (**Nov 04**) and is due next Friday (**Nov 13**) at **11:59 pm**<br><br>
+**Assignment VI** will be published today (**Nov 04**) and is due next Friday (**Nov 13**) at **11:59 pm**<br><br>
 <span style="color:green"><b>reading</b></span>: Michael Dobrovolsky's chapter **Phonetics**<br> (from O'Grady et al.'s <i>Contemporary Linguistics: An Introduction</i><br><br>
 <img src="../pic/1104/fine.jpeg" width="60%">
 <br><br>
