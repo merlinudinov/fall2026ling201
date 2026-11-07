@@ -1,0 +1,863 @@
+---
+title: "**Phonetics II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/11/11 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Mondays, 2:00-3:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+      
+---
+## **Previously on 201: Phonetics vs Phonology**
+<br>
+.pull-left[
+- **Phonetics** is the study of **how speech sounds are produced** by articulators in the vocal tract and **perceived** by are auditory apparatus<br><br>
+  - <span style="color:green"><b>articulatory phonetics</b></span>: how different sounds are produced in vocal tract<br><br>
+  - <span style="color:blue"><b>acoustic phonetics</b></span>: the physical properties of speech sounds<br><br>
+  - <span style="color:deeppink"><b>perceptual phonetics</b></span>: how sounds are perceived by listeners<br><br>
+- **Phonology** is the study of the **pattern** and **function** of sounds (how your brain categorises sounds associated with speech)
+]
+.pull-right[
+<img src="../pic/1111/phisi.png" width="100%">
+]
+
+---
+.pull-left[
+## **Vocal Tract Anatomy**
+]
+.pull-right[
+<div style="text-align:center;">
+<img src="../pic/1111/answer.png" width="90%">
+</div>
+]
+
+<br>
+Fill in the blanks with the appropriate **anatomical term** for each **articulator** from the box. <u>#5, 9, 10</u> refer to **cavities** (open spaces), not structures. (You may consult the reading, page 22)
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1111/anatomy.png" width="80%">
+</div>
+
+---
+.pull-left[
+## **Vocal Tract Anatomy**
+]
+.pull-right[
+<div style="text-align:center;">
+<img src="../pic/1111/answer.png" width="90%">
+</div>
+]
+
+<br>
+Fill in the blanks with the appropriate **anatomical term** for each **articulator** from the box. <u>#5, 9, 10</u> refer to **cavities** (open spaces), not structures. (You may consult the reading, page 22)
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1111/anatomyanswer.png" width="80%">
+</div>
+
+---
+## **Previously on 201: Consonants**
+<br>
+- all consonants are produced by restricting or obstructing the airflow in some way – whether partially or totally
+- but the nature of the obstruction **varies** from consonant to consonant<br><br>
+- consonants can be characterized with three properties – which all serve to describe that obstruction
+  1. **voicing**: presence or absence of vocal fold vibration
+  2. **place of articulation**: where the obstruction of airflow takes place
+  3. **manner of articulation**: how the airflow is modulated
+<br><br>
+<div style="text-align:center">
+<img src="../pic/1111/engIPA2.png" width="75%">
+</div>
+
+
+---
+## **Previously on 201: Feel Consonants**
+<br>
+.pull-left[
+<b>stops/plosives</b> - <b>fricatives</b>: try to pronounce a **long** sequence of a consonant<br><br>
+- if it can be pronounced with non-stop, the sound is a <span style="color:deeppink"><b>fricative</b></span>
+- if it cannot be pronounced with non-stop, the sound is a <span style="color:deeppink"><b>stop</b></span><br><br>
+
+<b>oral</b> - <b>nasal</b>: hold **nose** and produce the sound<br><br>
+- if it becomes hard to produce, the sound is a <span style="color:blue"><b>nasal</b></span>
+- if it still sounds similar, the sound is a <span style="color:blue"><b>oral</b></span><br><br>
+
+try these tests on the first sound in <span style="color:green">< fan ></span>, <span style="color:green">< pan ></span> and <span style="color:green">< man ></span><br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1111/balloon.png" width="60%"><br><br>
+<img src="../pic/1111/tyre.png" width="60%">
+</div>
+]
+
+---
+class: center, middle
+## **Previously on 201: Voicing**
+### (whether vocal cords vibrate or not)
+<br>
+<img src="../pic/1111/voicing.jpg" width="60%">
+
+---
+## **Categories to Differentiate Consonants**
+<br>
+<div style="text-align:center;">
+<img src="../pic/1111/ipacons.png" width="70%">
+</div>
+<br>
+
+<span style="color:deeppink"><b>columns</b></span> - <span style="font-variant: small-caps; color:green">place</span> - where the obstruction of airflow in the vocal tract is<br><br>
+<span style="color:deeppink"><b>row</b></span> - <span style="font-variant: small-caps; color:green">manner</span> - what type of obstruction of airflow occurs<br><br>
+in a <span style="color:deeppink"><b>single cell</b></span> - <span style="font-variant: small-caps; color:green">voicing</span> - whether the vocal cords vibrate or not (the right is <i>voiced</i>)<br><br>
+
+<div style="text-align:center;">
+  <a href="https://www.ipachart.com"><span style="color:deeppink"><b>IPA clickable chart</b></span></a>
+</div>
+
+
+
+
+
+---
+## **Exercise I: Identifying Consonants**
+<br>
+give a full description for <span style="color:deeppink"><b>voicing</b></span>, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol <br><br>
+.pull-left[
+move<br><br>
+cloth<br><br>
+gosh<br>
+]
+.pull-right[
+hide<br><br>
+stove<br><br>
+bank<br>
+]
+<div style="text-align:center;">
+<img src="../pic/1111/ipacons.png" width="70%">
+</div>
+
+---
+## **Exercise I: Identifying Consonants**
+<br>
+give a full description for <span style="color:deeppink"><b>voicing</b></span>, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol <br><br>
+.pull-left[
+move<span style="color:white">-----</span><b>[m]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>nasal</b></span><br>
+<span style="color:white">move-----</span><b>[v]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>labio-dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+cloth<span style="color:white">------</span><b>[k]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">cloth------</span><b>[l]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>lateral approximant</b></span><br>
+<span style="color:white">cloth------</span><b>[θ]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+gosh<span style="color:white">------</span><b>[g]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">gosh------</span><b>[ʃ]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>post-alveolar</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+]
+.pull-right[
+hide<span style="color:white">------</span><b>[h]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>glottal</b></span> <span style="color:blue"><b>fricative</b></span><br>
+<span style="color:white">hide------</span><b>[d]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>stop</b></span><br><br>
+stove<span style="color:white">-----</span><b>[s]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>fricative</b></span><br>
+<span style="color:white">stove-----</span><b>[t]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">stove-----</span><b>[v]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>labio-dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+bank<span style="color:white">------</span><b>[b]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">bank------</span><b>[ŋ]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>nasal</b></span><br>
+<span style="color:white">bank------</span><b>[k]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br><br>
+]
+
+---
+## **Practice: Identifying Consonants**
+<br>
+give a full description for <span style="color:deeppink"><b>voicing</b></span>, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol <br><br>
+<div style="text-align:center;">
+<img src="../pic/1111/ipacons1.png" width="70%">
+</div>
+
+---
+## **Vowels and Consonants**
+<br>
+- the way we articulate vowels and consonants differs in two important ways<br><br>
+
+- **airflow** – when we speak, we exhale, forcing air to flow outward through our **vocal tract**
+  - with **consonants**, the airflow is blocked completely or partially
+  - with **vowels**, there is no obstruction<br><br>
+- **voicing** – when we cause our vocal cords to vibrate during speech
+  - **vowels** are usually voiced
+  - **consonants** may be voiced or voiceless
+<br><br>
+<div style="text-align:center">
+<img src="../pic/1111/consvowel.png" width="90%">
+</div>
+
+
+---
+## **Voicing and the Larynx**
+<br>
+.pull-left[
+- **larynx** is the primary source of speech sounds and it contains<br><br>
+  - <span style="color:green"><b>vocal folds</b></span> (vocal cords): two sheets of muscle that can be brought together or pulled apart
+  - <span style="color:blue"><b>glottis</b></span>: opening between the vocal folds through which air passes
+  - other structures of muscle, cartilage, and ligament that **support** and **move** the vocal folds<br><br>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1111/folds.png" width="70%"><br><br>
+<a href="https://www.youtube.com/watch?v=-1Fv7IPmJo4"><b>video</b>: the larynx of an opera singer during breathing and phonation</a>
+</div>
+]<br><br>
+
+- if vocal folds are **abducted close together** and the air comes out, they’ll **vibrate** due to <span style="color:deeppink"><b>Bernoulli’s effect</b></span>
+  - the <b>vibration</b> leads to **voicing** a</b></span>nd is used in vowels [a, e, i, o, u] and certain consonants [b, d, g]<br><br>
+- if vocal folds are **moved apart**, they’ll stop vibrating, leading to **voicelessness** [p, t, k]
+
+
+---
+## **Feel the Vowels**
+<br>
+.pull-left[
+- three different vowels were produced, and the processes have been captured with **real-time MRI**<br><br>
+- the three vowels are <span style="color:blue"><b>[i]</b></span>, <span style="color:blue"><b>[u]</b></span>, <span style="color:blue"><b>[a]</b></span>, as in < st<span style="color:deeppink"><b>ee</b></span>p >, < st<span style="color:deeppink"><b>oo</b></span>p >, < st<span style="color:deeppink"><b>o</b></span>p ><br><br>
+- which one is which?
+]
+
+.pull-right[
+.pull-left[
+<video controls width="100%">
+  <source src="mri/stop.mp4" type="video/mp4">
+  Your browser does not support the video element.
+</video>
+<div style="text-align:center">
+<span style="color:white"><b>[a]</b></span><span style="color:white"> in < st<span style="color:white"><b>o</b></span>p ></span>
+</div>
+<br>
+<div style="text-align:center">
+<span style="color:white"><b>[i]</b></span><span style="color:white"> in < st<span style="color:white"><b>ee</b></span>p ></span>
+</div>
+<video controls width="100%">
+  <source src="mri/steep.mp4" type="video/mp4">
+  Your browser does not support the video element.
+</video>
+]
+.pull-right[
+<video controls width="100%">
+  <source src="mri/stoop.mp4" type="video/mp4">
+  Your browser does not support the video element.
+</video><br>
+<div style="text-align:center">
+<span style="color:white"><b>[u]</b></span><span style="color:white"> in < st<span style="color:white"><b>oo</b></span>p ></span>
+</div>
+]
+]
+
+---
+.pull-left[
+## **Feel the Vowels**
+<br>
+- three different vowels were produced, and the processes have been captured with **real-time MRI**<br><br>
+- the three vowels are <span style="color:blue"><b>[i]</b></span>, <span style="color:blue"><b>[u]</b></span>, <span style="color:blue"><b>[a]</b></span>, as in < st<span style="color:deeppink"><b>ee</b></span>p >, < st<span style="color:deeppink"><b>oo</b></span>p >, < st<span style="color:deeppink"><b>o</b></span>p >
+]
+.pull-right[
+<br>
+<div style="text-align:center">
+<img src="../pic/1111/ipavowel.png" width="80%">
+</div>]
+
+- it’s no coincidence that our **oral cavity** and **the vowel chart** resemble<br><br>
+- the relevant articulator for vowels is the **tongue**, which **shapes** the air flow
+
+.pull-left[
+.pull-left[
+<div style="text-align:center">
+<img src="mri/stop.png" width="85%"><br>
+<span style="color:blue"><b>[a]</b></span> in < st<span style="color:deeppink"><b>o</b></span>p >
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<img src="mri/steep.png" width="85%"><br>
+<span style="color:blue"><b>[i]</b></span> in < st<span style="color:deeppink"><b>ee</b></span>p >
+</div>
+]
+]
+.pull-right[
+.pull-left[
+<div style="text-align:center">
+<img src="mri/stoop.png" width="85%"><br>
+<span style="color:blue"><b>[u]</b></span> in < st<span style="color:deeppink"><b>oo</b></span>p >
+</div>
+]
+]
+
+---
+## **Cardinal Vowels**
+<br>
+.pull-left[
+- **vowels** are articulated with
+  1. constant airflow (NO **obstruction**)
+  2. voicing (**vibration** of vocal folds)<br><br>
+- it’s useful to establish a few simple vowels – **cardinal vowels** – and build up from there<br><br>
+- 5 cardinal vowels of Spanish is in the chart on the right, and many other languages have a similar 5-vowel system<br><br>
+- English key words are attached with the vowel to show roughly how these vowels sound<br><br>
+- **note** that the International Phonetic Alphabet’s symbols for vowels don’t always match our English names for them
+]
+.pull-right[
+<br><br>
+<img src="../pic/1111/spavowel.png" width="100%">
+<br><br>
+<div style="text-align:center">
+<i>Spanish Vowels</i>
+</div>
+]
+
+---
+## **Vowel Articulation**
+<br>
+.pull-left[
+different vowel qualities can be primarily be distinguished based on **four** features<br><br>
+1. tongue <span style="color:blue"><b>height</b></span>
+  - high, mid, low<br><br>
+2. tongue <span style="color:green"><b>backness</b></span>
+  - front, central, back<br><br>
+3. lip <span style="color:deeppink"><b>roundness</b></span>
+  - rounded, unrounded<br><br>
+4. <span style="color:orange"><b>tenseness</b></span>
+  - tense and lax (**lax**: relaxed tongue)
+  - English-specific
+  - ATR (advanced tongue root)
+]
+.pull-right[<br><img src="../pic/1111/spavowel2.png" width="100%">]
+
+---
+## **Vowels in a Real-time MRI**
+<br>
+.pull-left[
+- the link below is to a video that is produced by an **MRI** (magnetic resonance imaging) scanner<br><br>
+- watch how the tongue and lips move as these people sing [a, e, i, o, u]<br><br><br><br>
+<div style="text-align:center">
+<a href="https://www.youtube.com/watch?v=jaIquq_4560">vowel MRI</a>
+</div>
+]
+.pull-right[
+<br><br>
+<img src="../pic/1111/spavowel.png" width="100%">
+<br><br>
+<div style="text-align:center">
+<i>Spanish Vowels</i>
+</div>
+]
+
+
+---
+## **Vowel Features**
+<br>
+.pull-left[
+- in different vowel qualities, we can distinguish various levels of **tongue height**
+  - <span style="color:green">high</span> [ + high, - low ]
+  - <span style="color:blue">mid</span> [ - high, -low ]
+  - <span style="color:deeppink">low</span> [ - high, +low ]
+  - why don't we use <span style="color:green"><b>high</b></span> or <span style="color:deeppink"><b>low</b></span> only<br><br>
+- and we can distinguish various levels of **tongue backness**
+  - <span style="color:green">front</span> [ + front, - back ]
+  - <span style="color:blue">central</span> [ - front, - back ]
+  - <span style="color:deeppink">back</span> [ - front, + back ] <br><br>
+- for English, we actually do not have **central** vowels, so using only <span style="color:deeppink"><b>back</b></span> is enough
+]
+.pull-right[<br><img src="../pic/1111/spavowel3.png" width="85%">]<br>
+
+- arranging them by tongue position, they form a triangle, so vowels are often arranged in a **vowel triangle/trapezoid**
+
+---
+## **Height of the Tongue: American English**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1111/height1.png" width="100%">
+]
+.pull-right[
+<h3><span style="color:#CC0033"><b>high vowels</b></span></h3><br>
+<span style="color:orange"><b>[+high, -low]</b></span><br><br><br>
+
+.pull-left[
+<b>< b<u><span style="color:deeppink">ee</span></u>t ></b><br><br>
+<b>< b<u><span style="color:deeppink">i</span></u>t ></b><br><br>
+<b>< b<u><span style="color:deeppink">oo</span></u>t ></b><br><br>
+<b>< b<u><span style="color:deeppink">oo</span></u>k ></b><br><br>
+]
+.pull-right[
+<span style="color:blue"><b>[ i ]</b></span><br><br>
+<span style="color:blue"><b>[ ɪ ]</b></span><br><br>
+<span style="color:blue"><b>[ u ]</b></span><br><br>
+<span style="color:blue"><b>[ ʊ ]</b></span>
+]
+]
+
+---
+## **Height of the Tongue: American English**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1111/height2.png" width="100%">
+]
+.pull-right[
+<h3><span style="color:#CC0033"><b>mid vowels</b></span></h3><br>
+<span style="color:orange"><b>[-high, -low]</b></span><br><br><br>
+
+.pull-left[
+<b>< b<u><span style="color:deeppink">e</span></u>t ></b><br><br>
+<b>< b<u><span style="color:deeppink">ai</span></u>t ></b><br><br>
+<b>< <u><span style="color:deeppink">a</span></u>bout ></b><br><br>
+<b>< b<u><span style="color:deeppink">u</span></u>t ></b><br><br>
+<b>< b<u><span style="color:deeppink">oa</span></u>t ></b><br><br>
+<b>< b<u><span style="color:deeppink">ough</span></u>t ></b>
+]
+.pull-right[
+<span style="color:blue"><b>[ ɛ ]</b></span><br><br>
+<span style="color:blue"><b>[ eɪ ]</b></span><br><br>
+<span style="color:blue"><b>[ ə ]</b></span><br><br>
+<span style="color:blue"><b>[ ʌ ]</b></span><br><br>
+<span style="color:blue"><b>[ oʊ ]</b></span><br><br>
+<span style="color:blue"><b>[ ɔ ]</b></span>
+]
+]
+
+---
+## **Height of the Tongue: American English**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1111/height3.png" width="100%">
+]
+.pull-right[
+<h3><span style="color:#CC0033"><b>low vowels</b></span></h3><br>
+<span style="color:orange"><b>[-high, +low]</b></span><br><br><br>
+
+.pull-left[
+<b>< b<u><span style="color:deeppink">a</span></u>t ></b><br><br>
+<b>< b<u><span style="color:deeppink">o</span></u>t ></b>
+]
+.pull-right[
+<span style="color:blue"><b>[ æ ]</b></span><br><br>
+<span style="color:blue"><b>[ ɑ ]</b></span>
+]
+]
+
+---
+## **Backness of the Tongue: American English**
+<br>
+.pull-left[
+<h3><span style="color:#CC0033"><b>front vowels</b></span></h3><br>
+<span style="color:orange"><b>[+front, -back]</b></span><br><br><br>
+
+.pull-left[
+<b>< b<u><span style="color:green">ea</span></u>d ></b><br><br>
+<b>< b<u><span style="color:green">i</span></u>d ></b><br><br>
+<b>< b<u><span style="color:green">a</span></u>de ></b><br><br>
+<b>< b<u><span style="color:green">e</span></u>d ></b><br><br>
+<b>< b<u><span style="color:green">a</span></u>d ></b>
+]
+.pull-right[
+<span style="color:blue"><b>[ i ]</b></span><br><br>
+<span style="color:blue"><b>[ ɪ ]</b></span><br><br>
+<span style="color:blue"><b>[ eɪ ]</b></span><br><br>
+<span style="color:blue"><b>[ ɛ ]</b></span><br><br>
+<span style="color:blue"><b>[ æ ]</b></span>
+]
+]
+.pull-right[
+<br><br>
+<img src="../pic/1111/backness1.png" width="100%">
+]
+---
+## **Backness of the Tongue: American English**
+<br>
+.pull-left[
+<h3><span style="color:#CC0033"><b>central vowels</b></span></h3><br>
+<span style="color:orange"><b>[-front, -back]</b></span><br><br><br>
+
+.pull-left[
+<b>< <u><span style="color:green">a</span></u>bout ></b>
+]
+.pull-right[
+<span style="color:blue"><b>[ ə ]</b></span>
+]
+]
+.pull-right[
+<br><br>
+<img src="../pic/1111/backness2.png" width="100%">
+]
+---
+## **Backness of the Tongue: American English**
+<br>
+.pull-left[
+<h3><span style="color:#CC0033"><b>back vowels</b></span></h3><br>
+<span style="color:orange"><b>[-front, +back]</b></span><br><br><br>
+
+.pull-left[
+<b>< b<u><span style="color:green">oo</span></u>t ></b><br><br>
+<b>< p<u><span style="color:green">u</span></u>t ></b><br><br>
+<b>< b<u><span style="color:green">oa</span></u>t ></b><br><br>
+<b>< b<u><span style="color:green">ough</span></u>t ></b><br><br>
+<b>< b<u><span style="color:green">u</span></u>t ></b><br><br>
+<b>< b<u><span style="color:green">o</span></u>t ></b>
+]
+.pull-right[
+<span style="color:blue"><b>[ u ]</b></span><br><br>
+<span style="color:blue"><b>[ ʊ ]</b></span><br><br>
+<span style="color:blue"><b>[ oʊ ]</b></span><br><br>
+<span style="color:blue"><b>[ ɔ ]</b></span><br><br>
+<span style="color:blue"><b>[ ʌ ]</b></span><br><br>
+<span style="color:blue"><b>[ ɑ ]</b></span>
+]
+]
+.pull-right[
+<br><br>
+<img src="../pic/1111/backness3.png" width="100%">
+]
+
+
+---
+## **Lip Rounding**
+<br>
+.pull-left[
+<br>
+<img src="../pic/1111/itavowel.png" width="100%">
+<br><br>
+<div style="text-align:center">
+<a href="https://www.youtube.com/watch?v=UL9Czh_LG34"><b>image source</b>: <i>Podcast Italiano</i> - Le vocali dell’italiano standard</a>
+</div>
+]
+.pull-right[
+- the third vowel feature is **lip rounding**<br><br>
+  - <span style="color:green">rounded</span> [ + round ]
+  - <span style="color:deeppink">unrounded</span> [ - round ] (spread)<br><br>
+- in the link on the right, there are our **five vowels** as pronounced by a speaker of Italian<br><br>
+  - how does his mouth shape change for each vowel? 
+  - which ones are rounded/unrounded?<br><br>
+- **note** that he's **exaggerating** a bit for the purposes of demonstration<br><br>
+  - since in the video he’s trying to **teach** Italian pronunciation
+]
+
+---
+## **Lip Rounding**
+<br>
+.pull-left[
+<br>
+<img src="../pic/1111/itavowel.png" width="100%">
+<br><br>
+<div style="text-align:center">
+<a href="https://www.youtube.com/watch?v=UL9Czh_LG34"><b>image source</b>: <i>Podcast Italiano</i> - Le vocali dell’italiano standard</a>
+</div>
+]
+.pull-right[
+- [o, u] are <span style="color:green"><b>rounded</b></span>; [i, e, a] are <span style="color:deeppink"<b>unrounded</b></span><br><br>
+- which follows a **crosslinguistic tendency**<br><br>
+- <span style="color:deeppink"><b>back</b></span> vowels tend to be <span style="color:green"><b>rounded</b></span><br><br>
+  - <span style="color:green"><b>front</b></span> and low vowels tend to be <span style="color:deeppink"><b>unrounded</b></span><br><br>
+- <u>front rounded</u> vowels exist but are **less common**<br><br>
+  - <span style="color:blue"><b>German</b></span>: <i>schön</i> [ʃøːn] 'beautiful'
+  - <span style="color:blue"><b>Kazakh</b></span>: <i>үру</i> [yru] 'to bark'<br><br>
+- **as are** <u>back unrounded</u> vowels<br><br>
+  - <span style="color:blue"><b>Japanese</b></span>: <i>kuzu</i> [kɯzɯ] 'kudzu vine'
+]
+
+---
+## **Roundness of the Lips: American English**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1111/roundness.png" width="100%">
+]
+.pull-right[
+<h3><span style="color:#CC0033"><b>rounded vowels</b></span></h3><br>
+<span style="color:orange"><b>[+round]</b></span><br><br><br>
+
+.pull-left[
+<b>< p<u><span style="color:teal">u</span></u>t ></b><br><br>
+<b>< b<u><span style="color:teal">oo</span></u>t ></b><br><br>
+<b>< b<u><span style="color:teal">oa</span></u>t ></b><br><br>
+<b>< b<u><span style="color:teal">ough</span></u>t ></b>
+]
+.pull-right[
+<span style="color:blue"><b>[ ʊ ]</b></span><br><br>
+<span style="color:blue"><b>[ u ]</b></span><br><br>
+<span style="color:blue"><b>[ oʊ ]</b></span><br><br>
+<span style="color:blue"><b>[ ɔ ]</b></span>
+]
+]<br><br>
+
+- the rest of the vowels are **unrounded** (<span style="color:orange"><b>[-round]</b></span>)
+
+---
+## **Roundness of the Lips: American English**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1111/roundness.png" width="100%">
+]
+.pull-right[
+match the words with the images for vowels<br><br>
+.pull-left[
+(a) <b>< m<u><span style="color:teal">ea</span></u>n ></b><br><br>
+(c) <b>< m<u><span style="color:teal">i</span></u>ne ></b>
+]
+.pull-right[
+(b) <b>< m<u><span style="color:teal">oo</span></u>n ></b><br><br>
+(d) <b>< m<u><span style="color:teal">o</span></u>th ></b>
+]<br><br>
+
+.pull-left[
+<div style="text-align:center">
+<span style="color:white"><b>[i]</b></span>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:white"><b>[u]</b></span>
+</div>
+]<br>
+<div style="text-align:center">
+<img src="../pic/1111/lip.png" width="80%">
+</div>
+.pull-left[
+<div style="text-align:center">
+<span style="color:white"><b>[ɑj]</b></span>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:white"><b>[ɔ]</b></span>
+</div>
+]
+]
+
+---
+## **Roundness of the Lips: American English**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1111/roundness.png" width="100%">
+]
+.pull-right[
+match the words with the images for vowels<br><br>
+.pull-left[
+(a) <b>< m<u><span style="color:teal">ea</span></u>n ></b><br><br>
+(c) <b>< m<u><span style="color:teal">i</span></u>ne ></b>
+]
+.pull-right[
+(b) <b>< m<u><span style="color:teal">oo</span></u>n ></b><br><br>
+(d) <b>< m<u><span style="color:teal">o</span></u>th ></b>
+]<br><br>
+
+.pull-left[
+<div style="text-align:center">
+<span style="color:blue"><b>[i]</b></span>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:blue"><b>[u]</b></span>
+</div>
+]<br>
+<div style="text-align:center">
+<img src="../pic/1111/lip.png" width="80%">
+</div>
+.pull-left[
+<div style="text-align:center">
+<span style="color:blue"><b>[ɑj]</b></span>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:blue"><b>[ɔ]</b></span>
+</div>
+]
+]
+
+---
+## **Vowel Feature**
+<br>
+.pull-left[
+- so these are the three **articulatory features** we use to distinguish different vowel qualities:<br><br>
+  - <span style="color:green"><b>tongue height</b></span>: how high is the tongue in the mouth
+  - <span style="color:blue"><b>tongue backness</b></span>: is tongue further forward or back in mouth
+  - <span style="color:deeppink"><b>lip roundedness</b></span>: are the lips rounded or unrounded<br><br>
+- when we describe vowels, we typically do so in terms of <span style="color:green"><b>height</b></span> - <span style="color:blue"><b>backness</b></span> - <span style="color:deeppink"><b>roundedness</b></span><br><br>
+  - **[i]** = <span style="color:white">high</span> <span style="color:white">front</span> <span style="color:white">unrounded</span>
+  - **[e]** = <span style="color:white">mid</span> <span style="color:white">front</span> <span style="color:white">unrounded</span>
+  - **[a]** = <span style="color:white">low</span> <span style="color:white">central</span> <span style="color:white">unrounded</span>
+  - **[o]** = <span style="color:white">mid</span> <span style="color:white">back</span> <span style="color:white">rounded</span>
+  - **[u]** = <span style="color:white">high</span> <span style="color:white">back</span> <span style="color:white">rounded</span>
+]
+.pull-right[
+<img src="../pic/1111/feature.png" width="100%">
+]
+
+---
+## **Vowel Feature**
+<br>
+.pull-left[
+- so these are the three **articulatory features** we use to distinguish different vowel qualities:<br><br>
+  - <span style="color:green"><b>tongue height</b></span>: how high is the tongue in the mouth
+  - <span style="color:blue"><b>tongue backness</b></span>: is tongue further forward or back in mouth
+  - <span style="color:deeppink"><b>lip roundedness</b></span>: are the lips rounded or unrounded<br><br>
+- when we describe vowels, we typically do so in terms of <span style="color:green"><b>height</b></span> - <span style="color:blue"><b>backness</b></span> - <span style="color:deeppink"><b>roundedness</b></span><br><br>
+  - **[i]** = <span style="color:green">high</span> <span style="color:blue">front</span> <span style="color:deeppink">unrounded</span> vowel
+  - **[e]** = <span style="color:green">mid</span> <span style="color:blue">front</span> <span style="color:deeppink">unrounded</span> vowel
+  - **[a]** = <span style="color:green">low</span> <span style="color:blue">central</span> <span style="color:deeppink">unrounded</span> vowel
+  - **[o]** = <span style="color:green">mid</span> <span style="color:blue">back</span> <span style="color:deeppink">rounded</span> vowel
+  - **[u]** = <span style="color:green">high</span> <span style="color:blue">back</span> <span style="color:deeppink">rounded</span> vowel
+]
+.pull-right[
+<img src="../pic/1111/feature.png" width="100%">
+]
+
+---
+## **Beyond the Cardinal Vowels**
+<br>
+.pull-left[
+<br><br><img src="../pic/1111/ipavowel2.png" width="100%">
+]
+.pull-right[
+- IPA chart uses **28 cardinal vowels** to try to represent all of the world's languages – though **no language uses them all**<br><br>
+- <b>some notes</b><br><br>
+  1. IPA chart uses terms <b>close/open</b> instead of <b>high/low</b>, but mostly we use **high/low**<br>
+  <i>[close = high; clode-mid = mid-high, etc]</i>
+  2. IPA chart distinguishes <span style="color:green"><b>4 levels of height</b></span> instead of 3
+  3. IPA chart includes some <span style="color:deeppink"><b>vowels between these levels</b></span><br>
+  <span style="color:deeppink">[ɪ, ʏ, ʊ, æ, ɐ]</span> and terms like <u>near high</u>, <u>near front</u> are used for them
+  4. <span style="color:blue"><b>[ə]</b></span> (schwa) is in the **center** of the chart and is the mid central vowel
+]
+
+---
+## **Beyond the Cardinal Vowels**
+<br>
+.pull-left[
+<br><br><img src="../pic/1111/ipavowel3.png" width="100%">
+]
+.pull-right[
+- how do we figure out what sound these symbols **represent**?<br><br>
+- **five cardinal vowels** as a starting point<br><br><br>
+- how is <span style="color:blue">[y]</span> pronounced?
+  - start with <span style="color:blue">[i]</span>and make it rounded<br><br>
+- how is <span style="color:green">[ɛ]</span> pronounced?
+  - tongue about halfway between <span style="color:green">[e]</span> and <span style="color:green">[a]</span><br><br>
+- how is <span style="color:deeppink">[ɨ]</span> pronounced?
+  - tongue about halfway between <span style="color:deeppink">[i]</span> and <span style="color:deeppink">[u]</span><br><br>
+- how is <span style="color:teal">[ɵ]</span> pronounced?
+  - tongue about halfway between <span style="color:teal">[e]</span> and <span style="color:teal">[o]</span>
+]
+
+---
+## **American English Vowels Summary**
+<br>
+.pull-left[
+- American English has around **12-14** vowels<br><br>
+- exact number and pronunciation varies by region – English accents **tend to differ** in terms of vowels<br><br>
+- a few **notes** about American English vowels<br><br>
+  1. there is a 5-way **height** contrast<br><br>
+  2. Speakers tend to **diphthongize** some of these vowels, especially the vowels in <u><i>bait</i></u> and <u><i>boat</i></u>, but also to a certain degree in <u><i>beet</i></u> and <u><i>boot</i></u><br><br>
+  3. some American English speakers don't differentiate <span style="color:green">[ə]</span> and <span style="color:blue">[ʌ]</span>, and some don’t differentiate <span style="color:green">[ɑ]</span> and <span style="color:blue">[ɔ]</span>
+]
+.pull-right[
+<br><br><img src="../pic/1111/avowels.png" width="100%">
+]
+
+---
+## **Tense and Lax Vowels**
+<br>
+.pull-left[
+- 5 height differences is a bit unwieldy<br><br>
+- a common solution is to divide the vowels into **two groups**<br><br><br>
+
+- **tense** vowels
+  - [i], [u], [eɪ̯ ] (or [ej]), [oʊ̯ ] (or [ow])
+  - a bit higher and more peripheral, tend to be diphthongized in American English<br><br>
+- **lax** vowels
+  - the rest
+  - tongue a bit more relaxed
+  - **cannot end a word** in American English
+]
+.pull-right[
+<br><br><img src="../pic/1111/tvowels.png" width="100%">
+]
+
+---
+## **Diphthongs and Glides**
+<br>
+.pull-left[
+<br><br><img src="../pic/1111/dvowel.png" width="100%">
+]
+.pull-right[
+- a diphthong is **two vowel sounds** that are combined into a single sound<br>
+  - **vowel** + <span style="color:green"><b>glide</b></span> or <span style="color:green"><b>glide</b></span> + **vowel**<br><br>
+- a <span style="color:green"><b>glide</b></span> is considered **semi-vowel**
+  - it is a vowel-like sound produced by moving your tongue while saying a vowel<br><br>
+- by combining a glide with a vowel, we get a **diphthong**
+  - the tongue is gliding around the mouth as you make a diphthong<br><br>
+- there also exist triphthongs
+  - <span style="color:green"><b>glide</b></span> + **vowel** + <span style="color:green"><b>glide</b></span>
+  - <i>yay</i>, <i>wow</i>, <i>way</i>
+]
+
+---
+## **Other Vowel Features**
+.pull-left[
+<br><br>
+<img src="../pic/1111/morning.jpeg" width="95%">
+]
+.pull-right[
+**nasalisation**: articulated by lowering the velum/soft palate, so that air flows through both the **nasal** and **oral** cavity
+
+- <span style="color:green"><b>English</b></span><br>
+<span style="color:blue"><b>æ</b></span>t '*at*' **vs.** <span style="color:blue"><b>æ̃</b></span>nt '*ant*'<br><br>
+
+**length**: long vowels **contrast** with short vowels
+- <span style="color:green"><b>Mongolian</b></span><br>
+[t͡s<span style="color:blue"><b>ɑ</b></span>ˈsɯn] '*snow*' **vs.** [t͡s<span style="color:blue"><b>ɑɑ</b></span>ˈsɯn] '*paper*'
+- since adding or removing the **length feature** changes the meaning completely
+- we say that length is **contrastive** in mongolian
+<br><br>
+
+**pitch**: tonal languages **contrast** pitch
+- <span style="color:green"><b>Mandarin Chinese</b></span><br>
+
+ma<sup><span style="color:blue"><b>55</b></span></sup>
+<span style="color:white"><b>----</b></span>
+ma<sup><span style="color:blue"><b>35</b></span></sup>
+<span style="color:white"><b>----</b></span>
+ma<sup><span style="color:blue"><b>214</b></span></sup>
+<span style="color:white"><b>----</b></span>
+ma<sup><span style="color:blue"><b>51</b></span></sup>
+<span style="color:white"><b>----</b></span>
+ma<sup><span style="color:blue"><b>00</b></span></sup>
+<br>
+'*mom*'<span style="color:white"><b>--</b></span>
+'*numb*'<span style="color:white"><b>--</b></span>
+'*horse*'<span style="color:white"><b>----</b></span>
+'*scold*'<span style="color:white"><b>---</b></span>
+'*Q-mark*'
+]
+
+---
+class: center, middle
+**Assignment VI** is due this Friday (**Nov 13th**)<br><br>
+**Assignment VII** will be published today (**Nov 11**) and is due next Friday (**Nov 20th**)
+<span style="color:green"><b>continue reading</b></span>:<br>
+**Phonetics** in O'Grady et al.'s *Contemporary Linguistics: An Introduction*<br><br>
+<span style="color:green"><b>start reading</b></span> for phonology:<br>
+**Phonology**: The Function and Patterning of Sounds<br>
+in O'Grady et al.'s *Contemporary Linguistics: An Introduction*<br><br>
+<img src="../pic/1111/fine.jpg" width="40%">&nbsp;&nbsp;&nbsp;&nbsp; <img src="../pic/1111/survive.jpg" width="20%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+

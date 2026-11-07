@@ -1,0 +1,583 @@
+---
+title: "**Phonetics III: Exercise**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2026/11/16 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      
+---
+class: center, middle
+## Please pick up your **name card** from the front
+<br><br>
+## **office hours**: Mondays, 2:00-3:00 pm<br>
+## Basement, Room 003, **Linguistics Building**
+      
+---
+## **Categories to Differentiate Consonants**
+<br>
+<div style="text-align:center;">
+<img src="../pic/1116/ipacons.png" width="70%">
+</div>
+<br>
+
+<span style="color:deeppink"><b>columns</b></span> - <span style="font-variant: small-caps; color:green">place</span> - where the obstruction of airflow in the vocal tract is<br><br>
+<span style="color:deeppink"><b>row</b></span> - <span style="font-variant: small-caps; color:green">manner</span> - what type of obstruction of airflow occurs<br><br>
+in a <span style="color:deeppink"><b>single cell</b></span> - <span style="font-variant: small-caps; color:green">voicing</span> - whether the vocal cords vibrate or not (the right is <i>voiced</i>)<br><br>
+
+<div style="text-align:center;">
+  <a href="https://www.ipachart.com"><span style="color:deeppink"><b>IPA clickable chart</b></span></a>
+</div>
+
+
+---
+## **Categories to Differentiate Vowels**
+<br>
+<div style="text-align:center;">
+<img src="../pic/1116/ipavowel4.png" width="35%">
+</div>
+<br>
+<b>in terms of the</b> tongue position<br><br>
+<span style="color:deeppink"><b>horizontally</b></span> - <span style="font-variant: small-caps; color:green">height</span> - the **height** of the tongue in the oral cavity<br><br>
+<span style="color:deeppink"><b>vertically</b></span> - <span style="font-variant: small-caps; color:green">backness</span> - the **backness** of the tongue in the oral cavityoccurs<br><br>
+in a <span style="color:deeppink"><b>pair</b></span> - <span style="font-variant: small-caps; color:green">roundedness</span> - whether the lips are **rounded** (the right is <i>voiced</i>)<br><br>
+
+
+
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon1.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon2.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon3.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon4.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon5.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon6.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon7.png" width="100%">
+---
+## **Get Familiar with English Sounds**
+<br>
+<img src="../pic/1116/engcon/engcon8.png" width="100%">
+
+---
+## **Exercise I: Identifying Consonants**
+<br>
+give a full description for <span style="color:deeppink"><b>voicing</b></span>, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol <br><br>
+.pull-left[
+move<br><br>
+cloth<br><br>
+gosh<br>
+]
+.pull-right[
+hide<br><br>
+stove<br><br>
+bank<br>
+]
+<div style="text-align:center;">
+<img src="../pic/1116/ipacons.png" width="70%">
+</div>
+
+
+---
+## **Exercise I: Identifying Consonants**
+<br>
+give a full description for <span style="color:deeppink"><b>voicing</b></span>, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol <br><br>
+.pull-left[
+move<span style="color:white">-----</span><b>[m]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>nasal</b></span><br>
+<span style="color:white">move-----</span><b>[v]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>labio-dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+cloth<span style="color:white">------</span><b>[k]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">cloth------</span><b>[l]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>lateral approximant</b></span><br>
+<span style="color:white">cloth------</span><b>[θ]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+gosh<span style="color:white">------</span><b>[g]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">gosh------</span><b>[ʃ]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>post-alveolar</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+]
+.pull-right[
+hide<span style="color:white">------</span><b>[h]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>glottal</b></span> <span style="color:blue"><b>fricative</b></span><br>
+<span style="color:white">hide------</span><b>[d]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>stop</b></span><br><br>
+stove<span style="color:white">-----</span><b>[s]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>fricative</b></span><br>
+<span style="color:white">stove-----</span><b>[t]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">stove-----</span><b>[v]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>labio-dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+bank<span style="color:white">------</span><b>[b]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">bank------</span><b>[ŋ]</b>: <span style="color:deeppink"><b>voiced</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>nasal</b></span><br>
+<span style="color:white">bank------</span><b>[k]</b>: <span style="color:deeppink"><b>voiceless</b></span> <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br><br>
+]
+
+---
+.pull-left[
+## **Exercise II: Identify Vowels**
+<br>
+in this **MRI** (Magnetic Resonance Imaging), the speaker is saying **5** vowels: <br><br>
+  - **[i]** as in *bee*<br>
+  - **[e]** as in *bay*<br>
+  - **[a]** as in *baa*<br>
+  - **[o]** as in *bow*<br>
+  - **[u]** as in *boo*<br><br>
+
+1. What is the tongue **height** in each image?<br>
+2. What is the tongue **backness** in each image?<br>
+3. How are lips (**roundness**) acting in each image?<br>
+4. What **vowel** is being said in each image?
+]
+.pull-right[
+<br>
+<div style="text-align: center;">
+<img src="../pic/1116/v1.png" width="35%"><br>
+<span style="color:white"><b>[a]</b></span><br><br>
+<img src="../pic/1116/v2.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1116/v4.png" width="35%"><br>
+<span style="color:white"><b>[u]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:white"><b>[e]</b></span><br><br>
+<img src="../pic/1116/v3.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1116/v5.png" width="35%"><br>
+<span style="color:white"><b>[o]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:white"><b>[i]</b></span>
+</div>
+]
+
+---
+.pull-left[
+## **Exercise II: Identify Vowels**
+<br>
+in this **MRI** (Magnetic Resonance Imaging), the speaker is saying **5** vowels: <br><br>
+  - **[i]** as in *bee*<br>
+  - **[e]** as in *bay*<br>
+  - **[a]** as in *baa*<br>
+  - **[o]** as in *bow*<br>
+  - **[u]** as in *boo*<br><br>
+
+1. What is the tongue **height** in each image?<br>
+2. What is the tongue **backness** in each image?<br>
+3. How are lips (**roundness**) acting in each image?<br>
+4. What **vowel** is being said in each image?
+]
+.pull-right[
+<br>
+<div style="text-align: center;">
+<img src="../pic/1116/v1.png" width="35%"><br>
+<span style="color:green"><b>[a]</b></span><br><br>
+<img src="../pic/1116/v2.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1116/v4.png" width="35%"><br>
+<span style="color:green"><b>[u]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:green"><b>[e]</b></span><br><br>
+<img src="../pic/1116/v3.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1116/v5.png" width="35%"><br>
+<span style="color:green"><b>[o]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:green"><b>[i]</b></span>
+</div>
+]
+
+---
+## **Exercise III: Identify Vowels**
+<br>
+.pull-left[
+(1) identify which **vowels** are in the following words<br>
+(2) give the **IPA** symbol for them<br>
+(3) define them using the big three **features**
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1116/avowels.png" width="95%">
+</div>
+]
+.pull-right[
+1. cat<br><br>
+2. kit<br><br>
+3. red<br><br>
+4. reed<br><br>
+5. pot<br><br>
+6. boot<br><br>
+7. cut<br><br>
+8. should<br><br>
+9. fork
+]
+
+---
+## **Exercise III: Identify Vowels**
+<br>
+.pull-left[
+(1) identify which **vowels** are in the following words<br>
+(2) give the **IPA** symbol for them<br>
+(3) define them using the big three **features**
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1116/avowels.png" width="95%">
+</div>
+]
+.pull-right[
+1. cat **æ**<span style="color:white">--------</span>[-high, +low, -back, -round]<br><br>
+2. kit **ɪ**<span style="color:white">----------</span><span style="color:green">[+high, -low, -back, -round]</span><br><br>
+3. red **ɛ**<span style="color:white">---------</span>[-high, -low, -back, -round]<br><br>
+4. reed **i**<span style="color:white">--------</span><span style="color:green">[+high, -low, -back, -round]</span><br><br>
+5. pot **ɑ**<span style="color:white">---------</span>[-high, +low, +back, -round]<br><br>
+6. boot **u**<span style="color:white">--------</span><span style="color:blue">[+high, -low, +back, +round]</span><br><br>
+7. cut **ʌ**<span style="color:white">----------</span>[-high, +low, +back, -round]<br><br>
+8. should **ʊ**<span style="color:white">------</span><span style="color:blue">[+high, -low, +back, +round]</span><br><br>
+9. fork **ɔ**<span style="color:white">---------</span>[-high, -low, +back, +round]
+]
+
+
+---
+## **Exercise IV: IPA to English**
+<br>
+.pull-left[
+what **English words** do the following **phonetic transcriptions** represent?<br><br>
+
+.pull-left[
+1. [ˈkæ.lən.dɹ]<br><br>
+2. [ˈbɹɪŋ.ɪŋ]<br><br>
+3. [ˈtɛ.lə.ˌvɪ.ʒn]<br><br>
+4. [ˈðiz]<br><br>
+5. [ˈθɪŋk]<br><br>
+6. [ˈʃæk]<br><br>
+7. [ˈnʌ.θɪŋ]
+]
+]
+.pull-right[
+<img src="../pic/1116/engipa.png" width="90%">
+]
+---
+## **Exercise IV: IPA to English**
+<br>
+.pull-left[
+what **English words** do the following **phonetic transcriptions** represent?<br><br>
+
+.pull-left[
+1. [ˈkæ.lən.dɹ]<br><br>
+2. [ˈbɹɪŋ.ɪŋ]<br><br>
+3. [ˈtɛ.lə.ˌvɪ.ʒn]<br><br>
+4. [ˈðiz]<br><br>
+5. [ˈθɪŋk]<br><br>
+6. [ˈʃæk]<br><br>
+7. [ˈnʌ.θɪŋ]
+]
+.pull-right[
+<span style="color:blue"><b>calendar</b></span><br><br>
+<span style="color:blue"><b>bringing</b></span><br><br>
+<span style="color:blue"><b>television</b></span><br><br>
+<span style="color:blue"><b>these</b></span><br><br>
+<span style="color:blue"><b>think</b></span><br><br>
+<span style="color:blue"><b>shack</b></span><br><br>
+<span style="color:blue"><b>nothing</b></span><br><br>
+]
+]
+.pull-right[
+<img src="../pic/1116/engipa.png" width="90%">
+]
+
+---
+## **Exercise V: IPA to English (Complex)**
+<br>
+what **English words** do these **phonetic transcriptions** correspond to?<br><br>
+.pull-left[
+.pull-left[
+1. [ˈel.bow]<br><br>
+2. [vaj.əˈlɪn]<br><br>
+3. [ˈaɪ.lənd]<br><br>
+4. [ˈpi.pl]<br><br>
+5. [jɪ.ər]<br><br>
+6. [ˈdejn.dʒə.rəs]<br><br>
+7. [jʌŋ]<br><br>
+8. [ɡrejps]<br><br>
+]
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1116/lover.jpg" width="75%">
+</div>
+]
+
+---
+## **Exercise V: IPA to English (Complex)**
+<br>
+what **English words** do these **phonetic transcriptions** correspond to?<br><br>
+.pull-left[
+.pull-left[
+1. [ˈel.bow]<br><br>
+2. [vaj.əˈlɪn]<br><br>
+3. [ˈaɪ.lənd]<br><br>
+4. [ˈpi.pl]<br><br>
+5. [jɪ.ər]<br><br>
+6. [ˈdejn.dʒə.rəs]<br><br>
+7. [jʌŋ]<br><br>
+8. [ɡrejps]
+]
+.pull-right[
+<span style="color:green"><b>elbow</b></span><br><br>
+<span style="color:green"><b>violin</b></span><br><br>
+<span style="color:green"><b>island</b></span><br><br>
+<span style="color:green"><b>people</b></span><br><br>
+<span style="color:green"><b>year</b></span><br><br>
+<span style="color:green"><b>dangerous</b></span><br><br>
+<span style="color:green"><b>young</b></span><br><br>
+<span style="color:green"><b>grapes</b></span>
+]
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1116/lover.jpg" width="75%"><br><br>
+<span style="color:green"><b><i>cat and linguistics lover</i></b></span>
+</div>
+
+]
+
+---
+## **Exercise V: IPA to English (Complex)**
+<br>
+what **English words** do these **phonetic transcriptions** correspond to?<br><br>
+.pull-left[
+<img src="../pic/1116/learn.jpg" width="80%">
+]
+.pull-right[
+.pull-left[
+1. [ˈbʌ.tər.flaj]<br><br>
+2. [ˈʌŋ.kl]<br><br>
+3. [ˈrʌ.bər]<br><br>
+4. [rajt]<br><br>
+5. [ˈeə.pɔːt]<br><br>
+6. [ˈɔ.ɡəst]<br><br>
+7. [ɡə.ˈrɪ.lə]<br><br>
+8. [məs.ˈki.tow]
+]
+]
+
+---
+## **Exercise V: IPA to English (Complex)**
+<br>
+what **English words** do these **phonetic transcriptions** correspond to?<br><br>
+.pull-left[
+<img src="../pic/1116/beer.jpg" width="80%">
+]
+.pull-right[
+.pull-left[
+1. [ˈbʌ.tər.flaj]<br><br>
+2. [ˈʌŋ.kl]<br><br>
+3. [ˈrʌ.bər]<br><br>
+4. [rajt]<br><br>
+5. [ˈeə.pɔːt]<br><br>
+6. [ˈɔ.ɡəst]<br><br>
+7. [ɡə.ˈrɪ.lə]<br><br>
+8. [məs.ˈki.tow]
+]
+.pull-right[
+<span style="color:deeppink"><b>butterfly</b></span><br><br>
+<span style="color:deeppink"><b>uncle</b></span><br><br>
+<span style="color:deeppink"><b>rubber</b></span><br><br>
+<span style="color:deeppink"><b>right</b></span><br><br>
+<span style="color:deeppink"><b>airport</b></span><br><br>
+<span style="color:deeppink"><b>August</b></span><br><br>
+<span style="color:deeppink"><b>gorilla</b></span><br><br>
+<span style="color:deeppink"><b>mosquito</b></span>
+]
+]
+
+---
+## **Review: Convention of IPA Transcription**
+<br>
+.pull-left[
+<img src="../pic/1116/schwa.jpg" width="80%">
+]
+.pull-right[
+1. spelling (orthography) is written in *<span style="color:green"><b>italics</b></span>* or <span style="color:green"><b>angle brackets</b></span>: *banana*, <span style="color:green"><b><</b></span>banana<span style="color:green"><b>></b></span><br><br>
+2. <span style="color:blue"><b>all</b></span> sounds and <span style="color:blue"><b>only</b></span> sounds are written:
+<br><br>
+  - no silent letters<br>
+  <span style="color:blue"><b>ph</b></span>on<span style="color:blue"><b>e</b></span> [ˈfown]; throu<span style="color:blue"><b>gh</b></span> [ˈθɹu]
+  - write out actually pronounced sounds<br>
+  ne<span style="color:blue"><b>x</b></span>t [ˈnɛkst], e<span style="color:blue"><b>x</b></span>am [əɡ.ˈzæm]
+<br><br>
+3. phonetic transcriptions are put between **square brackets [</b></span>**bə.ˈnæ.nə**]**<br><br>
+4. a dot (.) indicates <span style="color:deeppink"><b>syllable divisions</b></span>: pronunciation [prə<span style="color:deeppink"><b>.</b></span>ˌnʌn<span style="color:deeppink"><b>.</b></span>si<span style="color:deeppink"><b>.</b></span>ˈej<span style="color:deeppink"><b>.</b></span>ʃən]<br><br>
+5. <span style="color:orange"><b>primary</b></span> and <span style="color:orange"><b>secondary</b></span> stress are indicated with <span style="color:orange"><b>ˈ</b></span> and <span style="color:orange"><b>ˌ</b></span> <span style="color:orange"><b>before</b></span> the stressed syllable
+]
+
+---
+## **Review: Convention of IPA Transcription**
+<div style="text-align:center">
+<h3><b><span style="color:#CC0033"><i>Edinburgh</i></span></b></h3>
+</div><br>
+
+--
+
+.pull-left[
+- spelling (orthography) is written in *<span style="color:green"><b>italics</b></span>* or <span style="color:green"><b>angle brackets</b></span>: *banana*, <span style="color:green"><b><</b></span>banana<span style="color:green"><b>></b></span>
+]
+
+--
+
+.pull-right[
+<div style="text-align:center">
+<span style="color:green"><b>< </b></span>edinburgh<span style="color:green"><b> ></b>
+</div>
+]<br><br>
+
+--
+
+.pull-left[
+- <span style="color:blue"><b>all</b></span> sounds and <span style="color:blue"><b>only</b></span> sounds are written
+  - no silent letters<br>
+  - write out actually pronounced sounds
+]
+
+--
+
+.pull-right[
+<div style="text-align:center">
+< edinbur<span style="color:blue"><b>gh</b></span> >
+</div>
+]<br><br>
+
+--
+
+.pull-left[
+- phonetic transcriptions are put between **square brackets [**bə.ˈnæ.nə**]**
+]
+
+--
+
+.pull-right[
+<div style="text-align:center">
+<span style="color:#CC0033"><b>[ </b></span>ɛdɪnbəɹə<span style="color:#CC0033"><b> ]</b></span>
+</div>
+]<br><br>
+
+--
+
+.pull-left[
+- a dot (.) indicates <span style="color:deeppink"><b>syllable divisions</b></span>: pronunciation [prə<span style="color:deeppink"><b>.</b></span>ˌnʌn<span style="color:deeppink"><b>.</b></span>si<span style="color:deeppink"><b>.</b></span>ˈej<span style="color:deeppink"><b>.</b></span>ʃən]
+]
+
+--
+
+.pull-right[
+<div style="text-align:center">
+[ ɛ<span style="color:deeppink"><b>.</b></span>dɪn<span style="color:deeppink"><b>.</b></span>bə<span style="color:deeppink"><b>.</b></span>ɹə ]
+</div>
+]<br><br>
+
+--
+
+.pull-left[
+- <span style="color:orange"><b>primary</b></span> and <span style="color:orange"><b>secondary</b></span> stress are indicated with <span style="color:orange"><b>ˈ</b></span> and <span style="color:orange"><b>ˌ</b></span> <span style="color:orange"><b>before</b></span> the stressed syllable
+]
+
+--
+
+.pull-right[
+<div style="text-align:center">
+[ <span style="color:orange"><b>ˈ</b></span>ɛ.dɪn.bə.ɹə ]
+</div>
+]
+
+---
+## **Exercise VI: English to IPA**
+<br>
+represent the following **English words** each with a **phonetic transcription**<br><br><br>
+.pull-left[
+.pull-left[
+1. camera<br><br>
+2. cotton<br><br>
+3. decision<br><br>
+4. length<br><br>
+5. weather<br><br>
+6. judge<br><br>
+7. visionary
+]
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1116/pacific.jpg" width="80%"><br><br>
+</div>
+]
+
+---
+## **Exercise VI: English to IPA**
+<br>
+represent the following **English words** each with a **phonetic transcription**<br><br><br>
+.pull-left[
+.pull-left[
+1. camera<br><br>
+2. cotton<br><br>
+3. decision<br><br>
+4. length<br><br>
+5. weather<br><br>
+6. judge<br><br>
+7. visionary
+]
+.pull-right[
+<span style="color:teal"><b>[ˈkæ.m(ə).ɹə/]</b></span><br><br>
+<span style="color:teal"><b>[ˈkɑ.ʔn̩]</b></span><br><br>
+<span style="color:teal"><b>[dɪ.ˈsɪ.ʒən]</b></span><br><br>
+<span style="color:teal"><b>[lɛŋθ]</b></span><br><br>
+<span style="color:teal"><b>[ˈwɛ.ðər]</b></span><br><br>
+<span style="color:teal"><b>[d͡ʒʌd͡ʒ]</b></span><br><br>
+<span style="color:teal"><b>[ˈvɪ.ʒəˌnɛ.ɹi]</b></span>
+]
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1116/pacific.jpg" width="80%"><br><br>
+<span style="color:deeppink"><b>[ˌpə.ˈ<span style="color:green">s</span>ɪ.fɪ<span style="color:blue">k</span> ˈow.<span style="color:orange">ʃ</span>ən]</b></span>
+</div>
+]
+
+---
+class: center, middle
+## **CHALLENGE**
+<br><br>
+write a **phonetic transcription**<br><br> 
+of your name<br><br>
+how would you describe<br><br> 
+each <span style="color:deeppink"><b>vowel</b></span> and <span style="color:blue"><b>consonant</b></span>?
+
+---
+class: center, middle
+# **ˈfaɪnəl ɪɡˈzæm ɪz ˈkʌmɪŋ sun**<br><br><br><br>
+# **bʌt aɪ sərˈvaɪvəd fəˈnɛtɪks klas**
+
+---
+class: center, middle
+**Assignment VII** is due this Friday (**Nov 20th**)<br><br>
+<span style="color:green"><b>reading</b></span> - **Phonology**: The Function and Patterning of Sounds<br>
+in O'Grady et al.'s *Contemporary Linguistics: An Introduction*<br><br>
+<img src="../pic/1116/fine.jpg" width="55%">&nbsp;&nbsp;&nbsp;&nbsp; <img src="../pic/1116/survive.jpg" width="27.5%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
